@@ -38,7 +38,7 @@ main.wrap{padding-block:22px 40px;display:flex;flex-direction:column;gap:28px}
 h2{font:700 22px/1.1 var(--display);margin:0 0 4px}
 .sub{color:var(--muted);font-size:14px;margin:0 0 12px}
 .cards{display:grid;gap:12px;grid-template-columns:1fr}
-@media (min-width:680px){.cards{grid-template-columns:repeat(3,1fr)} h1{font-size:42px}}
+@media (min-width:680px){.cards{grid-template-columns:repeat(2,1fr)} h1{font-size:42px}}
 a.card{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;color:inherit;text-decoration:none;min-height:88px}
 a.card:active{background:var(--chip)}
 .card .name{font:700 21px/1.15 var(--display)}
@@ -122,8 +122,8 @@ DATA.boards.forEach(b => {
   m.appendChild(el("span", "", b.states + " states"));
   a.appendChild(m);
   $("cards").appendChild(a);
-  const ml = el("a", "", b.label + " map"); ml.href = "map.html?b=" + b.key; $("maplinks").appendChild(ml);
 });
+DATA.maps.forEach(m => { const ml = el("a", "", m.label + " map"); ml.href = "map.html?b=" + m.key; $("maplinks").appendChild(ml); });
 if (navigator.share) { const s = $("share"); s.hidden = false; s.onclick = () => navigator.share({title: document.title, url: location.href}).catch(() => {}); }
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
 </script>

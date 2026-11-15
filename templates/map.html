@@ -134,7 +134,7 @@ const fmt = iso => new Date(iso + "T12:00:00").toLocaleDateString("en-US", {mont
 const url = id => DATA.portal + "/jobs/" + id + "/job";
 const plural = (n, w) => n + " " + w + (n === 1 ? "" : "s");
 const q = new URLSearchParams(location.search);
-let board = DATA.boards.find(b => b.key === q.get("b")) || DATA.boards[0];
+let board = DATA.boards.find(b => b.key === (q.get("b") === "clinical" ? "nurses" : q.get("b"))) || DATA.boards[0];
 let ac = "all", fr = "all", sel = null, GUIDES = {}, gOpen = false, gTab = null;
 const TOPICS = [["family", "Family"], ["outdoors", "Outdoors"], ["food", "Food and nightlife"], ["sports", "Sports and game day"], ["cost", "Cost of living and housing"], ["climate", "Climate and seasons"], ["vets", "Veteran friendly"], ["around", "Getting around"]];
 fetch("guides.json").then(r => r.json()).then(g => { GUIDES = g; if (sel) panel(); }).catch(() => {});
@@ -245,7 +245,7 @@ function draw() {
 }
 
 const nav = $("nav");
-[["Home", "./"], ...DATA.boards.map(b => [b.label, "jobs/" + b.key + ".html"])].forEach(([l, u]) => { const a = el("a", "", l); a.href = u; nav.appendChild(a); });
+[["Home", "./"], ...DATA.boards.filter((b, i, a) => a.findIndex(x => x.page === b.page) === i).map(b => [b.pagelabel, b.page])].forEach(([l, u]) => { const a = el("a", "", l); a.href = u; nav.appendChild(a); });
 nav.appendChild(el("span", "", "Map"));
 $("portal").href = DATA.portal + "/jobs/search";
 draw();

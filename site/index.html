@@ -38,7 +38,7 @@ main.wrap{padding-block:22px 40px;display:flex;flex-direction:column;gap:28px}
 h2{font:700 22px/1.1 var(--display);margin:0 0 4px}
 .sub{color:var(--muted);font-size:14px;margin:0 0 12px}
 .cards{display:grid;gap:12px;grid-template-columns:1fr}
-@media (min-width:680px){.cards{grid-template-columns:repeat(3,1fr)} h1{font-size:42px}}
+@media (min-width:680px){.cards{grid-template-columns:repeat(2,1fr)} h1{font-size:42px}}
 a.card{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;color:inherit;text-decoration:none;min-height:88px}
 a.card:active{background:var(--chip)}
 .card .name{font:700 21px/1.15 var(--display)}
@@ -106,7 +106,7 @@ footer a{color:inherit}
 </main>
 
 <script>
-const DATA = {"updated": "2026-11-15", "portal": "https://careers-airmethods.icims.com", "boards": [{"key": "maintenance", "label": "Maintenance", "blurb": "Mechanic, AMT, avionics and quality roles", "url": "jobs/maintenance.html", "count": 37, "states": 19, "new": 0}, {"key": "pilots", "label": "Pilots", "blurb": "Helicopter and fixed wing pilot roles", "url": "jobs/pilots.html", "count": 118, "states": 28, "new": 0}, {"key": "clinical", "label": "Nurses and paramedics", "blurb": "Flight nurse and flight paramedic roles", "url": "jobs/clinical.html", "count": 124, "states": 19, "new": 0}]};
+const DATA = {"updated": "2026-11-15", "portal": "https://careers-airmethods.icims.com", "boards": [{"key": "maintenance", "label": "Maintenance", "blurb": "Mechanic, AMT, avionics and quality roles", "url": "jobs/maintenance.html", "count": 37, "states": 19, "new": 0}, {"key": "pilots", "label": "Pilots", "blurb": "Helicopter and fixed wing pilot roles", "url": "jobs/pilots.html", "count": 118, "states": 28, "new": 0}, {"key": "nurses", "label": "Flight nurses", "blurb": "Flight nurse roles", "url": "jobs/nurses.html", "count": 69, "states": 17, "new": 0}, {"key": "paramedics", "label": "Flight paramedics", "blurb": "Flight paramedic roles", "url": "jobs/paramedics.html", "count": 56, "states": 17, "new": 0}], "maps": [{"key": "maintenance", "label": "Maintenance"}, {"key": "pilots", "label": "Pilots"}, {"key": "nurses", "label": "Flight nurses"}, {"key": "paramedics", "label": "Flight paramedics"}]};
 const $ = id => document.getElementById(id);
 const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
 const fmt = iso => new Date(iso + "T12:00:00").toLocaleDateString("en-US", {weekday:"long", month:"short", day:"numeric"});
@@ -122,8 +122,8 @@ DATA.boards.forEach(b => {
   m.appendChild(el("span", "", b.states + " states"));
   a.appendChild(m);
   $("cards").appendChild(a);
-  const ml = el("a", "", b.label + " map"); ml.href = "map.html?b=" + b.key; $("maplinks").appendChild(ml);
 });
+DATA.maps.forEach(m => { const ml = el("a", "", m.label + " map"); ml.href = "map.html?b=" + m.key; $("maplinks").appendChild(ml); });
 if (navigator.share) { const s = $("share"); s.hidden = false; s.onclick = () => navigator.share({title: document.title, url: location.href}).catch(() => {}); }
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
 </script>

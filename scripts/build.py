@@ -34,11 +34,8 @@ def k_pilot(t):
     if re.search(r"fixed wing|\bFW\b", t, re.I): k.append("fixed")
     return k
 
-def k_clin(t):
-    k = []
-    if re.search(r"nurse", t, re.I): k.append("nurse")
-    if re.search(r"paramedic", t, re.I): k.append("paramedic")
-    return k
+def k_nurse(t): return ["nurse"] if re.search(r"nurse", t, re.I) else []
+def k_medic(t): return ["paramedic"] if re.search(r"paramedic", t, re.I) else []
 
 TAG = "Our job is saving lives. Find a base near you and tap any role to read the full posting and apply."
 BOARDS = [
@@ -48,9 +45,11 @@ BOARDS = [
     dict(key="pilots", out="pilots.html", state="state-pilots.json", kinds=k_pilot, nav="Pilots", blurb="Helicopter and fixed wing pilot roles",
          title="Air Methods Pilot Openings", h1="Pilot openings",
          filters=[["helicopter", "Helicopter"], ["fixed", "Fixed wing"]]),
-    dict(key="clinical", out="clinical.html", state="state-clinical.json", kinds=k_clin, nav="Nurses and paramedics", blurb="Flight nurse and flight paramedic roles",
-         title="Air Methods Flight Nurse and Paramedic Openings", h1="Flight nurse and flight paramedic openings",
-         filters=[["nurse", "Flight nurse"], ["paramedic", "Flight paramedic"]]),
+    # Nurses and paramedics are very different jobs, so each has its own board, map button and lookup option.
+    dict(key="nurses", out="nurses.html", state="state-nurses.json", kinds=k_nurse, nav="Flight nurses", blurb="Flight nurse roles",
+         title="Air Methods Flight Nurse Openings", h1="Flight nurse openings", filters=[]),
+    dict(key="paramedics", out="paramedics.html", state="state-paramedics.json", kinds=k_medic, nav="Flight paramedics", blurb="Flight paramedic roles",
+         title="Air Methods Flight Paramedic Openings", h1="Flight paramedic openings", filters=[]),
 ]
 
 def highlights(desc):
@@ -231,8 +230,10 @@ def main():
             note(city_fr, (st, city), flight_rules(txt)); note(city_wing, (st, city), wings(j["title"]))
     mboards = []
     for b, (page, sp, st_, add, rem) in results:
+      for mkey, mlabel, kind in [(b["key"], b["nav"], None)]:
         on, off = {}, {}
         for j in sorted(st_["jobs"].values(), key=lambda j: (j["st"], j["city"], j["title"], -int(j["id"]))):
+            if kind and kind not in j["kinds"]: continue
             ll = None if j["st"] == "ZZ" or j["city"] in ("Home-based", "See posting for location") else locate(g, j["st"], j["city"])
             slim = dict(id=j["id"], title=j["title"], hl=j["hl"], new=j["new"], ac=j.get("ac", []), fr=j.get("fr", []))
             if ll: on.setdefault((j["st"], j["city"]), dict(st=j["st"], city=j["city"], ll=ll, ac=city_ac.get((j["st"], j["city"]), []),
@@ -240,7 +241,7 @@ def main():
             else:
                 off.setdefault((j["st"], j["city"]), dict(st=j["st"], city=j["city"], jobs=[]))["jobs"].append(slim)
                 if j["st"] != "ZZ" and j["city"] not in ("Home-based", "See posting for location"): print("NOT ON MAP (no coordinates): %s, %s" % (j["city"], j["st"]))
-        mboards.append(dict(key=b["key"], label=b["nav"], places=list(on.values()), off=list(off.values())))
+        mboards.append(dict(key=mkey, label=mlabel, page="jobs/" + b["out"], pagelabel=b["nav"], places=list(on.values()), off=list(off.values())))
     guides = load_guides()
     need = sorted({p["st"] + "|" + p["city"] for mb in mboards for p in mb["places"]} - set(guides))
     used = {k: v for k, v in guides.items() if any(p["st"] + "|" + p["city"] == k for mb in mboards for p in mb["places"])}
@@ -256,7 +257,7 @@ def main():
     byb = {b["key"]: (st_["jobs"], b["out"]) for b, (page, sp, st_, add, rem) in results}
     roles = []
     for key, label, noun, bkey, kind in (("mechanic", "Mechanic / AMT and Quality", "mechanic and quality", "maintenance", None), ("pilot", "Pilot", "pilot", "pilots", None),
-                                   ("nurse", "Flight Nurse", "flight nurse", "clinical", "nurse"), ("paramedic", "Flight Paramedic", "flight paramedic", "clinical", "paramedic")):
+                                   ("nurse", "Flight Nurse", "flight nurse", "nurses", None), ("paramedic", "Flight Paramedic", "flight paramedic", "paramedics", None)):
         jobs_, out_ = byb[bkey]
         on, off = {}, 0
         for j in sorted(jobs_.values(), key=lambda j: (j["title"], -int(j["id"]))):
@@ -272,7 +273,7 @@ def main():
 
     hub = open(os.path.join(TPL, "hub.html"), encoding="utf-8").read()
     assert "/*__DATA__*/" in hub
-    blob = json.dumps(dict(updated=today, portal=PORTAL, boards=cards)).replace("</", "<\\/")
+    blob = json.dumps(dict(updated=today, portal=PORTAL, boards=cards, maps=[dict(key=m["key"], label=m["label"]) for m in mboards])).replace("</", "<\\/")
     open(os.path.join(SITE, "index.html"), "w", encoding="utf-8").write(hub.replace("/*__DATA__*/", blob))
     sw = open(os.path.join(TPL, "sw.js"), encoding="utf-8").read()
     open(os.path.join(SITE, "sw.js"), "w", encoding="utf-8").write(sw.replace("__VERSION__", stamp()))
