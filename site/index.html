@@ -57,6 +57,15 @@ a.card:active{background:var(--chip)}
 .box b{color:var(--ink)}
 button.share{font:600 15px var(--body);color:var(--band-ink);background:var(--band);border:0;border-radius:999px;padding:12px 18px;min-height:44px;cursor:pointer;margin-top:10px}
 @media (prefers-color-scheme: dark){button.share{background:var(--chip)}}
+.tabs{display:flex;gap:8px;flex-wrap:wrap}
+.tabs button{font:600 15px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:11px 18px;min-height:44px;cursor:pointer}
+.tabs button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+#people{margin-top:10px}
+#cardbox{margin-top:12px;text-align:center}
+#cardbox .who{font:700 22px/1.1 var(--display);color:var(--ink)}
+#cardbox .role{color:var(--muted);font-size:14px;margin-top:2px}
+#cardbox img{display:block;width:min(100%,280px);height:auto;margin:12px auto;background:#fff;border-radius:12px;border:1px solid var(--line)}
+#cardbox a{color:inherit;font-weight:600}
 :focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 footer{color:var(--muted);font-size:13px;text-align:center}
 footer a{color:inherit}
@@ -93,6 +102,14 @@ footer a{color:inherit}
     <div class="box soon">More recruiting tools will show up here as they are built.</div>
   </section>
 
+  <section aria-labelledby="h-contact">
+    <h2 id="h-contact">Contact a recruiter</h2>
+    <p class="sub">Pick a team, then a recruiter, to pull up their business card. Scan the code with a phone camera to save it.</p>
+    <div class="tabs" id="teams" role="group" aria-label="Recruiting team"></div>
+    <div class="tabs" id="people" role="group" aria-label="Recruiter"></div>
+    <div class="box" id="cardbox" hidden aria-live="polite"></div>
+  </section>
+
   <section aria-labelledby="h-install">
     <h2 id="h-install">Put this on your phone</h2>
     <div class="box">
@@ -106,7 +123,7 @@ footer a{color:inherit}
 </main>
 
 <script>
-const DATA = {"updated": "2026-11-15", "portal": "https://careers-airmethods.icims.com", "boards": [{"key": "maintenance", "label": "Maintenance", "blurb": "Mechanic, AMT, avionics and quality roles", "url": "jobs/maintenance.html", "count": 37, "states": 19, "new": 0}, {"key": "pilots", "label": "Pilots", "blurb": "Helicopter and fixed wing pilot roles", "url": "jobs/pilots.html", "count": 118, "states": 28, "new": 0}, {"key": "nurses", "label": "Flight nurses", "blurb": "Flight nurse roles", "url": "jobs/nurses.html", "count": 69, "states": 17, "new": 0}, {"key": "paramedics", "label": "Flight paramedics", "blurb": "Flight paramedic roles", "url": "jobs/paramedics.html", "count": 56, "states": 17, "new": 0}], "maps": [{"key": "maintenance", "label": "Maintenance"}, {"key": "pilots", "label": "Pilots"}, {"key": "nurses", "label": "Flight nurses"}, {"key": "paramedics", "label": "Flight paramedics"}]};
+const DATA = {"updated": "2026-11-15", "portal": "https://careers-airmethods.icims.com", "boards": [{"key": "maintenance", "label": "Maintenance", "blurb": "Mechanic, AMT, avionics and quality roles", "url": "jobs/maintenance.html", "count": 37, "states": 19, "new": 0}, {"key": "pilots", "label": "Pilots", "blurb": "Helicopter and fixed wing pilot roles", "url": "jobs/pilots.html", "count": 118, "states": 28, "new": 0}, {"key": "nurses", "label": "Flight nurses", "blurb": "Flight nurse roles", "url": "jobs/nurses.html", "count": 69, "states": 17, "new": 0}, {"key": "paramedics", "label": "Flight paramedics", "blurb": "Flight paramedic roles", "url": "jobs/paramedics.html", "count": 56, "states": 17, "new": 0}], "maps": [{"key": "maintenance", "label": "Maintenance"}, {"key": "pilots", "label": "Pilots"}, {"key": "nurses", "label": "Flight nurses"}, {"key": "paramedics", "label": "Flight paramedics"}], "contacts": [{"label": "Maintenance", "people": [{"name": "Dave Miller", "qr": "dave-miller.png", "link": "https://s1.blinq.me/ryXkTCwnGUlw?l=Rehobeth,%20Alabama,%20United%20States"}, {"name": "Dave Burgess", "qr": ""}, {"name": "Brian Jones", "qr": ""}]}, {"label": "Pilots", "people": []}, {"label": "Clinicians", "note": "Flight nurses and flight paramedics", "people": []}]};
 const $ = id => document.getElementById(id);
 const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
 const fmt = iso => new Date(iso + "T12:00:00").toLocaleDateString("en-US", {weekday:"long", month:"short", day:"numeric"});
@@ -124,6 +141,27 @@ DATA.boards.forEach(b => {
   $("cards").appendChild(a);
 });
 DATA.maps.forEach(m => { const ml = el("a", "", m.label + " map"); ml.href = "map.html?b=" + m.key; $("maplinks").appendChild(ml); });
+// Recruiter business cards: team, then name, then that person's QR code.
+(() => {
+  const teams = $("teams"), people = $("people"), box = $("cardbox");
+  let g = null, who = null;
+  const soon = t => { box.hidden = false; box.className = "box soon"; box.textContent = t; };
+  function draw() {
+    teams.textContent = ""; people.textContent = ""; box.hidden = true; box.textContent = "";
+    DATA.contacts.forEach(x => { const b = el("button", "", x.label); b.type = "button"; b.setAttribute("aria-pressed", x === g); b.onclick = () => { g = x === g ? null : x; who = null; draw(); }; teams.appendChild(b); });
+    if (!g) return;
+    if (!g.people.length) return soon(g.label + " recruiters are not added yet." + (g.note ? " This team covers " + g.note.toLowerCase() + "." : ""));
+    g.people.forEach(p => { const b = el("button", "", p.name); b.type = "button"; b.setAttribute("aria-pressed", p === who); b.onclick = () => { who = p === who ? null : p; draw(); }; people.appendChild(b); });
+    if (!who) return;
+    if (!who.qr) return soon(who.name + "'s business card is not added yet.");
+    box.hidden = false; box.className = "box";
+    box.appendChild(el("div", "who", who.name)); box.appendChild(el("div", "role", g.label + " recruiter, Air Methods"));
+    const im = el("img"); im.src = "contacts/" + who.qr; im.alt = "QR code for " + who.name + "'s business card"; im.width = 280; im.height = 280; box.appendChild(im);
+    if (who.link) { const a = el("a", "", "Open the business card"); a.href = who.link; a.target = "_blank"; a.rel = "noopener"; box.appendChild(a); }
+    box.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest"});
+  }
+  draw();
+})();
 if (navigator.share) { const s = $("share"); s.hidden = false; s.onclick = () => navigator.share({title: document.title, url: location.href}).catch(() => {}); }
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
 </script>

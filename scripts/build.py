@@ -273,7 +273,8 @@ def main():
 
     hub = open(os.path.join(TPL, "hub.html"), encoding="utf-8").read()
     assert "/*__DATA__*/" in hub
-    blob = json.dumps(dict(updated=today, portal=PORTAL, boards=cards, maps=[dict(key=m["key"], label=m["label"]) for m in mboards])).replace("</", "<\\/")
+    contacts = json.load(open(os.path.join(DATA, "recruiters.json"), encoding="utf-8"))["groups"]
+    blob = json.dumps(dict(updated=today, portal=PORTAL, boards=cards, maps=[dict(key=m["key"], label=m["label"]) for m in mboards], contacts=contacts)).replace("</", "<\\/")
     open(os.path.join(SITE, "index.html"), "w", encoding="utf-8").write(hub.replace("/*__DATA__*/", blob))
     sw = open(os.path.join(TPL, "sw.js"), encoding="utf-8").read()
     open(os.path.join(SITE, "sw.js"), "w", encoding="utf-8").write(sw.replace("__VERSION__", stamp()))

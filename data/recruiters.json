@@ -1,0 +1,32 @@
+{
+ "_note": "Recruiter business cards shown at the bottom of the hub. qr is a file in site/contacts/; leave qr empty to show 'Not added yet'. An empty people list shows 'Not added yet' for the whole group.",
+ "groups": [
+  {
+   "label": "Maintenance",
+   "people": [
+    {
+     "name": "Dave Miller",
+     "qr": "dave-miller.png",
+     "link": "https://s1.blinq.me/ryXkTCwnGUlw?l=Rehobeth,%20Alabama,%20United%20States"
+    },
+    {
+     "name": "Dave Burgess",
+     "qr": ""
+    },
+    {
+     "name": "Brian Jones",
+     "qr": ""
+    }
+   ]
+  },
+  {
+   "label": "Pilots",
+   "people": []
+  },
+  {
+   "label": "Clinicians",
+   "note": "Flight nurses and flight paramedics",
+   "people": []
+  }
+ ]
+}
