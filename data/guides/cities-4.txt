@@ -421,3 +421,86 @@ vets: A VA health clinic is in Paducah. ; A VA health clinic is in Mayfield.
 around: Paducah, the McCracken County seat, is about 20 minutes away. ; Mayfield, the Graves County seat, is roughly 25 minutes away. ; Murray, home of Murray State University, is roughly 45 minutes to an hour away.
 checked: November 2026
 src: https://en.wikipedia.org/wiki/Melber,_Kentucky ; https://en.wikipedia.org/wiki/Paducah,_Kentucky ; https://en.wikipedia.org/wiki/Mayfield,_Kentucky ; https://en.wikipedia.org/wiki/Murray,_Kentucky ; https://en.wikipedia.org/wiki/Murray_State_University ; https://en.wikipedia.org/wiki/Land_Between_the_Lakes_National_Recreation_Area ; https://www.va.gov/marion-health-care/locations/
+
+## NM|Artesia
+intro: Artesia is a city of about 13,000 people in northern Eddy County in southeast New Mexico. It sits where U.S. routes 82 and 285 meet.
+family: Living Desert Zoo and Gardens State Park, a zoo and botanical garden of Chihuahuan Desert plants and animals, overlooks Carlsbad. ; The Roswell Museum and Art Center has a planetarium and a fine art collection. ; Carlsbad Caverns National Park's show cave has electric lights, paved trails and elevators.
+outdoors: Brantley Lake State Park, about 12 miles north of Carlsbad, has a lake for boating and fishing. ; Sitting Bull Falls, in the Lincoln National Forest southwest of Carlsbad, has waterfalls, hiking trails and a picnic area. ; The Pecos River runs about 4 miles east of Artesia.
+sports: The Roswell Invaders play baseball in Roswell.
+cost: Housing costs are well below the U.S. average, and grocery, utility and miscellaneous costs are somewhat below it.
+climate: Artesia has a dry climate with mild winters and hot summers. Typical highs are about 58 °F in January and about 95 °F in July.
+vets: A VA health clinic is in Artesia. ; The VA New Mexico health care system's main location is in Albuquerque.
+around: Carlsbad, the Eddy County seat, is 36 miles south. ; Roswell, 40 miles north, is home to the New Mexico Military Institute. ; Hobbs, just under two hours east, is home to the University of the Southwest and New Mexico Junior College.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Artesia,_New_Mexico ; https://en.wikipedia.org/wiki/Carlsbad,_New_Mexico ; https://en.wikipedia.org/wiki/Roswell,_New_Mexico ; https://en.wikipedia.org/wiki/Hobbs,_New_Mexico ; https://en.wikipedia.org/wiki/Carlsbad_Caverns_National_Park ; https://en.wikipedia.org/wiki/Living_Desert_Zoo_and_Gardens_State_Park ; https://en.wikipedia.org/wiki/Brantley_Lake_State_Park ; https://en.wikipedia.org/wiki/Sitting_Bull_Falls ; https://www.va.gov/new-mexico-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_mexico/artesia
+
+## NM|Deming
+intro: Deming is the county seat of Luna County in southwest New Mexico, with roughly 15,000 residents. Interstate 10 runs along the north side of the city.
+family: The Deming Luna Mimbres Museum, in the historic Deming Armory, has Mimbres pottery, an antique auto collection and a doll collection. ; The Great American Duck Race, held each August, includes a hot air balloon show and a parade.
+outdoors: Rockhound State Park, about 7 miles southeast, lets visitors search for quartz crystals, geodes and jasper, and has camping. ; City of Rocks State Park, about 29 miles away, has large sculpted rock formations, hiking trails, camping and a night sky observatory. ; Spring Canyon Recreation Area is a day-use area in the northern Florida Mountains.
+cost: Housing costs are well below the U.S. average, and miscellaneous and grocery costs are below it. Utility costs are slightly above it.
+climate: Deming has a dry, hot and breezy desert climate, with most rain falling in thunderstorms from July through September and an often windy spring. Typical highs are about 58 °F in January and about 96 °F in July.
+vets: A VA clinic is in Las Cruces, about 60 miles east. ; A VA clinic is in Silver City, about 52 miles northwest.
+around: Las Cruces, home of New Mexico State University, is about 60 miles east on Interstate 10. ; Silver City, home of Western New Mexico University, is about 52 miles northwest on U.S. Route 180. ; Columbus, about 32 miles south, is a village near the Mexican border known for the 1916 raid by Pancho Villa's forces.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Deming,_New_Mexico ; https://en.wikipedia.org/wiki/Rockhound_State_Park ; https://en.wikipedia.org/wiki/City_of_Rocks_State_Park ; https://en.wikipedia.org/wiki/Las_Cruces,_New_Mexico ; https://en.wikipedia.org/wiki/Silver_City,_New_Mexico ; https://en.wikipedia.org/wiki/Columbus,_New_Mexico ; https://www.va.gov/el-paso-health-care/locations/ ; https://www.va.gov/new-mexico-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_mexico/deming
+
+## NE|Omaha
+intro: Omaha is the county seat of Douglas County and sits on the Missouri River in eastern Nebraska. The city is home to about 490,000 people.
+family: The Henry Doorly Zoo and Aquarium is in Omaha. ; The Joslyn Art Museum is a fine arts museum with American, European and Asian art. ; The Durham Museum is another of the city's cultural institutions.
+outdoors: Fontenelle Forest is a forest preserve in Bellevue with hiking trails, a nature center, hardwood forest and marshland. ; The Bob Kerrey Pedestrian Bridge crosses the Missouri River for walkers and cyclists. ; Glenn Cunningham Lake and Carter Lake are among the lakes in the Omaha area.
+food: The Reuben sandwich is counted among Omaha inventions. ; So is the TV dinner.
+sports: The College World Series, a college baseball tournament, is held each June in Omaha.
+cost: Grocery, housing and utility costs are below the national average, and miscellaneous costs are above it.
+climate: Winters are cold and summers are hot and humid. In nearby Lincoln, typical highs are about 36 °F in January and 89 °F in July.
+vets: The VA medical center for the region is in Omaha. ; VA clinics are also in Bellevue and Papillion.
+around: Council Bluffs, Iowa, sits just across the Missouri River. ; Lincoln, the state capital and home of the University of Nebraska, is about 53 miles southwest. ; Nebraska City, the home of Arbor Day, is roughly an hour away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Omaha,_Nebraska ; https://en.wikipedia.org/wiki/Henry_Doorly_Zoo_and_Aquarium ; https://en.wikipedia.org/wiki/Joslyn_Art_Museum ; https://en.wikipedia.org/wiki/Fontenelle_Forest ; https://en.wikipedia.org/wiki/College_World_Series ; https://en.wikipedia.org/wiki/Lincoln,_Nebraska ; https://en.wikipedia.org/wiki/Council_Bluffs,_Iowa ; https://en.wikipedia.org/wiki/Nebraska_City,_Nebraska ; https://www.va.gov/nebraska-western-iowa-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/nebraska/omaha
+
+## NM|Las Cruces
+intro: Las Cruces is a city of about 111,000 people and the county seat of Doña Ana County in southern New Mexico. It sits in the Mesilla Valley on the Rio Grande, with the Organ Mountains to the east.
+family: The Las Cruces Museum of Natural History focuses on local animals and plants. ; The Branigan Cultural Center presents local history through photographs, sculpture, paintings and poetry. ; The Las Cruces Railroad Museum occupies the historic Santa Fe Railroad station.
+outdoors: The Organ Mountains, about 10 miles east of the city, have hiking trails. ; Dripping Springs Natural Area, on the west side of the Organ Mountains, has trails around La Cueva. ; White Sands National Park, about 52 miles northeast, has gypsum dunes, marked hiking trails and dune sledding.
+food: Downtown hosts a farmers' market on Wednesday and Saturday mornings, with stands run by local farmers, artists and craftspeople. ; The annual Hatch Chile Festival takes place around Labor Day in Hatch, about 40 miles northwest on Interstate 25.
+sports: The New Mexico State Aggies compete in sports including football and men's and women's basketball.
+cost: Housing costs are well below the national average, and grocery and miscellaneous costs are somewhat below it. Utility costs are about even with it.
+climate: Las Cruces has a desert climate with hot summers, late-summer monsoon thunderstorms and mild, often sunny winters. Typical highs run from about 59 °F in January to about 96 °F in July.
+vets: A VA clinic is in Las Cruces. ; The VA system's main location is in El Paso, Texas.
+around: El Paso, Texas, is under an hour away. ; Alamogordo, roughly an hour to an hour and a quarter away, is home to the Alameda Park Zoo. ; Truth or Consequences, on the Rio Grande near Elephant Butte Reservoir, is roughly an hour and a quarter away and is known for its hot springs.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Las_Cruces,_New_Mexico ; https://en.wikipedia.org/wiki/Organ_Mountains ; https://en.wikipedia.org/wiki/White_Sands_National_Park ; https://en.wikipedia.org/wiki/Hatch,_New_Mexico ; https://en.wikipedia.org/wiki/Truth_or_Consequences,_New_Mexico ; https://en.wikipedia.org/wiki/Alamogordo,_New_Mexico ; https://en.wikipedia.org/wiki/El_Paso,_Texas ; https://www.va.gov/el-paso-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_mexico/las_cruces
+
+## NJ|Woodbine
+intro: Woodbine is a borough of about 2,100 residents in Cape May County in southern New Jersey. It was founded in 1891 as a settlement for Eastern European Jews.
+family: The Cape May County Park and Zoo has more than 550 animals on 85 acres of exhibits. ; The Sam Azeez Museum of Woodbine Heritage, maintained by Stockton University, is housed in the Woodbine Brotherhood Synagogue. ; The Harriet Tubman Museum is in downtown Cape May.
+outdoors: Belleplain State Forest covers more than 21,000 acres in northern Cape May County, with over 40 miles of walking trails. ; The forest has places for picnicking, boating, camping and fishing. ; The Cape May area is known for bird watching, with over 400 bird species recorded there.
+sports: Wildwood has hosted the National Marbles Tournament each June since 1922. ; Wildwood also holds an annual beach Ultimate Frisbee tournament.
+cost: Housing costs are below the national average, and grocery, utility and miscellaneous costs are somewhat above it.
+vets: A VA clinic is in Rio Grande, New Jersey. ; The VA medical center for the area is in Wilmington, Delaware.
+around: Ocean City, roughly half an hour away, has a 2.5-mile boardwalk and guarded beaches. ; Cape May, roughly 40 minutes away, has a National Historic Landmark district and the Cape May Lighthouse. ; Atlantic City, roughly 50 minutes away, has a boardwalk and ocean beaches.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Woodbine,_New_Jersey ; https://en.wikipedia.org/wiki/Cape_May,_New_Jersey ; https://en.wikipedia.org/wiki/Ocean_City,_New_Jersey ; https://en.wikipedia.org/wiki/Wildwood,_New_Jersey ; https://en.wikipedia.org/wiki/Atlantic_City,_New_Jersey ; https://en.wikipedia.org/wiki/Belleplain_State_Forest ; https://en.wikipedia.org/wiki/Cape_May_County_Park_and_Zoo ; https://www.va.gov/wilmington-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_jersey/woodbine
+
+## NM|Carlsbad
+intro: Carlsbad is a city of about 32,000 people and the county seat of Eddy County in southeastern New Mexico. It straddles the Pecos River at the eastern edge of the Guadalupe Mountains.
+family: Living Desert Zoo and Gardens State Park, on the north edge of town, shows more than forty native animal species and a collection of desert plants. ; Carlsbad Caverns National Park has a developed show cave and a bat flight program from late spring into autumn.
+outdoors: Brantley Lake State Park, about 12 miles north, has boating, fishing and developed campsites. ; Sitting Bull Falls, about 20 miles west of town, is a day-use picnic area with a short trail to a 150-foot waterfall. ; The Pecos River Flume is one of the town's landmarks.
+cost: Housing costs are well below the national average, and grocery, utility and miscellaneous costs are somewhat below it.
+climate: Winters are dry and mild, with nights that often fall below freezing. Summers are very hot, and the summer monsoon brings heavy downpours. Typical highs are about 59 °F in January and about 97 °F in July.
+vets: A VA clinic is in Artesia, about 36 miles north. ; A VA clinic is in Hobbs, about 69 miles northeast.
+around: Artesia is about 36 miles north on U.S. Route 285. ; Roswell, about 76 miles north, has a museum with a planetarium, fine art and a recreation of Robert Goddard's rocket workshop. ; Hobbs is about 69 miles northeast.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Carlsbad,_New_Mexico ; https://en.wikipedia.org/wiki/Artesia,_New_Mexico ; https://en.wikipedia.org/wiki/Roswell,_New_Mexico ; https://en.wikipedia.org/wiki/Hobbs,_New_Mexico ; https://en.wikipedia.org/wiki/Carlsbad_Caverns_National_Park ; https://en.wikipedia.org/wiki/Living_Desert_Zoo_and_Gardens_State_Park ; https://en.wikipedia.org/wiki/Brantley_Lake_State_Park ; https://en.wikipedia.org/wiki/Lincoln_National_Forest ; https://www.va.gov/new-mexico-health-care/locations/ ; https://www.va.gov/west-texas-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_mexico/carlsbad
+
+## NM|Alamogordo
+intro: Alamogordo is the county seat of Otero County in southern New Mexico, set in the Tularosa Basin of the Chihuahuan Desert. It has about 31,000 residents.
+family: Alameda Park Zoo is in the city. ; The New Mexico Museum of Space History holds the International Space Hall of Fame and a planetarium. ; The Cottonwood Arts and Crafts Festival is held each Labor Day weekend in Alameda Park.
+outdoors: White Sands National Park, about 15 miles southwest, has gypsum dunes with marked trails and dune sledding. ; Oliver Lee Memorial State Park, at the base of the Sacramento Mountains, offers camping, hiking, picnicking and ranch house tours. ; Three Rivers Petroglyph Site, north of Tularosa, has thousands of petroglyphs along a trail of about one mile.
+sports: The New Mexico State Aggies play in Las Cruces. ; The Lady of the Mountain Run takes place each December, with a half marathon, 10K and 5K.
+cost: Housing costs are well below the U.S. average, and miscellaneous costs are below it. Grocery costs are a little below average, and utility costs are about even.
+climate: Alamogordo has hot summers and mild winters, and most of its rain falls during the July to September monsoon season. Typical highs are about 55 °F in January and about 93 °F in July.
+vets: The nearest VA clinic listed is in Las Cruces, and the VA system's main location is in El Paso, Texas. ; Holloman Air Force Base is nearby.
+around: Tularosa, roughly 25 minutes north, is a village known for its cottonwood shade trees and adobe-style architecture. ; Ruidoso, roughly an hour to an hour and a quarter away, is a mountain resort community near the Ski Apache ski area. ; Las Cruces, roughly an hour to an hour and a quarter away, is home to New Mexico State University.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Alamogordo,_New_Mexico ; https://en.wikipedia.org/wiki/White_Sands_National_Park ; https://en.wikipedia.org/wiki/New_Mexico_Museum_of_Space_History ; https://en.wikipedia.org/wiki/Oliver_Lee_Memorial_State_Park ; https://en.wikipedia.org/wiki/Three_Rivers_Petroglyph_Site ; https://en.wikipedia.org/wiki/Las_Cruces,_New_Mexico ; https://en.wikipedia.org/wiki/Ruidoso,_New_Mexico ; https://en.wikipedia.org/wiki/Tularosa,_New_Mexico ; https://www.va.gov/el-paso-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_mexico/alamogordo
