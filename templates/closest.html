@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#10233f">
+<title>Closest Air Methods Opening</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Recruiting">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --ink:#10233f; --muted:#56657a; --line:#d9dfe8;
+  --accent:#c21f32; --band:#10233f; --band-ink:#ffffff; --band-muted:#b9c5d6;
+  --new:#0b7a53; --new-bg:#e2f4ec; --chip:#e8ecf2;
+  --display:"Barlow Semi Condensed","Arial Narrow",Arial,sans-serif;
+  --body:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0b1524; --surface:#142238; --ink:#eef2f8; --muted:#a3b0c4; --line:#27374f;
+  --accent:#ff6b78; --band:#07101d; --band-muted:#9fb0c8;
+  --new:#6fdcae; --new-bg:#0f3a2b; --chip:#1e2f48; color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.45;-webkit-text-size-adjust:100%}
+.wrap{max-width:820px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.mast{background:var(--band);color:var(--band-ink)}
+.mast .wrap{padding-block:calc(26px + env(safe-area-inset-top,0px)) 22px}
+.eyebrow{font:600 12px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--band-muted)}
+h1{font:700 34px/1.05 var(--display);margin:8px 0 6px;text-wrap:balance}
+.tag{color:var(--band-muted);font-size:15px;margin:0}
+main.wrap{padding-block:22px 40px;display:flex;flex-direction:column;gap:28px}
+h2{font:700 22px/1.1 var(--display);margin:0 0 4px}
+.sub{color:var(--muted);font-size:14px;margin:0 0 12px}
+.cards{display:grid;gap:12px;grid-template-columns:1fr}
+@media (min-width:680px){.cards{grid-template-columns:repeat(3,1fr)} h1{font-size:42px}}
+a.card{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 12px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;color:inherit;text-decoration:none;min-height:88px}
+a.card:active{background:var(--chip)}
+.card .name{font:700 21px/1.15 var(--display)}
+.card .blurb{grid-column:1;color:var(--muted);font-size:14px}
+.card .n{grid-row:1 / span 3;grid-column:2;text-align:right}
+.card .n b{font:700 34px/1 var(--display);font-variant-numeric:tabular-nums;display:block}
+.card .n span{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.card .meta{grid-column:1;display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--muted);margin-top:4px}
+.pill{border-radius:6px;padding:3px 7px;font-size:12.5px;font-weight:600;background:var(--new-bg);color:var(--new)}
+.maplinks{display:flex;gap:8px;flex-wrap:wrap}
+.maplinks a{font:600 15px var(--body);color:var(--band-ink);background:var(--band);border-radius:999px;padding:12px 18px;min-height:44px;text-decoration:none;display:inline-flex;align-items:center}
+@media (prefers-color-scheme: dark){.maplinks a{background:var(--chip)}}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px}
+.box.soon{border-style:dashed;color:var(--muted)}
+.box p{margin:0 0 8px}.box p:last-child{margin:0}
+.box b{color:var(--ink)}
+button.share{font:600 15px var(--body);color:var(--band-ink);background:var(--band);border:0;border-radius:999px;padding:12px 18px;min-height:44px;cursor:pointer;margin-top:10px}
+@media (prefers-color-scheme: dark){button.share{background:var(--chip)}}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+footer{color:var(--muted);font-size:13px;text-align:center}
+footer a{color:inherit}
+
+.nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.nav a{color:var(--band-ink);font:600 14px var(--body);text-decoration:none;border:1px solid rgba(255,255,255,.28);border-radius:999px;padding:8px 14px;min-height:36px;display:inline-flex;align-items:center}
+form.find{display:grid;gap:12px;grid-template-columns:1fr;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px}
+@media (min-width:680px){form.find{grid-template-columns:1.3fr 1fr auto;align-items:end}}
+label{display:block;font:600 13px var(--body);color:var(--muted);margin-bottom:6px}
+select,input{width:100%;font:500 18px var(--body);color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:12px;min-height:50px}
+button.go{font:700 17px var(--body);color:#fff;background:#c21f32;border:0;border-radius:10px;padding:12px 22px;min-height:50px;cursor:pointer}
+.msg{color:var(--muted);font-size:15px;margin:0}
+.msg a{color:inherit}
+.msg.err{color:var(--accent);font-weight:600}
+.res{display:flex;flex-direction:column;gap:12px}
+.base{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px}
+.base.top{border:2px solid var(--accent)}
+.base .k{font:600 12px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+.base .hd{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.base .city{font:700 22px/1.15 var(--display)}
+.base.top .city{font-size:28px}
+.base .mi{font:700 18px/1 var(--display);white-space:nowrap;font-variant-numeric:tabular-nums}
+.base .mi small{font:500 12px var(--body);color:var(--muted)}
+.jobs{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-direction:column;gap:8px}
+.jobs a{display:block;color:inherit;text-decoration:none;border:1px solid var(--line);border-radius:10px;padding:11px 12px;min-height:44px}
+.jobs a:active{background:var(--chip)}
+.jobs .t{font-weight:600;overflow-wrap:anywhere}
+.jobs .t::after{content:" \203A";color:var(--accent)}
+.jobs .m{display:flex;gap:6px;flex-wrap:wrap;margin-top:5px}
+.jobs .m:empty{display:none}
+.pill.plain{background:var(--chip);color:var(--muted)}
+</style>
+</head>
+<body>
+<header class="mast"><div class="wrap">
+  <div class="eyebrow">Air Methods recruiting</div>
+  <h1>Closest opening</h1>
+  <p class="tag">Pick a role, type a ZIP code, and see the nearest base that is hiring for it today.</p>
+  <nav class="nav" id="nav" aria-label="Site"></nav>
+</div></header>
+
+<main class="wrap">
+  <form class="find" id="find" novalidate>
+    <div><label for="role">Role</label><select id="role"></select></div>
+    <div><label for="zip">ZIP code</label><input id="zip" inputmode="numeric" autocomplete="postal-code" pattern="[0-9]{5}" maxlength="5" placeholder="5 digits"></div>
+    <button class="go" type="submit">Find closest</button>
+  </form>
+  <p class="msg" id="msg" role="status" aria-live="polite"></p>
+  <div class="res" id="res"></div>
+  <footer>Distances are straight-line miles from the middle of the ZIP code to the base city, so driving distance will be longer. Openings are read from the Air Methods careers site once a day, last on <span id="upd"></span>. This is a quick reference kept by the recruiting team; the posting on <a id="portal" target="_blank" rel="noopener">careers-airmethods.icims.com</a> is always the official version.</footer>
+</main>
+
+<script>
+const DATA = /*__DATA__*/;
+const $ = id => document.getElementById(id);
+const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+const SHOW = 5;   // the closest base plus the next four
+$("upd").textContent = new Date(DATA.updated + "T12:00:00").toLocaleDateString("en-US", {weekday:"long", month:"short", day:"numeric"});
+$("portal").href = DATA.portal + "/jobs/search";
+[["Home", "./"], ["Map", "map.html"]].forEach(([l, u]) => { const a = el("a", "", l); a.href = u; $("nav").appendChild(a); });
+DATA.roles.forEach(r => { const o = el("option", "", r.label); o.value = r.key; $("role").appendChild(o); });
+let saved = {}; try { saved = JSON.parse(localStorage.getItem("closest") || "{}"); } catch (e) {}
+const q = new URLSearchParams(location.search);
+const role0 = q.get("role") || saved.role, zip0 = q.get("zip") || saved.zip;
+if (role0 && DATA.roles.some(r => r.key === role0)) $("role").value = role0;
+if (zip0 && /^\d{5}$/.test(zip0)) $("zip").value = zip0;
+
+const cache = {};
+const zips = d => cache[d] || (cache[d] = fetch("zips/" + d + ".json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).catch(e => { delete cache[d]; throw e; }));
+function miles(a, b) {
+  const R = 3958.8, t = x => x * Math.PI / 180, dLat = t(b[0] - a[0]), dLon = t(b[1] - a[1]);
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(t(a[0])) * Math.cos(t(b[0])) * Math.sin(dLon / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+function say(t, err) { $("msg").textContent = t; $("msg").className = "msg" + (err ? " err" : ""); }
+function card(p, i) {
+  const c = el("div", "base" + (i ? "" : " top"));
+  if (!i) c.appendChild(el("div", "k", "Closest base hiring"));
+  const hd = el("div", "hd"); hd.appendChild(el("div", "city", p.city + ", " + p.st));
+  const mi = el("div", "mi", (p.d < 10 ? p.d.toFixed(1) : Math.round(p.d).toLocaleString("en-US")) + " "); mi.appendChild(el("small", "", "miles")); hd.appendChild(mi);
+  c.appendChild(hd);
+  const ul = el("ul", "jobs");
+  p.jobs.forEach(j => {
+    const li = el("li"), a = el("a"); a.href = DATA.portal + "/jobs/" + j.id + "/job"; a.target = "_blank"; a.rel = "noopener";
+    a.appendChild(el("div", "t", j.title));
+    const m = el("div", "m");
+    if (j.new) m.appendChild(el("span", "pill", "New"));
+    j.hl.forEach(h => m.appendChild(el("span", "pill" + (/\$/.test(h) ? "" : " plain"), h)));
+    a.appendChild(m); li.appendChild(a); ul.appendChild(li);
+  });
+  c.appendChild(ul);
+  return c;
+}
+let run = 0;
+async function find() {
+  const me = ++run, zip = $("zip").value.trim(), role = DATA.roles.find(r => r.key === $("role").value);
+  $("res").textContent = "";
+  if (!/^\d{5}$/.test(zip)) return say("Type a 5 digit ZIP code.", true);
+  say("Looking up " + zip + "...");
+  let z;
+  try { z = (await zips(zip[0]))[zip]; } catch (e) { if (me === run) say("Could not load the ZIP code list. Check your connection and try again.", true); return; }
+  if (me !== run) return;
+  if (!z) return say("ZIP code " + zip + " was not found. Check the number and try again.", true);
+  try { localStorage.setItem("closest", JSON.stringify({role: role.key, zip})); } catch (e) {}
+  if (!role.places.length) return say("There are no " + role.noun + " openings tied to a base today.");
+  const near = role.places.map(p => Object.assign({}, p, {d: miles(z, p.ll)})).sort((a, b) => a.d - b.d).slice(0, SHOW);
+  say("Closest " + role.noun + " openings to " + zip + " (" + z[2] + "), out of " + role.places.length + " bases hiring today.");
+  near.forEach((p, i) => {
+    if (i === 1) $("res").appendChild(el("h2", "", "Next closest"));
+    $("res").appendChild(card(p, i));
+  });
+  if (role.off) { const a = el("a", "", role.off + " more " + (role.off === 1 ? "opening is" : "openings are") + " regional or home-based. See the full list."); a.href = role.board; const p = el("p", "msg"); p.appendChild(a); $("res").appendChild(p); }
+}
+$("find").addEventListener("submit", e => { e.preventDefault(); find(); });
+$("role").addEventListener("change", () => { if (/^\d{5}$/.test($("zip").value.trim())) find(); });
+if (/^\d{5}$/.test($("zip").value)) find();
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+</script>
+</body>
+</html>

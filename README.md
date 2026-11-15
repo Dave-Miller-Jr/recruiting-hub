@@ -17,3 +17,8 @@ Unofficial quick reference; the careers portal is always the official version.
 - `templates/` holds the page designs. To add a tool to the hub, add a page under `site/` and a card in `templates/hub.html`.
 
 Rules: only what the portal lists. Never invent jobs, pay or bonuses. Only public job data belongs here.
+
+## Closest opening lookup
+site/closest.html (from templates/closest.html) is rebuilt by build.py on every run with the bases hiring per role
+(mechanic and quality, pilot, flight nurse, flight paramedic). ZIP code centers live in site/zips/<first digit>.json
+(static, from the free `zipcodes` npm package; no outside service is called). Distances are straight-line miles.

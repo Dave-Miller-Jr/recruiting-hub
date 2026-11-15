@@ -252,6 +252,24 @@ def main():
     blob = json.dumps(dict(updated=today, portal=PORTAL, states=STATES, boards=mboards), ensure_ascii=False).replace("</", "<\\/")
     open(os.path.join(SITE, "map.html"), "w", encoding="utf-8").write(mp.replace("/*__DATA__*/", blob))
 
+    # Closest-opening lookup: bases per role, so a ZIP code can be matched to the nearest base hiring for that role.
+    byb = {b["key"]: (st_["jobs"], b["out"]) for b, (page, sp, st_, add, rem) in results}
+    roles = []
+    for key, label, noun, bkey, kind in (("mechanic", "Mechanic / AMT and Quality", "mechanic and quality", "maintenance", None), ("pilot", "Pilot", "pilot", "pilots", None),
+                                   ("nurse", "Flight Nurse", "flight nurse", "clinical", "nurse"), ("paramedic", "Flight Paramedic", "flight paramedic", "clinical", "paramedic")):
+        jobs_, out_ = byb[bkey]
+        on, off = {}, 0
+        for j in sorted(jobs_.values(), key=lambda j: (j["title"], -int(j["id"]))):
+            if kind and kind not in j["kinds"]: continue
+            ll = None if j["st"] == "ZZ" or j["city"] in ("Home-based", "See posting for location") else locate(g, j["st"], j["city"])
+            if not ll: off += 1; continue
+            on.setdefault((j["st"], j["city"]), dict(st=j["st"], city=j["city"], ll=ll, jobs=[]))["jobs"].append(dict(id=j["id"], title=j["title"], hl=j["hl"], new=j["new"]))
+        roles.append(dict(key=key, label=label, noun=noun, places=list(on.values()), off=off, board="jobs/" + out_))
+    cl = open(os.path.join(TPL, "closest.html"), encoding="utf-8").read()
+    assert "/*__DATA__*/" in cl
+    blob = json.dumps(dict(updated=today, portal=PORTAL, roles=roles), ensure_ascii=False).replace("</", "<\\/")
+    open(os.path.join(SITE, "closest.html"), "w", encoding="utf-8").write(cl.replace("/*__DATA__*/", blob))
+
     hub = open(os.path.join(TPL, "hub.html"), encoding="utf-8").read()
     assert "/*__DATA__*/" in hub
     blob = json.dumps(dict(updated=today, portal=PORTAL, boards=cards)).replace("</", "<\\/")
