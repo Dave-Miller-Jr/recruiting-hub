@@ -664,3 +664,85 @@ vets: The VA system's main medical center is in Wilkes-Barre. ; VA clinics are a
 around: Jim Thorpe is roughly 20 to 25 minutes away. ; Wilkes-Barre, roughly 35 minutes away, has Kirby Park on the Susquehanna River. ; Bloomsburg, roughly 40 minutes away, holds the Bloomsburg Fair, a long-running agricultural fair, and Scranton is roughly 50 minutes to an hour away.
 checked: November 2026
 src: https://en.wikipedia.org/wiki/Hazleton,_Pennsylvania ; https://en.wikipedia.org/wiki/Wilkes-Barre,_Pennsylvania ; https://en.wikipedia.org/wiki/Scranton,_Pennsylvania ; https://en.wikipedia.org/wiki/Jim_Thorpe,_Pennsylvania ; https://en.wikipedia.org/wiki/Bloomsburg,_Pennsylvania ; https://en.wikipedia.org/wiki/Hickory_Run_State_Park ; https://en.wikipedia.org/wiki/Lehigh_Gorge_State_Park ; https://en.wikipedia.org/wiki/Penn_State_Hazleton ; https://www.va.gov/wilkes-barre-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/pennsylvania/hazleton
+
+## SC|Orangeburg
+intro: Orangeburg is the county seat of Orangeburg County, South Carolina, on the North Fork of the Edisto River. The city has about 13,000 people and is 37 miles southeast of Columbia.
+family: The Edisto Memorial Gardens has more than 50 beds of roses on over 150 acres. ; The I.P. Stanback Museum and Planetarium is on the South Carolina State University campus. ; The Orangeburg Festival of Roses is an annual event that includes a river race.
+outdoors: Congaree National Park, about 18 miles southeast of Columbia, offers hiking, canoeing, kayaking and a 2.4-mile boardwalk loop. ; Lake Marion is a large reservoir near Santee, and Santee State Park is beside it.
+sports: South Carolina State University's teams are the Bulldogs and Lady Bulldogs. ; Claflin University's teams are the Panthers and Lady Panthers.
+cost: Housing costs are well below the U.S. average, and grocery and miscellaneous costs are also below it. Utility costs are slightly above the U.S. average.
+climate: Orangeburg has a warm, humid climate with rainfall spread fairly evenly through the year. Typical highs are about 60 °F in January and about 93 °F in July.
+vets: There is a VA clinic in Orangeburg. ; The VA system's medical center is in Columbia.
+around: Santee, near Lake Marion, is roughly half an hour away. ; Columbia, the state capital, is about 37 miles away, roughly 45 minutes. ; Charleston is roughly an hour and a quarter to an hour and a half away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Orangeburg,_South_Carolina ; https://en.wikipedia.org/wiki/South_Carolina_State_University ; https://en.wikipedia.org/wiki/Claflin_University ; https://en.wikipedia.org/wiki/Congaree_National_Park ; https://en.wikipedia.org/wiki/Santee,_South_Carolina ; https://en.wikipedia.org/wiki/Columbia,_South_Carolina ; https://en.wikipedia.org/wiki/Charleston,_South_Carolina ; https://www.va.gov/columbia-south-carolina-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/south_carolina/orangeburg
+
+## SC|Camden
+intro: Camden is the county seat of Kershaw County in the Midlands of South Carolina, with about 8,000 residents. It is home to the Carolina Cup steeplechase and the National Steeplechase Museum.
+family: Historic Camden Revolutionary War Site is an open-air museum with reconstructed colonial-era buildings and Revolutionary War fortifications. ; Camden has a public library, a branch of the Kershaw County Library. ; Central Carolina Technical College has two branches in Camden.
+outdoors: Goodale State Park, just outside Camden, has a 140-acre lake, a canoe trail on Pine Tree Creek and a 1-mile hiking trail. ; Lake Wateree, a reservoir known for its fishing, includes Lake Wateree State Park. ; Congaree National Park, southeast of Columbia, has old growth bottomland forest and a 2.4-mile boardwalk loop.
+sports: The Carolina Cup is an annual steeplechase held just north of Camden. ; The South Carolina Gamecocks, the teams of the University of South Carolina, play in Columbia.
+cost: Housing costs are far below the U.S. average and miscellaneous costs are below it. Grocery and utility costs are slightly below the U.S. average.
+climate: In Columbia, the nearest city with a climate table checked, summers are hot and humid, winters are generally mild and snow is infrequent. Typical highs there are about 57 °F in January and about 93 °F in July.
+vets: The nearest VA clinic listed is in Sumter, and the VA medical center is in Columbia. ; Shaw Air Force Base is in Sumter.
+around: Sumter is 29 miles southeast on U.S. Route 521. ; Columbia, the state capital, is 32 miles southwest on U.S. Route 1. ; Florence is 50 miles east on Interstate 20.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Camden,_South_Carolina ; https://en.wikipedia.org/wiki/Historic_Camden_Revolutionary_War_Site ; https://en.wikipedia.org/wiki/Lake_Wateree ; https://en.wikipedia.org/wiki/Goodale_State_Park ; https://en.wikipedia.org/wiki/Congaree_National_Park ; https://en.wikipedia.org/wiki/South_Carolina_Gamecocks ; https://en.wikipedia.org/wiki/Columbia,_South_Carolina ; https://en.wikipedia.org/wiki/Sumter,_South_Carolina ; https://en.wikipedia.org/wiki/Florence,_South_Carolina ; https://www.va.gov/columbia-south-carolina-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/south_carolina/camden
+
+## SD|Hot Springs
+intro: Hot Springs is the county seat of Fall River County, at the southern edge of South Dakota's Black Hills, with about 3,400 residents.
+family: The Mammoth Site is a museum and active paleontological excavation site with a large collection of mammoth remains. ; Wind Cave National Park, about 10 miles north of town, has 30 miles of surface hiking trails and a visitor center.
+outdoors: Angostura Recreation Area, about 10 miles southeast of town, is used for boating, swimming, camping and fishing. ; Custer State Park, in the Black Hills, covers over 71,000 acres with a bison herd, scenic drives and hiking trails.
+cost: Housing and miscellaneous costs are below the U.S. average, while grocery and utility costs are close to it.
+climate: Summers are generally hot and winters are cold, with spring usually the wettest season and fall usually dry. Typical highs are about 40 °F in January and about 89 °F in July.
+vets: There is a VA medical center in Hot Springs. ; There is also a VA clinic in Rapid City.
+around: Edgemont is roughly 25 to 30 minutes away. ; Custer, headquarters of the Black Hills National Forest, is roughly 40 to 45 minutes away. ; Rapid City, roughly an hour away, has attractions such as Dinosaur Park and Chapel in the Hills.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Hot_Springs,_South_Dakota ; https://en.wikipedia.org/wiki/The_Mammoth_Site ; https://en.wikipedia.org/wiki/Wind_Cave_National_Park ; https://en.wikipedia.org/wiki/Angostura_Reservoir ; https://en.wikipedia.org/wiki/Custer_State_Park ; https://en.wikipedia.org/wiki/Custer,_South_Dakota ; https://en.wikipedia.org/wiki/Rapid_City,_South_Dakota ; https://en.wikipedia.org/wiki/Edgemont,_South_Dakota ; https://www.va.gov/black-hills-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/south_dakota/hot_springs
+
+## PA|Media
+intro: Media is a borough and the county seat of Delaware County, about 13 miles west of Philadelphia. It has about 6,000 residents.
+family: The Colonial Pennsylvania Farmstead is a living museum at Ridley Creek State Park. ; The Minshall House, built around 1750, belongs to the borough. ; Media has regional rail and trolley service toward Philadelphia.
+outdoors: Ridley Creek State Park, about 5 miles north of Media, offers hiking, biking, fishing and picnicking. ; Tyler Arboretum has about 17 miles of pathways and hiking trails. ; Longwood Gardens in Kennett Square has more than 1,100 acres of gardens and woodlands.
+sports: The Philadelphia Union soccer team plays its home games in Chester. ; Philadelphia's professional sports teams are roughly half an hour away.
+cost: Housing costs are well above the U.S. average, and grocery, utility and miscellaneous costs are also above it.
+vets: The VA system's main medical center is in Philadelphia. ; VA clinics are also listed in Horsham and Philadelphia.
+around: Philadelphia is about 13 miles east, roughly half an hour away. ; West Chester and King of Prussia are each roughly 25 minutes to half an hour away. ; Wilmington, Delaware, is roughly half an hour away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Media,_Pennsylvania ; https://en.wikipedia.org/wiki/Philadelphia ; https://en.wikipedia.org/wiki/West_Chester,_Pennsylvania ; https://en.wikipedia.org/wiki/Chester,_Pennsylvania ; https://en.wikipedia.org/wiki/Wilmington,_Delaware ; https://en.wikipedia.org/wiki/King_of_Prussia,_Pennsylvania ; https://en.wikipedia.org/wiki/Ridley_Creek_State_Park ; https://en.wikipedia.org/wiki/John_J._Tyler_Arboretum ; https://en.wikipedia.org/wiki/Longwood_Gardens ; https://www.va.gov/philadelphia-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/pennsylvania/media
+
+## PA|Sayre
+intro: Sayre is a borough in Bradford County, Pennsylvania, with about 5,400 residents. It is part of the Penn-York Valley, a group of neighboring communities that includes Athens, South Waverly and Waverly, New York.
+family: Howard Elmer Park is in downtown Sayre, with the public library nearby. ; Eldridge Park in Elmira, New York, has a restored 1890s carousel, a walking trail and a fishing lake. ; The Corning Museum of Glass in Corning, New York, covers the art, history and science of glass.
+outdoors: The Susquehanna and Chemung rivers meet just south of Sayre, at Tioga Point in Athens. ; The Chemung River is used for canoeing and fly fishing, especially for bass and trout.
+sports: The Elmira Pioneers baseball team plays in Elmira. ; Elmira College is in Elmira.
+cost: Housing costs are well below the U.S. average, and miscellaneous costs are somewhat below it. Grocery and utility costs are close to the U.S. average.
+climate: In Elmira, New York, the nearest city with a climate table checked, typical highs are about 34 °F in January and about 84 °F in July, with about 42 inches of snow a year.
+vets: There is a VA clinic in Sayre. ; The VA system's main medical center is in Wilkes-Barre.
+around: Athens, a few minutes away, has the Spalding Memorial Library and Tioga Point Museum. ; Elmira, New York, is 17 miles away, roughly 25 minutes. ; Corning, New York, is roughly 40 to 45 minutes away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Sayre,_Pennsylvania ; https://en.wikipedia.org/wiki/Athens,_Pennsylvania ; https://en.wikipedia.org/wiki/Elmira,_New_York ; https://en.wikipedia.org/wiki/Corning,_New_York ; https://en.wikipedia.org/wiki/Spalding_Memorial_Library-Tioga_Point_Museum ; https://en.wikipedia.org/wiki/Chemung_River ; https://en.wikipedia.org/wiki/Eldridge_Park ; https://www.va.gov/wilkes-barre-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/pennsylvania/sayre
+
+## PA|Somerset
+intro: Somerset is a borough and the county seat of Somerset County, near Pennsylvania's southern border. It has about 6,000 residents.
+family: The Flight 93 National Memorial in Stonycreek Township honors the passengers and crew of Flight 93 and has a visitor center. ; Laurel Hill State Park has a summer swimming beach and picnic areas with playgrounds. ; The Heritage Discovery Center in Johnstown covers immigration to the area during the Industrial Revolution.
+outdoors: Laurel Hill State Park has 15 miles of trails and a lake open for fishing. ; Ohiopyle State Park covers 20,500 acres along the Youghiogheny River gorge, a whitewater destination. ; The Great Allegheny Passage is a 150-mile rail trail between Pittsburgh and Cumberland, Maryland, used for hiking and cycling.
+sports: The Johnstown Tomahawks ice hockey team plays in Johnstown.
+cost: Housing costs are well below the U.S. average, and grocery, utility and miscellaneous costs are also below it.
+climate: Somerset has cold winters and mild summers. Typical highs are about 31 °F in January and about 74 °F in July.
+vets: The nearest VA clinic listed is in Johnstown. ; The VA system's main location is in Altoona.
+around: Johnstown is roughly 35 to 40 minutes away. ; Bedford, roughly 40 to 50 minutes away, has the Fort Bedford Museum. ; Ohiopyle and Cumberland, Maryland, are each roughly an hour away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Somerset,_Pennsylvania ; https://en.wikipedia.org/wiki/Flight_93_National_Memorial ; https://en.wikipedia.org/wiki/Laurel_Hill_State_Park ; https://en.wikipedia.org/wiki/Ohiopyle_State_Park ; https://en.wikipedia.org/wiki/Great_Allegheny_Passage ; https://en.wikipedia.org/wiki/Johnstown,_Pennsylvania ; https://en.wikipedia.org/wiki/Bedford,_Pennsylvania ; https://en.wikipedia.org/wiki/Cumberland,_Maryland ; https://www.va.gov/altoona-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/pennsylvania/somerset
+
+## PA|Lansdale
+intro: Lansdale is a borough in Montgomery County, Pennsylvania, with about 19,000 residents. It is a commuter town in the North Penn Valley, 21 miles north of Philadelphia.
+family: The Kugel Ball, a granite sphere that floats on a thin film of water, sits in Railroad Plaza by the downtown train station. ; The Mercer Museum in Doylestown displays pre-industrial hand tools and early American furnishings. ; Regional rail runs from Lansdale to Center City Philadelphia.
+outdoors: Peace Valley Park, a county park near Doylestown, surrounds Lake Galena and has over 14 miles of biking and hiking trails. ; Evansburg State Park has 26 miles of trails for hiking, horseback riding, cross-country skiing and mountain biking. ; Valley Forge National Historical Park, site of the Continental Army's winter encampment, has over 30 miles of trails.
+sports: Philadelphia's professional sports teams are roughly 40 minutes away. ; Delaware Valley University in Doylestown fields teams in football, lacrosse, soccer, basketball and other sports.
+cost: Housing, grocery, utility and miscellaneous costs are all above the U.S. average, with housing the furthest above it.
+climate: Summers are hot and humid and winters are cool to cold. In nearby Norristown, typical highs run from about 42 °F in January to about 89 °F in July.
+vets: The nearest VA clinic listed is in Horsham. ; The VA system's main location is in Philadelphia.
+around: Doylestown, the Bucks County seat, is roughly 20 minutes away. ; Norristown, the Montgomery County seat, is roughly 20 to 25 minutes away. ; Philadelphia is roughly 40 minutes away, and Allentown is roughly 45 minutes away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Lansdale,_Pennsylvania ; https://en.wikipedia.org/wiki/Doylestown,_Pennsylvania ; https://en.wikipedia.org/wiki/Norristown,_Pennsylvania ; https://en.wikipedia.org/wiki/King_of_Prussia,_Pennsylvania ; https://en.wikipedia.org/wiki/Philadelphia ; https://en.wikipedia.org/wiki/Allentown,_Pennsylvania ; https://en.wikipedia.org/wiki/Valley_Forge_National_Historical_Park ; https://en.wikipedia.org/wiki/Peace_Valley_Park ; https://en.wikipedia.org/wiki/Evansburg_State_Park ; https://en.wikipedia.org/wiki/Mercer_Museum ; https://www.va.gov/philadelphia-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/pennsylvania/lansdale

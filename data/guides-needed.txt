@@ -1,11 +1,4 @@
-PA|Lansdale
-PA|Media
 PA|North East
-PA|Sayre
-PA|Somerset
-SC|Camden
-SC|Orangeburg
-SD|Hot Springs
 SD|Rapid City
 TX|El Paso
 TX|Lockhart
