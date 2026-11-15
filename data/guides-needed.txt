@@ -1,0 +1,131 @@
+AL|Evergreen
+AL|Semmes
+AR|Arkadelphia
+AZ|Florence
+AZ|Fort Mohave
+AZ|Goodyear
+AZ|Parker
+AZ|Payson
+AZ|Phoenix
+AZ|Prescott
+AZ|Quartzsite
+AZ|Rio Rico
+AZ|Show Low
+AZ|Tucson
+AZ|Willcox
+AZ|Williams
+AZ|Yuma
+CA|Bakersfield
+CA|Barstow
+CA|Big Bear
+CA|Blythe
+CA|Borrego Springs
+CA|Fresno
+CA|Merced
+CA|Ridgecrest
+CA|Stanford
+CA|Thermal
+CA|Twentynine Palms
+CA|Victorville
+CA|Visalia
+CO|Frisco
+CO|Greenwood Village
+CO|Holyoke
+CO|Lakewood
+CO|Lone Tree
+DE|Georgetown
+DE|Newark
+DE|Wilmington
+FL|Bartow
+FL|Defuniak Springs
+FL|Old Town
+FL|Panacea
+FL|Pensacola
+FL|Stuart
+FL|Venice
+GA|Atlanta
+GA|Griffin
+GA|Hinesville
+GA|Kennesaw
+GA|Newnan
+IA|Audubon
+IA|Clinton
+IA|Davenport
+IA|Des Moines
+IA|Fort Dodge
+IA|Sioux City
+ID|Driggs
+ID|Idaho Falls
+IL|Cahokia
+IL|Effingham
+IL|Granite City
+IL|Highland
+IL|McHenry
+IL|Murphysboro
+IL|Olney
+IL|Sparta
+IL|Springfield
+IL|Urbana
+IN|Elkhart
+KS|Liberal
+KS|Wichita
+KY|Bedford
+KY|Glasgow
+KY|Jamestown
+KY|Melber
+KY|Somerset
+MO|Joplin
+MO|St Louis
+NE|Crete
+NE|Kearney
+NE|Norfolk
+NE|North Platte
+NE|Omaha
+NJ|Woodbine
+NM|Alamogordo
+NM|Artesia
+NM|Carlsbad
+NM|Deming
+NM|Farmington
+NM|Las Cruces
+NM|Roswell
+NM|Silver City
+NM|Taos
+NV|Fallon
+NV|Pahrump
+NY|Dexter
+NY|Harris
+NY|Johnstown
+NY|Potsdam
+NY|Sidney
+NY|Wallkill
+NY|Westernville
+OH|Hamilton
+OK|Stillwater
+PA|Hazleton
+PA|Lansdale
+PA|Media
+PA|North East
+PA|Sayre
+PA|Somerset
+PA|West Mifflin
+SC|Camden
+SC|Orangeburg
+SD|Hot Springs
+SD|Rapid City
+TN|Nashville
+TX|El Paso
+TX|Lockhart
+TX|Snyder
+TX|Uvalde
+UT|Lehi
+VA|Danville
+VA|Martinsville
+WA|Bremerton
+WA|Yakima
+WI|Green Bay
+WV|Beaver
+WV|Martinsburg
+WV|Moundsville
+WY|Casper
+WY|Evanston

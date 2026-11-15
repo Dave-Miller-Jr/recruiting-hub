@@ -93,6 +93,23 @@ def wings(title):
     k = k_pilot(title)
     return [w for key, w in (("helicopter", "Rotor wing"), ("fixed", "Fixed wing")) if key in k]
 
+GUIDE_KEYS = ["intro", "family", "outdoors", "food", "sports", "cost", "climate", "vets", "around", "src", "checked"]
+def load_guides():
+    """City guides from data/guides/*.txt. Only researched, source-checked text belongs in those files.
+    Format: '## ST|City' then 'key: item ; item' lines. A section that is missing is simply not shown."""
+    import glob
+    out = {}
+    for f in sorted(glob.glob(os.path.join(DATA, "guides", "*.txt"))):
+        cur = None
+        for line in open(f, encoding="utf-8"):
+            line = line.strip()
+            if line.startswith("## "): cur = out.setdefault(line[3:].strip(), {}); continue
+            m = re.match(r"(\w+):\s*(.+)", line)
+            if cur is None or not m or m.group(1) not in GUIDE_KEYS: continue
+            k, v = m.group(1), m.group(2).strip()
+            cur[k] = v if k in ("intro", "cost", "climate", "checked") else [x.strip() for x in v.split(" ; ") if x.strip()]
+    return {k: v for k, v in out.items() if v.get("intro")}
+
 def load_places():
     g = json.load(open(os.path.join(DATA, "us-places.json")))
     g.update({k: v for k, v in json.load(open(os.path.join(DATA, "place-overrides.json"))).items() if not k.startswith("_")})
@@ -224,6 +241,12 @@ def main():
                 off.setdefault((j["st"], j["city"]), dict(st=j["st"], city=j["city"], jobs=[]))["jobs"].append(slim)
                 if j["st"] != "ZZ" and j["city"] not in ("Home-based", "See posting for location"): print("NOT ON MAP (no coordinates): %s, %s" % (j["city"], j["st"]))
         mboards.append(dict(key=b["key"], label=b["nav"], places=list(on.values()), off=list(off.values())))
+    guides = load_guides()
+    need = sorted({p["st"] + "|" + p["city"] for mb in mboards for p in mb["places"]} - set(guides))
+    used = {k: v for k, v in guides.items() if any(p["st"] + "|" + p["city"] == k for mb in mboards for p in mb["places"])}
+    json.dump(used, open(os.path.join(SITE, "guides.json"), "w", encoding="utf-8"), ensure_ascii=False)
+    open(os.path.join(DATA, "guides-needed.txt"), "w").write("\n".join(need) + "\n")
+    print("City guides: %d shown, %d cities with openings still need one (data/guides-needed.txt)" % (len(used), len(need)))
     mp = open(os.path.join(TPL, "map.html"), encoding="utf-8").read()
     assert "/*__DATA__*/" in mp
     blob = json.dumps(dict(updated=today, portal=PORTAL, states=STATES, boards=mboards), ensure_ascii=False).replace("</", "<\\/")

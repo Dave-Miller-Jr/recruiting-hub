@@ -69,6 +69,18 @@ main.wrap{padding-block:12px 40px}
 .fact{border-radius:8px;padding:6px 10px;font:700 15px/1.2 var(--display);letter-spacing:.02em;background:var(--air-bg);color:var(--air)}
 .fact.alt{background:var(--chip);color:var(--ink)}
 .src{font-size:12px;color:var(--muted);margin-top:8px}
+.guide{border-bottom:1px solid var(--line)}
+.guide>button{width:100%;text-align:left;border:0;background:none;padding:13px 16px;font:600 15.5px var(--body);color:var(--accent);min-height:48px;display:flex;justify-content:space-between;gap:10px;align-items:center}
+.guide>button::after{content:"▾";font-size:14px}
+.guide>button[aria-expanded="true"]::after{content:"▴"}
+.guide .in{padding:0 16px 14px}
+.guide .intro{margin:0 0 10px}
+.guide .tabs{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.guide ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:6px}
+.guide p{margin:0}
+.guide .srcs{margin-top:12px;font-size:12px;color:var(--muted)}
+.guide .srcs a{color:inherit;word-break:break-all}
+.guide .srcs summary{cursor:pointer;padding:4px 0}
 .hint{padding:18px 16px;color:var(--muted)}
 a.job{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:center;padding:12px 16px;color:inherit;text-decoration:none;min-height:56px}
 a.job+a.job{border-top:1px dashed var(--line)}
@@ -110,7 +122,7 @@ footer a{color:inherit}
     <section class="panel" id="panel" aria-live="polite"></section>
   </div>
   <details class="off" id="off" hidden><summary id="offSum"></summary><div id="offIn"></div></details>
-  <footer>Dots are placed at the city of each posting, not the exact base address. Aircraft, VFR or IFR, and rotor or fixed wing are shown only where a posting for that city states them. Listings are read from the Air Methods careers site once a day. This is a quick reference kept by the recruiting team, not the official careers site. The posting on <a id="portal" target="_blank" rel="noopener">careers-airmethods.icims.com</a> is always the official version.</footer>
+  <footer>Dots are placed at the city of each posting, not the exact base address. Aircraft, VFR or IFR, and rotor or fixed wing are shown only where a posting for that city states them. City guides are general overviews checked against public sources; things change, so confirm details before you rely on them. Listings are read from the Air Methods careers site once a day. This is a quick reference kept by the recruiting team, not the official careers site. The posting on <a id="portal" target="_blank" rel="noopener">careers-airmethods.icims.com</a> is always the official version.</footer>
 </main>
 
 <script src="vendor/leaflet/leaflet.js"></script>
@@ -123,7 +135,25 @@ const url = id => DATA.portal + "/jobs/" + id + "/job";
 const plural = (n, w) => n + " " + w + (n === 1 ? "" : "s");
 const q = new URLSearchParams(location.search);
 let board = DATA.boards.find(b => b.key === q.get("b")) || DATA.boards[0];
-let ac = "all", fr = "all", sel = null;
+let ac = "all", fr = "all", sel = null, GUIDES = {}, gOpen = false, gTab = null;
+const TOPICS = [["family", "Family"], ["outdoors", "Outdoors"], ["food", "Food and nightlife"], ["sports", "Sports and game day"], ["cost", "Cost of living and housing"], ["climate", "Climate and seasons"], ["vets", "Veteran friendly"], ["around", "Getting around"]];
+fetch("guides.json").then(r => r.json()).then(g => { GUIDES = g; if (sel) panel(); }).catch(() => {});
+function guide(p) {
+  const g = GUIDES[p.st + "|" + p.city]; if (!g) return null;
+  const box = el("div", "guide"), btn = el("button", "", gOpen ? "Hide living in " + p.city : "View living in " + p.city);
+  btn.type = "button"; btn.setAttribute("aria-expanded", String(gOpen)); btn.onclick = () => { gOpen = !gOpen; panel(); };
+  box.appendChild(btn); if (!gOpen) return box;
+  const inn = el("div", "in"); inn.appendChild(el("p", "intro", g.intro));
+  const have = TOPICS.filter(([k]) => g[k] && g[k].length); if (!have.some(([k]) => k === gTab)) gTab = have.length ? have[0][0] : null;
+  const tabs = el("div", "tabs");
+  have.forEach(([k, label]) => { const b = el("button", "f sm", label); b.type = "button"; b.setAttribute("aria-pressed", String(k === gTab)); b.onclick = () => { gTab = k; panel(); }; tabs.appendChild(b); });
+  inn.appendChild(tabs);
+  if (gTab) { const v = g[gTab];
+    if (Array.isArray(v)) { const ul = el("ul"); v.forEach(x => ul.appendChild(el("li", "", x))); inn.appendChild(ul); } else inn.appendChild(el("p", "", v)); }
+  const s = el("details", "srcs"); s.appendChild(el("summary", "", "General guide" + (g.checked ? ", checked " + g.checked : "") + ". Sources"));
+  (g.src || []).forEach(u => { const d = el("div"), a = el("a", "", u.replace(/^https?:\/\/(www\.)?/, "")); a.href = u; a.target = "_blank"; a.rel = "noopener"; d.appendChild(a); s.appendChild(d); });
+  inn.appendChild(s); box.appendChild(inn); return box;
+}
 
 const VIEWS = {"Lower 48": [[24.5, -124.8], [49.4, -66.9]], "Alaska": [[54, -170], [71.5, -130]], "Hawaii": [[18.8, -160.5], [22.4, -154.6]]};
 const map = L.map("map", {zoomSnap: 0.25, zoomDelta: 0.5, minZoom: 2, maxZoom: 11, attributionControl: false, maxBounds: [[5, -190], [75, -50]]});
@@ -172,6 +202,7 @@ function panel() {
     hd.appendChild(el("div", "src", "As named in current postings for " + p.city + "."));
   } else hd.appendChild(el("div", "src", "No current posting for " + p.city + " names the aircraft."));
   pn.appendChild(hd);
+  const gd = guide(p); if (gd) pn.appendChild(gd);
   p.jobs.forEach(j => pn.appendChild(jobRow(j)));
 }
 
@@ -196,7 +227,7 @@ function draw() {
     const n = p.jobs.length, small = innerWidth < 600 && map.getZoom() < 5, s = (n > 9 ? 30 : n > 1 ? 26 : 22) - (small ? 5 : 0);
     const mk = L.marker(p.ll, {icon: L.divIcon({className: "", iconSize: [s, s], html: '<div class="dot' + (p === sel ? " sel" : "") + '" style="width:' + s + 'px;height:' + s + 'px;font-size:' + (small ? 11 : 13) + 'px">' + n + "</div>"}),
       title: p.city + ", " + p.st + ": " + plural(n, "opening"), alt: p.city + ", " + p.st, keyboard: true, zIndexOffset: p === sel ? 1000 : 0});
-    mk.on("click", () => { sel = p; draw(); if (innerWidth < 900) $("panel").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest"}); });
+    mk.on("click", () => { sel = p; gOpen = false; draw(); if (innerWidth < 900) $("panel").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest"}); });
     mk.addTo(layer);
   });
   const vw = $("views"); vw.textContent = "";
