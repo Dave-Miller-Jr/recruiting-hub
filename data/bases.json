@@ -1,0 +1,1095 @@
+{
+ "_note": "Air Methods bases on the CAMTS accredited program bases map (map file dated February 2024, list page current as of October 24, 2026). City level only.",
+ "source": "https://www.camts.org/accreditedservices",
+ "bases": [
+  {
+   "st": "AL",
+   "city": "Cusseta",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "AL",
+   "city": "Evergreen",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "AL",
+   "city": "Semmes",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "AL",
+   "city": "Sylacauga",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "AZ",
+   "city": "Bullhead City",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "AZ",
+   "city": "Florence",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "AZ",
+   "city": "Fort Mohave",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "AZ",
+   "city": "Kingman",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "AZ",
+   "city": "Lake Havasu City",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "AZ",
+   "city": "Mesa",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "AZ",
+   "city": "Parker",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "AZ",
+   "city": "Payson",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "AZ",
+   "city": "Phoenix",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "AZ",
+   "city": "Prescott",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "AZ",
+   "city": "Prescott Valley",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "AZ",
+   "city": "Quartzsite",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "AZ",
+   "city": "Rio Rico",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "AZ",
+   "city": "Safford",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "AZ",
+   "city": "Show Low",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "AZ",
+   "city": "Tucson",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "AZ",
+   "city": "Yuma",
+   "wing": [
+    "Rotor wing",
+    "Fixed wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Barstow",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Big Bear City",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Borrego Springs",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Fort Hunter Liggett",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Fresno",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Fullerton",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Hemet",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Hesperia",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Imperial",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Merced",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Oceanside",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Orange",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Paso Robles",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Ridgecrest",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "San Bernardino",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "San Diego",
+   "wing": [
+    "Rotor wing",
+    "Fixed wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Thermal",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Twentynine Palms",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Victorville",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "CA",
+   "city": "Visalia",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "FL",
+   "city": "Fort Myers",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "FL",
+   "city": "Fort Pierce",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "FL",
+   "city": "Inverness",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "FL",
+   "city": "Jacksonville",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "FL",
+   "city": "Live Oak",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "FL",
+   "city": "Marianna",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "FL",
+   "city": "Niceville",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "FL",
+   "city": "North Port",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "FL",
+   "city": "Pensacola",
+   "wing": [
+    "Rotor wing",
+    "Fixed wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "FL",
+   "city": "Tampa",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "GA",
+   "city": "Blairsville",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "GA",
+   "city": "Cornelia",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "GA",
+   "city": "Griffin",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "GA",
+   "city": "Hinesville",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "GA",
+   "city": "Jasper",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "GA",
+   "city": "Kennesaw",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "GA",
+   "city": "Newnan",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "GA",
+   "city": "Oxford",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "GA",
+   "city": "Springfield",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "ID",
+   "city": "Driggs",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "North Central"
+  },
+  {
+   "st": "ID",
+   "city": "Idaho Falls",
+   "wing": [
+    "Rotor wing",
+    "Fixed wing"
+   ],
+   "region": "North Central"
+  },
+  {
+   "st": "ID",
+   "city": "Salmon",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "North Central"
+  },
+  {
+   "st": "IL",
+   "city": "Effingham",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "IL",
+   "city": "Granite City",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "IL",
+   "city": "Highland",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "IL",
+   "city": "Joliet",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "IL",
+   "city": "Litchfield",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "IL",
+   "city": "McHenry",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "IL",
+   "city": "Murphysboro",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "IL",
+   "city": "Sparta",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "IL",
+   "city": "Springfield",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "IN",
+   "city": "Corydon",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "KS",
+   "city": "Parsons",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "KY",
+   "city": "Bedford",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "KY",
+   "city": "Elizabethtown",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "KY",
+   "city": "Glasgow",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "KY",
+   "city": "Mt. Sterling",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "KY",
+   "city": "Somerset",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "MD",
+   "city": "Hagerstown",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Northeast"
+  },
+  {
+   "st": "MO",
+   "city": "Farmington",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "MO",
+   "city": "Joplin",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "MO",
+   "city": "Rolla",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "MO",
+   "city": "Sullivan",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Midwest"
+  },
+  {
+   "st": "MT",
+   "city": "West Yellowstone",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "North Central"
+  },
+  {
+   "st": "NC",
+   "city": "Lumberton",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Northeast"
+  },
+  {
+   "st": "NE",
+   "city": "Columbus",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "North Central"
+  },
+  {
+   "st": "NE",
+   "city": "Crete",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "North Central"
+  },
+  {
+   "st": "NE",
+   "city": "Kearney",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "North Central"
+  },
+  {
+   "st": "NE",
+   "city": "Norfolk",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "North Central"
+  },
+  {
+   "st": "NE",
+   "city": "North Platte",
+   "wing": [
+    "Rotor wing",
+    "Fixed wing"
+   ],
+   "region": "North Central"
+  },
+  {
+   "st": "NE",
+   "city": "Omaha",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "North Central"
+  },
+  {
+   "st": "NM",
+   "city": "Alamogordo",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "NM",
+   "city": "Carlsbad",
+   "wing": [
+    "Rotor wing",
+    "Fixed wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "NM",
+   "city": "Deming",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "NM",
+   "city": "Las Cruces",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "NM",
+   "city": "Portales",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "NM",
+   "city": "Roswell",
+   "wing": [
+    "Rotor wing",
+    "Fixed wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "NM",
+   "city": "Silver City",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "NM",
+   "city": "Taos",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "NV",
+   "city": "Henderson",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "NV",
+   "city": "Mesquite",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "NV",
+   "city": "Pahrump",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "PacWest"
+  },
+  {
+   "st": "NY",
+   "city": "Dexter",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Northeast"
+  },
+  {
+   "st": "NY",
+   "city": "Gettysburg",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Northeast"
+  },
+  {
+   "st": "NY",
+   "city": "Harris",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Northeast"
+  },
+  {
+   "st": "NY",
+   "city": "Hornell",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Northeast"
+  },
+  {
+   "st": "NY",
+   "city": "Johnstown",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Northeast"
+  },
+  {
+   "st": "NY",
+   "city": "Potsdam",
+   "wing": [
+    "Fixed wing"
+   ],
+   "region": "Northeast"
+  },
+  {
+   "st": "NY",
+   "city": "Selkirk",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Northeast"
+  },
+  {
+   "st": "NY",
+   "city": "Seneca Falls",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Northeast"
+  },
+  {
+   "st": "NY",
+   "city": "Sidney",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Northeast"
+  },
+  {
+   "st": "NY",
+   "city": "Ticonderoga",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Northeast"
+  },
+  {
+   "st": "NY",
+   "city": "Wallkill",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Northeast"
+  },
+  {
+   "st": "OK",
+   "city": "Okmulgee",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "OK",
+   "city": "Pryor",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "OK",
+   "city": "Stillwater",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "PA",
+   "city": "Sayre",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Northeast"
+  },
+  {
+   "st": "SC",
+   "city": "Camden",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "SC",
+   "city": "Orangeburg",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "SC",
+   "city": "Pickens",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Southeast"
+  },
+  {
+   "st": "SD",
+   "city": "Hot Springs",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "North Central"
+  },
+  {
+   "st": "SD",
+   "city": "Rapid City",
+   "wing": [
+    "Rotor wing",
+    "Fixed wing"
+   ],
+   "region": "North Central"
+  },
+  {
+   "st": "TX",
+   "city": "El Paso",
+   "wing": [
+    "Fixed wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "TX",
+   "city": "Kerrville",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "TX",
+   "city": "Pleasanton",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "TX",
+   "city": "San Antonio",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "TX",
+   "city": "Snyder",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "TX",
+   "city": "Uvalde",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "TX",
+   "city": "Waco",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "South Central"
+  },
+  {
+   "st": "UT",
+   "city": "Cedar City",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "North Central"
+  },
+  {
+   "st": "UT",
+   "city": "Ogden",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "North Central"
+  },
+  {
+   "st": "UT",
+   "city": "Orem",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "North Central"
+  },
+  {
+   "st": "VA",
+   "city": "Martinsville",
+   "wing": [
+    "Rotor wing"
+   ],
+   "region": "Northeast"
+  },
+  {
+   "st": "WY",
+   "city": "Casper",
+   "wing": [
+    "Rotor wing",
+    "Fixed wing"
+   ],
+   "region": "North Central"
+  }
+ ]
+}

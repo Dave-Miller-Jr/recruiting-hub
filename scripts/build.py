@@ -253,9 +253,15 @@ def main():
     json.dump(used, open(os.path.join(SITE, "guides.json"), "w", encoding="utf-8"), ensure_ascii=False)
     open(os.path.join(DATA, "guides-needed.txt"), "w").write("\n".join(need) + "\n")
     print("City guides: %d shown, %d cities with openings still need one (data/guides-needed.txt)" % (len(used), len(need)))
+    # Every Air Methods base on the CAMTS accredited bases map, hiring or not (data/bases.json from scripts/make_bases.py).
+    bases, bases_off = [], []
+    for b in json.load(open(os.path.join(DATA, "bases.json"), encoding="utf-8"))["bases"]:
+        ll = locate(g, b["st"], b["city"])
+        if ll: bases.append(dict(st=b["st"], city=b["city"], ll=ll, wing=b["wing"], region=b["region"], ac=city_ac.get((b["st"], b["city"]), [])))
+        else: bases_off.append(b["city"] + ", " + b["st"])
     mp = open(os.path.join(TPL, "map.html"), encoding="utf-8").read()
     assert "/*__DATA__*/" in mp
-    blob = json.dumps(dict(updated=today, portal=PORTAL, states=STATES, boards=mboards), ensure_ascii=False).replace("</", "<\\/")
+    blob = json.dumps(dict(updated=today, portal=PORTAL, states=STATES, boards=mboards, bases=bases, basesOff=bases_off), ensure_ascii=False).replace("</", "<\\/")
     open(os.path.join(SITE, "map.html"), "w", encoding="utf-8").write(mp.replace("/*__DATA__*/", blob))
 
     # Closest-opening lookup: bases per role, so a ZIP code can be matched to the nearest base hiring for that role.

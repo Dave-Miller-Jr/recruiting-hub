@@ -90,6 +90,8 @@ main.wrap{padding-block:12px 40px}
 .guide .srcs{margin-top:12px;font-size:12px;color:var(--muted)}
 .guide .srcs a{color:inherit;word-break:break-all}
 .guide .srcs summary{cursor:pointer;padding:4px 0}
+.basedot{width:12px;height:12px;border-radius:999px;background:var(--land);border:3px solid var(--air);box-shadow:0 1px 2px rgba(0,0,0,.3)}
+.basedot.sel{border-color:var(--accent);transform:scale(1.4)}
 .hint{padding:18px 16px;color:var(--muted)}
 a.job{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:center;padding:12px 16px;color:inherit;text-decoration:none;min-height:56px}
 a.job+a.job{border-top:1px dashed var(--line)}
@@ -124,6 +126,7 @@ footer a{color:inherit}
 
 <main class="wrap">
   <div class="row" id="boards" role="group" aria-label="Choose a map"></div>
+  <div class="row" id="basesRow"></div>
   <div id="acWrap" hidden><div class="lab">Aircraft named in postings</div><div class="row" id="acs" role="group" aria-label="Filter by aircraft"></div></div>
   <div id="frWrap" hidden><div class="lab">Base type</div><div class="row" id="frs" role="group" aria-label="Filter by base type"></div></div>
   <div class="grid">
@@ -132,7 +135,7 @@ footer a{color:inherit}
     <section class="panel" id="panel" aria-live="polite"></section>
   </div>
   <details class="off" id="off" hidden><summary id="offSum"></summary><div id="offIn"></div></details>
-  <footer>Background map &copy; OpenStreetMap contributors. Dots are placed at the city of each posting, not the exact base address. Aircraft, VFR or IFR, and rotor or fixed wing are shown only where a posting for that city states them. City guides are general overviews checked against public sources; drive times are routing estimates and vary with traffic and weather; things change, so confirm details before you rely on them. Listings are read from the Air Methods careers site once a day. This is a quick reference kept by the recruiting team, not the official careers site. The posting on <a id="portal" target="_blank" rel="noopener">careers-airmethods.icims.com</a> is always the official version.</footer>
+  <footer>The all bases view shows Air Methods bases listed on the <a href="https://www.camts.org/accreditedservices" target="_blank" rel="noopener">CAMTS accredited services</a> bases map (map dated February 2024), placed at the city, so it can be missing newer bases or bases that are not on that map. Background map &copy; OpenStreetMap contributors. Dots are placed at the city of each posting, not the exact base address. Aircraft, VFR or IFR, and rotor or fixed wing are shown only where a posting for that city states them. City guides are general overviews checked against public sources; drive times are routing estimates and vary with traffic and weather; things change, so confirm details before you rely on them. Listings are read from the Air Methods careers site once a day. This is a quick reference kept by the recruiting team, not the official careers site. The posting on <a id="portal" target="_blank" rel="noopener">careers-airmethods.icims.com</a> is always the official version.</footer>
 </main>
 
 <script src="vendor/leaflet/leaflet.js"></script>
@@ -145,6 +148,7 @@ const url = id => DATA.portal + "/jobs/" + id + "/job";
 const plural = (n, w) => n + " " + w + (n === 1 ? "" : "s");
 const q = new URLSearchParams(location.search);
 let board = DATA.boards.find(b => b.key === (q.get("b") === "clinical" ? "nurses" : q.get("b"))) || DATA.boards[0];
+let showBases = false;
 let ac = "all", fr = "all", sel = null, GUIDES = {}, gOpen = false, gTab = null;
 const TOPICS = [["family", "Family"], ["outdoors", "Outdoors"], ["food", "Food and nightlife"], ["sports", "Sports and game day"], ["cost", "Cost of living and housing"], ["climate", "Climate and seasons"], ["vets", "Veteran friendly"], ["around", "Getting around"]];
 fetch("guides.json").then(r => r.json()).then(g => { GUIDES = g; if (sel) panel(); }).catch(() => {});
@@ -228,6 +232,19 @@ function chips(box, wrap, values, cur, set) {
 function panel() {
   const pn = $("panel"); pn.textContent = "";
   const p = sel;
+  if (p && p.base) {
+    const hd = el("div", "hd");
+    hd.appendChild(el("h2", "", p.city + ", " + p.st));
+    hd.appendChild(el("div", "cnt", "Air Methods base"));
+    const f = el("div", "facts"); p.wing.forEach(x => f.appendChild(el("span", "fact alt", x))); p.ac.forEach(x => f.appendChild(el("span", "fact", x))); hd.appendChild(f);
+    hd.appendChild(el("div", "src", "Base and rotor or fixed wing are from the CAMTS accredited program bases map (map dated February 2024)." + (p.ac.length ? " Aircraft are as named in current postings for " + p.city + "." : "") + " Bases can open, close or move, so confirm before you rely on it."));
+    pn.appendChild(hd);
+    const gd = guide(p); if (gd) pn.appendChild(gd);
+    const here = board.places.find(x => x.st === p.st && x.city === p.city);
+    if (here) here.jobs.forEach(j => pn.appendChild(jobRow(j)));
+    else pn.appendChild(el("div", "hint", "No " + board.label.toLowerCase() + " openings posted here right now."));
+    return;
+  }
   if (!p) { pn.appendChild(el("div", "hint", shown().length ? "Tap a base on the map to see its openings. The number on each dot is how many roles are open there." : "No bases match these filters. Tap All to see every base.")); return; }
   const hd = el("div", "hd");
   hd.appendChild(el("h2", "", p.city + ", " + p.st));
@@ -260,6 +277,19 @@ function draw() {
   $("tag").textContent = plural(board.places.length, "base") + " with openings on the " + board.label.toLowerCase() + " map. Updated " + fmt(DATA.updated) + ".";
 
   layer.clearLayers();
+  const br = $("basesRow"); br.textContent = "";
+  if (DATA.bases && DATA.bases.length) {
+    const x = el("button", "f", showBases ? "Hide all bases" : "Show all bases"); x.type = "button"; x.setAttribute("aria-pressed", String(showBases)); x.appendChild(el("i", "", DATA.bases.length));
+    x.onclick = () => { showBases = !showBases; if (!showBases && sel && sel.base) sel = null; draw(); }; br.appendChild(x);
+    if (showBases) br.appendChild(el("span", "src", "Rings are Air Methods bases on the CAMTS accredited bases map, hiring or not. Numbered dots are bases with openings."));
+  }
+  if (showBases) DATA.bases.forEach(b => {
+    if (board.places.some(x => x.st === b.st && x.city === b.city && shown().includes(x))) return;   // the numbered dot already marks it
+    const mk = L.marker(b.ll, {icon: L.divIcon({className: "", iconSize: [12, 12], html: '<div class="basedot' + (sel && sel.base && sel.st === b.st && sel.city === b.city ? " sel" : "") + '"></div>'}),
+      title: b.city + ", " + b.st + ": Air Methods base", alt: b.city + ", " + b.st, keyboard: true, zIndexOffset: -500});
+    mk.on("click", () => { sel = Object.assign({base: true}, b); gOpen = false; draw(); if (innerWidth < 900) $("panel").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest"}); });
+    mk.addTo(layer);
+  });
   const ps = shown();
   ps.slice().sort((a, b) => b.ll[0] - a.ll[0]).forEach(p => {
     const n = p.jobs.length, small = innerWidth < 600 && map.getZoom() < 5, s = (n > 9 ? 30 : n > 1 ? 26 : 22) - (small ? 5 : 0);
