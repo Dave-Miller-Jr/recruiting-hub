@@ -1,11 +1,4 @@
 PA|North East
-SD|Rapid City
-TX|El Paso
-TX|Lockhart
-TX|Snyder
-TX|Uvalde
-UT|Lehi
-VA|Danville
 VA|Martinsville
 WA|Bremerton
 WA|Yakima

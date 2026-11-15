@@ -746,3 +746,87 @@ vets: The nearest VA clinic listed is in Horsham. ; The VA system's main locatio
 around: Doylestown, the Bucks County seat, is roughly 20 minutes away. ; Norristown, the Montgomery County seat, is roughly 20 to 25 minutes away. ; Philadelphia is roughly 40 minutes away, and Allentown is roughly 45 minutes away.
 checked: November 2026
 src: https://en.wikipedia.org/wiki/Lansdale,_Pennsylvania ; https://en.wikipedia.org/wiki/Doylestown,_Pennsylvania ; https://en.wikipedia.org/wiki/Norristown,_Pennsylvania ; https://en.wikipedia.org/wiki/King_of_Prussia,_Pennsylvania ; https://en.wikipedia.org/wiki/Philadelphia ; https://en.wikipedia.org/wiki/Allentown,_Pennsylvania ; https://en.wikipedia.org/wiki/Valley_Forge_National_Historical_Park ; https://en.wikipedia.org/wiki/Peace_Valley_Park ; https://en.wikipedia.org/wiki/Evansburg_State_Park ; https://en.wikipedia.org/wiki/Mercer_Museum ; https://www.va.gov/philadelphia-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/pennsylvania/lansdale
+
+## TX|Snyder
+intro: Snyder is a city of about 11,000 people and the county seat of Scurry County in West Texas. It is about 90 miles southeast of Lubbock and 80 miles northwest of Abilene.
+family: The courthouse grounds hold a statue of a white buffalo that recalls Snyder's start as a buffalo-trading post. ; Western Texas College is a public community college in Snyder. ; The West Texas Western Swing Festival is held in Snyder each June.
+outdoors: Lake Sweetwater in Sweetwater has public fishing and recreation areas. ; Comanche Trail Park in Big Spring is a 400-acre city park with a historic spring and trails. ; Moss Creek Lake near Big Spring has a swimming beach and a playground.
+sports: Western Texas College's teams are the Westerners and include rodeo, baseball, basketball and soccer. ; The Texas Tech Red Raiders play in Lubbock.
+cost: Housing costs are well below the U.S. average, and grocery and miscellaneous costs are below it. Utility costs are slightly above the U.S. average.
+climate: Summers are hot and winters are cool, with about 22 inches of rain and about 2 inches of snow a year. Typical highs are about 57 °F in January and about 96 °F in July.
+vets: The VA medical center for the area is in Big Spring. ; There is a VA clinic in Abilene.
+around: Sweetwater, roughly 40 minutes away, has the National WASP WWII Museum. ; Post, roughly 40 to 45 minutes away, has a downtown historic district and the Garza County Historical Museum. ; Lubbock, about 90 miles away, is home to Texas Tech University and the National Ranching Heritage Center.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Snyder,_Texas ; https://en.wikipedia.org/wiki/Western_Texas_College ; https://en.wikipedia.org/wiki/Lubbock,_Texas ; https://en.wikipedia.org/wiki/Sweetwater,_Texas ; https://en.wikipedia.org/wiki/Post,_Texas ; https://en.wikipedia.org/wiki/Big_Spring,_Texas ; https://www.va.gov/west-texas-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/texas/snyder
+
+## TX|Uvalde
+intro: Uvalde is the county seat of Uvalde County, at the southern edge of the Texas Hill Country and about 80 miles west of San Antonio. The city has roughly 15,000 residents.
+family: The John Nance Garner House covers the life of the former vice president, who lived there for 30 years. ; The Briscoe Art and Antique Collection displays the collection of former Texas governor Dolph Briscoe. ; The Janey Slaughter Briscoe Grand Opera House hosts community theater and concerts.
+outdoors: Garner State Park, on the Frio River and roughly 40 to 45 minutes away, offers hiking, canoeing and fishing. ; Lost Maples State Natural Area has 11 miles of hiking trails and is busiest in late October and early November.
+cost: Housing and grocery costs are well below the U.S. average and miscellaneous costs are below it. Utility costs are slightly above the U.S. average.
+climate: Summers are hot and humid and winters are mild and dry. In Hondo, the nearest town with a climate table checked, typical highs are about 65 °F in January and about 97 °F in July.
+vets: The VA system's main location is in San Antonio. ; VA clinics are also listed in Kerrville and New Braunfels.
+around: Sabinal is 22 miles east on U.S. Route 90, roughly 20 to 25 minutes away. ; Hondo, the county seat of Medina County, is roughly 40 to 45 minutes east. ; San Antonio is about 80 miles away, roughly an hour and a quarter to an hour and a half.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Uvalde,_Texas ; https://en.wikipedia.org/wiki/Garner_State_Park ; https://en.wikipedia.org/wiki/Lost_Maples_State_Natural_Area ; https://en.wikipedia.org/wiki/Sabinal,_Texas ; https://en.wikipedia.org/wiki/Hondo,_Texas ; https://en.wikipedia.org/wiki/San_Antonio ; https://www.va.gov/south-texas-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/texas/uvalde
+
+## TX|Lockhart
+intro: Lockhart is the county seat of Caldwell County, about 30 miles south of Austin, with a population of about 14,000.
+family: The Dr. Eugene Clark Library is a long-running public library in Lockhart. ; The historic courthouse and town square have been used as filming locations for several films. ; The Chisholm Trail Roundup is held each June.
+outdoors: Lockhart State Park, on the southwestern edge of town, has about four miles of trails and camping. ; The San Marcos River in San Marcos is used for tubing, canoeing, swimming and fishing. ; Bastrop State Park sits on the eastern edge of Bastrop.
+food: The Texas Legislature has named Lockhart the Barbecue Capital of Texas. ; The Luling Watermelon Thump is held each June in nearby Luling.
+sports: The Texas State Bobcats, the teams of Texas State University, play in San Marcos. ; Austin FC plays in Austin. ; The San Antonio Spurs play in San Antonio.
+cost: Housing, grocery and miscellaneous costs are below the U.S. average, while utility costs are slightly above it.
+climate: Lockhart has relatively high temperatures and rain spread through the year. In Luling, the nearest town with a climate table checked, typical highs are about 64 °F in January and about 97 °F in July.
+vets: The nearest VA clinic listed is in Austin, and the VA system's main location is in Temple. ; San Antonio is home to Fort Sam Houston and to Lackland and Randolph Air Force Bases.
+around: San Marcos, home of Texas State University, is roughly 25 minutes away. ; Austin, the state capital, is about 30 miles north, roughly 35 minutes away. ; San Antonio is about 70 miles southwest, roughly an hour to an hour and a quarter away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Lockhart,_Texas ; https://en.wikipedia.org/wiki/Lockhart_State_Park ; https://en.wikipedia.org/wiki/San_Marcos,_Texas ; https://en.wikipedia.org/wiki/Luling,_Texas ; https://en.wikipedia.org/wiki/Austin,_Texas ; https://en.wikipedia.org/wiki/Bastrop,_Texas ; https://en.wikipedia.org/wiki/San_Antonio ; https://www.va.gov/central-texas-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/texas/lockhart
+
+## UT|Lehi
+intro: Lehi is a city of about 76,000 people in Utah County, in the northern part of Utah Valley.
+family: Thanksgiving Point, a nonprofit museum complex and estate garden, includes the Museum of Ancient Life, Ashton Gardens and the Butterfly Biosphere. ; The Hutchings Museum, near the center of Lehi, has exhibits on Native American culture, geology, paleontology and local history. ; The downtown Lehi Main Street Historic District is listed on the National Register of Historic Places.
+outdoors: Utah Lake, a shallow freshwater lake in the center of Utah County, is used for fishing, boating, camping and picnicking. ; Timpanogos Cave National Monument, in American Fork Canyon, has guided cave tours in the warmer months. ; The Provo River Parkway is a paved bicycle and walking trail along the Provo River in Provo.
+sports: The Utah Jazz basketball team is based in Salt Lake City. ; Real Salt Lake, a professional soccer club, plays its home games in Sandy. ; The BYU Cougars are the teams of Brigham Young University in Provo.
+cost: Housing costs are well above the U.S. average, while grocery and utility costs are slightly below it.
+climate: Winters are cold and summers are hot. Typical highs are about 37 °F in January and about 90 °F in July.
+vets: The nearest VA clinic listed is in Orem. ; The VA system's main location is in Salt Lake City.
+around: Provo, home to Brigham Young University, is roughly 20 to 25 minutes away. ; Salt Lake City, the state capital, is roughly half an hour to 35 minutes away. ; Park City, a ski resort town, is roughly an hour away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Lehi,_Utah ; https://en.wikipedia.org/wiki/Utah_Lake ; https://en.wikipedia.org/wiki/Timpanogos_Cave_National_Monument ; https://en.wikipedia.org/wiki/Provo,_Utah ; https://en.wikipedia.org/wiki/Salt_Lake_City ; https://en.wikipedia.org/wiki/Orem,_Utah ; https://en.wikipedia.org/wiki/Park_City,_Utah ; https://en.wikipedia.org/wiki/Utah_Jazz ; https://en.wikipedia.org/wiki/Real_Salt_Lake ; https://en.wikipedia.org/wiki/BYU_Cougars ; https://www.va.gov/salt-lake-city-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/utah/lehi
+
+## VA|Danville
+intro: Danville is an independent city in Southside Virginia on the Dan River, at the North Carolina line. It has about 43,000 residents.
+family: The Danville Museum of Fine Arts and History is housed in the Italianate Sutherlin Mansion. ; A satellite of the Science Museum of Virginia occupies part of the renovated 1899 railway passenger station. ; Millionaire's Row is a historic area of late 19th and early 20th century homes.
+outdoors: The Dan River flows through the city on its way to Kerr Reservoir. ; Smith Mountain Lake, southwest of Lynchburg, has a state park.
+sports: The Danville Otterbots baseball club plays in Danville. ; Averett University's teams are the Cougars. ; The Martinsville Mustangs play summer baseball in Martinsville.
+cost: Housing costs are far below the U.S. average. Grocery and miscellaneous costs are a little below it, and utility costs are a little above it.
+climate: Winters are cool, with nights usually below freezing, and summers are hot and humid with frequent thunderstorms. Typical highs are about 49 °F in January and about 89 °F in July.
+vets: There is a VA clinic in Danville. ; The VA system's main location is in Salem.
+around: Martinsville, about 30 miles away, has the Virginia Museum of Natural History. ; Greensboro, North Carolina, about 45 miles away, has the Greensboro Science Center and the International Civil Rights Center and Museum. ; Lynchburg, about 70 miles away, has the Point of Honor house museum and Poplar Forest, Thomas Jefferson's plantation.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Danville,_Virginia ; https://en.wikipedia.org/wiki/Martinsville,_Virginia ; https://en.wikipedia.org/wiki/Greensboro,_North_Carolina ; https://en.wikipedia.org/wiki/Lynchburg,_Virginia ; https://en.wikipedia.org/wiki/Averett_University ; https://en.wikipedia.org/wiki/Dan_River_(Virginia) ; https://en.wikipedia.org/wiki/Smith_Mountain_Lake ; https://www.va.gov/salem-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/virginia/danville
+
+## SD|Rapid City
+intro: Rapid City is the county seat of Pennington County, on the eastern edge of the Black Hills. It has about 75,000 residents and is known as the Gateway to the Black Hills.
+family: Dinosaur Park, Storybook Island and Chapel in the Hills are among the city's attractions. ; Life-size bronze statues of presidents stand on downtown street corners. ; The Journey Museum is in Rapid City.
+outdoors: Black Hills National Forest lies immediately west and south of the city, with hiking trails and reservoirs stocked for fishing. ; Badlands National Park, east of the city, protects sharply eroded buttes and pinnacles. ; Custer State Park is in the neighboring Black Hills.
+sports: The Rapid City Rush are a professional ice hockey team based in the city.
+cost: Housing, utility and miscellaneous costs are somewhat below the U.S. average, while grocery costs are about the same as the U.S. average.
+climate: Winters are cold and dry, summers are generally pleasant, dry and sunny, and spring and autumn are short. Typical highs are about 36 °F in January and about 86 °F in July.
+vets: There is a VA clinic in Rapid City, and the VA medical centers for the area are in Fort Meade and Hot Springs. ; Ellsworth Air Force Base is just outside the city.
+around: Keystone, beside Mount Rushmore National Memorial, is roughly 25 minutes to half an hour away. ; Sturgis, roughly half an hour to 35 minutes away, hosts the Sturgis Motorcycle Rally each August. ; Custer, roughly 50 minutes to an hour away, is close to Custer State Park.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Rapid_City,_South_Dakota ; https://en.wikipedia.org/wiki/Badlands_National_Park ; https://en.wikipedia.org/wiki/Black_Hills_National_Forest ; https://en.wikipedia.org/wiki/Rapid_City_Rush ; https://en.wikipedia.org/wiki/Keystone,_South_Dakota ; https://en.wikipedia.org/wiki/Sturgis,_South_Dakota ; https://en.wikipedia.org/wiki/Custer,_South_Dakota ; https://www.va.gov/black-hills-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/south_dakota/rapid_city
+
+## TX|El Paso
+intro: El Paso is the county seat of El Paso County in West Texas, across the Rio Grande from Ciudad Juárez, Mexico. It has about 680,000 residents.
+family: Chamizal National Memorial is a National Park Service site with galleries, a theater and a museum on the history of the U.S.-Mexico border. ; Ysleta Mission, Socorro Mission and San Elizario Chapel are Spanish-era missions that still serve as churches.
+outdoors: Franklin Mountains State Park covers about 24,000 acres and lies entirely within El Paso. ; McKelligon Canyon, in the Franklin Mountains, is open to hikers and picnickers. ; Hueco Tanks State Park, about 32 miles northeast, has rock paintings, and most of the park is visited on guided tours.
+sports: The UTEP Miners are the teams of the University of Texas at El Paso. ; The El Paso Chihuahuas are a professional baseball team that plays downtown. ; El Paso Locomotive FC is a professional soccer team that also plays downtown.
+cost: Housing, grocery, utility and miscellaneous costs are all below the U.S. average, with housing the furthest below it.
+climate: El Paso has a desert climate with hot summers, little humidity and cool to mild, dry winters. Typical highs are about 59 °F in January and about 97 °F in June, the warmest month.
+vets: The VA system's main location is in El Paso, with another clinic in Las Cruces, New Mexico. ; Fort Bliss is in the El Paso area.
+around: Las Cruces, New Mexico, home to New Mexico State University, is roughly 45 minutes away. ; Alamogordo, New Mexico, near White Sands National Park, is roughly an hour and a quarter to an hour and a half away. ; Van Horn is about 117 miles east on Interstate 10.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/El_Paso,_Texas ; https://en.wikipedia.org/wiki/Las_Cruces,_New_Mexico ; https://en.wikipedia.org/wiki/Alamogordo,_New_Mexico ; https://en.wikipedia.org/wiki/Van_Horn,_Texas ; https://en.wikipedia.org/wiki/Hueco_Tanks_State_Park_and_Historic_Site ; https://en.wikipedia.org/wiki/Chamizal_National_Memorial ; https://en.wikipedia.org/wiki/El_Paso_Chihuahuas ; https://en.wikipedia.org/wiki/El_Paso_Locomotive_FC ; https://en.wikipedia.org/wiki/UTEP_Miners ; https://www.va.gov/el-paso-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/texas/el_paso
