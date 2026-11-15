@@ -504,3 +504,84 @@ vets: The nearest VA clinic listed is in Las Cruces, and the VA system's main lo
 around: Tularosa, roughly 25 minutes north, is a village known for its cottonwood shade trees and adobe-style architecture. ; Ruidoso, roughly an hour to an hour and a quarter away, is a mountain resort community near the Ski Apache ski area. ; Las Cruces, roughly an hour to an hour and a quarter away, is home to New Mexico State University.
 checked: November 2026
 src: https://en.wikipedia.org/wiki/Alamogordo,_New_Mexico ; https://en.wikipedia.org/wiki/White_Sands_National_Park ; https://en.wikipedia.org/wiki/New_Mexico_Museum_of_Space_History ; https://en.wikipedia.org/wiki/Oliver_Lee_Memorial_State_Park ; https://en.wikipedia.org/wiki/Three_Rivers_Petroglyph_Site ; https://en.wikipedia.org/wiki/Las_Cruces,_New_Mexico ; https://en.wikipedia.org/wiki/Ruidoso,_New_Mexico ; https://en.wikipedia.org/wiki/Tularosa,_New_Mexico ; https://www.va.gov/el-paso-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_mexico/alamogordo
+
+## NM|Roswell
+intro: Roswell is the county seat of Chaves County in southeastern New Mexico, with a population of about 48,000.
+family: The International UFO Museum and Research Center has exhibits and a research library on UFO history. ; The Roswell Museum and Art Center has a planetarium, a fine art collection and a recreation of Robert H. Goddard's rocket workshop. ; POW/MIA Park displays a piece of the Berlin Wall.
+outdoors: Bottomless Lakes State Park, southeast of Roswell, has nine small, deep lakes, and Lea Lake is the one where swimming is allowed. ; Bitter Lake National Wildlife Refuge lies a few miles northeast of the city on the Pecos River.
+sports: The Roswell Invaders baseball team plays its home games in Roswell.
+cost: Housing and grocery costs are below the U.S. average, and utilities and miscellaneous costs are also below it.
+climate: Roswell has four distinct seasons, with cool, usually sunny winters, a mild spring, hot summers and a summer monsoon that brings heavy rain. Typical highs are about 57 °F in January and about 97 °F in July.
+vets: The nearest VA clinic listed is in Artesia, about 40 miles south. ; The VA system's main location is in Albuquerque.
+around: Artesia, about 40 miles south on U.S. Route 285, is roughly 45 minutes away. ; Carlsbad, about 76 miles south on U.S. Route 285, is roughly an hour and a quarter to an hour and a half away. ; Ruidoso, about 70 miles west, is a mountain resort village next to the Lincoln National Forest.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Roswell,_New_Mexico ; https://en.wikipedia.org/wiki/International_UFO_Museum_and_Research_Center ; https://en.wikipedia.org/wiki/Bottomless_Lakes_State_Park ; https://en.wikipedia.org/wiki/Artesia,_New_Mexico ; https://en.wikipedia.org/wiki/Carlsbad,_New_Mexico ; https://en.wikipedia.org/wiki/Ruidoso,_New_Mexico ; https://www.va.gov/new-mexico-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_mexico/roswell
+
+## NM|Silver City
+intro: Silver City is the county seat of Grant County in southwest New Mexico, with a population of roughly 10,000. It is the home of Western New Mexico University.
+family: Big Ditch Park runs through the downtown area. ; The Silver City Blues Festival is held each May.
+outdoors: Gila National Forest, with headquarters in Silver City, covers approximately 2.7 million acres and includes the Gila Wilderness. ; Gila Cliff Dwellings National Monument, about 45 miles north on NM 15, has a one-mile loop trail to Mogollon cliff dwellings. ; Lake Roberts, about 27 miles north on NM 15, has trout, catfish and bass fishing.
+sports: The Western New Mexico Mustangs are the athletic teams of Western New Mexico University in Silver City. ; Their sports include basketball, cross country, football, golf, tennis, and track and field.
+cost: Housing costs are well below the U.S. average, while grocery, utility and miscellaneous costs are a little below it.
+climate: Winters are cool and spring is dry, with monsoon rains from July to September. Typical highs are about 49 °F in January and about 86 °F in June.
+vets: There is a VA clinic in Silver City. ; The VA system's main location is in Albuquerque.
+around: Bayard, about 10 miles east on U.S. Route 180, is roughly 15 to 20 minutes away. ; Lordsburg, about 45 miles southwest, is roughly 50 minutes to an hour away. ; Deming, about 52 miles away on U.S. Route 180, is roughly an hour away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Silver_City,_New_Mexico ; https://en.wikipedia.org/wiki/Gila_National_Forest ; https://en.wikipedia.org/wiki/Gila_Cliff_Dwellings_National_Monument ; https://en.wikipedia.org/wiki/Western_New_Mexico_Mustangs ; https://en.wikipedia.org/wiki/Bayard,_New_Mexico ; https://en.wikipedia.org/wiki/Lordsburg,_New_Mexico ; https://en.wikipedia.org/wiki/Deming,_New_Mexico ; https://www.va.gov/new-mexico-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_mexico/silver_city
+
+## NM|Taos
+intro: Taos is the county seat of Taos County in north-central New Mexico, with a population of about 6,500. It sits between the Rio Grande Gorge and the Sangre de Cristo Mountains.
+family: Taos Plaza is the center of the downtown historic district. ; The Fiestas de Taos, a community celebration, is held on the plaza each July. ; Taos Pueblo, a UNESCO World Heritage Site about 3 miles north of town, has been occupied for nearly a millennium.
+outdoors: The Carson National Forest and Rio Grande del Norte National Monument offer hiking, skiing, fly fishing, horseback riding and mountain biking. ; The Rio Grande Gorge lies just west of town and is crossed by the Rio Grande Gorge Bridge on U.S. Route 64. ; Wheeler Peak is just north of town, and the area has ski areas including Taos Ski Valley.
+cost: Housing and utility costs are above the U.S. average, while grocery and miscellaneous costs are close to it.
+climate: Taos has large daily temperature swings, with cool nights even on hot summer days. Typical highs are about 42 °F in January and about 87 °F in July, and snowfall averages about 28 inches a year.
+vets: There is a VA clinic in Taos. ; Other VA clinics are in Española and Santa Fe.
+around: Angel Fire is 21 miles away on U.S. Route 64, over Palo Flechado Pass. ; Red River is 36 miles away on the Enchanted Circle Scenic Byway, roughly an hour by car. ; Santa Fe, the state capital, is roughly an hour and a half away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Taos,_New_Mexico ; https://en.wikipedia.org/wiki/Santa_Fe,_New_Mexico ; https://en.wikipedia.org/wiki/Angel_Fire,_New_Mexico ; https://en.wikipedia.org/wiki/Red_River,_New_Mexico ; https://www.va.gov/new-mexico-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_mexico/taos
+
+## NV|Fallon
+intro: Fallon is the county seat of Churchill County in western Nevada, in the Lahontan Valley, with about 9,300 residents. Naval Air Station Fallon sits southeast of the city center.
+family: Fallon has a public library, the Churchill County Library. ; The city holds an annual cantaloupe festival.
+outdoors: Lahontan State Recreation Area, about 18 miles west, surrounds Lake Lahontan and offers boating, fishing and camping. ; Stillwater National Wildlife Refuge, near Fallon, is known to birders for its wetlands and shorebird migration. ; Sand Mountain, about 20 miles east on U.S. Route 50, is a singing sand dune in a Bureau of Land Management recreation area.
+cost: Housing, grocery, utility and miscellaneous costs are each below the U.S. average.
+climate: Fallon has a cold desert climate with hot summers and cold winters, and it is dry because it lies in the rain shadow of the Sierra Nevada. Typical highs are about 46 °F in January and about 94 °F in July.
+vets: There is a VA clinic in Fallon. ; The VA system's main location is in Reno.
+around: Fernley, a city in Lyon County, is roughly half an hour away. ; Reno, home to the University of Nevada, Reno, is roughly an hour and a quarter away. ; Carson City, the state capital, is roughly an hour and a quarter away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Fallon,_Nevada ; https://en.wikipedia.org/wiki/Lahontan_State_Recreation_Area ; https://en.wikipedia.org/wiki/Stillwater_National_Wildlife_Refuge ; https://en.wikipedia.org/wiki/Sand_Mountain_(Nevada) ; https://en.wikipedia.org/wiki/Reno,_Nevada ; https://en.wikipedia.org/wiki/Carson_City,_Nevada ; https://en.wikipedia.org/wiki/Fernley,_Nevada ; https://www.va.gov/sierra-nevada-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/nevada/fallon
+
+## NV|Pahrump
+intro: Pahrump is an unincorporated town at the southern tip of Nye County, Nevada, with an estimated population of about 57,000. It sits beside the California border, west of Las Vegas.
+family: Pahrump has a public library. ; The Clark County Heritage Museum and the Henderson Bird Viewing Preserve are in Henderson.
+outdoors: Ash Meadows National Wildlife Refuge, near Pahrump, protects desert springs and species found nowhere else. ; Death Valley National Park straddles the California and Nevada border, and Shoshone, California, is a southern gateway to it. ; Red Rock Canyon National Conservation Area, about 15 miles west of Las Vegas, has hiking, biking and rock climbing.
+sports: The Las Vegas Raiders and the Las Vegas Aces are headquartered in Henderson. ; The Henderson Silver Knights hockey team and the Vegas Knight Hawks indoor football team are also based in Henderson.
+cost: Housing and miscellaneous costs are below the U.S. average, while grocery and utility costs are close to it.
+climate: Summers are very hot and dry, though nights are noticeably cooler than days, and winters are typically mild with lows near freezing. Typical highs are about 58 °F in January and about 101 °F in July.
+vets: There is a VA clinic in Pahrump. ; The VA system's main location is in North Las Vegas.
+around: Amargosa Valley, about 35 miles northwest on U.S. Route 95, is roughly 45 minutes away. ; Las Vegas, about 50 miles east, is roughly an hour to an hour and a quarter away. ; Henderson, southeast of Las Vegas, is roughly an hour and a quarter to an hour and a half away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Pahrump,_Nevada ; https://en.wikipedia.org/wiki/Henderson,_Nevada ; https://en.wikipedia.org/wiki/Shoshone,_California ; https://en.wikipedia.org/wiki/Amargosa_Valley,_Nevada ; https://en.wikipedia.org/wiki/Death_Valley_National_Park ; https://en.wikipedia.org/wiki/Red_Rock_Canyon_National_Conservation_Area ; https://en.wikipedia.org/wiki/Ash_Meadows_National_Wildlife_Refuge ; https://www.va.gov/southern-nevada-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/nevada/pahrump
+
+## NY|Dexter
+intro: Dexter is a village of about 1,000 people in west-central Jefferson County, New York, just west of Watertown.
+family: Watertown, seven miles east, has Thompson Park, with a children's playground and a zoo. ; Watertown also has the Roswell P. Flower Memorial Library.
+outdoors: The village is next to the Black River, near Black River Bay, an arm of Lake Ontario. ; Thompson Park in Watertown has sledding hills, cross-country ski trails and an outdoor skating area. ; Boldt Castle, on Heart Island near Alexandria Bay, is reached by ferry.
+sports: Watertown has the Watertown Wolves hockey team. ; The Watertown Red & Black football team and the Watertown Rapids baseball team also play in Watertown.
+cost: Housing costs are well below the U.S. average, while utility and miscellaneous costs are above it. Grocery costs are close to the U.S. average.
+climate: Watertown, seven miles east, has cold, snowy winters and mild to warm summers. In Syracuse, the nearest city with a climate table checked, typical highs run from about 32 °F in January to about 82 °F in July.
+vets: There is a VA clinic in Watertown, and the VA system's main location is in Syracuse. ; There is also a VA clinic at Fort Drum, a U.S. Army base near Watertown.
+around: Sackets Harbor, roughly 10 minutes away, is a village on Lake Ontario with the Sackets Harbor Battlefield State Historic Site. ; Clayton, roughly half an hour away, is on the St. Lawrence River and has the Antique Boat Museum. ; Alexandria Bay, roughly 40 to 45 minutes away, is in the Thousand Islands region.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Dexter,_New_York ; https://en.wikipedia.org/wiki/Watertown_(city),_New_York ; https://en.wikipedia.org/wiki/Sackets_Harbor,_New_York ; https://en.wikipedia.org/wiki/Sackets_Harbor_Battlefield_State_Historic_Site ; https://en.wikipedia.org/wiki/Clayton,_New_York ; https://en.wikipedia.org/wiki/Alexandria_Bay,_New_York ; https://en.wikipedia.org/wiki/Syracuse,_New_York ; https://www.va.gov/syracuse-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_york/dexter
+
+## NY|Harris
+intro: Harris is a hamlet in the town of Thompson in east-central Sullivan County, New York, in the Catskills. It sits off New York State Route 17 between Liberty and Monticello.
+family: Bethel Woods Center for the Arts, in nearby Bethel, is an amphitheater, performing arts center and museum on the site of the 1969 Woodstock festival.
+outdoors: Catskill Park includes parts of Sullivan County and has over 300 miles of multi-use trails. ; The Upper Delaware Scenic and Recreational River follows about 73 miles of the Delaware River, with boating, fishing and wildlife watching. ; Lake Superior State Park is in Bethel, on the small lake it is named for.
+cost: In nearby Monticello, housing costs are well below the U.S. average, grocery costs are slightly below it, and utility and miscellaneous costs are slightly above it.
+climate: In Port Jervis, the nearest town with a climate table checked, summers are relatively hot and winters are cold. Typical highs there are about 34 °F in January and about 84 °F in July.
+vets: The nearest VA clinic listed is in Monticello. ; There is also a VA clinic in Port Jervis.
+around: Liberty, a village in Sullivan County, is roughly 10 minutes away. ; Monticello, the county seat, is roughly 10 minutes away. ; Middletown, a city in Orange County, is roughly 40 minutes away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Harris,_New_York ; https://en.wikipedia.org/wiki/Monticello,_New_York ; https://en.wikipedia.org/wiki/Liberty_(village),_New_York ; https://en.wikipedia.org/wiki/Middletown,_New_York ; https://en.wikipedia.org/wiki/Port_Jervis,_New_York ; https://en.wikipedia.org/wiki/Bethel,_New_York ; https://en.wikipedia.org/wiki/Bethel_Woods_Center_for_the_Arts ; https://en.wikipedia.org/wiki/Upper_Delaware_Scenic_and_Recreational_River ; https://en.wikipedia.org/wiki/Catskill_Park ; https://www.va.gov/hudson-valley-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_york/monticello
