@@ -169,3 +169,89 @@ vets: The main VA location for central Iowa is in Des Moines. ; VA clinics are a
 around: Ames, about 30 miles north and under an hour away, is home to Iowa State University. ; Ankeny, a suburb in Polk County, is about 20 minutes north.
 checked: November 2026
 src: https://en.wikipedia.org/wiki/Des_Moines,_Iowa ; https://en.wikipedia.org/wiki/Ames,_Iowa ; https://en.wikipedia.org/wiki/Ankeny,_Iowa ; https://en.wikipedia.org/wiki/Iowa_State_Fair ; https://en.wikipedia.org/wiki/Blank_Park_Zoo ; https://en.wikipedia.org/wiki/Iowa_Cubs ; https://en.wikipedia.org/wiki/Saylorville_Lake ; https://www.va.gov/central-iowa-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/iowa/des_moines
+
+## IA|Sioux City
+intro: Sioux City is the county seat of Woodbury County in northwest Iowa, on the Missouri River where Iowa, Nebraska and South Dakota meet. It has about 87,000 residents.
+family: The riverfront park includes a dance pavilion and the Lewis and Clark Interpretive Center. ; The Sioux City Public Museum downtown has Native American, pioneer, early Sioux City and natural history exhibits. ; Saturday in the Park is a music festival held each year near the Fourth of July in Grandview Park.
+outdoors: Stone State Park, on the northwestern edge of the city, has many miles of hiking and equestrian trails. ; The Dorothy Pecaut Nature Center, within the park, has a butterfly garden and trails where wild turkeys and deer are often seen. ; The Sergeant Floyd Monument overlooks the Missouri River valley from a river bluff.
+sports: The Sioux City Explorers play baseball in the city. ; The Sioux City Musketeers, a hockey team, have played in the city since 1972.
+cost: Housing costs are well below the national average, while groceries, utilities and miscellaneous costs are a little below it.
+climate: Sioux City has very warm, humid summers and cold, dry winters, with wide temperature swings. Typical highs run about 30°F in January and about 85°F in July.
+vets: The main VA location for the area is in Sioux Falls, South Dakota. ; The same VA system has a clinic in Spirit Lake, Iowa.
+around: Le Mars, under an hour away, holds an annual Ice Cream Days celebration in June. ; Yankton, South Dakota, about an hour away, has Lewis and Clark Lake, with camping, swimming and trails. ; Sioux Falls, about an hour and a quarter to an hour and a half away, has the Great Plains Zoo.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Sioux_City,_Iowa ; https://en.wikipedia.org/wiki/Stone_State_Park ; https://en.wikipedia.org/wiki/Sioux_Falls,_South_Dakota ; https://en.wikipedia.org/wiki/Le_Mars,_Iowa ; https://en.wikipedia.org/wiki/Yankton,_South_Dakota ; https://www.va.gov/sioux-falls-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/iowa/sioux_city
+
+## IL|Granite City
+intro: Granite City is a city of about 27,500 people in Madison County, on the Mississippi River in the Metro East part of the St. Louis area.
+family: Wilson Park has a pool, an ice rink, a skate park and baseball fields around a paved trail. ; The St. Louis Zoo and the Missouri History Museum are both in Forest Park in St. Louis. ; The Edwardsville Children's Museum is in nearby Edwardsville.
+outdoors: Horseshoe Lake State Park wraps around 2,400-acre Horseshoe Lake, with picnicking, cycling, fishing and small boating. ; Madison County has a network of bikeways throughout the county. ; Pere Marquette State Park, a few miles north of Alton, has trails for hikers and horseback riders.
+food: Collinsville holds a Horseradish Festival each June on its Main Street. ; Collinsville's Italian Fest has been held each fall since 1983.
+sports: The St. Louis Cardinals play baseball in St. Louis. ; The St. Louis Blues play hockey there. ; St. Louis City SC plays soccer there.
+cost: Housing costs in Granite City are far below the national average, and grocery and utility costs are a little below it. Miscellaneous costs run above it.
+climate: Summers are warm and winters are cold. In nearby Alton, typical daytime highs are near 40°F in January and around 87°F in July.
+vets: VA clinics are in Shiloh and at Scott Air Force Base. ; The main VA medical locations are in St. Louis.
+around: St. Louis is roughly 20 minutes away, with the Gateway Arch, Forest Park and the St. Louis Zoo. ; Edwardsville, the county seat and home to Southern Illinois University Edwardsville, is roughly 20 minutes away. ; Alton is roughly 20 minutes north.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Granite_City,_Illinois ; https://en.wikipedia.org/wiki/St._Louis ; https://en.wikipedia.org/wiki/Edwardsville,_Illinois ; https://en.wikipedia.org/wiki/Alton,_Illinois ; https://en.wikipedia.org/wiki/Collinsville,_Illinois ; https://www.va.gov/st-louis-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/illinois/granite_city
+
+## IL|Murphysboro
+intro: Murphysboro is the county seat of Jackson County in southern Illinois, home to about 7,000 people.
+family: The General John A. Logan Museum covers Civil War history and the life of John A. Logan. ; The Apple Festival is held every year on the second weekend after Labor Day.
+outdoors: Lake Murphysboro State Park covers about 1,022 acres around its lake. ; Giant City State Park covers about 4,000 acres and offers hiking, horseback riding, picnicking and rock climbing. ; Little Grand Canyon, in the Shawnee National Forest south of town, is over 200 feet deep.
+sports: The Southern Illinois Salukis are the university teams in nearby Carbondale.
+cost: Housing costs are far below the national average, and groceries and utilities are slightly below it. Miscellaneous costs are above the national average.
+climate: Summers are hot and humid and winters are cool. In nearby Carbondale, typical daily highs are about 41°F in January and about 88°F in July.
+vets: The VA medical center for the area is in Marion. ; A VA clinic is in Carbondale.
+around: Carbondale, home to Southern Illinois University, is roughly 15 minutes away. ; Marion is roughly 35 to 40 minutes away. ; Cape Girardeau, Missouri, on the Mississippi River, is roughly an hour and a quarter away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Murphysboro,_Illinois ; https://en.wikipedia.org/wiki/Carbondale,_Illinois ; https://en.wikipedia.org/wiki/Marion,_Illinois ; https://en.wikipedia.org/wiki/Cape_Girardeau,_Missouri ; https://en.wikipedia.org/wiki/Giant_City_State_Park ; https://en.wikipedia.org/wiki/Shawnee_National_Forest ; https://en.wikipedia.org/wiki/Lake_Murphysboro_State_Park ; https://en.wikipedia.org/wiki/General_John_A._Logan_Museum ; https://www.va.gov/marion-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/illinois/murphysboro
+
+## IL|Effingham
+intro: Effingham is the county seat of Effingham County in south-central Illinois, where Interstates 57 and 70 meet. It has about 12,000 residents.
+family: The Cross at the Crossroads is a 198-foot steel cross that stands in Effingham. ; Decatur has an accredited zoo. ; The Vandalia State House State Historic Site preserves a capitol building from 1836.
+outdoors: Lake Shelbyville is a reservoir bordered by Wolf Creek State Park and Eagle Creek State Park. ; Lake Decatur is a reservoir on the Sangamon River in Decatur. ; Champaign has 60 parks and 11 trails within its city limits.
+sports: The Illinois Fighting Illini play in Champaign. ; The St. Louis Cardinals, St. Louis Blues and St. Louis City SC are based in St. Louis.
+cost: Housing costs in Effingham are much lower than the US average, groceries and utilities are slightly lower, and miscellaneous costs are higher.
+climate: Winters are cold and summers are hot. In nearby Mattoon, typical daily highs are about 35°F in January and about 86°F in July.
+vets: The VA has a clinic in Effingham. ; The VA medical center for the area is in Marion.
+around: Mattoon, home to Lake Land College, is roughly half an hour away. ; Vandalia is roughly 40 minutes away. ; Champaign, which shares the main University of Illinois campus with Urbana, is about an hour and a quarter to an hour and a half away. ; Amtrak trains stop in Effingham.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Effingham,_Illinois ; https://en.wikipedia.org/wiki/Mattoon,_Illinois ; https://en.wikipedia.org/wiki/Vandalia,_Illinois ; https://en.wikipedia.org/wiki/Champaign,_Illinois ; https://en.wikipedia.org/wiki/Decatur,_Illinois ; https://en.wikipedia.org/wiki/St._Louis ; https://en.wikipedia.org/wiki/Lake_Shelbyville ; https://www.va.gov/marion-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/illinois/effingham
+
+## IL|Highland
+intro: Highland is a city of about 10,000 people in Madison County, about 30 miles east of St. Louis. It began as a Swiss settlement and is a sister city of Sursee, Switzerland.
+family: Highland's public library has public computers and a genealogy collection. ; The Edwardsville Children's Museum is in a former schoolhouse in Edwardsville. ; Forest Park in St. Louis contains the St. Louis Zoo, the St. Louis Art Museum and the Missouri History Museum.
+outdoors: Silver Lake is a reservoir inside the Highland city limits. ; Carlyle Lake, a reservoir of about 25,000 acres, is popular for boating, sailing and fishing. ; Eldon Hazlet State Recreation Area is a 3,000-acre state site on Carlyle Lake near Carlyle.
+sports: The St. Louis Cardinals play Major League Baseball in St. Louis. ; The St. Louis Blues play in the National Hockey League. ; St. Louis City SC plays in Major League Soccer.
+cost: Housing costs in Highland are well below the US average, grocery and utility costs are a little below it, and miscellaneous costs are above it.
+climate: Summers are hot and winters are cool to cold. In nearby Belleville, typical daily highs are about 43°F in January and about 90°F in July.
+vets: The VA has a clinic in Shiloh. ; The main VA medical locations are in St. Louis.
+around: St. Louis, about 30 miles west and roughly 45 minutes away, has Gateway Arch National Park. ; Edwardsville, the county seat and home to Southern Illinois University Edwardsville, is roughly 35 minutes away. ; Cahokia Mounds, a UNESCO World Heritage Site, is on the Illinois side of the river across from St. Louis.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Highland,_Illinois ; https://en.wikipedia.org/wiki/St._Louis ; https://en.wikipedia.org/wiki/Edwardsville,_Illinois ; https://en.wikipedia.org/wiki/Belleville,_Illinois ; https://en.wikipedia.org/wiki/Carlyle_Lake ; https://en.wikipedia.org/wiki/Eldon_Hazlet_State_Recreation_Area ; https://en.wikipedia.org/wiki/Cahokia_Mounds ; https://en.wikipedia.org/wiki/Gateway_Arch_National_Park ; https://www.va.gov/st-louis-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/illinois/highland
+
+## IL|Olney
+intro: Olney is the county seat of Richland County in southeastern Illinois, with about 8,700 residents. The city is known for its white squirrels.
+family: Volunteers hold a white squirrel count in Olney each October. ; Mesker Park Zoo and Burdette Park are on the west side of Evansville, Indiana. ; Effingham has The Cross at the Crossroads, a 198-foot steel cross.
+outdoors: Red Hills State Park in Lawrence County has a 40-acre lake, more than 100 campsites and 8 miles of trails. ; Beall Woods State Park near Keensburg borders the Wabash River and includes a 329-acre old-growth forest. ; Wesselman Woods Nature Preserve in Evansville covers 240 acres.
+sports: The Olney Central College Blue Knights field teams in baseball, basketball and softball.
+cost: Housing costs in Olney are far below the national average, and grocery and utility costs are somewhat below it. Miscellaneous costs are close to the national average.
+climate: Winters are cold, with typical January highs of about 38°F. Summers are hot, with typical July highs of about 87°F.
+vets: The VA has clinics in Effingham, Mount Vernon, Evansville and Vincennes. ; The VA medical center for the area is in Marion.
+around: Vincennes, Indiana, under an hour away, has George Rogers Clark National Historical Park on the banks of the Wabash River. ; Effingham is about an hour away. ; Mount Vernon, Illinois, home to the Cedarhurst Center for the Arts, is about an hour to an hour and a half away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Olney,_Illinois ; https://en.wikipedia.org/wiki/Vincennes,_Indiana ; https://en.wikipedia.org/wiki/Effingham,_Illinois ; https://en.wikipedia.org/wiki/Mount_Vernon,_Illinois ; https://en.wikipedia.org/wiki/Evansville,_Indiana ; https://en.wikipedia.org/wiki/Red_Hills_State_Park ; https://en.wikipedia.org/wiki/Beall_Woods_State_Park ; https://en.wikipedia.org/wiki/George_Rogers_Clark_National_Historical_Park ; https://en.wikipedia.org/wiki/Olney_Central_College ; https://www.va.gov/marion-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/illinois/olney
+
+## ID|Idaho Falls
+intro: Idaho Falls is the county seat of Bonneville County in eastern Idaho, on the Snake River, with about 65,000 residents. The Idaho National Laboratory, west of the city, is a major employer in the area.
+family: The Idaho Falls Zoo at Tautphaus Park has more than 300 animals from about 130 species. ; The Museum of Idaho downtown covers Idaho history and science and hosts traveling exhibits. ; Tautphaus Park also has a small amusement area and an ice arena.
+outdoors: A river walk runs for several miles along the Snake River, with running and biking trails. ; Craters of the Moon National Monument and Preserve, a landscape of lava fields, is about an hour and a half to two hours away.
+food: Downtown is home to the Idaho Falls Farmers' Market. ; The irrigated farmland around the city grows potatoes, sugar beets, grains and alfalfa.
+sports: The Idaho Falls Chukars play baseball in the city, which has had a team since 1940. ; The ice arena at Tautphaus Park offers winter hockey and skating programs.
+cost: Groceries, utilities and miscellaneous costs in Idaho Falls are below the US average, while housing is slightly above it.
+climate: Idaho Falls has warm summers, cold winters and relatively little precipitation. Typical highs are near 29°F in January and 87°F in July, with roughly 37 inches of snow a year.
+vets: The VA has a clinic in Idaho Falls. ; Another VA clinic is in Pocatello.
+around: Pocatello, about an hour away, is home to Idaho State University and the Idaho Museum of Natural History. ; Rexburg, roughly half an hour away, is home to BYU-Idaho and is close to the St. Anthony Sand Dunes. ; Jackson, Wyoming, about two hours away, is a gateway to Grand Teton and Yellowstone national parks.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Idaho_Falls,_Idaho ; https://en.wikipedia.org/wiki/Museum_of_Idaho ; https://en.wikipedia.org/wiki/Tautphaus_Park ; https://en.wikipedia.org/wiki/Idaho_Falls_Chukars ; https://en.wikipedia.org/wiki/Craters_of_the_Moon_National_Monument_and_Preserve ; https://en.wikipedia.org/wiki/Pocatello,_Idaho ; https://en.wikipedia.org/wiki/Rexburg,_Idaho ; https://en.wikipedia.org/wiki/Jackson,_Wyoming ; https://www.va.gov/salt-lake-city-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/idaho/idaho_falls
