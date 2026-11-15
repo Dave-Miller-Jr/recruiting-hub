@@ -1,10 +1,3 @@
-NY|Johnstown
-NY|Potsdam
-NY|Sidney
-NY|Wallkill
-NY|Westernville
-OK|Stillwater
-PA|Hazleton
 PA|Lansdale
 PA|Media
 PA|North East

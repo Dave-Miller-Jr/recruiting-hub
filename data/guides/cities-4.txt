@@ -585,3 +585,82 @@ vets: The nearest VA clinic listed is in Monticello. ; There is also a VA clinic
 around: Liberty, a village in Sullivan County, is roughly 10 minutes away. ; Monticello, the county seat, is roughly 10 minutes away. ; Middletown, a city in Orange County, is roughly 40 minutes away.
 checked: November 2026
 src: https://en.wikipedia.org/wiki/Harris,_New_York ; https://en.wikipedia.org/wiki/Monticello,_New_York ; https://en.wikipedia.org/wiki/Liberty_(village),_New_York ; https://en.wikipedia.org/wiki/Middletown,_New_York ; https://en.wikipedia.org/wiki/Port_Jervis,_New_York ; https://en.wikipedia.org/wiki/Bethel,_New_York ; https://en.wikipedia.org/wiki/Bethel_Woods_Center_for_the_Arts ; https://en.wikipedia.org/wiki/Upper_Delaware_Scenic_and_Recreational_River ; https://en.wikipedia.org/wiki/Catskill_Park ; https://www.va.gov/hudson-valley-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_york/monticello
+
+## NY|Johnstown
+intro: Johnstown is the county seat of Fulton County in upstate New York, with a population of about 8,000. It lies in the Mohawk Valley region, in the foothills of the Adirondack Mountains, next to Gloversville.
+family: Johnson Hall State Historic Site is a house museum on more than 18 acres, the former home of Sir William Johnson. ; Knox Field has playgrounds, athletic fields and bridle paths. ; Fulton-Montgomery Community College, part of the State University of New York, is in Johnstown.
+outdoors: Great Sacandaga Lake, a reservoir in the northern part of Fulton County, has public boat launches, beaches and campgrounds along its shores. ; The city is near the southern border of Adirondack Park, which has over 2,000 miles of hiking trails. ; Cayadutta Creek runs through the city and flows south to join the Mohawk River at Fonda.
+cost: Housing costs are well below the U.S. average and grocery costs are close to it. Utility and miscellaneous costs are somewhat above the U.S. average.
+vets: The nearest VA clinic listed is in Fonda, about 4.5 miles south. ; The VA system's medical center is in Albany.
+around: Gloversville adjoins the city. ; Amsterdam is 11 miles southeast on New York State Route 67. ; Saratoga Springs is 32 miles east on New York State Route 29.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Johnstown_(city),_New_York ; https://en.wikipedia.org/wiki/Johnson_Hall_State_Historic_Site ; https://en.wikipedia.org/wiki/Adirondack_Park ; https://en.wikipedia.org/wiki/Great_Sacandaga_Lake ; https://en.wikipedia.org/wiki/Fulton-Montgomery_Community_College ; https://www.va.gov/albany-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_york/johnstown
+
+## NY|Potsdam
+intro: Potsdam is a village in St. Lawrence County in northern New York, with about 8,300 residents. It lies in the St. Lawrence Valley, between the St. Lawrence River and the foothills of the Adirondack Mountains.
+family: The village is home to the State University of New York at Potsdam and Clarkson University. ; The Crane School of Music is part of SUNY Potsdam. ; The Market Street Historic District is listed on the National Register of Historic Places.
+outdoors: The Raquette River runs through the middle of the village and is used for canoeing and kayaking. ; Adirondack Park, whose border is about 20 miles away, offers hiking trails, canoeing and kayaking. ; Robert Moses State Park is northeast of the village of Massena.
+sports: Clarkson's teams are the Golden Knights, and they include men's and women's ice hockey. ; SUNY Potsdam's teams are the Bears, and they include men's ice hockey.
+cost: Housing costs are well below the U.S. average, while grocery costs are close to it. Utility and miscellaneous costs are somewhat above the U.S. average.
+climate: Winters are cold and snowy, and summers are warm. In Massena, the nearest town with a climate table checked, typical highs run from about 25 °F in January to about 81 °F in July.
+vets: There is a VA clinic in Potsdam. ; The VA system's main location is in Syracuse.
+around: Canton, the St. Lawrence County seat, is roughly 15 to 20 minutes away. ; Massena, on the St. Lawrence River, is roughly 25 minutes to half an hour away. ; Tupper Lake, within Adirondack Park, is roughly an hour to an hour and a quarter away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Potsdam_(village),_New_York ; https://en.wikipedia.org/wiki/Clarkson_University ; https://en.wikipedia.org/wiki/State_University_of_New_York_at_Potsdam ; https://en.wikipedia.org/wiki/Raquette_River ; https://en.wikipedia.org/wiki/Adirondack_Park ; https://en.wikipedia.org/wiki/Canton_(village),_New_York ; https://en.wikipedia.org/wiki/Massena_(village),_New_York ; https://en.wikipedia.org/wiki/Tupper_Lake_(village),_New_York ; https://www.va.gov/syracuse-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_york/potsdam
+
+## NY|Wallkill
+intro: Wallkill is a hamlet in the town of Shawangunk in Ulster County, New York, with about 2,200 residents. The Wallkill River flows north past the hamlet, and the Shawangunk Ridge is nearby.
+family: The paved Walden–Wallkill Rail Trail runs about 3.2 miles between Walden and Wallkill, for walking, jogging and bicycling. ; The Walkway Over the Hudson, a former railroad bridge, links Poughkeepsie and Highland across the Hudson River.
+outdoors: The Shawangunk Ridge is known for rock climbing and has many hiking trails. ; Minnewaska State Park Preserve, on the ridge, is used for hiking, mountain biking, snowshoeing and swimming. ; Mohonk Preserve protects over 8,000 acres of the ridge.
+sports: The Hudson Valley Renegades baseball team is based in Fishkill. ; SUNY New Paltz fields teams in sports including baseball, basketball, soccer and lacrosse. ; Kingston Stockade FC is a men's soccer club based in Kingston.
+vets: The VA system's main locations are in Wappingers Falls and Montrose. ; VA clinics are listed in Goshen and Poughkeepsie, among other towns.
+around: Poughkeepsie, the county seat of Dutchess County, is roughly half an hour away. ; Kingston, the county seat of Ulster County, is roughly 35 to 40 minutes away and has the Stockade District historic area.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Wallkill,_Ulster_County,_New_York ; https://en.wikipedia.org/wiki/Shawangunk_Ridge ; https://en.wikipedia.org/wiki/Walden%E2%80%93Wallkill_Rail_Trail ; https://en.wikipedia.org/wiki/Minnewaska_State_Park_Preserve ; https://en.wikipedia.org/wiki/Hudson_Valley_Renegades ; https://en.wikipedia.org/wiki/SUNY_New_Paltz ; https://en.wikipedia.org/wiki/Poughkeepsie,_New_York ; https://en.wikipedia.org/wiki/Kingston,_New_York ; https://en.wikipedia.org/wiki/Walkway_Over_the_Hudson ; https://www.va.gov/hudson-valley-health-care/locations/
+
+## NY|Sidney
+intro: Sidney is a village of about 3,700 people in Delaware County, New York, on the south side of the Susquehanna River. It sits between Binghamton and Oneonta along Interstate 88.
+family: The National Baseball Hall of Fame is in Cooperstown. ; Fenimore Farm & Country Village in Cooperstown sits on farmland once owned by James Fenimore Cooper. ; Neahwa Park and Wilber Park are municipal parks in Oneonta.
+outdoors: Oquaga Creek State Park has six miles of hiking trails and Arctic Lake, where visitors can fish and swim. ; Gilbert Lake State Park, north of Oneonta, has a beach, a campground, cabins and a museum about the Civilian Conservation Corps. ; The Binghamton River Trail runs 1.5 miles along the Chenango River.
+sports: The Binghamton Rumble Ponies baseball team plays in Binghamton.
+cost: Housing costs are well below the U.S. average, while grocery, utility and miscellaneous costs are close to it.
+vets: The nearest VA clinic listed is in Binghamton. ; The VA system's main location is in Syracuse.
+around: Oneonta is about 23 miles northeast on Interstate 88. ; Binghamton is about 36 miles southwest on Interstate 88. ; Cooperstown is roughly an hour away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Sidney_(village),_New_York ; https://en.wikipedia.org/wiki/Oneonta,_New_York ; https://en.wikipedia.org/wiki/Binghamton,_New_York ; https://en.wikipedia.org/wiki/Cooperstown,_New_York ; https://en.wikipedia.org/wiki/Gilbert_Lake_State_Park ; https://en.wikipedia.org/wiki/Oquaga_Creek_State_Park ; https://en.wikipedia.org/wiki/Binghamton_Rumble_Ponies ; https://www.va.gov/syracuse-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_york/sidney
+
+## OK|Stillwater
+intro: Stillwater is a city of about 48,000 people in north-central Oklahoma and the county seat of Payne County. It is home to the main campus of Oklahoma State University.
+family: The National Wrestling Hall of Fame and Museum is in Stillwater. ; The Sheerar Museum covers Stillwater and Payne County history, including the 1889 Land Run. ; The city has a public library.
+outdoors: The Botanic Garden at Oklahoma State University covers more than 100 acres, with butterfly, organic and Japanese tea ceremony gardens. ; Boomer Lake Park hosts a fireworks show on Independence Day. ; Lake Carl Blackwell, about 8 miles west of town, offers camping, hiking, boating and fishing.
+sports: The Oklahoma State Cowboys and Cowgirls are the university's athletic teams. ; Oklahoma State's Homecoming brings alumni back to campus each year.
+cost: Housing costs are well below the U.S. average, while grocery, utility and miscellaneous costs are slightly below it.
+climate: Summers are hot and humid and winters are mild and dry, with spring the peak storm season. Typical highs are about 50 °F in January and about 93 °F in July.
+vets: There is a VA clinic in Stillwater. ; Other VA clinics in the same system are in Enid, Norman and Shawnee.
+around: Guthrie, which has a National Historic Landmark historic district, is roughly 40 to 45 minutes southwest. ; Oklahoma City, the state capital, is about 60 miles away, roughly an hour to an hour and a quarter. ; Tulsa is about 63 miles east, roughly an hour and a quarter.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Stillwater,_Oklahoma ; https://en.wikipedia.org/wiki/Oklahoma_State_University ; https://en.wikipedia.org/wiki/National_Wrestling_Hall_of_Fame_and_Museum ; https://en.wikipedia.org/wiki/Lake_Carl_Blackwell ; https://en.wikipedia.org/wiki/Oklahoma_City ; https://en.wikipedia.org/wiki/Tulsa,_Oklahoma ; https://en.wikipedia.org/wiki/Guthrie,_Oklahoma ; https://www.va.gov/oklahoma-city-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/oklahoma/stillwater
+
+## NY|Westernville
+intro: Westernville is a hamlet in the town of Western in Oneida County, New York, north of Rome and Utica and west of Adirondack Park. Delta Lake State Park lies next to the hamlet.
+family: Delta Lake State Park has a beach, a playground, picnic pavilions and a campground. ; The Utica Zoo has outdoor and indoor animal enclosures, a petting zoo and nature trails. ; Fort Stanwix National Monument in Rome is a reconstructed 18th-century fort run as a museum by the National Park Service.
+outdoors: Delta Lake State Park, on a peninsula in Delta Lake, has trails for hiking and biking, cross-country skiing and a boat launch. ; Pixley Falls State Park, several miles south of Boonville, has a waterfall. ; The western end of the Northern Forest Canoe Trail is near Old Forge.
+sports: The Utica Comets are a professional ice hockey team based in Utica.
+cost: In nearby Rome, grocery and housing costs are below the U.S. average, while utility and miscellaneous costs are above it.
+climate: Nearby Rome has four distinct seasons, with cold winters and temperate summers. Typical highs there are about 30 °F in January and about 81 °F in July.
+vets: The nearest VA clinic listed is in Rome. ; The VA system's main location is in Syracuse.
+around: Rome is roughly 15 minutes away. ; Boonville is roughly 20 to 25 minutes away, and Utica is roughly half an hour away. ; Old Forge, a western gateway community of Adirondack Park, is roughly an hour to an hour and a quarter away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Westernville,_New_York ; https://en.wikipedia.org/wiki/Delta_Lake_State_Park ; https://en.wikipedia.org/wiki/Rome,_New_York ; https://en.wikipedia.org/wiki/Utica,_New_York ; https://en.wikipedia.org/wiki/Boonville,_New_York ; https://en.wikipedia.org/wiki/Old_Forge,_New_York ; https://en.wikipedia.org/wiki/Utica_Comets ; https://en.wikipedia.org/wiki/Utica_Zoo ; https://www.va.gov/syracuse-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/new_york/rome
+
+## PA|Hazleton
+intro: Hazleton is a city in Luzerne County in northeastern Pennsylvania, with a population of about 30,000.
+family: Penn State Hazleton is a campus of Pennsylvania State University. ; The Asa Packer Mansion in Jim Thorpe is a museum that offers tours. ; Steamtown National Historic Site in Scranton covers the area's railroad history.
+outdoors: Hickory Run State Park has 44 miles of trails and a sand beach on Sand Spring Lake for summer swimming. ; Lehigh Gorge State Park is known for white water rafting on the Lehigh River. ; The 26-mile Lehigh Gorge Trail is a rail trail open year-round for hiking and biking.
+sports: Penn State Hazleton fields teams in sports including baseball, basketball, soccer, softball and volleyball. ; The Wilkes-Barre/Scranton Penguins hockey team and the Scranton/Wilkes-Barre RailRiders baseball team play in the Scranton and Wilkes-Barre area.
+cost: Housing costs are far below the U.S. average, and grocery costs are somewhat below it. Utility costs are close to the U.S. average, and miscellaneous costs are slightly above it.
+climate: Hazleton has warm summers and cold winters, with about 47 inches of snow a year. Typical highs are about 32 °F in January and about 80 °F in July.
+vets: The VA system's main medical center is in Wilkes-Barre. ; VA clinics are also listed in Allentown and Bloomsburg.
+around: Jim Thorpe is roughly 20 to 25 minutes away. ; Wilkes-Barre, roughly 35 minutes away, has Kirby Park on the Susquehanna River. ; Bloomsburg, roughly 40 minutes away, holds the Bloomsburg Fair, a long-running agricultural fair, and Scranton is roughly 50 minutes to an hour away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Hazleton,_Pennsylvania ; https://en.wikipedia.org/wiki/Wilkes-Barre,_Pennsylvania ; https://en.wikipedia.org/wiki/Scranton,_Pennsylvania ; https://en.wikipedia.org/wiki/Jim_Thorpe,_Pennsylvania ; https://en.wikipedia.org/wiki/Bloomsburg,_Pennsylvania ; https://en.wikipedia.org/wiki/Hickory_Run_State_Park ; https://en.wikipedia.org/wiki/Lehigh_Gorge_State_Park ; https://en.wikipedia.org/wiki/Penn_State_Hazleton ; https://www.va.gov/wilkes-barre-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/pennsylvania/hazleton
