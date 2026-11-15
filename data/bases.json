@@ -1,1095 +1,4576 @@
 {
- "_note": "Air Methods bases on the CAMTS accredited program bases map (map file dated February 2024, list page current as of October 24, 2026). City level only.",
- "source": "https://www.camts.org/accreditedservices",
+ "_note": "Air Methods base locations from the company base list Dave supplied on Nov 15, 2026. One entry per location, no street addresses. Placed on the map by ZIP code area.",
  "bases": [
   {
-   "st": "AL",
-   "city": "Cusseta",
+   "st": "AK",
+   "name": "Soldotna",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    60.482,
+    -151.136
+   ],
+   "place": "Soldotna, AK"
+  },
+  {
+   "st": "AK",
+   "name": "Wasilla",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    61.592,
+    -149.396
+   ],
+   "place": "Wasilla, AK"
   },
   {
    "st": "AL",
-   "city": "Evergreen",
+   "name": "Cusseta",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    32.783,
+    -85.276
+   ],
+   "place": "Cusseta, AL"
   },
   {
    "st": "AL",
-   "city": "Semmes",
+   "name": "Evergreen",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    31.458,
+    -86.926
+   ],
+   "place": "Evergreen, AL"
   },
   {
    "st": "AL",
-   "city": "Sylacauga",
+   "name": "Semmes",
+   "ac": [
+    "EC130 B4"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    30.754,
+    -88.267
+   ],
+   "place": "Semmes, AL"
   },
   {
-   "st": "AZ",
-   "city": "Bullhead City",
+   "st": "AL",
+   "name": "Sylacauga",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    33.176,
+    -86.357
+   ],
+   "place": "Sylacauga, AL"
   },
   {
-   "st": "AZ",
-   "city": "Florence",
+   "st": "AR",
+   "name": "Arkadelphia",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    34.115,
+    -93.069
+   ],
+   "place": "Arkadelphia, AR"
   },
   {
-   "st": "AZ",
-   "city": "Fort Mohave",
+   "st": "AR",
+   "name": "Hope",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    33.431,
+    -93.876
+   ],
+   "place": "Texarkana, AR"
   },
   {
-   "st": "AZ",
-   "city": "Kingman",
+   "st": "AR",
+   "name": "Little Rock",
+   "ac": [
+    "EC145"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    34.751,
+    -92.346
+   ],
+   "place": "Little Rock, AR"
   },
   {
    "st": "AZ",
-   "city": "Lake Havasu City",
+   "name": "Bullhead City (CF-1)",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    35.106,
+    -114.595
+   ],
+   "place": "Bullhead City, AZ"
   },
   {
    "st": "AZ",
-   "city": "Mesa",
+   "name": "Bullhead City North River Float",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": true,
+   "ll": [
+    35.172,
+    -114.539
+   ],
+   "place": "Bullhead City, AZ"
   },
   {
    "st": "AZ",
-   "city": "Parker",
+   "name": "Cottonwood",
+   "ac": [
+    "AS350 B3"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    34.706,
+    -112.009
+   ],
+   "place": "Cottonwood, AZ"
   },
   {
    "st": "AZ",
-   "city": "Payson",
+   "name": "Florence",
+   "ac": [
+    "AS350 B3"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    32.997,
+    -111.361
+   ],
+   "place": "Florence, AZ"
   },
   {
    "st": "AZ",
-   "city": "Phoenix",
+   "name": "Fort Mohave CF-11",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    34.893,
+    -114.595
+   ],
+   "place": "Mohave Valley, AZ"
   },
   {
    "st": "AZ",
-   "city": "Prescott",
+   "name": "Fort Mohave CF-6",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    35.005,
+    -114.569
+   ],
+   "place": "Fort Mohave, AZ"
   },
   {
    "st": "AZ",
-   "city": "Prescott Valley",
+   "name": "Goodyear",
+   "ac": [
+    "AS350 B3"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    33.479,
+    -112.395
+   ],
+   "place": "Goodyear, AZ"
   },
   {
    "st": "AZ",
-   "city": "Quartzsite",
+   "name": "Kingman",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    35.133,
+    -113.703
+   ],
+   "place": "Kingman, AZ"
   },
   {
    "st": "AZ",
-   "city": "Rio Rico",
+   "name": "Lake Havasu City CF28",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    34.481,
+    -114.348
+   ],
+   "place": "Lake Havasu City, AZ"
   },
   {
    "st": "AZ",
-   "city": "Safford",
+   "name": "Mesa 135 M Facility",
+   "ac": [
+    "AS350 B3"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": true,
+   "ll": [
+    33.343,
+    -111.635
+   ],
+   "place": "Mesa, AZ"
   },
   {
    "st": "AZ",
-   "city": "Show Low",
+   "name": "Mesa 145 MX Depot",
+   "ac": [],
+   "wing": [],
+   "mx": true,
+   "ll": [
+    33.343,
+    -111.635
+   ],
+   "place": "Mesa, AZ"
+  },
+  {
+   "st": "AZ",
+   "name": "Mesa 5215",
+   "ac": [
+    "AS350 B3"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    33.343,
+    -111.635
+   ],
+   "place": "Mesa, AZ"
   },
   {
    "st": "AZ",
-   "city": "Tucson",
+   "name": "Parker",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    34.15,
+    -114.289
+   ],
+   "place": "Parker, AZ"
   },
   {
    "st": "AZ",
-   "city": "Yuma",
+   "name": "Parker (CF-2)",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    34.15,
+    -114.289
+   ],
+   "place": "Parker, AZ"
+  },
+  {
+   "st": "AZ",
+   "name": "Payson",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    34.22,
+    -111.288
+   ],
+   "place": "Payson, AZ"
+  },
+  {
+   "st": "AZ",
+   "name": "Phoenix",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    33.562,
+    -112.056
+   ],
+   "place": "Phoenix, AZ"
+  },
+  {
+   "st": "AZ",
+   "name": "Prescott",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    34.592,
+    -112.427
+   ],
+   "place": "Prescott, AZ"
+  },
+  {
+   "st": "AZ",
+   "name": "Prescott Valley",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    34.602,
+    -112.326
+   ],
+   "place": "Prescott Valley, AZ"
+  },
+  {
+   "st": "AZ",
+   "name": "Quartzsite NOTE: use this address for shipping Fed Ex and UPS",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    33.729,
+    -114.192
+   ],
+   "place": "Quartzsite, AZ"
+  },
+  {
+   "st": "AZ",
+   "name": "Rio Rico",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    31.508,
+    -111.076
+   ],
+   "place": "Rio Rico, AZ"
+  },
+  {
+   "st": "AZ",
+   "name": "Show Low",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    34.3,
+    -110
+   ],
+   "place": "Show Low, AZ"
+  },
+  {
+   "st": "AZ",
+   "name": "Show low (RW)",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    34.3,
+    -110
+   ],
+   "place": "Show Low, AZ"
+  },
+  {
+   "st": "AZ",
+   "name": "Tuscon",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    32.25,
+    -110.887
+   ],
+   "place": "Tucson, AZ"
+  },
+  {
+   "st": "AZ",
+   "name": "Willcox",
+   "ac": [
+    "EC130 T2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    32.373,
+    -109.863
+   ],
+   "place": "Willcox, AZ"
+  },
+  {
+   "st": "AZ",
+   "name": "Williams",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    35.543,
+    -112.171
+   ],
+   "place": "Williams, AZ"
+  },
+  {
+   "st": "AZ",
+   "name": "Yuma CF-7",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    32.709,
+    -114.49
+   ],
+   "place": "Yuma, AZ"
+  },
+  {
+   "st": "CA",
+   "name": "Adin",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.218,
+    -120.943
+   ],
+   "place": "Adin, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Antioch",
+   "ac": [
+    "EC135 T2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    37.825,
+    -121.624
+   ],
+   "place": "Byron, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Bakersfield",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    35.424,
+    -119.043
+   ],
+   "place": "Bakersfield, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Barstow",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    34.891,
+    -117.039
+   ],
+   "place": "Barstow, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Beckwourth Care Flight 4",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    39.772,
+    -120.405
+   ],
+   "place": "Beckwourth, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Big Bear",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    34.261,
+    -116.813
+   ],
+   "place": "Big Bear City, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Blythe",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    33.61,
+    -114.596
+   ],
+   "place": "Blythe, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Borrego Springs",
+   "ac": [
+    "Bell 429"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    33.239,
+    -116.351
+   ],
+   "place": "Borrego Springs, CA"
+  },
+  {
+   "st": "CA",
+   "name": "El Cajon",
+   "ac": [
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    32.793,
+    -116.966
+   ],
+   "place": "El Cajon, CA"
+  },
+  {
+   "st": "CA",
+   "name": "El Centro",
+   "ac": [
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    32.847,
+    -115.573
+   ],
+   "place": "Imperial, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Fresno 1",
+   "ac": [
+    "BK117 B2",
+    "Bell 407",
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": true,
+   "ll": [
+    36.753,
+    -119.706
+   ],
+   "place": "Fresno, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Fullerton",
+   "ac": [
+    "Bell 429"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    33.877,
+    -117.955
+   ],
+   "place": "Fullerton, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Hesperia",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    34.422,
+    -117.302
+   ],
+   "place": "Hesperia, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Merced",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    37.298,
+    -120.465
+   ],
+   "place": "Merced, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Oceanside",
+   "ac": [
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    33.196,
+    -117.379
+   ],
+   "place": "Oceanside, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Orange",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    33.788,
+    -117.878
+   ],
+   "place": "Orange, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Ridgecrest",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    35.623,
+    -117.671
+   ],
+   "place": "Ridgecrest, CA"
+  },
+  {
+   "st": "CA",
+   "name": "San Bernardino",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": true,
+   "ll": [
+    34.083,
+    -117.271
+   ],
+   "place": "San Bernardino, CA"
+  },
+  {
+   "st": "CA",
+   "name": "San Diego",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    32.797,
+    -117.139
+   ],
+   "place": "San Diego, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Stanford",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    37.424,
+    -122.162
+   ],
+   "place": "Stanford, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Stanford (Hayward)",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    37.674,
+    -122.089
+   ],
+   "place": "Hayward, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Susanville",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    40.398,
+    -120.646
+   ],
+   "place": "Susanville, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Thermal",
+   "ac": [
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    33.674,
+    -116.295
+   ],
+   "place": "La Quinta, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Truckee Care Flight 3",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    39.332,
+    -120.18
+   ],
+   "place": "Truckee, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Twentynine Palms",
+   "ac": [
+    "Bell 412"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    34.238,
+    -116.06
+   ],
+   "place": "Twentynine Palms, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Victorville",
+   "ac": [
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    34.502,
+    -117.294
+   ],
+   "place": "Victorville, CA"
+  },
+  {
+   "st": "CA",
+   "name": "Visalia",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    36.311,
+    -119.306
+   ],
+   "place": "Visalia, CA"
+  },
+  {
+   "st": "CO",
+   "name": "Colorado Springs",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    38.919,
+    -104.704
+   ],
+   "place": "Colorado Springs, CO"
+  },
+  {
+   "st": "CO",
+   "name": "Durango",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    37.116,
+    -107.891
+   ],
+   "place": "Durango, CO"
+  },
+  {
+   "st": "CO",
+   "name": "Englewood (Centennial Airport)",
+   "ac": [
+    "King Air 200"
+   ],
+   "wing": [
+    "Fixed wing"
+   ],
+   "mx": false,
+   "ll": [
+    39.581,
+    -104.901
+   ],
+   "place": "Englewood, CO"
+  },
+  {
+   "st": "CO",
+   "name": "Fort Morgan",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    40.254,
+    -103.803
+   ],
+   "place": "Fort Morgan, CO"
+  },
+  {
+   "st": "CO",
+   "name": "Frisco",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    39.559,
+    -106.133
+   ],
+   "place": "Frisco, CO"
+  },
+  {
+   "st": "CO",
+   "name": "Grand Junction",
+   "ac": [
+    "AS350 B3",
+    "King Air 200",
+    "PC-12"
+   ],
    "wing": [
     "Rotor wing",
     "Fixed wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    39.103,
+    -108.549
+   ],
+   "place": "Grand Junction, CO"
   },
   {
-   "st": "CA",
-   "city": "Barstow",
+   "st": "CO",
+   "name": "Holyoke",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    40.583,
+    -102.282
+   ],
+   "place": "Holyoke, CO"
   },
   {
-   "st": "CA",
-   "city": "Big Bear City",
+   "st": "CO",
+   "name": "Hugo",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    39.084,
+    -103.499
+   ],
+   "place": "Hugo, CO"
   },
   {
-   "st": "CA",
-   "city": "Borrego Springs",
+   "st": "CO",
+   "name": "Lakewood",
+   "ac": [
+    "AS350 B3"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    39.875,
+    -105.034
+   ],
+   "place": "Westminster, CO"
   },
   {
-   "st": "CA",
-   "city": "Fort Hunter Liggett",
+   "st": "CO",
+   "name": "Lone Tree",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    39.552,
+    -104.886
+   ],
+   "place": "Lone Tree, CO"
   },
   {
-   "st": "CA",
-   "city": "Fresno",
+   "st": "CO",
+   "name": "Montrose",
+   "ac": [
+    "AS350 B3"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    38.468,
+    -107.875
+   ],
+   "place": "Montrose, CO"
   },
   {
-   "st": "CA",
-   "city": "Fullerton",
+   "st": "CO",
+   "name": "Pueblo",
+   "ac": [
+    "AS350 B3"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    38.244,
+    -104.628
+   ],
+   "place": "Pueblo, CO"
   },
   {
-   "st": "CA",
-   "city": "Hemet",
+   "st": "CO",
+   "name": "Rifle",
+   "ac": [
+    "AS350 B3"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    39.549,
+    -107.79
+   ],
+   "place": "Rifle, CO"
   },
   {
-   "st": "CA",
-   "city": "Hesperia",
+   "st": "CO",
+   "name": "Thorton",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    39.867,
+    -104.923
+   ],
+   "place": "Denver, CO"
   },
   {
-   "st": "CA",
-   "city": "Imperial",
+   "st": "CT",
+   "name": "Meriden",
+   "ac": [
+    "EC145"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    41.54,
+    -72.819
+   ],
+   "place": "Meriden, CT"
   },
   {
-   "st": "CA",
-   "city": "Merced",
+   "st": "CT",
+   "name": "Meriden Hangar Hartford Hospital",
+   "ac": [
+    "EC145"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": true,
+   "ll": [
+    41.791,
+    -72.696
+   ],
+   "place": "Hartford, CT"
   },
   {
-   "st": "CA",
-   "city": "Oceanside",
+   "st": "CT",
+   "name": "Norwich",
+   "ac": [
+    "EC145"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    41.537,
+    -72.085
+   ],
+   "place": "Norwich, CT"
   },
   {
-   "st": "CA",
-   "city": "Orange",
+   "st": "DE",
+   "name": "Georgetown",
+   "ac": [
+    "EC145"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    38.679,
+    -75.393
+   ],
+   "place": "Georgetown, DE"
   },
   {
-   "st": "CA",
-   "city": "Paso Robles",
+   "st": "DE",
+   "name": "Newark",
+   "ac": [
+    "EC145"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    39.565,
+    -75.597
+   ],
+   "place": "Newark, DE"
   },
   {
-   "st": "CA",
-   "city": "Ridgecrest",
+   "st": "DE",
+   "name": "Wilmington",
+   "ac": [
+    "EC145"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    39.799,
+    -75.532
+   ],
+   "place": "Wilmington, DE"
   },
   {
-   "st": "CA",
-   "city": "San Bernardino",
+   "st": "FL",
+   "name": "Apopka",
+   "ac": [
+    "EC145"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "PacWest"
+   "mx": false,
+   "ll": [
+    28.635,
+    -81.489
+   ],
+   "place": "Apopka, FL"
   },
   {
-   "st": "CA",
-   "city": "San Diego",
+   "st": "FL",
+   "name": "Bartow",
+   "ac": [
+    "EC135 T2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    27.896,
+    -81.813
+   ],
+   "place": "Bartow, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Chiefland",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    29.67,
+    -83.005
+   ],
+   "place": "Old Town, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Crawfordville",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    30.015,
+    -84.391
+   ],
+   "place": "Panacea, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Fort Myers",
+   "ac": [
+    "EC135 P2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    26.568,
+    -81.874
+   ],
+   "place": "Fort Myers, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Fort Pierce",
+   "ac": [
+    "EC135 P2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    27.501,
+    -80.36
+   ],
+   "place": "Fort Pierce, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Gainesville M Facility",
+   "ac": [],
+   "wing": [],
+   "mx": true,
+   "ll": [
+    29.701,
+    -82.308
+   ],
+   "place": "Gainesville, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Herlong M",
+   "ac": [],
+   "wing": [],
+   "mx": false,
+   "ll": [
+    30.269,
+    -81.747
+   ],
+   "place": "Jacksonville, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Inverness",
+   "ac": [
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    28.834,
+    -82.282
+   ],
+   "place": "Inverness, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Jacksonville - Baptist",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    29.998,
+    -81.765
+   ],
+   "place": "Green Cove Springs, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Jacksonville KK1",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    30.279,
+    -81.583
+   ],
+   "place": "Jacksonville, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Jacksonville North",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    30.67,
+    -81.463
+   ],
+   "place": "Fernandina Beach, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Kissimmee",
+   "ac": [
+    "EC135 T2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    28.305,
+    -81.424
+   ],
+   "place": "Kissimmee, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Kissimmee M Facility",
+   "ac": [],
+   "wing": [],
+   "mx": true,
+   "ll": [
+    28.305,
+    -81.424
+   ],
+   "place": "Kissimmee, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Lake City",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    30.27,
+    -82.625
+   ],
+   "place": "Lake City, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Leesburg",
+   "ac": [
+    "EC135 P2",
+    "EC135 T2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    28.889,
+    -81.783
+   ],
+   "place": "Leesburg, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Live Oak",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    30.176,
+    -83.03
+   ],
+   "place": "Live Oak, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Marianna",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    30.8,
+    -85.229
+   ],
+   "place": "Marianna, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Miami",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    25.669,
+    -80.409
+   ],
+   "place": "Miami, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Niceville",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    30.517,
+    -86.482
+   ],
+   "place": "Niceville, FL"
+  },
+  {
+   "st": "FL",
+   "name": "North Port",
+   "ac": [
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    27.093,
+    -82.45
+   ],
+   "place": "Venice, FL"
+  },
+  {
+   "st": "FL",
+   "name": "Pensacola RW",
+   "ac": [
+    "Bell 407",
+    "PC-12"
+   ],
    "wing": [
     "Rotor wing",
     "Fixed wing"
    ],
-   "region": "PacWest"
-  },
-  {
-   "st": "CA",
-   "city": "Thermal",
-   "wing": [
-    "Rotor wing"
+   "mx": true,
+   "ll": [
+    30.487,
+    -87.187
    ],
-   "region": "PacWest"
-  },
-  {
-   "st": "CA",
-   "city": "Twentynine Palms",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "PacWest"
-  },
-  {
-   "st": "CA",
-   "city": "Victorville",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "PacWest"
-  },
-  {
-   "st": "CA",
-   "city": "Visalia",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "PacWest"
+   "place": "Pensacola, FL"
   },
   {
    "st": "FL",
-   "city": "Fort Myers",
+   "name": "Reunion",
+   "ac": [
+    "EC135 P2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    28.253,
+    -81.651
+   ],
+   "place": "Davenport, FL"
   },
   {
    "st": "FL",
-   "city": "Fort Pierce",
+   "name": "Stuart",
+   "ac": [
+    "EC130 T2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    27.193,
+    -80.216
+   ],
+   "place": "Stuart, FL"
   },
   {
    "st": "FL",
-   "city": "Inverness",
+   "name": "Tampa (Bayflite)",
+   "ac": [
+    "EC135 P2+"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    27.962,
+    -82.49
+   ],
+   "place": "Tampa, FL"
   },
   {
    "st": "FL",
-   "city": "Jacksonville",
+   "name": "Walton County (Defuniak Springs)",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
-  },
-  {
-   "st": "FL",
-   "city": "Live Oak",
-   "wing": [
-    "Rotor wing"
+   "mx": false,
+   "ll": [
+    30.721,
+    -86.115
    ],
-   "region": "Southeast"
-  },
-  {
-   "st": "FL",
-   "city": "Marianna",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "Southeast"
-  },
-  {
-   "st": "FL",
-   "city": "Niceville",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "Southeast"
-  },
-  {
-   "st": "FL",
-   "city": "North Port",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "Southeast"
-  },
-  {
-   "st": "FL",
-   "city": "Pensacola",
-   "wing": [
-    "Rotor wing",
-    "Fixed wing"
-   ],
-   "region": "Southeast"
-  },
-  {
-   "st": "FL",
-   "city": "Tampa",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "Southeast"
+   "place": "Defuniak Springs, FL"
   },
   {
    "st": "GA",
-   "city": "Blairsville",
+   "name": "Blairsville",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    34.876,
+    -83.958
+   ],
+   "place": "Blairsville, GA"
   },
   {
    "st": "GA",
-   "city": "Cornelia",
+   "name": "Cornelia",
+   "ac": [
+    "EC130 B4"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    34.521,
+    -83.545
+   ],
+   "place": "Cornelia, GA"
   },
   {
    "st": "GA",
-   "city": "Griffin",
+   "name": "Covington",
+   "ac": [
+    "EC130 B4"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    33.671,
+    -83.874
+   ],
+   "place": "Oxford, GA"
   },
   {
    "st": "GA",
-   "city": "Hinesville",
+   "name": "Grady (Fulton County)",
+   "ac": [
+    "EC145"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    33.741,
+    -84.555
+   ],
+   "place": "Atlanta, GA"
   },
   {
    "st": "GA",
-   "city": "Jasper",
+   "name": "Griffin",
+   "ac": [
+    "EC130 B4"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": true,
+   "ll": [
+    33.24,
+    -84.273
+   ],
+   "place": "Griffin, GA"
   },
   {
    "st": "GA",
-   "city": "Kennesaw",
+   "name": "Hinesville",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    31.851,
+    -81.607
+   ],
+   "place": "Hinesville, GA"
   },
   {
    "st": "GA",
-   "city": "Newnan",
+   "name": "Jasper",
+   "ac": [
+    "EC130 B4"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    34.462,
+    -84.476
+   ],
+   "place": "Jasper, GA"
   },
   {
    "st": "GA",
-   "city": "Oxford",
+   "name": "Kennesaw",
+   "ac": [
+    "EC145"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    34.029,
+    -84.605
+   ],
+   "place": "Kennesaw, GA"
   },
   {
    "st": "GA",
-   "city": "Springfield",
+   "name": "Newnan",
+   "ac": [
+    "EC130 T2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    33.37,
+    -84.819
+   ],
+   "place": "Newnan, GA"
+  },
+  {
+   "st": "GA",
+   "name": "Springfield",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    32.37,
+    -81.362
+   ],
+   "place": "Springfield, GA"
+  },
+  {
+   "st": "IA",
+   "name": "Audubon",
+   "ac": [
+    "Bell 429"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.73,
+    -94.916
+   ],
+   "place": "Audubon, IA"
+  },
+  {
+   "st": "IA",
+   "name": "Clinton",
+   "ac": [
+    "Bell 429"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.852,
+    -90.208
+   ],
+   "place": "Clinton, IA"
+  },
+  {
+   "st": "IA",
+   "name": "Davenport",
+   "ac": [
+    "EC130 T2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.573,
+    -90.604
+   ],
+   "place": "Davenport, IA"
+  },
+  {
+   "st": "IA",
+   "name": "Des Moines (Mercy AirMed)",
+   "ac": [
+    "Bell 429"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.603,
+    -93.633
+   ],
+   "place": "Des Moines, IA"
+  },
+  {
+   "st": "IA",
+   "name": "Des Moines (Unity Point)",
+   "ac": [
+    "Bell 429"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.589,
+    -93.621
+   ],
+   "place": "Des Moines, IA"
+  },
+  {
+   "st": "IA",
+   "name": "Des Moines Combined Hangar",
+   "ac": [],
+   "wing": [],
+   "mx": true,
+   "ll": [
+    41.548,
+    -93.662
+   ],
+   "place": "Des Moines, IA"
+  },
+  {
+   "st": "IA",
+   "name": "Dubuque",
+   "ac": [
+    "EC130 T2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    42.465,
+    -90.683
+   ],
+   "place": "Dubuque, IA"
+  },
+  {
+   "st": "IA",
+   "name": "Fort Dodge",
+   "ac": [
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    42.509,
+    -94.181
+   ],
+   "place": "Fort Dodge, IA"
+  },
+  {
+   "st": "IA",
+   "name": "Iowa City",
+   "ac": [
+    "Bell 429"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.644,
+    -91.567
+   ],
+   "place": "Iowa City, IA"
+  },
+  {
+   "st": "IA",
+   "name": "Knoxville",
+   "ac": [
+    "Bell 429"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.316,
+    -93.095
+   ],
+   "place": "Knoxville, IA"
+  },
+  {
+   "st": "IA",
+   "name": "Mason City",
+   "ac": [
+    "Bell 429"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    43.15,
+    -93.195
+   ],
+   "place": "Mason City, IA"
+  },
+  {
+   "st": "IA",
+   "name": "Sioux City",
+   "ac": [
+    "EC130 B4"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    42.409,
+    -96.371
+   ],
+   "place": "Sioux City, IA"
+  },
+  {
+   "st": "IA",
+   "name": "Waterloo",
+   "ac": [
+    "EC130 T2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    42.515,
+    -92.327
+   ],
+   "place": "Waterloo, IA"
   },
   {
    "st": "ID",
-   "city": "Driggs",
+   "name": "Driggs",
+   "ac": [
+    "AS350 B3"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "North Central"
+   "mx": true,
+   "ll": [
+    43.726,
+    -111.12
+   ],
+   "place": "Driggs, ID"
   },
   {
    "st": "ID",
-   "city": "Idaho Falls",
+   "name": "Idaho Falls FW",
+   "ac": [
+    "PC-12"
+   ],
+   "wing": [
+    "Fixed wing"
+   ],
+   "mx": false,
+   "ll": [
+    43.493,
+    -112.058
+   ],
+   "place": "Idaho Falls, ID"
+  },
+  {
+   "st": "ID",
+   "name": "Idaho Falls RW",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    43.475,
+    -112.012
+   ],
+   "place": "Idaho Falls, ID"
+  },
+  {
+   "st": "ID",
+   "name": "Salmon",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    45.157,
+    -113.878
+   ],
+   "place": "Salmon, ID"
+  },
+  {
+   "st": "IL",
+   "name": "Cahokia R/W",
+   "ac": [
+    "EC145",
+    "PC-12"
+   ],
    "wing": [
     "Rotor wing",
     "Fixed wing"
    ],
-   "region": "North Central"
-  },
-  {
-   "st": "ID",
-   "city": "Salmon",
-   "wing": [
-    "Rotor wing"
+   "mx": false,
+   "ll": [
+    38.551,
+    -90.154
    ],
-   "region": "North Central"
+   "place": "East Saint Louis, IL"
   },
   {
    "st": "IL",
-   "city": "Effingham",
+   "name": "Carbondale",
+   "ac": [
+    "EC130 T2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    37.766,
+    -89.332
+   ],
+   "place": "Murphysboro, IL"
   },
   {
    "st": "IL",
-   "city": "Granite City",
+   "name": "Chicago",
+   "ac": [
+    "EC145"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    41.588,
+    -87.406
+   ],
+   "place": "Gary, IN"
   },
   {
    "st": "IL",
-   "city": "Highland",
+   "name": "Effingham",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    39.122,
+    -88.561
+   ],
+   "place": "Effingham, IL"
   },
   {
    "st": "IL",
-   "city": "Joliet",
+   "name": "Granite City",
+   "ac": [
+    "EC145"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    38.726,
+    -90.111
+   ],
+   "place": "Granite City, IL"
   },
   {
    "st": "IL",
-   "city": "Litchfield",
+   "name": "Highland",
+   "ac": [
+    "EC130 T2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    38.763,
+    -89.679
+   ],
+   "place": "Highland, IL"
   },
   {
    "st": "IL",
-   "city": "McHenry",
+   "name": "Joliet",
+   "ac": [
+    "EC135 T2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    41.471,
+    -87.939
+   ],
+   "place": "Joliet, IL"
   },
   {
    "st": "IL",
-   "city": "Murphysboro",
+   "name": "Litchfield",
+   "ac": [
+    "EC130 T2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    39.179,
+    -89.65
+   ],
+   "place": "Litchfield, IL"
   },
   {
    "st": "IL",
-   "city": "Sparta",
+   "name": "McHenry",
+   "ac": [
+    "EC145"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    42.331,
+    -88.296
+   ],
+   "place": "Mchenry, IL"
   },
   {
    "st": "IL",
-   "city": "Springfield",
+   "name": "Olney",
+   "ac": [
+    "EC130 T2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    38.733,
+    -88.081
+   ],
+   "place": "Olney, IL"
+  },
+  {
+   "st": "IL",
+   "name": "Rockford",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    42.292,
+    -89.116
+   ],
+   "place": "Rockford, IL"
+  },
+  {
+   "st": "IL",
+   "name": "Sparta",
+   "ac": [
+    "EC130 T2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    38.132,
+    -89.704
+   ],
+   "place": "Sparta, IL"
+  },
+  {
+   "st": "IL",
+   "name": "Springfield",
+   "ac": [
+    "EC130 B4"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    39.832,
+    -89.647
+   ],
+   "place": "Springfield, IL"
+  },
+  {
+   "st": "IL",
+   "name": "Urbana",
+   "ac": [
+    "EC130 T2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    40.109,
+    -88.204
+   ],
+   "place": "Urbana, IL"
   },
   {
    "st": "IN",
-   "city": "Corydon",
+   "name": "Corydon",
+   "ac": [
+    "EC130 T2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    38.219,
+    -86.115
+   ],
+   "place": "Corydon, IN"
+  },
+  {
+   "st": "IN",
+   "name": "Elkhart",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.71,
+    -85.973
+   ],
+   "place": "Elkhart, IN"
   },
   {
    "st": "KS",
-   "city": "Parsons",
+   "name": "Emporia",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    38.418,
+    -96.187
+   ],
+   "place": "Emporia, KS"
+  },
+  {
+   "st": "KS",
+   "name": "Garden City",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    37.977,
+    -100.862
+   ],
+   "place": "Garden City, KS"
+  },
+  {
+   "st": "KS",
+   "name": "Liberal",
+   "ac": [
+    "PC-12"
+   ],
+   "wing": [
+    "Fixed wing"
+   ],
+   "mx": false,
+   "ll": [
+    37.044,
+    -100.929
+   ],
+   "place": "Liberal, KS"
+  },
+  {
+   "st": "KS",
+   "name": "Parsons",
+   "ac": [
+    "EC130 B4"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    37.339,
+    -95.269
+   ],
+   "place": "Parsons, KS"
+  },
+  {
+   "st": "KS",
+   "name": "Parsons (MX HGR)",
+   "ac": [],
+   "wing": [],
+   "mx": true,
+   "ll": [
+    37.267,
+    -95.559
+   ],
+   "place": "Cherryvale, KS"
+  },
+  {
+   "st": "KS",
+   "name": "Wichita",
+   "ac": [
+    "PC-12"
+   ],
+   "wing": [
+    "Fixed wing"
+   ],
+   "mx": true,
+   "ll": [
+    37.738,
+    -97.248
+   ],
+   "place": "Wichita, KS"
   },
   {
    "st": "KY",
-   "city": "Bedford",
+   "name": "Bedford",
+   "ac": [
+    "EC130 B4"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    38.586,
+    -85.313
+   ],
+   "place": "Bedford, KY"
   },
   {
    "st": "KY",
-   "city": "Elizabethtown",
+   "name": "Elizabethtown",
+   "ac": [
+    "EC135 T2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    37.685,
+    -85.878
+   ],
+   "place": "Elizabethtown, KY"
   },
   {
    "st": "KY",
-   "city": "Glasgow",
+   "name": "Glasgow",
+   "ac": [
+    "EC130 B4"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    36.988,
+    -85.922
+   ],
+   "place": "Glasgow, KY"
   },
   {
    "st": "KY",
-   "city": "Mt. Sterling",
+   "name": "Louisville OPS Base",
+   "ac": [
+    "EC145"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": true,
+   "ll": [
+    38.222,
+    -85.689
+   ],
+   "place": "Louisville, KY"
   },
   {
    "st": "KY",
-   "city": "Somerset",
+   "name": "Mount Sterling",
+   "ac": [
+    "EC135 T2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    38.055,
+    -83.939
+   ],
+   "place": "Mount Sterling, KY"
+  },
+  {
+   "st": "KY",
+   "name": "Russell Springs",
+   "ac": [
+    "EC130 B4"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    36.968,
+    -85.097
+   ],
+   "place": "Jamestown, KY"
+  },
+  {
+   "st": "KY",
+   "name": "Somerset M Facility Tier 1",
+   "ac": [],
+   "wing": [],
+   "mx": true,
+   "ll": [
+    37.157,
+    -84.525
+   ],
+   "place": "Somerset, KY"
+  },
+  {
+   "st": "KY",
+   "name": "Somerset OPS Base",
+   "ac": [
+    "EC130 T2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    37.157,
+    -84.525
+   ],
+   "place": "Somerset, KY"
+  },
+  {
+   "st": "MA",
+   "name": "Fitchburg",
+   "ac": [
+    "EC135 P2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    42.58,
+    -71.803
+   ],
+   "place": "Fitchburg, MA"
+  },
+  {
+   "st": "MA",
+   "name": "Westfield",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    42.125,
+    -72.749
+   ],
+   "place": "Westfield, MA"
+  },
+  {
+   "st": "MA",
+   "name": "Worcester",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    42.365,
+    -71.897
+   ],
+   "place": "Worcester, MA"
   },
   {
    "st": "MD",
-   "city": "Hagerstown",
+   "name": "Hagerstown",
+   "ac": [
+    "H135 T3"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Northeast"
+   "mx": false,
+   "ll": [
+    39.657,
+    -77.692
+   ],
+   "place": "Hagerstown, MD"
   },
   {
    "st": "MO",
-   "city": "Farmington",
+   "name": "Bolivar",
+   "ac": [
+    "MD902"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    37.608,
+    -93.413
+   ],
+   "place": "Bolivar, MO"
   },
   {
    "st": "MO",
-   "city": "Joplin",
+   "name": "Farmington (Parkland Hospital MX Hgr)",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": true,
+   "ll": [
+    37.491,
+    -90.336
+   ],
+   "place": "Fredericktown, MO"
   },
   {
    "st": "MO",
-   "city": "Rolla",
+   "name": "Farmington (Parkland Hospital)",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    37.777,
+    -90.409
+   ],
+   "place": "Farmington, MO"
   },
   {
    "st": "MO",
-   "city": "Sullivan",
+   "name": "Joplin",
+   "ac": [
+    "EC130 T2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Midwest"
+   "mx": false,
+   "ll": [
+    37.047,
+    -94.51
+   ],
+   "place": "Joplin, MO"
+  },
+  {
+   "st": "MO",
+   "name": "Rolla",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    37.949,
+    -91.76
+   ],
+   "place": "Rolla, MO"
+  },
+  {
+   "st": "MO",
+   "name": "Rolla (MX HGR)",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": true,
+   "ll": [
+    38.098,
+    -91.779
+   ],
+   "place": "Vichy, MO"
+  },
+  {
+   "st": "MO",
+   "name": "Springfield",
+   "ac": [
+    "MD902"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    37.167,
+    -93.308
+   ],
+   "place": "Springfield, MO"
+  },
+  {
+   "st": "MO",
+   "name": "St. Louis M Facility",
+   "ac": [],
+   "wing": [],
+   "mx": true,
+   "ll": [
+    38.633,
+    -90.216
+   ],
+   "place": "Saint Louis, MO"
+  },
+  {
+   "st": "MO",
+   "name": "Sullivan",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    38.231,
+    -91.157
+   ],
+   "place": "Sullivan, MO"
   },
   {
    "st": "MT",
-   "city": "West Yellowstone",
+   "name": "West Yellowstone",
+   "ac": [
+    "AS350 B3"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "North Central"
+   "mx": false,
+   "ll": [
+    44.662,
+    -111.104
+   ],
+   "place": "West Yellowstone, MT"
   },
   {
    "st": "NC",
-   "city": "Lumberton",
+   "name": "Aberdeen",
+   "ac": [
+    "Bell 429"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Northeast"
+   "mx": false,
+   "ll": [
+    35.122,
+    -79.445
+   ],
+   "place": "Aberdeen, NC"
   },
   {
-   "st": "NE",
-   "city": "Columbus",
+   "st": "NC",
+   "name": "Burlington",
+   "ac": [
+    "Bell 429",
+    "EC135 T2+"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "North Central"
+   "mx": false,
+   "ll": [
+    36.032,
+    -79.489
+   ],
+   "place": "Burlington, NC"
   },
   {
-   "st": "NE",
-   "city": "Crete",
+   "st": "NC",
+   "name": "Elm City M Facility",
+   "ac": [],
+   "wing": [],
+   "mx": true,
+   "ll": [
+    35.811,
+    -77.856
+   ],
+   "place": "Elm City, NC"
+  },
+  {
+   "st": "NC",
+   "name": "Goldsboro",
+   "ac": [
+    "Bell 429"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "North Central"
+   "mx": false,
+   "ll": [
+    35.493,
+    -77.958
+   ],
+   "place": "Pikeville, NC"
   },
   {
-   "st": "NE",
-   "city": "Kearney",
+   "st": "NC",
+   "name": "Lumberton",
+   "ac": [
+    "EC135 T2+"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "North Central"
+   "mx": false,
+   "ll": [
+    34.629,
+    -79.008
+   ],
+   "place": "Lumberton, NC"
   },
   {
-   "st": "NE",
-   "city": "Norfolk",
+   "st": "NC",
+   "name": "Rocky Mount",
+   "ac": [
+    "Bell 429"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "North Central"
+   "mx": false,
+   "ll": [
+    35.99,
+    -77.847
+   ],
+   "place": "Rocky Mount, NC"
   },
   {
    "st": "NE",
-   "city": "North Platte",
+   "name": "Columbus",
+   "ac": [
+    "EC130 B4"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.43,
+    -97.368
+   ],
+   "place": "Columbus, NE"
+  },
+  {
+   "st": "NE",
+   "name": "Crete",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    40.619,
+    -96.957
+   ],
+   "place": "Crete, NE"
+  },
+  {
+   "st": "NE",
+   "name": "Kearney",
+   "ac": [
+    "EC135 T2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    40.714,
+    -99.078
+   ],
+   "place": "Kearney, NE"
+  },
+  {
+   "st": "NE",
+   "name": "Norfolk",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    42.033,
+    -97.423
+   ],
+   "place": "Norfolk, NE"
+  },
+  {
+   "st": "NE",
+   "name": "North Platte",
+   "ac": [
+    "Bell 407",
+    "PC-12"
+   ],
    "wing": [
     "Rotor wing",
     "Fixed wing"
    ],
-   "region": "North Central"
+   "mx": false,
+   "ll": [
+    41.133,
+    -100.775
+   ],
+   "place": "North Platte, NE"
   },
   {
    "st": "NE",
-   "city": "Omaha",
+   "name": "Omaha FW",
+   "ac": [
+    "PC-12"
+   ],
+   "wing": [
+    "Fixed wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.208,
+    -96.115
+   ],
+   "place": "Omaha, NE"
+  },
+  {
+   "st": "NE",
+   "name": "Omaha RW",
+   "ac": [
+    "EC135 P2",
+    "EC135 P2+"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "North Central"
+   "mx": false,
+   "ll": [
+    41.243,
+    -95.963
+   ],
+   "place": "Omaha, NE"
   },
   {
-   "st": "NM",
-   "city": "Alamogordo",
+   "st": "NJ",
+   "name": "Sewell",
+   "ac": [
+    "EC135 P2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    39.747,
+    -75.09
+   ],
+   "place": "Sewell, NJ"
+  },
+  {
+   "st": "NJ",
+   "name": "Toms River/Brick",
+   "ac": [
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    40.087,
+    -74.115
+   ],
+   "place": "Brick, NJ"
+  },
+  {
+   "st": "NJ",
+   "name": "West Milford",
+   "ac": [
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.092,
+    -74.375
+   ],
+   "place": "West Milford, NJ"
+  },
+  {
+   "st": "NJ",
+   "name": "Woodbine",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    39.272,
+    -74.797
+   ],
+   "place": "Woodbine, NJ"
   },
   {
    "st": "NM",
-   "city": "Carlsbad",
+   "name": "Alamogordo",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    32.893,
+    -105.948
+   ],
+   "place": "Alamogordo, NM"
+  },
+  {
+   "st": "NM",
+   "name": "Artesia, NM",
+   "ac": [
+    "EC130 T2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    32.838,
+    -104.407
+   ],
+   "place": "Artesia, NM"
+  },
+  {
+   "st": "NM",
+   "name": "Carlsbad F/W",
+   "ac": [
+    "EC130 T2",
+    "PC-12"
+   ],
    "wing": [
     "Rotor wing",
     "Fixed wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    32.412,
+    -104.24
+   ],
+   "place": "Carlsbad, NM"
   },
   {
    "st": "NM",
-   "city": "Deming",
+   "name": "Deming",
+   "ac": [
+    "AS350 B3"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    32.232,
+    -107.747
+   ],
+   "place": "Deming, NM"
   },
   {
    "st": "NM",
-   "city": "Las Cruces",
+   "name": "Farmington",
+   "ac": [
+    "Bell 429"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    36.741,
+    -108.18
+   ],
+   "place": "Farmington, NM"
   },
   {
    "st": "NM",
-   "city": "Portales",
+   "name": "Farmington (F/W)",
+   "ac": [
+    "PC-12"
+   ],
+   "wing": [
+    "Fixed wing"
+   ],
+   "mx": false,
+   "ll": [
+    36.741,
+    -108.18
+   ],
+   "place": "Farmington, NM"
+  },
+  {
+   "st": "NM",
+   "name": "Las Cruces 7506 R/W",
+   "ac": [
+    "EC135 P2+"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    32.322,
+    -106.804
+   ],
+   "place": "Las Cruces, NM"
   },
   {
    "st": "NM",
-   "city": "Roswell",
+   "name": "Las Cruces 7525 F/W",
+   "ac": [
+    "PC-12"
+   ],
+   "wing": [
+    "Fixed wing"
+   ],
+   "mx": false,
+   "ll": [
+    32.322,
+    -106.804
+   ],
+   "place": "Las Cruces, NM"
+  },
+  {
+   "st": "NM",
+   "name": "Las Cruces NM M Facility",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": true,
+   "ll": [
+    32.322,
+    -106.804
+   ],
+   "place": "Las Cruces, NM"
+  },
+  {
+   "st": "NM",
+   "name": "Roswell",
+   "ac": [
+    "PC-12"
+   ],
+   "wing": [
+    "Fixed wing"
+   ],
+   "mx": false,
+   "ll": [
+    33.372,
+    -104.528
+   ],
+   "place": "Roswell, NM"
+  },
+  {
+   "st": "NM",
+   "name": "Santa Fe",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    35.657,
+    -106.015
+   ],
+   "place": "Santa Fe, NM"
+  },
+  {
+   "st": "NM",
+   "name": "Silver City",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    32.79,
+    -108.275
+   ],
+   "place": "Silver City, NM"
+  },
+  {
+   "st": "NM",
+   "name": "Taos",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    36.432,
+    -105.575
+   ],
+   "place": "El Prado, NM"
+  },
+  {
+   "st": "NV",
+   "name": "Fallon",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    39.472,
+    -118.78
+   ],
+   "place": "Fallon, NV"
+  },
+  {
+   "st": "NV",
+   "name": "Gardnerville Care Flight 2",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    38.87,
+    -119.612
+   ],
+   "place": "Gardnerville, NV"
+  },
+  {
+   "st": "NV",
+   "name": "Henderson",
+   "ac": [
+    "A109 E",
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    35.903,
+    -115.179
+   ],
+   "place": "Henderson, NV"
+  },
+  {
+   "st": "NV",
+   "name": "Mesquite",
+   "ac": [
+    "A109 E"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    36.811,
+    -114.124
+   ],
+   "place": "Mesquite, NV"
+  },
+  {
+   "st": "NV",
+   "name": "North Las Vegas",
+   "ac": [
+    "PC-12"
+   ],
+   "wing": [
+    "Fixed wing"
+   ],
+   "mx": false,
+   "ll": [
+    36.218,
+    -115.171
+   ],
+   "place": "North Las Vegas, NV"
+  },
+  {
+   "st": "NV",
+   "name": "Pahrump",
+   "ac": [
+    "A109 E",
+    "EC130 B4"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    36.166,
+    -116.004
+   ],
+   "place": "Pahrump, NV"
+  },
+  {
+   "st": "NV",
+   "name": "Reno",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": true,
+   "ll": [
+    39.497,
+    -119.776
+   ],
+   "place": "Reno, NV"
+  },
+  {
+   "st": "NY",
+   "name": "Carthage",
+   "ac": [],
+   "wing": [],
+   "mx": false,
+   "ll": [
+    43.979,
+    -75.601
+   ],
+   "place": "Carthage, NY"
+  },
+  {
+   "st": "NY",
+   "name": "Harris",
+   "ac": [
+    "EC130 T2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.714,
+    -74.726
+   ],
+   "place": "Harris, NY"
+  },
+  {
+   "st": "NY",
+   "name": "Hornell",
+   "ac": [
+    "EC130 T2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    42.327,
+    -77.657
+   ],
+   "place": "Hornell, NY"
+  },
+  {
+   "st": "NY",
+   "name": "Johnstown",
+   "ac": [
+    "EC130 B4"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": true,
+   "ll": [
+    43.007,
+    -74.371
+   ],
+   "place": "Johnstown, NY"
+  },
+  {
+   "st": "NY",
+   "name": "Potsdam",
+   "ac": [
+    "PC-12"
+   ],
+   "wing": [
+    "Fixed wing"
+   ],
+   "mx": false,
+   "ll": [
+    44.659,
+    -74.968
+   ],
+   "place": "Potsdam, NY"
+  },
+  {
+   "st": "NY",
+   "name": "Rome",
+   "ac": [
+    "EC130 B4"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    43.329,
+    -75.315
+   ],
+   "place": "Westernville, NY"
+  },
+  {
+   "st": "NY",
+   "name": "Selkirk",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    42.549,
+    -73.813
+   ],
+   "place": "Selkirk, NY"
+  },
+  {
+   "st": "NY",
+   "name": "Seneca Falls",
+   "ac": [
+    "EC130 T2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    42.909,
+    -76.793
+   ],
+   "place": "Seneca Falls, NY"
+  },
+  {
+   "st": "NY",
+   "name": "Sidney",
+   "ac": [
+    "EC130 B4"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    42.307,
+    -75.391
+   ],
+   "place": "Sidney, NY"
+  },
+  {
+   "st": "NY",
+   "name": "Ticonderoga",
+   "ac": [
+    "EC135 P2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    43.846,
+    -73.443
+   ],
+   "place": "Ticonderoga, NY"
+  },
+  {
+   "st": "NY",
+   "name": "Wallkill",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.616,
+    -74.144
+   ],
+   "place": "Wallkill, NY"
+  },
+  {
+   "st": "NY",
+   "name": "Watertown",
+   "ac": [
+    "EC135 P2+",
+    "PC-12"
+   ],
    "wing": [
     "Rotor wing",
     "Fixed wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    44.007,
+    -76.065
+   ],
+   "place": "Dexter, NY"
   },
   {
-   "st": "NM",
-   "city": "Silver City",
+   "st": "OH",
+   "name": "Cincinnati",
+   "ac": [
+    "EC145"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
-  },
-  {
-   "st": "NM",
-   "city": "Taos",
-   "wing": [
-    "Rotor wing"
+   "mx": false,
+   "ll": [
+    39.349,
+    -84.538
    ],
-   "region": "South Central"
-  },
-  {
-   "st": "NV",
-   "city": "Henderson",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "PacWest"
-  },
-  {
-   "st": "NV",
-   "city": "Mesquite",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "PacWest"
-  },
-  {
-   "st": "NV",
-   "city": "Pahrump",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "PacWest"
-  },
-  {
-   "st": "NY",
-   "city": "Dexter",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "Northeast"
-  },
-  {
-   "st": "NY",
-   "city": "Gettysburg",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "Northeast"
-  },
-  {
-   "st": "NY",
-   "city": "Harris",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "Northeast"
-  },
-  {
-   "st": "NY",
-   "city": "Hornell",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "Northeast"
-  },
-  {
-   "st": "NY",
-   "city": "Johnstown",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "Northeast"
-  },
-  {
-   "st": "NY",
-   "city": "Potsdam",
-   "wing": [
-    "Fixed wing"
-   ],
-   "region": "Northeast"
-  },
-  {
-   "st": "NY",
-   "city": "Selkirk",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "Northeast"
-  },
-  {
-   "st": "NY",
-   "city": "Seneca Falls",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "Northeast"
-  },
-  {
-   "st": "NY",
-   "city": "Sidney",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "Northeast"
-  },
-  {
-   "st": "NY",
-   "city": "Ticonderoga",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "Northeast"
-  },
-  {
-   "st": "NY",
-   "city": "Wallkill",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "Northeast"
+   "place": "Hamilton, OH"
   },
   {
    "st": "OK",
-   "city": "Okmulgee",
+   "name": "Okmulgee (McAlester In RAMCO)",
+   "ac": [
+    "EC130 B4"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    35.629,
+    -95.97
+   ],
+   "place": "Okmulgee, OK"
   },
   {
    "st": "OK",
-   "city": "Pryor",
+   "name": "Pryor",
+   "ac": [
+    "EC130 B4"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    36.292,
+    -95.313
+   ],
+   "place": "Pryor, OK"
   },
   {
    "st": "OK",
-   "city": "Stillwater",
+   "name": "Stillwater",
+   "ac": [
+    "EC130 B4"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    36.104,
+    -97.061
+   ],
+   "place": "Stillwater, OK"
+  },
+  {
+   "st": "OK",
+   "name": "Tulsa / Riverside (Maintenance Hangar)",
+   "ac": [
+    "AS350 B3",
+    "EC130 B4"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": true,
+   "ll": [
+    36.064,
+    -96.025
+   ],
+   "place": "Tulsa, OK"
   },
   {
    "st": "PA",
-   "city": "Sayre",
+   "name": "Doylestown",
+   "ac": [
+    "EC135 T2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Northeast"
+   "mx": false,
+   "ll": [
+    40.181,
+    -74.91
+   ],
+   "place": "Langhorne, PA"
+  },
+  {
+   "st": "PA",
+   "name": "East Stroudsburg",
+   "ac": [
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.037,
+    -75.174
+   ],
+   "place": "East Stroudsburg, PA"
+  },
+  {
+   "st": "PA",
+   "name": "Gettysburg",
+   "ac": [
+    "EC135 T2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    39.832,
+    -77.222
+   ],
+   "place": "Gettysburg, PA"
+  },
+  {
+   "st": "PA",
+   "name": "Hazleton",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    40.951,
+    -76.049
+   ],
+   "place": "Hazleton, PA"
+  },
+  {
+   "st": "PA",
+   "name": "Johnstown",
+   "ac": [
+    "BK117 B2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    40.025,
+    -79.081
+   ],
+   "place": "Somerset, PA"
+  },
+  {
+   "st": "PA",
+   "name": "Kutztown",
+   "ac": [
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    40.521,
+    -75.777
+   ],
+   "place": "Kutztown, PA"
+  },
+  {
+   "st": "PA",
+   "name": "Lansdale",
+   "ac": [
+    "EC135 P2",
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    40.238,
+    -75.296
+   ],
+   "place": "Lansdale, PA"
+  },
+  {
+   "st": "PA",
+   "name": "Media",
+   "ac": [
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    39.919,
+    -75.399
+   ],
+   "place": "Media, PA"
+  },
+  {
+   "st": "PA",
+   "name": "Pottsville",
+   "ac": [
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    40.684,
+    -76.212
+   ],
+   "place": "Pottsville, PA"
+  },
+  {
+   "st": "PA",
+   "name": "Quakertown M Facility",
+   "ac": [
+    "EC135 T2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": true,
+   "ll": [
+    40.441,
+    -75.351
+   ],
+   "place": "Quakertown, PA"
+  },
+  {
+   "st": "PA",
+   "name": "Sayre",
+   "ac": [
+    "EC135 P2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.984,
+    -76.522
+   ],
+   "place": "Sayre, PA"
+  },
+  {
+   "st": "PA",
+   "name": "West Mifflin 145 MX Depot",
+   "ac": [],
+   "wing": [],
+   "mx": true,
+   "ll": [
+    40.363,
+    -79.866
+   ],
+   "place": "West Mifflin, PA"
+  },
+  {
+   "st": "PA",
+   "name": "West Mifflin 145 MX Depot **NVG SHOP**",
+   "ac": [],
+   "wing": [],
+   "mx": true,
+   "ll": [
+    40.363,
+    -79.866
+   ],
+   "place": "West Mifflin, PA"
   },
   {
    "st": "SC",
-   "city": "Camden",
+   "name": "Camden",
+   "ac": [
+    "EC135 T2+"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    34.27,
+    -80.591
+   ],
+   "place": "Camden, SC"
   },
   {
    "st": "SC",
-   "city": "Orangeburg",
+   "name": "Camden M",
+   "ac": [
+    "EC130 B4"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    34.27,
+    -80.591
+   ],
+   "place": "Camden, SC"
   },
   {
    "st": "SC",
-   "city": "Pickens",
+   "name": "Laurens",
+   "ac": [
+    "EC130 T2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Southeast"
+   "mx": false,
+   "ll": [
+    34.471,
+    -81.877
+   ],
+   "place": "Clinton, SC"
+  },
+  {
+   "st": "SC",
+   "name": "Orangeburg",
+   "ac": [
+    "EC130 B4"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    33.502,
+    -80.859
+   ],
+   "place": "Orangeburg, SC"
+  },
+  {
+   "st": "SC",
+   "name": "Pickens",
+   "ac": [
+    "EC135 P2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    34.787,
+    -82.697
+   ],
+   "place": "Liberty, SC"
   },
   {
    "st": "SD",
-   "city": "Hot Springs",
+   "name": "Hot Springs (Fall River County)",
+   "ac": [
+    "Bell 407"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "North Central"
+   "mx": false,
+   "ll": [
+    43.422,
+    -103.477
+   ],
+   "place": "Hot Springs, SD"
   },
   {
    "st": "SD",
-   "city": "Rapid City",
+   "name": "Rapid City",
+   "ac": [
+    "Bell 407",
+    "PC-12"
+   ],
    "wing": [
     "Rotor wing",
     "Fixed wing"
    ],
-   "region": "North Central"
-  },
-  {
-   "st": "TX",
-   "city": "El Paso",
-   "wing": [
-    "Fixed wing"
+   "mx": false,
+   "ll": [
+    44.048,
+    -103.176
    ],
-   "region": "South Central"
+   "place": "Rapid City, SD"
   },
   {
-   "st": "TX",
-   "city": "Kerrville",
-   "wing": [
-    "Rotor wing"
+   "st": "SD",
+   "name": "Sioux City",
+   "ac": [],
+   "wing": [],
+   "mx": false,
+   "ll": [
+    42.409,
+    -96.371
    ],
-   "region": "South Central"
+   "place": "Sioux City, IA"
   },
   {
-   "st": "TX",
-   "city": "Pleasanton",
-   "wing": [
-    "Rotor wing"
+   "st": "TN",
+   "name": "Lebanon Maintenance Facility",
+   "ac": [],
+   "wing": [],
+   "mx": true,
+   "ll": [
+    36.118,
+    -86.263
    ],
-   "region": "South Central"
+   "place": "Lebanon, TN"
   },
   {
-   "st": "TX",
-   "city": "San Antonio",
-   "wing": [
-    "Rotor wing"
+   "st": "TN",
+   "name": "Morristown",
+   "ac": [
+    "EC135 T2+"
    ],
-   "region": "South Central"
-  },
-  {
-   "st": "TX",
-   "city": "Snyder",
-   "wing": [
-    "Rotor wing"
-   ],
-   "region": "South Central"
-  },
-  {
-   "st": "TX",
-   "city": "Uvalde",
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    36.225,
+    -83.312
+   ],
+   "place": "Morristown, TN"
   },
   {
-   "st": "TX",
-   "city": "Waco",
+   "st": "TN",
+   "name": "Nashville",
+   "ac": [
+    "EC130 T2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "South Central"
+   "mx": false,
+   "ll": [
+    36.15,
+    -86.792
+   ],
+   "place": "Nashville, TN"
+  },
+  {
+   "st": "TN",
+   "name": "Rockwood",
+   "ac": [],
+   "wing": [],
+   "mx": false,
+   "ll": [
+    35.859,
+    -84.684
+   ],
+   "place": "Rockwood, TN"
+  },
+  {
+   "st": "TX",
+   "name": "El Paso",
+   "ac": [
+    "EC130 T2"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    31.781,
+    -106.361
+   ],
+   "place": "El Paso, TX"
+  },
+  {
+   "st": "TX",
+   "name": "Lockhart, TX",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    29.887,
+    -97.677
+   ],
+   "place": "Lockhart, TX"
+  },
+  {
+   "st": "TX",
+   "name": "New Braunfels, TX M Facility",
+   "ac": [],
+   "wing": [],
+   "mx": true,
+   "ll": [
+    29.723,
+    -98.074
+   ],
+   "place": "New Braunfels, TX"
+  },
+  {
+   "st": "TX",
+   "name": "Snyder",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    32.745,
+    -100.918
+   ],
+   "place": "Snyder, TX"
+  },
+  {
+   "st": "TX",
+   "name": "Uvalde",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    29.217,
+    -99.793
+   ],
+   "place": "Uvalde, TX"
+  },
+  {
+   "st": "TX",
+   "name": "Waco (TEMTX-7727)",
+   "ac": [
+    "Bell 407"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    31.64,
+    -97.096
+   ],
+   "place": "Waco, TX"
   },
   {
    "st": "UT",
-   "city": "Cedar City",
+   "name": "Brigham City",
+   "ac": [
+    "AS350 B3"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "North Central"
+   "mx": false,
+   "ll": [
+    41.508,
+    -112.015
+   ],
+   "place": "Brigham City, UT"
   },
   {
    "st": "UT",
-   "city": "Ogden",
+   "name": "Lehi",
+   "ac": [
+    "AS350 B3"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "North Central"
-  },
-  {
-   "st": "UT",
-   "city": "Orem",
-   "wing": [
-    "Rotor wing"
+   "mx": false,
+   "ll": [
+    40.396,
+    -111.851
    ],
-   "region": "North Central"
+   "place": "Lehi, UT"
   },
   {
    "st": "VA",
-   "city": "Martinsville",
+   "name": "Hopewell",
+   "ac": [
+    "EC130 T2"
+   ],
    "wing": [
     "Rotor wing"
    ],
-   "region": "Northeast"
+   "mx": false,
+   "ll": [
+    37.288,
+    -77.295
+   ],
+   "place": "Hopewell, VA"
+  },
+  {
+   "st": "VA",
+   "name": "Martinsville",
+   "ac": [
+    "EC135 T2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    36.687,
+    -79.869
+   ],
+   "place": "Martinsville, VA"
+  },
+  {
+   "st": "WA",
+   "name": "Arlington",
+   "ac": [
+    "EC135 T2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    48.183,
+    -122.112
+   ],
+   "place": "Arlington, WA"
+  },
+  {
+   "st": "WA",
+   "name": "Bellingham",
+   "ac": [
+    "EC135 T2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    48.749,
+    -122.489
+   ],
+   "place": "Bellingham, WA"
+  },
+  {
+   "st": "WA",
+   "name": "Bremerton",
+   "ac": [
+    "EC135 T2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    47.575,
+    -122.696
+   ],
+   "place": "Bremerton, WA"
+  },
+  {
+   "st": "WA",
+   "name": "Davenport",
+   "ac": [
+    "EC135 T2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    47.681,
+    -118.167
+   ],
+   "place": "Davenport, WA"
+  },
+  {
+   "st": "WA",
+   "name": "Olympia",
+   "ac": [
+    "EC135 T2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    47.013,
+    -122.876
+   ],
+   "place": "Olympia, WA"
+  },
+  {
+   "st": "WA",
+   "name": "Seattle",
+   "ac": [
+    "EC135 T2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    47.541,
+    -122.313
+   ],
+   "place": "Seattle, WA"
+  },
+  {
+   "st": "WA",
+   "name": "Wenatchee",
+   "ac": [
+    "EC135 T2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    47.419,
+    -120.273
+   ],
+   "place": "East Wenatchee, WA"
+  },
+  {
+   "st": "WA",
+   "name": "Yakima",
+   "ac": [
+    "PC-12"
+   ],
+   "wing": [
+    "Fixed wing"
+   ],
+   "mx": false,
+   "ll": [
+    46.544,
+    -120.744
+   ],
+   "place": "Yakima, WA"
+  },
+  {
+   "st": "WI",
+   "name": "Green Bay",
+   "ac": [
+    "EC135 T2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    44.491,
+    -87.927
+   ],
+   "place": "Green Bay, WI"
+  },
+  {
+   "st": "WV",
+   "name": "Beckley/Beaver",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    37.752,
+    -81.073
+   ],
+   "place": "Beaver, WV"
+  },
+  {
+   "st": "WV",
+   "name": "Buckhannon",
+   "ac": [
+    "H135 P3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    38.975,
+    -80.241
+   ],
+   "place": "Buckhannon, WV"
+  },
+  {
+   "st": "WV",
+   "name": "Charleston",
+   "ac": [
+    "EC135 P1",
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    38.349,
+    -81.599
+   ],
+   "place": "Charleston, WV"
+  },
+  {
+   "st": "WV",
+   "name": "Huntington",
+   "ac": [
+    "H135 T3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    38.41,
+    -82.442
+   ],
+   "place": "Huntington, WV"
+  },
+  {
+   "st": "WV",
+   "name": "Lewisburg",
+   "ac": [
+    "H135 P3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    37.808,
+    -80.441
+   ],
+   "place": "Lewisburg, WV"
+  },
+  {
+   "st": "WV",
+   "name": "Martinsburg",
+   "ac": [
+    "EC135 P2+"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    39.409,
+    -77.962
+   ],
+   "place": "Martinsburg, WV"
+  },
+  {
+   "st": "WV",
+   "name": "Millwood",
+   "ac": [
+    "H135 P3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    38.896,
+    -81.825
+   ],
+   "place": "Millwood, WV"
+  },
+  {
+   "st": "WV",
+   "name": "Moundsville",
+   "ac": [
+    "H135 P3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    39.915,
+    -80.731
+   ],
+   "place": "Moundsville, WV"
+  },
+  {
+   "st": "WV",
+   "name": "Westover (Morgantown)",
+   "ac": [
+    "EC145"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    39.61,
+    -79.983
+   ],
+   "place": "Morgantown, WV"
   },
   {
    "st": "WY",
-   "city": "Casper",
+   "name": "Casper",
+   "ac": [
+    "Bell 407",
+    "PC-12"
+   ],
    "wing": [
     "Rotor wing",
     "Fixed wing"
    ],
-   "region": "North Central"
+   "mx": false,
+   "ll": [
+    42.826,
+    -106.39
+   ],
+   "place": "Casper, WY"
+  },
+  {
+   "st": "WY",
+   "name": "Evanston",
+   "ac": [
+    "AS350 B3"
+   ],
+   "wing": [
+    "Rotor wing"
+   ],
+   "mx": false,
+   "ll": [
+    41.261,
+    -110.963
+   ],
+   "place": "Evanston, WY"
   }
  ]
 }

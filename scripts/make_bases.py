@@ -1,26 +1,50 @@
 #!/usr/bin/env python3
-"""Reads the saved CAMTS "Accredited Program Bases" map file and writes data/bases.json: every base the map
-lists under an Air Methods region, by city, with rotor wing / fixed wing taken from the map layer it sits in.
-Source file: data/sources/camts-bases.kml (downloaded by .github/workflows/camts.yml from the map linked on
-https://www.camts.org/accreditedservices). Nothing is added from memory. Usage: python3 scripts/make_bases.py"""
-import re, json, os, html
-D = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
-s = open(os.path.join(D, "sources", "camts-bases.kml"), encoding="utf-8").read()
-WING = {"02202023 RW ONLY": "Rotor wing", "CAMTS Accredited FW BASE MAP": "Fixed wing"}
-REGION = [("pac", "PacWest"), ("north central", "North Central"), ("midwest", "Midwest"), ("south central", "South Central"), ("southeast", "Southeast"), ("northeast", "Northeast")]
-out = {}
-for folder, body in re.findall(r"<Folder>\s*<name>(.*?)</name>(.*?)</Folder>", s, re.S):
-    if folder not in WING: continue
-    for p in re.findall(r"<Placemark>(.*?)</Placemark>", body, re.S):
-        name = html.unescape(re.sub(r"<!\[CDATA\[|\]\]>", "", re.search(r"<name>(.*?)</name>", p, re.S).group(1))).strip()
-        if not re.search(r"air methods", name, re.I): continue
-        f = lambda k: (re.search(r'<Data name="%s">\s*<value>(.*?)</value>' % k, p, re.S) or [None, ""])[1]
-        st, city = html.unescape(f("Base State")).strip().upper(), re.sub(r"\s+", " ", html.unescape(f("Base City"))).strip()
-        if not st or not city: print("SKIPPED (no city or state):", name); continue
-        city = " ".join(w if w.isupper() and len(w) <= 3 else w[:1].upper() + w[1:] for w in (city.title() if city.isupper() or city.islower() else city).split(" "))
-        b = out.setdefault((st, city.lower()), dict(st=st, city=city, wing=[], region=next((lab for k, lab in REGION if k in name.lower()), "")))
-        if WING[folder] not in b["wing"]: b["wing"].append(WING[folder])
-bases = sorted(out.values(), key=lambda b: (b["st"], b["city"]))
-json.dump(dict(_note="Air Methods bases on the CAMTS accredited program bases map (map file dated February 2024, list page current as of October 24, 2026). City level only.",
-               source="https://www.camts.org/accreditedservices", bases=bases), open(os.path.join(D, "bases.json"), "w"), indent=1)
-print(len(bases), "base cities")
+"""Builds data/bases.json (the "Show all bases" list on the map) from the base spreadsheet Dave supplied.
+The spreadsheet is NOT kept in this repository. Only base name, state and aircraft are published (no street addresses, by Dave's choice):
+no headcounts, titles or people. Rows that are not a place (roving, relief and lead roles, pools, warehouses,
+training) are left out. Usage: python3 scripts/make_bases.py <path to all bases.xlsx>"""
+import sys, os, re, json, glob, openpyxl
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+NOT_A_BASE = re.compile(r"\blead\b|relief|rover|roving|spare|\bpool\b|part time|director|home ?base|warehouse|materials|WHS|apprentice|on-call|USPS|\bAMT\b", re.I)
+MX = re.compile(r"M[- ]?Facility|\bMX\b|maintenance|maintenace|depot|hang[ae]r|HGR", re.I)
+AC = {"B407": "Bell 407", "B429": "Bell 429", "B412": "Bell 412", "PC12": "PC-12", "BE200": "King Air 200"}
+FIXED = {"PC-12", "King Air 200"}
+zips = {}
+for f in glob.glob(os.path.join(ROOT, "site", "zips", "*.json")): zips.update(json.load(open(f)))
+places = json.load(open(os.path.join(ROOT, "data", "us-places.json")))
+rows = [tuple((str(c).strip() if c is not None else "") for c in r) for r in list(openpyxl.load_workbook(sys.argv[1], read_only=True, data_only=True).active.iter_rows(values_only=True))[1:]]
+groups, skipped, clean, votes = {}, set(), [], {}
+akey = lambda st, addr: (st, re.sub(r"[^a-z0-9]", "", addr.lower()))
+for name, st, addr, region, model, prog in rows:
+    if not name: continue
+    name, st, addr = re.sub(r"\s+", " ", name), st.upper(), re.sub(r"\s+", " ", addr).strip(" ,")
+    if NOT_A_BASE.search(name) or re.search(r"tiger team", name, re.I) or re.search(r"training|materials", prog, re.I) or not re.search(r"\d", addr): skipped.add((st, name)); continue
+    clean.append((name, st, addr, model))
+    v = votes.setdefault((st, name.lower()), {}); v[akey(st, addr)] = v.get(akey(st, addr), 0) + 1
+for name, st, addr, model in clean:
+    v = votes[(st, name.lower())]; key = max(v, key=v.get)      # a base listed with two addresses keeps the one most rows use
+    if key != akey(st, addr): addr = ""
+    g = groups.setdefault(key, dict(st=st, names=[], addr=addr, ac=[]))
+    if name not in g["names"]: g["names"].append(name)
+    if len(addr) > len(g["addr"]): g["addr"] = addr     # keep the most complete spelling of the same address
+    m = AC.get(model, model)
+    if m and m.lower() != "blank" and m not in g["ac"]: g["ac"].append(m)
+bases, nozip = [], []
+for g in groups.values():
+    plain = [n for n in g["names"] if not MX.search(n)] or g["names"]
+    name = min(plain, key=len)
+    z = re.findall(r"\b(\d{5})(?:-\d{4})?\b", g["addr"])
+    z = next((x for x in reversed(z) if x in zips), None)
+    b = dict(st=g["st"], name=name, ac=sorted(g["ac"]), wing=[w for w, on in (("Rotor wing", any(a not in FIXED for a in g["ac"])), ("Fixed wing", any(a in FIXED for a in g["ac"]))) if on],
+             mx=any(MX.search(n) for n in g["names"]))
+    if z: b["ll"] = [round(zips[z][0], 3), round(zips[z][1], 3)]; b["place"] = zips[z][2]
+    else:
+        w = re.sub(r"\(.*|\d.*| care flight.*", "", name, flags=re.I).strip().lower()
+        hit = places.get(g["st"] + "|" + w)
+        if hit: b["ll"] = [round(hit[0], 3), round(hit[1], 3)]; b["place"] = w.title() + ", " + g["st"]
+        else: nozip.append(b["name"] + ", " + b["st"])
+    bases.append(b)
+bases.sort(key=lambda b: (b["st"], b["name"]))
+json.dump(dict(_note="Air Methods base locations from the company base list Dave supplied on Nov 15, 2026. One entry per location, no street addresses. Placed on the map by ZIP code area.", bases=bases),
+          open(os.path.join(ROOT, "data", "bases.json"), "w"), indent=1)
+print(len(bases), "bases;", len(skipped), "non-base rows left out;", len(nozip), "without a usable ZIP:", nozip)
