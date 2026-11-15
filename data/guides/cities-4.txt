@@ -255,3 +255,88 @@ vets: The VA has a clinic in Idaho Falls. ; Another VA clinic is in Pocatello.
 around: Pocatello, about an hour away, is home to Idaho State University and the Idaho Museum of Natural History. ; Rexburg, roughly half an hour away, is home to BYU-Idaho and is close to the St. Anthony Sand Dunes. ; Jackson, Wyoming, about two hours away, is a gateway to Grand Teton and Yellowstone national parks.
 checked: November 2026
 src: https://en.wikipedia.org/wiki/Idaho_Falls,_Idaho ; https://en.wikipedia.org/wiki/Museum_of_Idaho ; https://en.wikipedia.org/wiki/Tautphaus_Park ; https://en.wikipedia.org/wiki/Idaho_Falls_Chukars ; https://en.wikipedia.org/wiki/Craters_of_the_Moon_National_Monument_and_Preserve ; https://en.wikipedia.org/wiki/Pocatello,_Idaho ; https://en.wikipedia.org/wiki/Rexburg,_Idaho ; https://en.wikipedia.org/wiki/Jackson,_Wyoming ; https://www.va.gov/salt-lake-city-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/idaho/idaho_falls
+
+## KS|Liberal
+intro: Liberal is the county seat of Seward County in southwest Kansas, near the Oklahoma state line. The city has about 20,000 residents.
+family: The Land of Oz exhibit includes a recreation of Dorothy's house and the Yellow Brick Road. ; The Mid-America Air Museum has more than 100 aircraft on display. ; The Coronado Museum covers the Native American peoples of the area and Francisco Vásquez de Coronado's 1541 expedition.
+outdoors: The Cimarron National Grassland, near Elkhart, offers camping, hiking, horseback riding and fishing. ; The grassland includes 23 miles of the Santa Fe National Historic Trail. ; The Optima National Wildlife Refuge, east of Guymon, Oklahoma, offers bird and wildlife viewing.
+sports: Liberal holds an annual Pancake Day race against the town of Olney, England. ; The Liberal Bee Jays are a baseball team based in the city.
+cost: Grocery, utility and miscellaneous costs are below the U.S. average, and housing costs are far below it.
+climate: Liberal has a semi-arid climate, with hot, dry summers and cool, dry winters. Typical highs are about 48 °F in January and about 93 °F in July.
+vets: The VA Wichita Health Care System lists an outpatient clinic in Dodge City. ; Its main location is in Wichita.
+around: Meade, a little under an hour away, is home to the Dalton Gang Hideout and Museum. ; Guymon, Oklahoma, roughly an hour away, holds the Pioneer Days Rodeo every May. ; Garden City, about an hour to an hour and a half away, has the Lee Richardson Zoo.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Liberal,_Kansas ; https://en.wikipedia.org/wiki/Mid-America_Air_Museum ; https://en.wikipedia.org/wiki/Cimarron_National_Grassland ; https://en.wikipedia.org/wiki/Guymon,_Oklahoma ; https://en.wikipedia.org/wiki/Garden_City,_Kansas ; https://en.wikipedia.org/wiki/Meade,_Kansas ; https://www.va.gov/wichita-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/kansas/liberal
+
+## IL|Sparta
+intro: Sparta is a city of about 4,100 people in Randolph County in southern Illinois. It was the principal filming location for the 1967 film In the Heat of the Night.
+family: Popeye's Picnic in Chester, held the weekend after Labor Day, includes rides, food stands, music, fireworks and a parade. ; A park in Chester has a bronze Popeye statue honoring the character's creator, Elzie Segar. ; Fort de Chartres State Historic Site, near Prairie du Rocher, has a museum, partly rebuilt fort walls and a Rendezvous each June.
+outdoors: Randolph County State Recreation Area, near Chester, covers about 1,100 acres. ; Carbondale sits on the northern edge of the Shawnee National Forest, and Giant City State Park lies just south of that city. ; Cedar Lake, just south of Carbondale, is open to kayaking and canoeing.
+sports: The Southern Illinois University Salukis play in Carbondale. ; St. Louis has professional baseball, hockey and soccer teams, including the Cardinals and the Blues.
+cost: Housing costs are well below the national average, and grocery, utility and miscellaneous costs are somewhat below it.
+climate: Winters are cold and summers are hot. In nearby Chester, the county seat, typical highs run from about 39 °F in January to about 91 °F in July.
+vets: VA health clinics are listed in Carbondale and Mount Vernon. ; The VA Marion health care system has its main location in Marion.
+around: Chester, the county seat, is about half an hour to 45 minutes away and sits on a bluff above the Mississippi River. ; Carbondale, home of Southern Illinois University, is roughly an hour to an hour and a quarter away. ; St. Louis is roughly an hour to an hour and a half away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Sparta,_Illinois ; https://en.wikipedia.org/wiki/Randolph_County,_Illinois ; https://en.wikipedia.org/wiki/Chester,_Illinois ; https://en.wikipedia.org/wiki/Carbondale,_Illinois ; https://en.wikipedia.org/wiki/St._Louis ; https://en.wikipedia.org/wiki/Fort_de_Chartres ; https://en.wikipedia.org/wiki/Randolph_County_State_Recreation_Area ; https://www.va.gov/marion-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/illinois/sparta
+
+## IL|Springfield
+intro: Springfield is the capital of Illinois and the county seat of Sangamon County, with about 114,000 residents. Abraham Lincoln lived here from 1837 until 1861, and many sites connected to him are in town.
+family: The Abraham Lincoln Presidential Library and Museum has life-size dioramas of Lincoln's boyhood home and areas of the White House. ; Lincoln Home National Historic Site preserves the only home Lincoln ever owned. ; The Illinois State Fair is held over 11 days each August at the state fairgrounds, with a focus on agriculture.
+outdoors: Lake Springfield is a 4,200-acre reservoir with 57 miles of shoreline and eight public parks. ; Washington Park has walking trails, a botanical garden, a duck pond, a rose garden and a carillon.
+food: The Illinois State Fair played a key role in popularizing the corn dog. ; The fair is also known for its annual butter cow, a life-size animal sculpted from butter.
+sports: The University of Illinois Springfield Prairie Stars compete in 15 varsity sports, including baseball, basketball and soccer. ; The state fairgrounds host motorcycle and car racing, horse shows and rodeos through the year.
+cost: Housing costs are well below the U.S. average, and grocery and utility costs are slightly below it. Miscellaneous costs are higher than the national average.
+climate: Springfield has four distinct seasons, with hot, humid summers and cold, snowy winters. Thunderstorms are common in spring and summer. Typical highs are about 87 °F in July and about 36 °F in January.
+vets: The VA Illiana Health Care system has a clinic in Springfield. ; The system's main location is in Danville, with other clinics in Decatur, Peoria and Bloomington.
+around: Decatur is about 40 miles east, under an hour by car. ; Peoria is to the north, roughly an hour to an hour and a half away. ; Champaign is to the east, roughly an hour and a half away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Springfield,_Illinois ; https://en.wikipedia.org/wiki/Abraham_Lincoln_Presidential_Library_and_Museum ; https://en.wikipedia.org/wiki/Lincoln_Home_National_Historic_Site ; https://en.wikipedia.org/wiki/Illinois_State_Fair ; https://en.wikipedia.org/wiki/Washington_Park_(Springfield,_Illinois) ; https://en.wikipedia.org/wiki/University_of_Illinois_Springfield ; https://en.wikipedia.org/wiki/Decatur,_Illinois ; https://en.wikipedia.org/wiki/Peoria,_Illinois ; https://en.wikipedia.org/wiki/Champaign,_Illinois ; https://www.va.gov/illiana-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/illinois/springfield
+
+## IL|Urbana
+intro: Urbana is a city of about 38,000 people and the county seat of Champaign County. It shares the main campus of the University of Illinois with its twin city of Champaign.
+family: The Krannert Center for the Performing Arts has four performance venues on the university campus. ; Carle Park has a Lorado Taft statue and a tree walk with more than 50 trees. ; The Anita Purves Nature Center, at the north end of Crystal Lake Park, offers nature education programs.
+outdoors: Meadowbrook Park covers 130 acres, including 80 acres of recreated Illinois tallgrass prairie, with more than 3 miles of paved trails. ; Robert Allerton Park, near Monticello, has formal gardens, a sculpture walk and nature trails. ; Kickapoo State Recreation Area, about 28 miles from campus, has 221 acres of ponds and lakes and nearly 35 miles of hiking trails.
+sports: The University of Illinois fields 10 men's and 11 women's varsity sports as the Fighting Illini. ; The Marching Illini perform at home football games.
+cost: Housing costs are well below the national average, and grocery and utility costs are a little below it. Miscellaneous costs are above the national average.
+climate: Winters are cold and snowy, with a typical January high near 33 °F and about 23 inches of snow a year. Summers are warm, with a typical July high near 85 °F.
+vets: A VA outpatient clinic is next door in Champaign. ; The VA Illiana Health Care system's main location is the VA medical center in Danville.
+around: Monticello is roughly half an hour away, with Robert Allerton Park just outside town. ; Danville, about 35 miles east, has the 1,000-acre Lake Vermilion for fishing and boating. ; Bloomington is roughly an hour away and has the 24-mile Constitution Trail for walkers and cyclists.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Urbana,_Illinois ; https://en.wikipedia.org/wiki/Krannert_Center_for_the_Performing_Arts ; https://en.wikipedia.org/wiki/Robert_Allerton_Park ; https://en.wikipedia.org/wiki/Kickapoo_State_Park ; https://en.wikipedia.org/wiki/Illinois_Fighting_Illini ; https://en.wikipedia.org/wiki/Danville,_Illinois ; https://en.wikipedia.org/wiki/Monticello,_Illinois ; https://en.wikipedia.org/wiki/Bloomington,_Illinois ; https://www.va.gov/illiana-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/illinois/urbana
+
+## IN|Elkhart
+intro: Elkhart is a city of about 54,000 people in Elkhart County, in northern Indiana near the Michigan line. It sits about 15 miles east of South Bend in the region known as Michiana.
+family: Wellfield Botanic Gardens covers 36 acres and has more than 20 gardens, including an Adventure Path for children. ; The RV/MH Hall of Fame and Museum displays historic recreational vehicles. ; The Elkhart Jazz Festival is held in late June on the banks of the Elkhart River.
+outdoors: The downtown riverwalk has a path used for ice skating or roller blading, depending on the season. ; The Pumpkinvine Nature Trail runs from Goshen to Middlebury and Shipshewana along a former railroad line. ; Potato Creek State Park, about 12 miles southwest of South Bend, offers fishing, hiking, camping and mountain biking.
+sports: The South Bend Cubs play baseball in South Bend, about 15 miles west. ; Notre Dame Fighting Irish football plays its home games near South Bend.
+cost: Housing costs are well below the national average. Grocery, utility and miscellaneous costs are somewhat below it.
+climate: Elkhart has cold, snowy winters and warm, humid summers. Typical highs run about 29 °F in January and about 81 °F in July, and snowfall averages about 74 inches a year.
+vets: A VA health clinic is in Mishawaka. ; The VA Northern Indiana Health Care System has main locations in Fort Wayne and Marion.
+around: Goshen, about 10 miles southeast, is home to the Elkhart County 4-H Fair, held in late July. ; South Bend is roughly half an hour away, and the University of Notre Dame is nearby. ; Shipshewana, roughly 40 minutes away, is the site of the Menno-Hof Amish and Mennonite Museum.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Elkhart,_Indiana ; https://en.wikipedia.org/wiki/South_Bend,_Indiana ; https://en.wikipedia.org/wiki/Goshen,_Indiana ; https://en.wikipedia.org/wiki/Shipshewana,_Indiana ; https://en.wikipedia.org/wiki/Wellfield_Botanic_Gardens ; https://en.wikipedia.org/wiki/RV/MH_Hall_of_Fame ; https://en.wikipedia.org/wiki/Notre_Dame_Fighting_Irish_football ; https://en.wikipedia.org/wiki/Potato_Creek_State_Park ; https://www.va.gov/northern-indiana-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/indiana/elkhart
+
+## KY|Bedford
+intro: Bedford is the county seat of Trimble County, Kentucky, at the junction of U.S. Highways 421 and 42. It is a small town of roughly 500 to 600 residents, founded in 1816.
+family: Bedford has a public library, the Trimble County Public Library. ; The Coleman House in Bedford is listed on the National Register of Historic Places.
+outdoors: The Ohio River forms Trimble County's western border with Indiana. ; General Butler State Resort Park in Carrollton covers about 791 acres and offers boating, fishing, swimming and miniature golf. ; Clifty Falls State Park, next to Madison, Indiana, has several waterfalls in the canyon of Big Clifty Creek.
+sports: The Louisville Cardinals are the college sports program in Louisville. ; Cincinnati's major professional teams are the Reds, the Bengals and FC Cincinnati.
+cost: Housing costs are well below the national average, and miscellaneous costs are also lower. Grocery and utility costs are slightly below the national average.
+climate: Summers are hot and humid and winters are cool, with a mix of rain, sleet and snow. Bedford has no weather table of its own. In Louisville, typical highs are near 89 °F in July and 44 °F in January.
+vets: A VA clinic is in Carrollton, roughly 20 minutes away. ; The VA medical center is in Louisville.
+around: Madison, Indiana, roughly half an hour away on the Ohio River, holds the Madison Regatta, a hydroplane race, in early July. ; Louisville, roughly an hour away, is home to the Kentucky Derby, first run in 1875. ; Cincinnati, roughly an hour and a half away, has the Cincinnati Art Museum and the Cincinnati Museum Center in Union Terminal.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Bedford,_Kentucky ; https://en.wikipedia.org/wiki/Trimble_County,_Kentucky ; https://en.wikipedia.org/wiki/Carrollton,_Kentucky ; https://en.wikipedia.org/wiki/Madison,_Indiana ; https://en.wikipedia.org/wiki/Louisville,_Kentucky ; https://en.wikipedia.org/wiki/Cincinnati ; https://www.va.gov/louisville-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/kentucky/bedford
+
+## KY|Glasgow
+intro: Glasgow is the county seat of Barren County, Kentucky, with about 15,000 residents. It is the principal city of the Glasgow micropolitan area, which also includes Metcalfe County.
+family: South Green Street has many historic houses in Colonial, Federal and Victorian styles. ; Western Kentucky University operates a regional campus in Glasgow.
+outdoors: Barren River Lake is a 10,100-acre reservoir, with Barren River Lake State Resort Park on its Barren County shoreline. ; Mammoth Cave National Park, a World Heritage Site about 21 miles northwest, offers lighted cave tours from one to six hours long. ; The Green River runs through Mammoth Cave National Park.
+sports: The Western Kentucky University Hilltoppers play in Bowling Green. ; The Bowling Green Hot Rods play baseball in Bowling Green. ; Nashville is home to the Predators, the Titans and Nashville SC.
+cost: Housing costs are well below the national average, and miscellaneous costs are below it. Grocery and utility costs are slightly below the national average.
+climate: Glasgow has hot, humid summers and generally mild to cool winters. Typical highs are near 90 °F in July and around 47 °F in January.
+vets: A VA clinic is in Bowling Green. ; A VA medical center is in Nashville.
+around: Bowling Green, about 32 miles west, is home to the National Corvette Museum. ; Mammoth Cave National Park is about 21 miles northwest, roughly a 35-minute drive. ; Nashville, Tennessee, home of the Grand Ole Opry, is roughly an hour and a half to two hours away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Glasgow,_Kentucky ; https://en.wikipedia.org/wiki/Bowling_Green,_Kentucky ; https://en.wikipedia.org/wiki/Mammoth_Cave_National_Park ; https://en.wikipedia.org/wiki/Nashville,_Tennessee ; https://en.wikipedia.org/wiki/Barren_River_Lake ; https://www.va.gov/tennessee-valley-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/kentucky/glasgow
