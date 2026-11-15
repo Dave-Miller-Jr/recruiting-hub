@@ -1,0 +1,86 @@
+# More city guides (same format as cities-1.txt). One guide per city, shared by every map.
+
+## FL|Old Town
+intro: Old Town is an unincorporated community in Dixie County, in Florida's Big Bend region. It sits on the west bank of the Suwannee River, where US 19, US 98 and State Road 349 meet.
+family: The annual Watermelon Festival in nearby Chiefland dates back to 1954. ; Manatee Springs State Park, near Chiefland, has a large spring that flows into the Suwannee River.
+outdoors: The 31.7-mile Nature Coast State Trail follows an abandoned rail line and has a trailhead in Old Town. ; Manatee Springs State Park is about six miles west of Chiefland. ; The Lower Suwannee National Wildlife Refuge offers wildlife watching, fishing, canoeing and hunting.
+sports: The Florida Gators, the University of Florida's teams, compete in the Southeastern Conference and play on campus in Gainesville.
+climate: Old Town has a humid subtropical climate with a rainy season from June through September. In nearby Cross City, typical daily highs run about 66°F in January and about 91°F in July.
+vets: The VA has medical centers in Gainesville and Lake City.
+around: Cross City, the county seat, is roughly 15 minutes away by car. ; Chiefland is roughly 15 minutes away. ; Gainesville, home to the University of Florida, is a little over an hour away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Old_Town,_Florida ; https://en.wikipedia.org/wiki/Nature_Coast_State_Trail ; https://en.wikipedia.org/wiki/Manatee_Springs_State_Park ; https://en.wikipedia.org/wiki/Gainesville,_Florida ; https://en.wikipedia.org/wiki/Cross_City,_Florida ; https://en.wikipedia.org/wiki/Chiefland,_Florida ; https://www.va.gov/north-florida-health-care/locations/
+
+## FL|Panacea
+intro: Panacea is a small fishing community of about 700 people in Wakulla County, on the Gulf coast south of Tallahassee.
+family: The Gulf Specimen Marine Laboratory, a not-for-profit research and education group, runs a public aquarium in Panacea. ; Its touch tanks let visitors handle marine creatures, and it offers guided marsh walks.
+outdoors: Ochlockonee River State Park, where the river meets Ochlockonee Bay, offers camping, canoeing, kayaking, fishing and hiking trails. ; Edward Ball Wakulla Springs State Park, south of Tallahassee, is built around a very large freshwater spring and offers boat tours. ; St. Marks National Wildlife Refuge covers more than 83,000 acres, includes the St. Marks Lighthouse, and is crossed by the Florida National Scenic Trail.
+food: Panacea and nearby Ochlockonee Bay support small fishing fleets. ; Apalachicola hosts the Florida Seafood Festival every year.
+sports: The Florida State Seminoles play college football in Tallahassee.
+cost: Housing and miscellaneous costs in Panacea are below the national average, while grocery and utility costs are above it.
+climate: Summers are long, hot and humid with brief afternoon thunderstorms, and winters are short and mild. In Tallahassee, typical daily highs run about 64°F in January and about 92°F in July.
+vets: The VA has a clinic in Tallahassee. ; VA medical centers are in Gainesville and Lake City.
+around: Crawfordville, the county seat, is roughly 20 minutes away. ; Tallahassee, the state capital, is roughly 50 minutes away. ; Carrabelle is roughly 40 minutes away, and Apalachicola roughly an hour and a quarter.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Panacea,_Florida ; https://en.wikipedia.org/wiki/Gulf_Specimen_Marine_Laboratory ; https://en.wikipedia.org/wiki/Wakulla_County,_Florida ; https://en.wikipedia.org/wiki/Ochlockonee_River_State_Park ; https://en.wikipedia.org/wiki/St._Marks_National_Wildlife_Refuge ; https://en.wikipedia.org/wiki/Edward_Ball_Wakulla_Springs_State_Park ; https://en.wikipedia.org/wiki/Tallahassee,_Florida ; https://en.wikipedia.org/wiki/Crawfordville,_Florida ; https://en.wikipedia.org/wiki/Carrabelle,_Florida ; https://en.wikipedia.org/wiki/Apalachicola,_Florida ; https://www.va.gov/north-florida-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/florida/panacea
+
+## GA|Griffin
+intro: Griffin is the county seat of Spalding County and part of the Atlanta metropolitan area, with about 23,000 residents. The University of Georgia has a branch campus in the city.
+family: The Griffin Museum, in the regional welcome center in the downtown historic district, holds local artifacts, some from the mid-1800s. ; Griffin has held an annual Christmas parade since 1962, with floats and marching bands.
+outdoors: High Falls State Park near Jackson has a 650-acre lake and a large waterfall. ; Indian Springs State Park is near Jackson and Flovilla. ; Dauset Trails Nature Center near Jackson has 30 miles of mountain bike and hiking trails.
+sports: Atlanta is home to the Braves, Falcons, Hawks, Atlanta United FC and the Atlanta Dream. ; A 1.5-mile NASCAR track is in nearby Hampton. ; Atlanta has NCAA Division I college programs, including Georgia Tech and Georgia State.
+cost: Housing costs in Griffin are well below the US average, and miscellaneous costs are also below it. Grocery and utility costs are slightly below the US average.
+vets: The main VA medical center for the Atlanta area is in Decatur. ; VA clinics are in Stockbridge, Covington, Newnan and College Park.
+around: Atlanta is roughly an hour's drive north. ; Hampton is about 11 miles north, roughly 15 to 20 minutes by car. ; Macon, roughly an hour to the southeast, has Ocmulgee Mounds National Historical Park.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Griffin,_Georgia ; https://en.wikipedia.org/wiki/High_Falls_State_Park ; https://en.wikipedia.org/wiki/Indian_Springs_State_Park ; https://en.wikipedia.org/wiki/Dauset_Trails_Nature_Center ; https://en.wikipedia.org/wiki/Sports_in_Atlanta ; https://en.wikipedia.org/wiki/Hampton,_Georgia ; https://en.wikipedia.org/wiki/Macon,_Georgia ; https://www.va.gov/atlanta-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/georgia/griffin
+
+## FL|Defuniak Springs
+intro: DeFuniak Springs is a city of about 6,000 people in the Florida Panhandle and the county seat of Walton County.
+family: The historic district includes the 260-acre Chipley Park and Lake DeFuniak. ; The Walton County Heritage Museum is housed in the former railroad depot. ; The Walton-DeFuniak Library is a long-standing landmark on the lake.
+outdoors: Lake DeFuniak is a spring-fed lake that is nearly perfectly round. ; Ponce de Leon Springs State Park lets visitors swim in its spring and hike its nature trails. ; Grayton Beach State Park, between Panama City Beach and Destin, has white sand beaches, dunes and places to swim, fish and hike.
+food: The Destin Seafood Festival is held one weekend every October. ; Pensacola also holds an annual seafood festival downtown.
+sports: The Pensacola Blue Wahoos play minor league baseball. ; The Pensacola Ice Flyers play minor league hockey. ; The University of West Florida Argonauts compete in NCAA Division II.
+cost: Housing and groceries are below the US average, utilities are above it, and miscellaneous costs are close to it.
+climate: DeFuniak Springs has a humid subtropical climate with plenty of rain, especially in summer, and some exposure to tropical storms. Typical highs are about 62°F in January and about 92°F in July.
+vets: The VA has a clinic at Eglin Air Force Base. ; Other VA clinics are in Panama City Beach and Pensacola.
+around: Crestview is 29 miles west on US 90, roughly 45 minutes away. ; Destin, known for its white beaches and emerald green water, is roughly an hour away. ; Pensacola is about 80 miles west on Interstate 10.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/DeFuniak_Springs,_Florida ; https://en.wikipedia.org/wiki/Crestview,_Florida ; https://en.wikipedia.org/wiki/Destin,_Florida ; https://en.wikipedia.org/wiki/Pensacola,_Florida ; https://en.wikipedia.org/wiki/Ponce_de_Leon_Springs_State_Park ; https://en.wikipedia.org/wiki/Grayton_Beach_State_Park ; https://www.va.gov/gulf-coast-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/florida/defuniak_springs
+
+## FL|Stuart
+intro: Stuart is the county seat of Martin County on Florida's Treasure Coast, with about 17,000 residents. It sits near the St. Lucie River, the Indian River Lagoon and the Atlantic Ocean.
+family: Bathtub Beach on Hutchinson Island has calm, shallow pools at the water's edge and is popular with families. ; The Florida Oceanographic Coastal Center on Hutchinson Island is a 57-acre marine life nature center with educational programs. ; Stuart's museums include the Elliott Museum and the Stuart Heritage Museum.
+outdoors: Jonathan Dickinson State Park covers 11,500 acres along the Loxahatchee River, with hiking, canoeing and camping. ; Hutchinson Island has large public beaches with lifeguards, including Stuart Beach and Jensen Sea Turtle Beach. ; The House of Refuge, a lifesaving station established on Hutchinson Island in 1875, is a local landmark.
+sports: The St. Lucie Mets play minor league baseball in Port St. Lucie. ; The Jupiter Hammerheads play minor league baseball in Jupiter.
+cost: Groceries and miscellaneous costs are somewhat above the national average, housing is about the same as it, and utilities are somewhat below it.
+climate: Summers are hot and humid with frequent thunderstorms, with average highs of 88 to 91°F, and late summer brings a higher chance of tropical storms. Winters are cooler and drier, with average highs of 74 to 78°F.
+vets: The VA has a clinic in Stuart, with more in Port St. Lucie and Fort Pierce. ; The VA medical center is in West Palm Beach.
+around: Port St. Lucie is roughly 20 minutes away. ; Jupiter, roughly 35 minutes away, has the Jupiter Inlet Lighthouse. ; West Palm Beach, roughly 55 minutes away, is home to the Norton Museum of Art.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Stuart,_Florida ; https://en.wikipedia.org/wiki/Hutchinson_Island,_Florida ; https://en.wikipedia.org/wiki/Jonathan_Dickinson_State_Park ; https://en.wikipedia.org/wiki/Florida_Oceanographic_Society ; https://en.wikipedia.org/wiki/St._Lucie_Mets ; https://en.wikipedia.org/wiki/Port_St._Lucie,_Florida ; https://en.wikipedia.org/wiki/Jupiter,_Florida ; https://en.wikipedia.org/wiki/West_Palm_Beach,_Florida ; https://www.va.gov/west-palm-beach-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/florida/stuart
+
+## FL|Pensacola
+intro: Pensacola is a city of about 54,000 people in the Florida Panhandle and the county seat of Escambia County. It is a seaport on Pensacola Bay, sheltered by the barrier island of Santa Rosa.
+family: The National Naval Aviation Museum, on Naval Air Station Pensacola, has more than 150 aircraft and spacecraft on display. ; The Blue Angels, the Navy's flight demonstration squadron, are based at the air station and hold practice demonstrations there for much of the year. ; The Pensacola Lighthouse and Museum is also on the air station.
+outdoors: Gulf Islands National Seashore includes beaches, historic forts and mainland areas near Pensacola. ; Fort Pickens, completed in 1834, is open to the public within the seashore and is one endpoint of the Florida Trail. ; The Pensacola Beach Gulf Pier is used for fishing and wildlife watching.
+food: Pensacola holds an annual seafood festival downtown.
+sports: The Pensacola Blue Wahoos play minor league baseball. ; The Pensacola Ice Flyers play minor league hockey. ; The University of West Florida Argonauts compete in NCAA Division II.
+cost: Housing costs are well below the US average, while utilities run somewhat above it. Grocery and miscellaneous costs are slightly below average.
+climate: Pensacola has short, mild winters and hot, humid summers, with typical daily highs of about 63°F in January and about 92°F in July. Its Gulf Coast location leaves it exposed to hurricanes.
+vets: The VA has two locations in Pensacola. ; Naval Air Station Pensacola is an active Navy base in the area.
+around: Mobile, Alabama, known for its Mardi Gras celebration, is about 59 miles to the west. ; Destin, known for its white beaches and emerald green water, is about 48 miles east on US 98. ; Milton, the Santa Rosa County seat, is home to the West Florida Railroad Museum and a state rail trail.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Pensacola,_Florida ; https://en.wikipedia.org/wiki/Pensacola_Beach,_Florida ; https://en.wikipedia.org/wiki/Gulf_Islands_National_Seashore ; https://en.wikipedia.org/wiki/National_Naval_Aviation_Museum ; https://en.wikipedia.org/wiki/Naval_Air_Station_Pensacola ; https://en.wikipedia.org/wiki/Pensacola_Blue_Wahoos ; https://en.wikipedia.org/wiki/University_of_West_Florida ; https://en.wikipedia.org/wiki/Mobile,_Alabama ; https://en.wikipedia.org/wiki/Destin,_Florida ; https://en.wikipedia.org/wiki/Milton,_Florida ; https://www.va.gov/gulf-coast-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/florida/pensacola
+
+## GA|Atlanta
+intro: Atlanta is the capital of Georgia and the county seat of Fulton County, with about 500,000 residents in the city itself.
+family: Zoo Atlanta, in Grant Park, has more than 1,000 animals of over 220 species. ; The High Museum of Art is the city's main art museum. ; The Michael C. Carlos Museum at Emory University holds a large collection of ancient art.
+outdoors: The Chattahoochee River National Recreation Area protects a 48-mile stretch of river between Atlanta and Lake Lanier, with trails and trout fishing. ; Stone Mountain Park, about 15 miles east of Atlanta, has a summit trail and an aerial tram. ; The BeltLine is a multi-use trail that follows a former 22-mile freight rail loop around the central city.
+sports: The Atlanta Braves play Major League Baseball, and the Atlanta Falcons play in the NFL. ; Atlanta United FC plays in Major League Soccer. ; The Atlanta Hawks play in the NBA and the Atlanta Dream in the WNBA.
+cost: Housing costs in Atlanta are above the US average, while grocery costs are close to it. Utilities and miscellaneous costs are a little above average.
+climate: Atlanta has hot, humid summers and mild but variable winters. Typical highs are around 90°F in July and around 54°F in January, and snow is light and rare.
+vets: The main VA medical center is in Decatur. ; VA clinics are in Marietta, Covington, Lawrenceville and other nearby cities.
+around: Marietta, about 21 miles northwest, has a historic town square and an art museum. ; Athens, about 70 miles northeast, is home to the University of Georgia and the Georgia Museum of Art. ; Macon, about 85 miles southeast, has Ocmulgee Mounds National Historical Park.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Atlanta ; https://en.wikipedia.org/wiki/Stone_Mountain ; https://en.wikipedia.org/wiki/Marietta,_Georgia ; https://en.wikipedia.org/wiki/Athens,_Georgia ; https://en.wikipedia.org/wiki/Macon,_Georgia ; https://en.wikipedia.org/wiki/Chattahoochee_River_National_Recreation_Area ; https://en.wikipedia.org/wiki/Sports_in_Atlanta ; https://en.wikipedia.org/wiki/Zoo_Atlanta ; https://www.va.gov/atlanta-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/georgia/atlanta

@@ -1,10 +1,3 @@
-FL|Defuniak Springs
-FL|Old Town
-FL|Panacea
-FL|Pensacola
-FL|Stuart
-GA|Atlanta
-GA|Griffin
 GA|Hinesville
 GA|Kennesaw
 GA|Newnan
