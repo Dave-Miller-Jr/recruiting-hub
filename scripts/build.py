@@ -139,6 +139,10 @@ def place(loc, title):
     if not city: city = "See posting for location"
     return st, city
 
+def blue_hawaiian(j):
+    """True only when the posting itself says it is Blue Hawaiian (an Air Methods company): named in the title or summary, or a ' BH' title suffix."""
+    return bool(re.search(r"blue hawaiian", j["title"] + " " + j.get("desc", ""), re.I) or re.search(r"\bBH$", j["title"].strip()))
+
 def build(board, raw, today):
     sp = os.path.join(DATA, board["state"])
     state = json.load(open(sp)) if os.path.exists(sp) else None
@@ -148,6 +152,7 @@ def build(board, raw, today):
         if not k: continue
         st, city = place(j["loc"], j["title"])
         hl = j["hl"] if "hl" in j else highlights(j.get("desc", ""))
+        if blue_hawaiian(j): hl = ["Blue Hawaiian Helicopters"] + [h for h in hl if h != "Blue Hawaiian Helicopters"]
         jobs[str(j["id"])] = dict(id=str(j["id"]), title=j["title"].strip(), kinds=k, st=st, city=city,
                                   type=j.get("type", ""), hl=[tidy_hl(h) for h in hl],
                                   ac=aircraft(j["title"] + " " + j.get("desc", "")),
