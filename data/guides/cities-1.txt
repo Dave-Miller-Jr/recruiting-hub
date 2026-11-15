@@ -11,3 +11,26 @@ vets: The VA has a clinic in Hot Springs, under an hour away. ; The main VA medi
 around: Interstate 30 runs through town. ; Hot Springs is under an hour away by car and Little Rock about an hour and 15 minutes. ; Texarkana is about an hour and a half away.
 checked: November 2026
 src: https://en.wikipedia.org/wiki/Arkadelphia,_Arkansas ; https://en.wikipedia.org/wiki/Henderson_State_University ; https://en.wikipedia.org/wiki/Ouachita_Baptist_University ; https://en.wikipedia.org/wiki/DeGray_Lake_Resort_State_Park ; https://en.wikipedia.org/wiki/Hot_Springs_National_Park ; https://www.va.gov/central-arkansas-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arkansas/arkadelphia
+
+## AL|Semmes
+intro: Semmes is a small city of about 5,000 people in western Mobile County, part of the Mobile metropolitan area. It became a city in 2011.
+family: Semmes School, a restored 1902 one-room school, is listed as an Alabama historical landmark. ; The battleship USS Alabama, commissioned in 1942, is a museum ship docked in Mobile. ; Mobile is known for Mardi Gras, the oldest organized Carnival celebration in the United States.
+outdoors: Dauphin Island, a barrier island town in Mobile County, has beaches, popular fishing waters and the Dauphin Island Sea Lab. ; Gulf State Park covers a large part of Gulf Shores, a Gulf of Mexico resort city about an hour and 45 minutes away.
+sports: The University of South Alabama Jaguars play in the Sun Belt Conference and field 17 varsity sports. ; The Senior Bowl, a college football all-star game, is played in Mobile each year in late January or early February.
+cost: BestPlaces index figures put housing in Semmes well below the US average, with groceries and utilities close to average.
+climate: Semmes has a subtropical climate with mild, wet winters and very hot, humid summers, and the area can see hurricanes. Typical highs are about 60°F in January and about 91°F in July and August.
+around: Downtown Mobile is about half an hour away by car. ; U.S. Route 98, also called Moffett Road, is the main highway through Semmes and leads southeast into Mobile.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Semmes,_Alabama ; https://en.wikipedia.org/wiki/Mobile,_Alabama ; https://en.wikipedia.org/wiki/USS_Alabama ; https://en.wikipedia.org/wiki/University_of_South_Alabama ; https://en.wikipedia.org/wiki/Dauphin_Island,_Alabama ; https://en.wikipedia.org/wiki/Reese%27s_Senior_Bowl ; https://en.wikipedia.org/wiki/Gulf_Shores,_Alabama ; https://www.bestplaces.net/cost_of_living/city/alabama/semmes
+
+## AL|Evergreen
+intro: Evergreen is a small city of about 3,500 people and the county seat of Conecuh County in south Alabama. Interstate 65 passes the edge of town, about 75 miles from Montgomery and 90 miles from Mobile.
+family: The town holds an annual Collard Green Festival, a nod to its 1973 designation as the collard green capital of Alabama. ; Monroeville, about 45 minutes away, is known as the Literary Capital of Alabama and is the hometown of Harper Lee. ; The battleship USS Alabama is a museum ship in Mobile, a little under two hours away.
+outdoors: Conecuh National Forest covers about 83,000 acres in neighboring Covington and Escambia counties. ; Open Pond Recreation Area in the forest offers hiking, fishing, bicycling and camping around a sinkhole lake. ; The 20-mile Conecuh Trail runs through longleaf pine stands and hardwood bottomlands.
+sports: The Montgomery Biscuits play Double-A baseball in Montgomery, about an hour and 40 minutes away. ; The Pensacola Blue Wahoos play Double-A baseball in Pensacola, Florida, about two hours away.
+cost: BestPlaces index figures put housing in Evergreen well below the US average, with groceries slightly below and utilities slightly above.
+climate: Summers are hot, with typical daily highs of about 91°F in July. Winters are mild, with typical highs of about 59°F in January.
+vets: The VA lists a clinic in Monroeville, about 45 minutes away. ; The main VA location for central Alabama is in Montgomery, about an hour and 40 minutes away.
+around: Interstate 65 runs northeast to Montgomery and southwest to Mobile. ; Montgomery is about an hour and 40 minutes away by car and Mobile a little under two hours. ; Pensacola, Florida, is about two hours away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Evergreen,_Alabama ; https://en.wikipedia.org/wiki/Conecuh_County,_Alabama ; https://en.wikipedia.org/wiki/Conecuh_National_Forest ; https://en.wikipedia.org/wiki/Monroeville,_Alabama ; https://en.wikipedia.org/wiki/USS_Alabama_(BB-60) ; https://en.wikipedia.org/wiki/Montgomery_Biscuits ; https://en.wikipedia.org/wiki/Pensacola_Blue_Wahoos ; https://www.va.gov/central-alabama-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/alabama/evergreen

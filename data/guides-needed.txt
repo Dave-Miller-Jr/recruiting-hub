@@ -1,5 +1,3 @@
-AL|Evergreen
-AL|Semmes
 AZ|Florence
 AZ|Fort Mohave
 AZ|Goodyear
