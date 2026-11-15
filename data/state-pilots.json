@@ -1,0 +1,1879 @@
+{
+ "lastRun": "2026-11-14",
+ "total": 322,
+ "baseline": "2026-11-14",
+ "jobs": {
+  "11754": {
+   "id": "11754",
+   "title": "Pilot FW Pool",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "CO",
+   "city": "See posting for location",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11692": {
+   "id": "11692",
+   "title": "Check Airman",
+   "kinds": [
+    "pilot"
+   ],
+   "st": "CO",
+   "city": "Greenwood Village",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11690": {
+   "id": "11690",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "FL",
+   "city": "Stuart",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11686": {
+   "id": "11686",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "GA",
+   "city": "Kennesaw",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11619": {
+   "id": "11619",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "PA",
+   "city": "Media",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11618": {
+   "id": "11618",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "DE",
+   "city": "Wilmington",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11480": {
+   "id": "11480",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "GA",
+   "city": "Hinesville",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11478": {
+   "id": "11478",
+   "title": "Check Airman",
+   "kinds": [
+    "pilot"
+   ],
+   "st": "CO",
+   "city": "Greenwood Village",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11476": {
+   "id": "11476",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IL",
+   "city": "Urbana",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$25,000 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11475": {
+   "id": "11475",
+   "title": "Program Regional Relief Pilot",
+   "kinds": [
+    "pilot"
+   ],
+   "st": "CA",
+   "city": "Stanford",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11352": {
+   "id": "11352",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "SC",
+   "city": "Camden",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11348": {
+   "id": "11348",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NY",
+   "city": "Dexter",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11347": {
+   "id": "11347",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CO",
+   "city": "Lakewood",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11313": {
+   "id": "11313",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IA",
+   "city": "Des Moines",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11309": {
+   "id": "11309",
+   "title": "Pilot FW Pool",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "CO",
+   "city": "See posting for location",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11270": {
+   "id": "11270",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AZ",
+   "city": "Show Low",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11269": {
+   "id": "11269",
+   "title": "Maintenance Support Pilot Regional RW",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CA",
+   "city": "Home-based",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11265": {
+   "id": "11265",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "FL",
+   "city": "Bartow",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11231": {
+   "id": "11231",
+   "title": "Check Airman",
+   "kinds": [
+    "pilot"
+   ],
+   "st": "CO",
+   "city": "Greenwood Village",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11229": {
+   "id": "11229",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NV",
+   "city": "Fallon",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11122": {
+   "id": "11122",
+   "title": "Fixed Wing Pilot",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "NE",
+   "city": "North Platte",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11084": {
+   "id": "11084",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "PA",
+   "city": "Hazleton",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11051": {
+   "id": "11051",
+   "title": "Fixed Wing Pilot",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "WA",
+   "city": "Yakima",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$50,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11033": {
+   "id": "11033",
+   "title": "Fixed Wing Pilot",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "CO",
+   "city": "Englewood",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11032": {
+   "id": "11032",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CO",
+   "city": "Holyoke",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$25,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11031": {
+   "id": "11031",
+   "title": "Fixed Wing Pilot",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "NM",
+   "city": "Carlsbad",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10960": {
+   "id": "10960",
+   "title": "Regional Relief Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "WA",
+   "city": "Bremerton",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10846": {
+   "id": "10846",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NY",
+   "city": "Johnstown",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$25,000 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10835": {
+   "id": "10835",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "VA",
+   "city": "Danville",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10833": {
+   "id": "10833",
+   "title": "Fixed Wing Pilot",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "NM",
+   "city": "Las Cruces",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$60,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10753": {
+   "id": "10753",
+   "title": "Helicopter Pilot - Maintenance Support",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AZ",
+   "city": "Mesa",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10745": {
+   "id": "10745",
+   "title": "Program Regional Relief Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CO",
+   "city": "Lone Tree",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$25,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10707": {
+   "id": "10707",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "TX",
+   "city": "Lockhart",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10706": {
+   "id": "10706",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CA",
+   "city": "Merced",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$25,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10701": {
+   "id": "10701",
+   "title": "Fixed Wing Pilot",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "SD",
+   "city": "Rapid City",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10684": {
+   "id": "10684",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "TX",
+   "city": "El Paso",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10670": {
+   "id": "10670",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NV",
+   "city": "Pahrump",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10661": {
+   "id": "10661",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "ID",
+   "city": "Idaho Falls",
+   "type": "Temporary Full-Time",
+   "hl": [
+    "Temporary position",
+    "$15,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10635": {
+   "id": "10635",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "OK",
+   "city": "Stillwater",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$25,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10624": {
+   "id": "10624",
+   "title": "Regional Relief Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AZ",
+   "city": "Phoenix",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10610": {
+   "id": "10610",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NE",
+   "city": "Kearney",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10587": {
+   "id": "10587",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IA",
+   "city": "Fort Dodge",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10580": {
+   "id": "10580",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IL",
+   "city": "Sparta",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10568": {
+   "id": "10568",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AL",
+   "city": "Semmes",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10567": {
+   "id": "10567",
+   "title": "DOW Skillbridge HEMS Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CO",
+   "city": "Greenwood Village",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10555": {
+   "id": "10555",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NM",
+   "city": "Artesia",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10529": {
+   "id": "10529",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CA",
+   "city": "Imperial",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$25,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10528": {
+   "id": "10528",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CA",
+   "city": "Borrego Springs",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$12,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10474": {
+   "id": "10474",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CA",
+   "city": "Twentynine Palms",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$25,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10441": {
+   "id": "10441",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IL",
+   "city": "Granite City",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10356": {
+   "id": "10356",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CA",
+   "city": "Thermal",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$7,500 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10353": {
+   "id": "10353",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AR",
+   "city": "Arkadelphia",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10306": {
+   "id": "10306",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "PA",
+   "city": "Somerset",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10282": {
+   "id": "10282",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CA",
+   "city": "Big Bear",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10248": {
+   "id": "10248",
+   "title": "Regional Relief Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AZ",
+   "city": "Phoenix",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10227": {
+   "id": "10227",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "GA",
+   "city": "Griffin",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10218": {
+   "id": "10218",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "DE",
+   "city": "Newark",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10198": {
+   "id": "10198",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CA",
+   "city": "Ridgecrest",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10159": {
+   "id": "10159",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NJ",
+   "city": "Woodbine",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10134": {
+   "id": "10134",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IA",
+   "city": "Davenport",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10103": {
+   "id": "10103",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "WI",
+   "city": "Green Bay",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10048": {
+   "id": "10048",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IL",
+   "city": "Murphysboro",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10044": {
+   "id": "10044",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IN",
+   "city": "Elkhart",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10006": {
+   "id": "10006",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "GA",
+   "city": "Atlanta",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9990": {
+   "id": "9990",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "WY",
+   "city": "Casper",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9986": {
+   "id": "9986",
+   "title": "Regional Relief Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CA",
+   "city": "Home-based",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9972": {
+   "id": "9972",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "TX",
+   "city": "Snyder",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9945": {
+   "id": "9945",
+   "title": "Check Airman",
+   "kinds": [
+    "pilot"
+   ],
+   "st": "CO",
+   "city": "Greenwood Village",
+   "type": "Temporary Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9922": {
+   "id": "9922",
+   "title": "Regional Relief Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "KY",
+   "city": "Melber",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9909": {
+   "id": "9909",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IL",
+   "city": "Olney",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$50,000 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9870": {
+   "id": "9870",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "WV",
+   "city": "Martinsburg",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9789": {
+   "id": "9789",
+   "title": "Regional Relief Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "GA",
+   "city": "Home-based",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9766": {
+   "id": "9766",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "WV",
+   "city": "Beaver",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9761": {
+   "id": "9761",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NM",
+   "city": "Alamogordo",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$50,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9760": {
+   "id": "9760",
+   "title": "Temporary Fixed Wing Pilot",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "NM",
+   "city": "Farmington",
+   "type": "Temporary Full-Time",
+   "hl": [
+    "$15,000 Sign-on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9756": {
+   "id": "9756",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AZ",
+   "city": "Quartzsite",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9737": {
+   "id": "9737",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AZ",
+   "city": "Fort Mohave",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9710": {
+   "id": "9710",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AZ",
+   "city": "Bullhead City",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9709": {
+   "id": "9709",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AZ",
+   "city": "Yuma",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$25,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9706": {
+   "id": "9706",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "KY",
+   "city": "Bedford",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9651": {
+   "id": "9651",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AZ",
+   "city": "Willcox",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9615": {
+   "id": "9615",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "DE",
+   "city": "Georgetown",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9556": {
+   "id": "9556",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AZ",
+   "city": "Rio Rico",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$5,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9542": {
+   "id": "9542",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "PA",
+   "city": "Lansdale",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9516": {
+   "id": "9516",
+   "title": "Temporary Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AL",
+   "city": "Evergreen",
+   "type": "Temporary Full-Time",
+   "hl": [
+    "$15,000 Sign-on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9515": {
+   "id": "9515",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NM",
+   "city": "Taos",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9476": {
+   "id": "9476",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NE",
+   "city": "North Platte",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9267": {
+   "id": "9267",
+   "title": "Regional Relief Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IA",
+   "city": "Home-based",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9264": {
+   "id": "9264",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IA",
+   "city": "Fort Dodge",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9232": {
+   "id": "9232",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "SC",
+   "city": "Orangeburg",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9128": {
+   "id": "9128",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CA",
+   "city": "Barstow",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9040": {
+   "id": "9040",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NY",
+   "city": "Sidney",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9033": {
+   "id": "9033",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AZ",
+   "city": "Fort Mohave",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "8966": {
+   "id": "8966",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CA",
+   "city": "Bakersfield",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$25,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "8921": {
+   "id": "8921",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "KY",
+   "city": "Jamestown",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$12,500 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "8888": {
+   "id": "8888",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IA",
+   "city": "Clinton",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "8853": {
+   "id": "8853",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CA",
+   "city": "Victorville",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$25,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "8811": {
+   "id": "8811",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NM",
+   "city": "Farmington",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "8582": {
+   "id": "8582",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "FL",
+   "city": "Old Town",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "8534": {
+   "id": "8534",
+   "title": "Regional Relief Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CO",
+   "city": "See posting for location",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "8447": {
+   "id": "8447",
+   "title": "Regional Relief Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "PA",
+   "city": "North East",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "8347": {
+   "id": "8347",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "VA",
+   "city": "Martinsville",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "8258": {
+   "id": "8258",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "FL",
+   "city": "Panacea",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "8215": {
+   "id": "8215",
+   "title": "Regional Relief Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "TX",
+   "city": "Home-based",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "8181": {
+   "id": "8181",
+   "title": "Temporary Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NM",
+   "city": "Taos",
+   "type": "Temporary Full-Time",
+   "hl": [
+    "Temporary position",
+    "$15,000 Sign-on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "8051": {
+   "id": "8051",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NM",
+   "city": "Carlsbad",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "8031": {
+   "id": "8031",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CA",
+   "city": "Blythe",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "7758": {
+   "id": "7758",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "KY",
+   "city": "Glasgow",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$12,500 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "7681": {
+   "id": "7681",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NM",
+   "city": "Silver City",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$50,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "7509": {
+   "id": "7509",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IL",
+   "city": "Springfield",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$25,000 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "6951": {
+   "id": "6951",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "WV",
+   "city": "Moundsville",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "6680": {
+   "id": "6680",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NM",
+   "city": "Deming",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$50,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "6641": {
+   "id": "6641",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AZ",
+   "city": "Parker",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$25,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "6417": {
+   "id": "6417",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NM",
+   "city": "Las Cruces",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "6067": {
+   "id": "6067",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AZ",
+   "city": "Parker",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$25,000 Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "5861": {
+   "id": "5861",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "PA",
+   "city": "Sayre",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "5153": {
+   "id": "5153",
+   "title": "Helicopter Pilot - Nationwide Pool Program",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "ZZ",
+   "city": "",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "4813": {
+   "id": "4813",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IL",
+   "city": "Effingham",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  }
+ },
+ "removed": []
+}

@@ -1,0 +1,1721 @@
+{
+ "lastRun": "2026-11-14",
+ "total": 322,
+ "baseline": "2026-11-14",
+ "jobs": {
+  "11854": {
+   "id": "11854",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "WY",
+   "city": "Casper",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Annual Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11852": {
+   "id": "11852",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Prescott",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11789": {
+   "id": "11789",
+   "title": "Temporary Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "CA",
+   "city": "Bakersfield",
+   "type": "Temporary Full-Time",
+   "hl": [
+    "$5,000 Annual Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11788": {
+   "id": "11788",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "CA",
+   "city": "Bakersfield",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$5,000 Annual Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11755": {
+   "id": "11755",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "FL",
+   "city": "Pensacola",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11752": {
+   "id": "11752",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "FL",
+   "city": "Pensacola",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11722": {
+   "id": "11722",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NY",
+   "city": "Westernville",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11721": {
+   "id": "11721",
+   "title": "Flight Paramedic Float- South Central Region",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "ZZ",
+   "city": "",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Sign-on Bonus For Internal/External"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11688": {
+   "id": "11688",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "GA",
+   "city": "Hinesville",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11685": {
+   "id": "11685",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "FL",
+   "city": "Defuniak Springs",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11431": {
+   "id": "11431",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NE",
+   "city": "North Platte",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign on Bonus & $8,000 Annual Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11430": {
+   "id": "11430",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "FL",
+   "city": "Pensacola",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11351": {
+   "id": "11351",
+   "title": "Per Diem Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "GA",
+   "city": "Newnan",
+   "type": "Per Diem",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11308": {
+   "id": "11308",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "KS",
+   "city": "Liberal",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$4,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11306": {
+   "id": "11306",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "KS",
+   "city": "Liberal",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$6,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11232": {
+   "id": "11232",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "UT",
+   "city": "Lehi",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11126": {
+   "id": "11126",
+   "title": "Temporary Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "CA",
+   "city": "Thermal",
+   "type": "Temporary Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11124": {
+   "id": "11124",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Florence",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11086": {
+   "id": "11086",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Tucson",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11085": {
+   "id": "11085",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Willcox",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11046": {
+   "id": "11046",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "SD",
+   "city": "Rapid City",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$8,000 Annual Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "11038": {
+   "id": "11038",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Show Low",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11037": {
+   "id": "11037",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Phoenix",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "11035": {
+   "id": "11035",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NE",
+   "city": "North Platte",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign on Bonus & $8,000 Annual Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10954": {
+   "id": "10954",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "CA",
+   "city": "Visalia",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10945": {
+   "id": "10945",
+   "title": "Travel Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Show Low",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10942": {
+   "id": "10942",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Willcox",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10936": {
+   "id": "10936",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "IL",
+   "city": "Springfield",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10903": {
+   "id": "10903",
+   "title": "Flight Paramedic I",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Rio Rico",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10867": {
+   "id": "10867",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "GA",
+   "city": "Kennesaw",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10864": {
+   "id": "10864",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NE",
+   "city": "Omaha",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10848": {
+   "id": "10848",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NY",
+   "city": "Wallkill",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10845": {
+   "id": "10845",
+   "title": "Flight Nurse Float-Pac West Region",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "ZZ",
+   "city": "",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Sign-on Bonus For Internal/External"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10839": {
+   "id": "10839",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "WY",
+   "city": "Casper",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Annual Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10832": {
+   "id": "10832",
+   "title": "Flight Nurse Float - North Central Region",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "ZZ",
+   "city": "",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Sign-on Bonus For Internal/External"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10760": {
+   "id": "10760",
+   "title": "Travel Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NE",
+   "city": "Crete",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10749": {
+   "id": "10749",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "CA",
+   "city": "Fresno",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10694": {
+   "id": "10694",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Williams",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10675": {
+   "id": "10675",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Show Low",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10667": {
+   "id": "10667",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Prescott",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10653": {
+   "id": "10653",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "IL",
+   "city": "Effingham",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10651": {
+   "id": "10651",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "SD",
+   "city": "Hot Springs",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$8,000 Annual Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10647": {
+   "id": "10647",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "IA",
+   "city": "Sioux City",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10639": {
+   "id": "10639",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Willcox",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10633": {
+   "id": "10633",
+   "title": "Travel Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NY",
+   "city": "Harris",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10625": {
+   "id": "10625",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NE",
+   "city": "Omaha",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10617": {
+   "id": "10617",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "TX",
+   "city": "Uvalde",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10601": {
+   "id": "10601",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "IL",
+   "city": "Highland",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10598": {
+   "id": "10598",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "TX",
+   "city": "Lockhart",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10596": {
+   "id": "10596",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "TX",
+   "city": "Snyder",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10592": {
+   "id": "10592",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Show Low",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10575": {
+   "id": "10575",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "IL",
+   "city": "Granite City",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10566": {
+   "id": "10566",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Prescott",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10564": {
+   "id": "10564",
+   "title": "Travel Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NM",
+   "city": "Las Cruces",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10522": {
+   "id": "10522",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NE",
+   "city": "North Platte",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign on Bonus & $8,000 Annual Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10502": {
+   "id": "10502",
+   "title": "Flight Nurse Float - North Central Region",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "ZZ",
+   "city": "",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Sign-on Bonus For Internal/External"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10477": {
+   "id": "10477",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Goodyear",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10468": {
+   "id": "10468",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NM",
+   "city": "Taos",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10461": {
+   "id": "10461",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "IL",
+   "city": "Murphysboro",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10454": {
+   "id": "10454",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "IL",
+   "city": "Highland",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10449": {
+   "id": "10449",
+   "title": "Flight Paramedic-NEBRASKA",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NE",
+   "city": "Home-based",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10447": {
+   "id": "10447",
+   "title": "Flight Paramedic-ARIZONA",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Phoenix",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10446": {
+   "id": "10446",
+   "title": "Flight Nurse-ARIZONA",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Phoenix",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10440": {
+   "id": "10440",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Bullhead City",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10431": {
+   "id": "10431",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NM",
+   "city": "Home-based",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10386": {
+   "id": "10386",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Bullhead City",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$6,000 Location Stipend and $8,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10375": {
+   "id": "10375",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "KY",
+   "city": "Glasgow",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10366": {
+   "id": "10366",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "IL",
+   "city": "Murphysboro",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10295": {
+   "id": "10295",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "FL",
+   "city": "Pensacola",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10290": {
+   "id": "10290",
+   "title": "Travel Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "CO",
+   "city": "Greenwood Village",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10289": {
+   "id": "10289",
+   "title": "Travel Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "CO",
+   "city": "Greenwood Village",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10274": {
+   "id": "10274",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Quartzsite",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$6,000 Annual Location Stipend & $8,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10246": {
+   "id": "10246",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Tucson",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10225": {
+   "id": "10225",
+   "title": "Flight Nurse Float- South Central",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "ZZ",
+   "city": "",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Sign-on Bonus For Internal/External"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10209": {
+   "id": "10209",
+   "title": "Flight Nurse Float - South Central Region",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "ZZ",
+   "city": "",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Sign on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10199": {
+   "id": "10199",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "GA",
+   "city": "Griffin",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10144": {
+   "id": "10144",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NM",
+   "city": "Carlsbad",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20K Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10133": {
+   "id": "10133",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "MO",
+   "city": "Joplin",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10091": {
+   "id": "10091",
+   "title": "Per Diem Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NM",
+   "city": "Roswell",
+   "type": "Per Diem",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10084": {
+   "id": "10084",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NV",
+   "city": "Pahrump",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10040": {
+   "id": "10040",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NM",
+   "city": "Taos",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10039": {
+   "id": "10039",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Show Low",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10035": {
+   "id": "10035",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "WY",
+   "city": "Casper",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Annual Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "10033": {
+   "id": "10033",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NM",
+   "city": "Roswell",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "10024": {
+   "id": "10024",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NY",
+   "city": "Harris",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9965": {
+   "id": "9965",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "TX",
+   "city": "Uvalde",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9963": {
+   "id": "9963",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NM",
+   "city": "Silver City",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9962": {
+   "id": "9962",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NM",
+   "city": "Silver City",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9961": {
+   "id": "9961",
+   "title": "Travel Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NM",
+   "city": "Silver City",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9959": {
+   "id": "9959",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NM",
+   "city": "Las Cruces",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$7,500 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9957": {
+   "id": "9957",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NM",
+   "city": "Deming",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$7,500 Annual Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9949": {
+   "id": "9949",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "KS",
+   "city": "Wichita",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9933": {
+   "id": "9933",
+   "title": "Temporary Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "KY",
+   "city": "Somerset",
+   "type": "Temporary Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9899": {
+   "id": "9899",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "IL",
+   "city": "Sparta",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9895": {
+   "id": "9895",
+   "title": "Flight Nurse I",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AL",
+   "city": "Evergreen",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9864": {
+   "id": "9864",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "IL",
+   "city": "Granite City",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9796": {
+   "id": "9796",
+   "title": "Flight Nurse Float - South Central",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "ZZ",
+   "city": "",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Sign-on Bonus For Internal/External"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9765": {
+   "id": "9765",
+   "title": "Flight Nurse Paramedic",
+   "kinds": [
+    "nurse",
+    "paramedic"
+   ],
+   "st": "NY",
+   "city": "Wallkill",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9757": {
+   "id": "9757",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "WY",
+   "city": "Casper",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Annual Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9743": {
+   "id": "9743",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NM",
+   "city": "Las Cruces",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9742": {
+   "id": "9742",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NM",
+   "city": "Las Cruces",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9686": {
+   "id": "9686",
+   "title": "Flight Nurse Float - South Central",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "ZZ",
+   "city": "",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Sign-on Bonus For Internal/External"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9678": {
+   "id": "9678",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Tucson",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9624": {
+   "id": "9624",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NE",
+   "city": "Omaha",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9529": {
+   "id": "9529",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "IA",
+   "city": "Sioux City",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign-On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9511": {
+   "id": "9511",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "KY",
+   "city": "Bedford",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9505": {
+   "id": "9505",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Show Low",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9397": {
+   "id": "9397",
+   "title": "Flight Nurse Float - South Central Region",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "ZZ",
+   "city": "",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Sign-on Bonus For Internal/External"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9374": {
+   "id": "9374",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Willcox",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9237": {
+   "id": "9237",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NE",
+   "city": "Kearney",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9217": {
+   "id": "9217",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NE",
+   "city": "Kearney",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9201": {
+   "id": "9201",
+   "title": "Flight Nurse Float - South Central",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "ZZ",
+   "city": "",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Sign-on Bonus For Internal/External"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9198": {
+   "id": "9198",
+   "title": "Per Diem Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Payson",
+   "type": "Per Diem",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9104": {
+   "id": "9104",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NE",
+   "city": "Crete",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9096": {
+   "id": "9096",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NM",
+   "city": "Alamogordo",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$7500 Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "9050": {
+   "id": "9050",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NM",
+   "city": "Roswell",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9049": {
+   "id": "9049",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NM",
+   "city": "Carlsbad",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9047": {
+   "id": "9047",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NM",
+   "city": "Carlsbad",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9045": {
+   "id": "9045",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NM",
+   "city": "Roswell",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "9000": {
+   "id": "9000",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NE",
+   "city": "Norfolk",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign on Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "8717": {
+   "id": "8717",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NM",
+   "city": "Alamogordo",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  },
+  "8651": {
+   "id": "8651",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NE",
+   "city": "Norfolk",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign On Bonus"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "7801": {
+   "id": "7801",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NY",
+   "city": "Potsdam",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Annual Location Stipend"
+   ],
+   "firstSeen": null,
+   "new": false
+  },
+  "7646": {
+   "id": "7646",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "TX",
+   "city": "El Paso",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "firstSeen": null,
+   "new": false
+  }
+ },
+ "removed": []
+}

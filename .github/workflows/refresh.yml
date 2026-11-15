@@ -1,0 +1,47 @@
+name: Refresh job openings and publish
+
+# Runs every morning before 6 AM Central (10:17 UTC is 4:17 AM CST / 5:17 AM CDT), with a second
+# pass an hour later in case the first one is delayed or the careers site was briefly unreachable.
+on:
+  schedule:
+    - cron: "17 10 * * *"
+    - cron: "17 11 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: ["data/**", "site/index.html", "site/jobs/**", "site/sw.js"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read the careers portal
+        run: python3 scripts/fetch.py
+      - name: Build the pages
+        run: python3 scripts/build.py --date "$(TZ=America/Chicago date +%F)"
+      - name: Save today's state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data site
+          git diff --cached --quiet || git commit -m "Daily job openings refresh $(TZ=America/Chicago date +%F)"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
