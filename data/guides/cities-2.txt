@@ -85,3 +85,90 @@ vets: The Tucson VA Medical Center is the main VA location for southern Arizona.
 around: Phoenix is about 116 miles away by interstate, roughly two hours by car. ; Nogales, on the Mexican border, is roughly an hour and a quarter away. ; Sierra Vista is roughly an hour and a half away.
 checked: November 2026
 src: https://en.wikipedia.org/wiki/Tucson,_Arizona ; https://en.wikipedia.org/wiki/Saguaro_National_Park ; https://en.wikipedia.org/wiki/Mount_Lemmon ; https://en.wikipedia.org/wiki/Arizona-Sonora_Desert_Museum ; https://en.wikipedia.org/wiki/Pima_Air_%26_Space_Museum ; https://en.wikipedia.org/wiki/Arizona_Wildcats ; https://en.wikipedia.org/wiki/Nogales,_Arizona ; https://en.wikipedia.org/wiki/Sierra_Vista,_Arizona ; https://www.va.gov/southern-arizona-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arizona/tucson
+
+## CA|Big Bear
+intro: Big Bear is a mountain community in the San Bernardino Mountains. The city of Big Bear Lake, with about 5,000 people, sits on the south shore of the lake it is named for, next to Big Bear City.
+family: Big Bear Lake has held an Oktoberfest every year since 1970. ; A branch of the San Bernardino County Library serves the community. ; The Big Bear Solar Observatory sits on the lake.
+outdoors: Big Bear Lake is a large recreational lake with trout, bass and catfish. ; San Bernardino National Forest surrounds the area and has many trails of varying difficulty. ; The Pacific Crest Trail passes by Big Bear City.
+sports: Snow Summit and Bear Mountain are the two ski resorts in the area. ; The first Winter X Games were held in Big Bear Lake in 1997.
+cost: BestPlaces index figures put housing in Big Bear Lake well above the US average, with groceries close to average and utilities somewhat above.
+climate: Winters are cold and bring significant snow, averaging close to 59 inches a season at lake level. Typical daily highs run about 46°F in January and about 80°F in July.
+vets: The VA medical center for the region is in Loma Linda. ; VA clinics are also in Redlands, Rancho Cucamonga and Victorville.
+around: San Bernardino is about 25 miles away, roughly an hour or more by mountain highway. ; Redlands is roughly an hour away by State Route 38. ; Ontario International Airport, the closest major airport, is roughly an hour and a half away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Big_Bear_Lake,_California ; https://en.wikipedia.org/wiki/Big_Bear_City,_California ; https://en.wikipedia.org/wiki/Ontario,_California ; https://www.va.gov/loma-linda-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/california/big_bear_lake
+
+## CA|Merced
+intro: Merced is a city of about 86,000 people and the county seat of Merced County in the San Joaquin Valley. It is known as the Gateway to Yosemite and is home to the University of California, Merced.
+family: Castle Air Museum in Atwater, about 8 miles away, has more than 80 historical aircraft on 35 acres. ; Lake Yosemite has shaded picnic areas with tables, barbecue pits and a small playground. ; The County Courthouse Museum is one of the city's historic attractions.
+outdoors: Lake Yosemite, about 5 miles east of Merced, allows boating and hosts sailing races on summer evenings. ; Merced National Wildlife Refuge has wetlands and grasslands with large wintering flocks of sandhill cranes and geese. ; Yosemite National Park is less than two hours away by car.
+sports: UC Merced's teams compete in the California Pacific Conference in sports including soccer, water polo and basketball.
+cost: BestPlaces index figures put housing and utilities in Merced above the US average, with groceries just below it.
+climate: Summers are hot and dry and winters are mild and damp. Typical daily highs run from about 56°F in January to about 96°F in July.
+vets: The VA has a clinic in Merced. ; The main VA medical center for central California is in Fresno.
+around: Modesto is about 40 miles north, roughly an hour by car. ; Fresno, 55 miles away, is a little over an hour by car. ; Turlock is roughly half an hour north on State Route 99.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Merced,_California ; https://en.wikipedia.org/wiki/Castle_Air_Museum ; https://en.wikipedia.org/wiki/Lake_Yosemite ; https://en.wikipedia.org/wiki/Merced_National_Wildlife_Refuge ; https://en.wikipedia.org/wiki/Yosemite_National_Park ; https://en.wikipedia.org/wiki/Modesto,_California ; https://en.wikipedia.org/wiki/Atwater,_California ; https://en.wikipedia.org/wiki/Turlock,_California ; https://www.va.gov/central-california-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/california/merced
+
+## CA|Barstow
+intro: Barstow is a city of about 25,000 people in the Mojave Desert of San Bernardino County, where Interstates 15 and 40 meet.
+family: The Route 66 Mother Road Museum and the Western America Railroad Museum are housed in a 1911 Harvey House hotel and train station. ; The Desert Discovery Center houses the Old Woman meteorite, the largest meteorite found in California. ; Calico Ghost Town, a restored silver mining town and county regional park, is a few miles from Barstow.
+outdoors: Rainbow Basin, 8 miles north of Barstow, draws photographers, hikers and campers. ; Coyote Dry Lake, a large dry lakebed, is 15 miles northeast of town. ; Lava tubes around Pisgah Crater can be explored.
+sports: Barstow Community College fields men's and women's basketball, baseball and softball teams. ; The city runs adult basketball and softball leagues, and its sports park has lighted ball fields, soccer fields and volleyball courts.
+cost: BestPlaces index figures put housing in Barstow well below the US average and groceries a little below, with utilities and transportation above average.
+climate: Barstow has an arid climate with four seasons, very hot summers and cold winter mornings. Typical daily highs run from about 59°F in January to about 102°F in July.
+vets: The VA has a clinic in Victorville, and the VA medical center for the region is in Loma Linda. ; Marine Corps Logistics Base Barstow is in the city, and the Army's National Training Center at Fort Irwin is north of town.
+around: Victorville is about 32 miles south, roughly 40 minutes by car. ; Los Angeles is roughly two hours away. ; Las Vegas is roughly two and a half to three hours away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Barstow,_California ; https://en.wikipedia.org/wiki/Victorville,_California ; https://en.wikipedia.org/wiki/Calico,_San_Bernardino_County,_California ; https://www.va.gov/loma-linda-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/california/barstow
+
+## CA|Blythe
+intro: Blythe is a city of about 18,000 people in eastern Riverside County, in the Palo Verde Valley along the Colorado River. Interstate 10 crosses the city from east to west.
+family: The city has six parks and a recreation center. ; Palo Verde College, a public community college, is in Blythe. ; The city also has two museums.
+outdoors: The area is popular with campers and hikers, with three boat ramps onto the Colorado River and seven campgrounds. ; The Blythe Intaglios, giant ground figures, are north of town.
+sports: The city has an 18-hole public golf course.
+cost: BestPlaces index figures put housing in Blythe well below the US average, with groceries slightly below and utilities somewhat above.
+climate: Blythe has a hot desert climate with mild winters and extremely hot summers. Typical highs are about 68°F in January and about 109°F in July.
+vets: The VA has a clinic in Blythe. ; The VA medical center for the region is in Loma Linda, with another clinic in Palm Desert.
+around: Quartzsite, Arizona, known for its winter gem and mineral shows, is roughly half an hour away. ; Parker, Arizona, on the Colorado River, is roughly an hour away. ; Indio, in the Coachella Valley, is nearly 100 miles west on Interstate 10, and Phoenix is about 150 miles east.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Blythe,_California ; https://en.wikipedia.org/wiki/Blythe_Intaglios ; https://en.wikipedia.org/wiki/Palo_Verde_College ; https://en.wikipedia.org/wiki/Quartzsite,_Arizona ; https://en.wikipedia.org/wiki/Parker,_Arizona ; https://en.wikipedia.org/wiki/Indio,_California ; https://www.va.gov/loma-linda-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/california/blythe
+
+## CA|Fresno
+intro: Fresno is a city of roughly 540,000 people in California's San Joaquin Valley. It is the county seat of Fresno County and the largest city in the Central Valley region.
+family: The Fresno Chaffee Zoo, in Roeding Park, covers 39 acres and houses over 190 species. ; Woodward Park has three children's playgrounds, a lake and a Japanese garden. ; Forestiere Underground Gardens are a series of hand-built underground rooms and gardens dating from the early 1900s.
+outdoors: Woodward Park sits on the San Joaquin River, with trails that link to the Lewis S. Eaton Trail. ; Yosemite National Park is about 60 miles north of Fresno. ; Sequoia National Park is about 75 miles southeast, and Kings Canyon National Park is about 60 miles east.
+food: Fresno is surrounded by some of the country's most productive farmland. ; The Tower District is a neighborhood known for community events, including an annual literary festival.
+sports: The Fresno State Bulldogs compete in NCAA Division I and have won national championships in softball and baseball. ; The Fresno Grizzlies play Single-A baseball at a downtown ballpark. ; Woodward Park has hosted the state high school cross country championships since 1987.
+cost: BestPlaces index figures put housing and utilities in Fresno somewhat above the US average, with groceries about average.
+climate: Fresno has a semi-arid climate with cool, mild winters and long, hot, dry summers. Typical daily highs run from about 55°F in December and January to about 98°F in July, and winter can bring tule fog.
+vets: The main VA medical center for central California is in Fresno. ; VA clinics are also in Merced, Oakhurst and Visalia. ; Naval Air Station Lemoore is roughly 45 minutes away.
+around: Visalia is roughly an hour away by car. ; Oakhurst, on Highway 41 toward Yosemite, is roughly an hour away. ; Merced is 55 miles away, a little over an hour by car.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Fresno,_California ; https://en.wikipedia.org/wiki/Woodward_Park_(Fresno) ; https://en.wikipedia.org/wiki/Fresno_Chaffee_Zoo ; https://en.wikipedia.org/wiki/Forestiere_Underground_Gardens ; https://en.wikipedia.org/wiki/Fresno_State_Bulldogs ; https://en.wikipedia.org/wiki/Fresno_Grizzlies ; https://en.wikipedia.org/wiki/Lemoore,_California ; https://en.wikipedia.org/wiki/Oakhurst,_California ; https://en.wikipedia.org/wiki/Merced,_California ; https://www.va.gov/central-california-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/california/fresno
+
+## CA|Borrego Springs
+intro: Borrego Springs is a desert village of roughly 3,000 people in northeastern San Diego County, surrounded by Anza-Borrego Desert State Park. It was the first community in California named an International Dark Sky Community, and the town has no stoplights.
+family: More than 130 large metal animal sculptures stand in the desert around town. ; Julian, a mountain town under an hour away, has held an Apple Days festival since 1949 and has a pioneer museum. ; The San Diego Zoo Safari Park is near Escondido, roughly an hour and a half to two hours away.
+outdoors: Anza-Borrego Desert State Park surrounds the town and covers about 650,000 acres. ; The park has about 110 miles of hiking trails and 12 wilderness areas. ; Spring wildflower blooms are among the park's biggest attractions in wet years.
+food: Julian is known for its apple pie, and apples remain a local crop.
+sports: The San Diego Padres play Major League Baseball in downtown San Diego, roughly two hours away. ; An aerobatic club holds competitions at the Borrego Valley Airport each April and October.
+cost: BestPlaces index figures put housing in Borrego Springs below the US average, with groceries slightly above and utilities above.
+climate: Winters are mild, with typical daily highs near 70°F in January. Summers are very hot, with highs near 107°F in July.
+vets: The VA medical center for the region is in San Diego. ; VA clinics are listed in Escondido, El Centro, Oceanside and Chula Vista.
+around: Julian is under an hour away by car. ; Palm Springs is just under two hours away. ; San Diego and its international airport are roughly two hours away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Borrego_Springs,_California ; https://en.wikipedia.org/wiki/Anza-Borrego_Desert_State_Park ; https://en.wikipedia.org/wiki/Julian,_California ; https://en.wikipedia.org/wiki/Escondido,_California ; https://en.wikipedia.org/wiki/San_Diego ; https://en.wikipedia.org/wiki/Palm_Springs,_California ; https://en.wikipedia.org/wiki/San_Diego_Padres ; https://www.va.gov/san-diego-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/california/borrego_springs
+
+## CA|Bakersfield
+intro: Bakersfield is a city of about 400,000 people and the county seat of Kern County, at the southern end of the San Joaquin Valley. It is the birthplace of the country music style known as the Bakersfield sound.
+family: The Kern County Museum has regional artifacts and a hands-on children's discovery museum. ; The Buena Vista Museum of Natural History has a collection of marine fossils from the region. ; The Kern County Fair each September showcases local agriculture with a rodeo, concerts and a carnival.
+outdoors: The Kern River Parkway Trail follows the river for hiking and biking. ; Panorama Vista Preserve, a 930-acre wildlife refuge in northeast Bakersfield, has hiking trails and biking paths. ; Lake Isabella, a Kern River reservoir 35 miles away, is popular with boaters, water skiers and anglers.
+food: Basque cooking is a long-standing part of the city's food history. ; The Kern County Basque Festival on Memorial Day weekend features food, music, dance and handball.
+sports: The Bakersfield Condors play professional hockey in the American Hockey League. ; The Cal State Bakersfield Roadrunners compete in NCAA Division I in the Big West Conference.
+cost: BestPlaces index figures put housing and utilities in Bakersfield somewhat above the US average, with groceries about average.
+climate: Bakersfield has a hot, dry climate with nearly rainless summers and mild winters with chilly nights. Typical daily highs are about 59°F in January and 98°F in July.
+vets: The VA has a clinic in Bakersfield. ; The main VA medical center for the region is in Los Angeles.
+around: Tehachapi, 35 miles east-southeast, is about an hour away and sits near the Pacific Crest Trail. ; Los Angeles is roughly two hours away by car. ; State Route 99 runs through the city.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Bakersfield,_California ; https://en.wikipedia.org/wiki/Kern_River ; https://en.wikipedia.org/wiki/Tehachapi,_California ; https://en.wikipedia.org/wiki/Lake_Isabella,_California ; https://en.wikipedia.org/wiki/Bakersfield_Condors ; https://en.wikipedia.org/wiki/California_State_University,_Bakersfield ; https://www.va.gov/greater-los-angeles-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/california/bakersfield
