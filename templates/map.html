@@ -54,6 +54,11 @@ main.wrap{padding-block:12px 40px}
 .grid{display:grid;gap:14px;grid-template-columns:minmax(0,1fr);margin-top:10px}
 .mapbox{position:relative;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--land)}
 #map{height:clamp(250px,74vw,460px);background:var(--land);font-family:var(--body)}
+.legend{margin-top:8px;font-size:13px;color:var(--muted)}
+.legend #legendIn{display:flex;flex-wrap:wrap;gap:6px 12px;color:var(--ink);font-weight:600}
+.legend .lg{display:inline-flex;align-items:center;gap:6px}
+.legend .lg i{width:14px;height:14px;border-radius:4px;border:1px solid rgba(0,0,0,.25);display:inline-block}
+.legend p{margin:6px 0 0}
 .views{position:absolute;right:8px;top:8px;z-index:500;display:flex;gap:6px}
 .views button{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:6px 9px;font-size:12.5px;font-weight:600;min-height:32px}
 .dot{background:var(--dot);color:var(--dot-ink);border:2px solid var(--land);border-radius:999px;display:grid;place-items:center;font:700 13px/1 var(--display);font-variant-numeric:tabular-nums;box-shadow:0 1px 3px rgba(0,0,0,.35)}
@@ -122,7 +127,8 @@ footer a{color:inherit}
   <div id="acWrap" hidden><div class="lab">Aircraft named in postings</div><div class="row" id="acs" role="group" aria-label="Filter by aircraft"></div></div>
   <div id="frWrap" hidden><div class="lab">Base type</div><div class="row" id="frs" role="group" aria-label="Filter by base type"></div></div>
   <div class="grid">
-    <div class="mapbox"><div id="map" aria-label="Map of bases with openings"></div><div class="views" id="views"></div></div>
+    <div><div class="mapbox"><div id="map" aria-label="Map of bases with openings"></div><div class="views" id="views"></div></div>
+    <div class="legend" id="legend" hidden><div id="legendIn"></div><p>Maintenance regions. The colors fade as you zoom in. Arizona, North Carolina and Florida are each split between two regions, and the split lines here are approximate.</p></div></div>
     <section class="panel" id="panel" aria-live="polite"></section>
   </div>
   <details class="off" id="off" hidden><summary id="offSum"></summary><div id="offIn"></div></details>
@@ -173,6 +179,17 @@ fetch("vendor/us-states.json").then(r => r.json()).then(g => {
   outline = L.geoJSON(g, {interactive: false, style: outlineStyle()}).addTo(map); outline.bringToBack();
 }).catch(() => {});
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => outline && outline.setStyle(outlineStyle()));
+// Maintenance regions: shaded when zoomed out, fading away as you zoom in so the background map shows through.
+const REGIONS = [["PacWest", "#2f5fd0"], ["North Central", "#e879d9"], ["Midwest", "#3bb4e6"], ["South Central", "#3fb52f"], ["Southeast", "#e3d034"], ["Northeast", "#6b3a8c"], ["Blue Hawaiian", "#8a94a3"]];
+let regions = null;
+const regionFill = () => { const z = map.getZoom(); return z <= 5.25 ? 0.5 : z >= 8 ? 0 : 0.5 * (8 - z) / 2.75; };
+const regionStyle = f => ({stroke: false, fillColor: (REGIONS.find(r => r[0] === f.properties.region) || [0, "#888"])[1], fillOpacity: regionFill()});
+fetch("vendor/us-regions.json").then(r => r.json()).then(g => {
+  regions = L.geoJSON(g, {interactive: false, style: regionStyle}).addTo(map); regions.bringToBack();
+  const lg = $("legend"); lg.hidden = false;
+  REGIONS.forEach(([n, c]) => { const x = el("span", "lg"); const sw = el("i"); sw.style.background = c; x.appendChild(sw); x.appendChild(document.createTextNode(n)); $("legendIn").appendChild(x); });
+}).catch(() => {});
+map.on("zoomend", () => regions && regions.setStyle(regionStyle));
 // Major cities for a frame of reference: [name, lat, lon, tier]. Fewer names when zoomed out; the background map takes over when zoomed in.
 const CITIES = [["New York", 40.71, -74.01, 0], ["Los Angeles", 34.05, -118.24, 0], ["Chicago", 41.85, -87.65, 0], ["Houston", 29.76, -95.36, 0], ["Philadelphia", 39.95, -75.16, 1], ["Phoenix", 33.45, -112.07, 0], ["San Antonio", 29.42, -98.49, 1], ["San Diego", 32.72, -117.16, 1], ["Dallas", 32.78, -96.81, 0], ["Jacksonville", 30.33, -81.66, 1], ["San Francisco", 37.77, -122.42, 0], ["Columbus", 39.96, -83, 1], ["Indianapolis", 39.77, -86.16, 1], ["Charlotte", 35.23, -80.84, 1], ["Seattle", 47.61, -122.33, 0], ["Denver", 39.74, -104.98, 0], ["El Paso", 31.76, -106.49, 1], ["Detroit", 42.33, -83.05, 1], ["Boston", 42.36, -71.06, 1], ["Memphis", 35.15, -90.05, 1], ["Portland", 45.52, -122.68, 1], ["Oklahoma City", 35.47, -97.52, 1], ["Las Vegas", 36.17, -115.14, 1], ["Washington", 38.9, -77.04, 0], ["Milwaukee", 43.04, -87.91, 1], ["Albuquerque", 35.08, -106.65, 1], ["Nashville", 36.17, -86.78, 1], ["Kansas City", 39.1, -94.58, 0], ["Atlanta", 33.75, -84.39, 0], ["Omaha", 41.26, -95.94, 1], ["Miami", 25.77, -80.19, 0], ["Minneapolis", 44.98, -93.26, 0], ["New Orleans", 29.95, -90.08, 0], ["Tampa", 27.95, -82.46, 1], ["Salt Lake City", 40.76, -111.89, 0], ["St. Louis", 38.63, -90.2, 2], ["Pittsburgh", 40.44, -80, 2], ["Cincinnati", 39.13, -84.51, 2], ["Orlando", 28.54, -81.38, 2], ["Boise", 43.61, -116.2, 2], ["Billings", 45.78, -108.5, 2], ["Anchorage", 61.22, -149.9, 2], ["Honolulu", 21.31, -157.86, 2], ["Louisville", 38.25, -85.76, 2], ["Birmingham", 33.52, -86.8, 2], ["Little Rock", 34.75, -92.29, 2], ["Des Moines", 41.6, -93.61, 2], ["Richmond", 37.55, -77.46, 2], ["Buffalo", 42.89, -78.88, 2], ["Fargo", 46.88, -96.79, 2], ["Sioux Falls", 43.55, -96.7, 2], ["Cheyenne", 41.14, -104.82, 2], ["Spokane", 47.66, -117.43, 2], ["Sacramento", 38.58, -121.49, 2], ["Austin", 30.27, -97.74, 2], ["Raleigh", 35.77, -78.64, 2], ["Cleveland", 41.5, -81.7, 2], ["Tucson", 32.22, -110.93, 2], ["Charleston", 32.78, -79.93, 2], ["Jackson", 32.3, -90.18, 2], ["Wichita", 37.69, -97.34, 2], ["Portland", 43.66, -70.26, 2]];
 const cityLayer = L.layerGroup().addTo(map);
