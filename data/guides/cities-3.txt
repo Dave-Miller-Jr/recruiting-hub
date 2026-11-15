@@ -1,0 +1,83 @@
+# More city guides (same format as cities-1.txt). One guide per city, shared by every map.
+
+## CA|Ridgecrest
+intro: Ridgecrest is a city of about 28,000 people in northeastern Kern County, in the Indian Wells Valley along U.S. Route 395. It sits next to Naval Air Weapons Station China Lake, the area's main employer.
+family: The Maturango Museum covers the natural and cultural history of the northern Mojave Desert and leads tours to Little Petroglyph Canyon. ; The Ridgecrest Petroglyph Festival celebrates the area's rock art and native culture each year. ; Cerro Coso Community College has its main campus near Ridgecrest.
+outdoors: Red Rock Canyon State Park, close to Ridgecrest, offers hiking and camping. ; Big and Little Petroglyph Canyons are part of a National Historic Landmark district with over 20,000 petroglyphs. ; Lake Isabella, a Kern River reservoir roughly an hour and a half away, is popular with hikers, boaters and anglers.
+cost: BestPlaces index figures put housing in Ridgecrest well below the US average, with groceries close to average and utilities above.
+climate: Summers are hot and extremely dry with cool nights, and the area gets under 5 inches of rain a year. Typical daily highs are about 60°F in December and about 105°F in July.
+vets: VA clinics are in Lancaster and Bakersfield. ; Naval Air Weapons Station China Lake is next to the city.
+around: The Lancaster and Palmdale area is about 82 miles away, roughly an hour and a half to two hours by road. ; Bakersfield is about 110 miles away, a bit over two hours. ; Lone Pine, near the Alabama Hills in the eastern Sierra, is roughly an hour and a half away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Ridgecrest,_California ; https://en.wikipedia.org/wiki/Lone_Pine,_California ; https://en.wikipedia.org/wiki/Lake_Isabella,_California ; https://www.va.gov/greater-los-angeles-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/california/ridgecrest
+
+## CA|Twentynine Palms
+intro: Twentynine Palms is a city of about 28,000 people in the Mojave Desert of San Bernardino County. It is one of the entry points to Joshua Tree National Park, and the Marine Corps Air Ground Combat Center is nearby.
+family: Luckie Park has grassy areas and playgrounds and hosts fairs and carnivals. ; The local historical society runs a history museum in the city's original schoolhouse. ; The Oasis of Murals is a series of 26 outdoor murals around town showing desert life and history.
+outdoors: Joshua Tree National Park lies just south of town, with its Oasis of Mara entrance in Twentynine Palms. ; The park is popular with rock climbers and was designated a Dark Sky Park in 2017.
+cost: BestPlaces index figures put housing in Twentynine Palms well below the US average and groceries a little below, with utilities above average.
+climate: Winters are moderately cool, with typical daily highs around 63°F in January. Summers are very hot, with highs around 104°F in July.
+vets: The VA medical center for the region is in Loma Linda, and there is a VA clinic in Palm Desert. ; The Marine Corps Air Ground Combat Center is at Twentynine Palms.
+around: The community of Joshua Tree is about 20 minutes west by car. ; Yucca Valley is about half an hour away. ; Palm Springs, the closest passenger airport, is a little over an hour away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Twentynine_Palms,_California ; https://en.wikipedia.org/wiki/Joshua_Tree_National_Park ; https://en.wikipedia.org/wiki/Marine_Corps_Air_Ground_Combat_Center_Twentynine_Palms ; https://en.wikipedia.org/wiki/Joshua_Tree,_California ; https://en.wikipedia.org/wiki/Yucca_Valley,_California ; https://en.wikipedia.org/wiki/Palm_Springs,_California ; https://www.va.gov/loma-linda-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/california/twentynine_palms
+
+## CA|Victorville
+intro: Victorville is a city of about 135,000 people in the Victor Valley of San Bernardino County, at the southwestern edge of the Mojave Desert in the High Desert.
+family: Old Town Victorville, along historic Route 66, has a Route 66 museum and several large murals. ; Silverwood Lake State Recreation Area has picnic areas, swimming beaches, boating and fishing. ; Big Bear Lake, roughly an hour and 10 minutes away, has held an Oktoberfest every year since 1970.
+outdoors: The Mojave River runs through Victorville. ; The San Bernardino National Forest offers many hiking trails of varying difficulty and designated camping sites.
+cost: BestPlaces index figures put housing and utilities in Victorville above the US average, with groceries slightly below it.
+climate: Victorville has a cool arid climate with four distinct seasons. Typical daily highs are about 58°F in January and about 98°F in July, and winter is the wet season.
+vets: The VA has a clinic in Victorville. ; The VA medical center for the region is in Loma Linda.
+around: San Bernardino is about 36 miles south on Interstate 15 through Cajon Pass, roughly 50 minutes by car. ; Barstow is about 32 miles north, roughly 40 minutes away. ; Big Bear Lake, in the San Bernardino Mountains, is roughly an hour and 10 minutes away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Victorville,_California ; https://en.wikipedia.org/wiki/Silverwood_Lake ; https://en.wikipedia.org/wiki/San_Bernardino_National_Forest ; https://en.wikipedia.org/wiki/Big_Bear_Lake,_California ; https://www.va.gov/loma-linda-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/california/victorville
+
+## CA|Visalia
+intro: Visalia is a city of about 141,000 people in the San Joaquin Valley and the county seat of Tulare County. It is known as the Gateway to the Sequoias and is the center of one of the country's most productive farm counties.
+family: Mooney Grove Park preserves one of the largest valley oak groves in California. ; The historic Fox Theatre hosts music and stage performances. ; Kaweah Oaks Preserve, a 322-acre nature preserve, is just outside the city.
+outdoors: Sequoia National Park, home of the General Sherman Tree, is entered near the town of Three Rivers, roughly 45 minutes away. ; Kings Canyon National Park includes Grant Grove and the General Grant tree. ; Lake Kaweah is a reservoir on the Kaweah River below Three Rivers.
+sports: The Visalia Rawhide play Single-A baseball in the California League. ; College of the Sequoias has its main campus in Visalia.
+cost: BestPlaces index figures put housing and utilities in Visalia somewhat above the US average, with groceries close to average.
+climate: Summers are hot and dry, and most rain falls from November through April. Typical daily highs range from about 55°F in January to about 94°F in July, and winter often brings dense tule fog.
+vets: The VA has a clinic in Visalia. ; The main VA medical center for central California is in Fresno. ; Naval Air Station Lemoore is west of nearby Hanford.
+around: Tulare, 8 miles south, hosts the World Ag Expo each February. ; Hanford is 18 miles west. ; Fresno, the nearest big city with commercial flights, is roughly an hour away by car.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Visalia,_California ; https://en.wikipedia.org/wiki/Tulare,_California ; https://en.wikipedia.org/wiki/Three_Rivers,_California ; https://en.wikipedia.org/wiki/Hanford,_California ; https://en.wikipedia.org/wiki/Fresno,_California ; https://en.wikipedia.org/wiki/Sequoia_National_Park ; https://en.wikipedia.org/wiki/Kings_Canyon_National_Park ; https://en.wikipedia.org/wiki/Lake_Kaweah ; https://www.va.gov/central-california-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/california/visalia
+
+## CO|Greenwood Village
+intro: Greenwood Village is a city of about 16,000 people in Arapahoe County, on the south side of the Denver area. It grew up around the Denver Technological Center.
+family: The Denver Art Museum and the Denver Museum of Nature and Science are in Denver, about 20 minutes away. ; Cheyenne Mountain Zoo is in Colorado Springs, roughly an hour south. ; The city is home to an 18,000-seat outdoor amphitheater for concerts.
+outdoors: Cherry Creek State Park has an 880-acre reservoir, a sand swim beach and about 35 miles of multi-use trails. ; The High Line Canal Trail offers roughly 60 miles of path open all year to hikers, bikers and joggers.
+sports: Denver's pro teams include the Broncos, Nuggets, Avalanche, Rockies and Rapids. ; The Colorado Buffaloes, an NCAA Division I program, are based in Boulder.
+cost: BestPlaces index figures put housing in Greenwood Village far above the US average, with groceries slightly above and utilities slightly below.
+climate: The Denver area has four distinct seasons, with most precipitation from April through August. Typical daily highs run from about 45°F in January to about 90°F in July.
+vets: The main VA location for eastern Colorado is in Aurora. ; VA clinics are in nearby Englewood and Castle Rock.
+around: Denver is roughly 20 minutes away by car. ; Castle Rock is roughly half an hour south, and Boulder roughly an hour away. ; Colorado Springs is roughly an hour south.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Greenwood_Village,_Colorado ; https://en.wikipedia.org/wiki/Denver ; https://en.wikipedia.org/wiki/Colorado_Springs,_Colorado ; https://en.wikipedia.org/wiki/Boulder,_Colorado ; https://en.wikipedia.org/wiki/Castle_Rock,_Colorado ; https://en.wikipedia.org/wiki/Cherry_Creek_State_Park ; https://en.wikipedia.org/wiki/High_Line_Canal ; https://en.wikipedia.org/wiki/Sports_in_Denver ; https://www.va.gov/eastern-colorado-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/colorado/greenwood_village
+
+## CA|Stanford
+intro: Stanford is an unincorporated community of about 21,000 people in northwest Santa Clara County, next to Palo Alto. It is home to Stanford University.
+family: The Cantor Center for Visual Arts and the Rodin Sculpture Garden are landmarks on the Stanford campus ; The Children's Discovery Museum of San Jose is in nearby San Jose ; The Santa Cruz Museum of Natural History is in Santa Cruz
+outdoors: Jasper Ridge Biological Preserve is a 1,200-acre natural reserve west of the central Stanford campus ; Foothills Park and Pearson–Arastradero Preserve are part of the Palo Alto park system ; Half Moon Bay has several state beaches on the Pacific coast
+sports: Stanford Cardinal teams compete in 36 varsity sports in NCAA Division I and the Atlantic Coast Conference ; The San Jose Sharks and San Jose Earthquakes play their home games in San Jose ; The San Francisco Giants and Golden State Warriors play their home games in San Francisco
+cost: Figures here are for neighboring Palo Alto. Housing and grocery costs are well above the national average, and miscellaneous costs are also above it, while utilities are somewhat below it.
+climate: Stanford has warm, dry summers and cool, wet winters. Average daily highs run about 56 °F in January and about 78 °F in July, and average rainfall is about 15 inches a year.
+vets: The VA Palo Alto Health Care System's main locations are in Palo Alto, Livermore, and Menlo Park ; It also lists clinics in Capitola, Fremont, Marina, and San Jose
+around: San Jose is about 20 miles away, roughly 30 minutes by car ; San Francisco is about 37 miles away, roughly 50 minutes by car ; Half Moon Bay, Oakland, and Santa Cruz are roughly 35, 55, and 60 minutes by car
+src: https://en.wikipedia.org/wiki/Stanford,_California ; https://en.wikipedia.org/wiki/Palo_Alto,_California ; https://en.wikipedia.org/wiki/Stanford_University ; https://en.wikipedia.org/wiki/San_Jose,_California ; https://en.wikipedia.org/wiki/San_Francisco ; https://en.wikipedia.org/wiki/Half_Moon_Bay,_California ; https://en.wikipedia.org/wiki/Santa_Cruz,_California ; https://www.va.gov/palo-alto-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/california/palo_alto
+checked: November 2026
+
+## CA|Thermal
+intro: Thermal is an unincorporated community of about 2,700 people in the Coachella Valley of Riverside County. It sits about 25 miles southeast of Palm Springs and about 9.5 miles north of the Salton Sea.
+family: The Riverside County Fair and National Date Festival, held each February in Indio, has celebrated the local date crop since 1947 ; The Living Desert Zoo and Gardens in Palm Desert combines a zoo with a botanical garden of desert plants and animals ; The Children's Discovery Museum of the Desert is in nearby Rancho Mirage
+outdoors: Joshua Tree National Park, roughly an hour and a half away, is known for its Joshua trees, rock formations, and dark night skies ; The Salton Sea State Recreation Area offers fishing, swimming, and camping on the northeast side of the Salton Sea ; The Santa Rosa and San Jacinto Mountains National Monument allows hiking, mountain biking, horseback riding, and camping in most areas
+food: The Indio International Tamale Festival is held each December on the streets of Old Town Indio
+sports: The Coachella Valley Firebirds are a professional ice hockey team in the American Hockey League that plays home games in Thousand Palms ; Polo season runs from January to March in Indio
+cost: Groceries and housing are below the national average in Thermal, while utilities and miscellaneous costs are above it.
+climate: Summers are very hot, with average daytime highs above 100 °F from June through September, peaking near 107 °F in July. Winters are warm, with average January highs around 71 °F.
+vets: The VA Loma Linda health care system has a clinic in Palm Desert ; The main VA medical center is in Loma Linda
+around: Indio is roughly 10 to 15 minutes away by car ; Palm Desert is roughly half an hour away ; Palm Springs is roughly 40 minutes away
+src: https://en.wikipedia.org/wiki/Thermal,_California ; https://en.wikipedia.org/wiki/Indio,_California ; https://en.wikipedia.org/wiki/Palm_Desert,_California ; https://en.wikipedia.org/wiki/Palm_Springs,_California ; https://en.wikipedia.org/wiki/Joshua_Tree_National_Park ; https://en.wikipedia.org/wiki/Salton_Sea_State_Recreation_Area ; https://en.wikipedia.org/wiki/Santa_Rosa_and_San_Jacinto_Mountains_National_Monument ; https://en.wikipedia.org/wiki/Coachella_Valley_Firebirds ; https://www.va.gov/loma-linda-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/california/thermal
+checked: November 2026
