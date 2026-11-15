@@ -1,6 +1,5 @@
 AL|Evergreen
 AL|Semmes
-AR|Arkadelphia
 AZ|Florence
 AZ|Fort Mohave
 AZ|Goodyear
@@ -112,6 +111,4 @@ WA|Bremerton
 WA|Yakima
 WI|Green Bay
 WV|Beaver
-WV|Moundsville
 WY|Casper
-WY|Evanston

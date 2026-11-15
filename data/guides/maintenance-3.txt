@@ -83,3 +83,27 @@ vets: VA St. Louis Health Care lists John Cochran Veterans Hospital in the city,
 around: St. Louis Lambert International Airport is about 14 miles northwest of downtown. ; Interstates 44, 64 and 70 serve the region, and the MetroLink Red Line has stations at both airport terminals. ; Kansas City is about 4 hours 45 minutes by car and Chicago about 5 hours 35 minutes.
 checked: November 2026
 src: https://en.wikipedia.org/wiki/St._Louis ; https://en.wikipedia.org/wiki/Forest_Park_(St._Louis) ; https://en.wikipedia.org/wiki/Gateway_Arch_National_Park ; https://en.wikipedia.org/wiki/Katy_Trail_State_Park ; https://en.wikipedia.org/wiki/St._Louis_Lambert_International_Airport ; https://en.wikipedia.org/wiki/Scott_Air_Force_Base ; https://www.va.gov/st-louis-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/missouri/st._louis
+
+## WV|Moundsville
+intro: Moundsville is a small city of about 8,000 people on the Ohio River. It is the county seat of Marshall County and part of the Wheeling metropolitan area.
+family: Grave Creek Mound, a large Adena culture burial mound in town, is a National Historic Landmark with a museum on site. ; The former West Virginia State Penitentiary, closed in 1995, is now a museum and tour attraction. ; The Fostoria Glass Museum recalls the glass company based in town from 1891 to 1986.
+outdoors: The Ohio River runs along the city. ; Oglebay Park in Wheeling, about half an hour away, covers 1,650 acres with golf courses, walking trails and a fishing lake.
+sports: The Wheeling Nailers play minor league hockey in the ECHL at their arena in Wheeling. ; West Virginia University's Mountaineers compete in NCAA Division I in Morgantown, about an hour and 45 minutes away. ; The Pittsburgh Steelers play their NFL home games in Pittsburgh, about an hour and a half away.
+cost: BestPlaces index figures put housing in Moundsville far below the US average, with utilities noticeably lower and groceries slightly lower.
+climate: Precipitation is spread fairly evenly through the year. Typical daily highs run about 39°F in January and about 86°F in July, and the city averages about 16 inches of snow a year.
+vets: VA Pittsburgh runs an outpatient clinic in St. Clairsville, Ohio, in the Wheeling area. ; The VA Pittsburgh system has two medical center campuses in the Pittsburgh area.
+around: Wheeling is about half an hour away by car. ; Pittsburgh is about an hour and a half away. ; Morgantown is about an hour and 45 minutes away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Moundsville,_West_Virginia ; https://en.wikipedia.org/wiki/Grave_Creek_Mound ; https://en.wikipedia.org/wiki/West_Virginia_State_Penitentiary ; https://en.wikipedia.org/wiki/Oglebay_Park ; https://en.wikipedia.org/wiki/Wheeling_Nailers ; https://en.wikipedia.org/wiki/West_Virginia_Mountaineers ; https://en.wikipedia.org/wiki/Pittsburgh_Steelers ; https://www.va.gov/pittsburgh-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/west_virginia/moundsville
+
+## WY|Evanston
+intro: Evanston is a city of about 12,000 people in the southwest corner of Wyoming, near the Utah border. It is the county seat of Uinta County and began in 1868 as a railroad town.
+family: The city Recreation Center has a swimming pool and youth classes and sports. ; The Uinta County Museum is on Depot Square downtown, in a building first built as a Carnegie library in 1906. ; City parks have basketball and tennis courts, soccer fields and sand volleyball.
+outdoors: Bear River State Park, on the eastern edge of town, offers wildlife viewing, picnic grounds and hiking trails. ; The Bear River Greenway has a river walk, a fitness trail, summer fishing and winter ice skating. ; The Uinta Mountains and the High Uintas Wilderness rise to the south, and Sulphur Creek Reservoir offers boating and fishing.
+sports: The annual Cowboy Days brings a professional rodeo to the Uinta County Fairgrounds. ; Park City, Utah, about an hour and 10 minutes away, has two major ski resorts.
+cost: BestPlaces index figures put housing in Evanston well below the US average, with groceries, utilities and other everyday costs also below it.
+climate: Winters are long, cold and dry, and summers are short and warm. Typical daily highs are about 33°F in January and 81°F in July, with about 47 inches of snow a year.
+vets: The nearest VA medical center listed is in Salt Lake City, about an hour and a half away. ; The Salt Lake City VA system also lists a clinic in South Ogden, Utah.
+around: Interstate 80 runs past town. ; Salt Lake City and its international airport are about an hour and a half away by car. ; Park City, Utah, is about an hour and 10 minutes away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Evanston,_Wyoming ; https://en.wikipedia.org/wiki/Uinta_Mountains ; https://en.wikipedia.org/wiki/Park_City,_Utah ; https://en.wikipedia.org/wiki/Salt_Lake_City ; https://www.va.gov/salt-lake-city-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/wyoming/evanston

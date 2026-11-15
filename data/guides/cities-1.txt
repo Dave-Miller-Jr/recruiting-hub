@@ -1,0 +1,13 @@
+# Guides for pilot, nurse and paramedic base cities (same format as the maintenance files). One guide per city, shared by every map.
+
+## AR|Arkadelphia
+intro: Arkadelphia is a college town of about 10,400 people and the county seat of Clark County. It sits at the foothills of the Ouachita Mountains on Interstate 30 between Little Rock and Texarkana.
+family: Henderson State University and Ouachita Baptist University are both in the city. ; The Arkadelphia Arts Center hosts exhibits, productions and educational workshops. ; The Reynolds Science Center Planetarium is on the Henderson State campus.
+outdoors: DeGray Lake, on the Caddo River, has 208 miles of shoreline and 13,800 acres of water. ; DeGray Lake Resort State Park offers fishing, swimming, boating, hiking, horseback riding and an 18-hole golf course. ; Hot Springs National Park, under an hour away, has hiking trails and camping areas.
+sports: Henderson State's Reddies compete in NCAA Division II in the Great American Conference. ; Henderson State and Ouachita Baptist share the longest rivalry in Division II football, the Battle of the Ravine, which began in 1895.
+cost: BestPlaces index figures put housing in Arkadelphia far below the US average, with groceries, utilities and other everyday costs somewhat below it.
+climate: Summers are hot and humid and winters are generally mild to cool. Typical daily highs are about 55°F in January and about 94°F in July.
+vets: The VA has a clinic in Hot Springs, under an hour away. ; The main VA medical center for central Arkansas is in Little Rock, about an hour and 15 minutes away.
+around: Interstate 30 runs through town. ; Hot Springs is under an hour away by car and Little Rock about an hour and 15 minutes. ; Texarkana is about an hour and a half away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Arkadelphia,_Arkansas ; https://en.wikipedia.org/wiki/Henderson_State_University ; https://en.wikipedia.org/wiki/Ouachita_Baptist_University ; https://en.wikipedia.org/wiki/DeGray_Lake_Resort_State_Park ; https://en.wikipedia.org/wiki/Hot_Springs_National_Park ; https://www.va.gov/central-arkansas-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arkansas/arkadelphia
