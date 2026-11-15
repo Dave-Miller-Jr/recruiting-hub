@@ -81,3 +81,87 @@ vets: The VA Loma Linda health care system has a clinic in Palm Desert ; The mai
 around: Indio is roughly 10 to 15 minutes away by car ; Palm Desert is roughly half an hour away ; Palm Springs is roughly 40 minutes away
 src: https://en.wikipedia.org/wiki/Thermal,_California ; https://en.wikipedia.org/wiki/Indio,_California ; https://en.wikipedia.org/wiki/Palm_Desert,_California ; https://en.wikipedia.org/wiki/Palm_Springs,_California ; https://en.wikipedia.org/wiki/Joshua_Tree_National_Park ; https://en.wikipedia.org/wiki/Salton_Sea_State_Recreation_Area ; https://en.wikipedia.org/wiki/Santa_Rosa_and_San_Jacinto_Mountains_National_Monument ; https://en.wikipedia.org/wiki/Coachella_Valley_Firebirds ; https://www.va.gov/loma-linda-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/california/thermal
 checked: November 2026
+
+## CO|Holyoke
+intro: Holyoke is the county seat of Phillips County on the northeast Colorado plains, with about 2,300 residents.
+outdoors: North Sterling State Park, about 11 miles north of Sterling, offers fishing, boating, camping and about 6 miles of trails. ; Julesburg sits on the north side of the South Platte River, less than a mile from the Nebraska state line.
+sports: Northeastern Junior College in Sterling, whose teams are the Plainsmen, fields baseball, basketball, rodeo and softball teams.
+cost: Housing costs are well below the US average, while grocery, utility and miscellaneous costs are close to it.
+climate: Holyoke has a dry plains climate with cold winters and warm summers. Typical daily highs run from about 42°F in January to about 88°F in July, with about 30 inches of snow a year.
+vets: The VA has a clinic in Sterling. ; Other VA clinics in the same system include Fort Collins and Loveland.
+around: Sterling is roughly an hour and a quarter away and is home to Northeastern Junior College. ; Julesburg, on the old Pony Express route, is under an hour away. ; Wray is roughly 45 minutes away, and Denver is roughly three and a half hours.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Holyoke,_Colorado ; https://en.wikipedia.org/wiki/Sterling,_Colorado ; https://en.wikipedia.org/wiki/North_Sterling_State_Park ; https://en.wikipedia.org/wiki/Julesburg,_Colorado ; https://en.wikipedia.org/wiki/Northeastern_Junior_College ; https://en.wikipedia.org/wiki/Wray,_Colorado ; https://www.va.gov/cheyenne-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/colorado/holyoke
+
+## CO|Lone Tree
+intro: Lone Tree is a city of about 15,000 people in northern Douglas County, roughly 18 miles south of downtown Denver.
+family: The city-owned Lone Tree Arts Center produces its own professional shows and hosts touring performers. ; Schweiger Ranch, a homestead founded in 1874, is open to the public as a living history museum. ; The Denver Museum of Nature and Science is in Denver, roughly half an hour away.
+outdoors: Bluffs Regional Park is a 235-acre open space in southern Lone Tree with a 2.7-mile loop trail and views of the Front Range. ; Chatfield State Park centers on a reservoir and is known for more than 300 bird species. ; Roxborough State Park is known for red sandstone formations and has six hiking trails.
+sports: Denver's pro teams include the Broncos in the NFL, the Nuggets in the NBA and the Avalanche in the NHL. ; The Colorado Rockies and Colorado Rapids also play in the Denver area.
+cost: Housing costs are far above the national average, and miscellaneous costs are well above it. Groceries run a little above the national average, while utilities run slightly below it.
+climate: Winters are chilly and snowy, and summers are warm to hot. In nearby Castle Rock, typical daily highs run from about 46°F in January to about 86°F in July.
+vets: The main VA location for eastern Colorado is in Aurora. ; A VA clinic is in nearby Castle Rock.
+around: Light rail lines run from Lone Tree toward Denver, and Interstate 25 passes through the city. ; Colorado Springs, roughly an hour south, has Garden of the Gods park and sits near the foot of Pikes Peak. ; Boulder, roughly an hour northwest, is home to the University of Colorado Boulder.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Lone_Tree,_Colorado ; https://en.wikipedia.org/wiki/Chatfield_State_Park ; https://en.wikipedia.org/wiki/Roxborough_State_Park ; https://en.wikipedia.org/wiki/Sports_in_Denver ; https://en.wikipedia.org/wiki/Denver ; https://en.wikipedia.org/wiki/Castle_Rock,_Colorado ; https://en.wikipedia.org/wiki/Colorado_Springs,_Colorado ; https://en.wikipedia.org/wiki/Boulder,_Colorado ; https://www.va.gov/eastern-colorado-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/colorado/lone_tree
+
+## FL|Bartow
+intro: Bartow is the county seat of Polk County in central Florida, between Tampa and Orlando, with about 19,000 residents.
+family: Legoland Florida, a theme park on the former Cypress Gardens site in Winter Haven, is less than 20 miles away. ; Bok Tower Gardens in Lake Wales is less than 20 miles from Bartow. ; The Polk County Historical Museum is housed in the 1909 Old Polk County Courthouse.
+outdoors: Circle B Bar Reserve near Lakeland is 1,267 acres of restored wetlands with about 3.5 miles of unpaved hiking and biking trails. ; The Peace River, which starts near Bartow, is 76 miles long and is popular for canoeing and fossil hunting. ; Winter Haven has 50 lakes within its borders and is known for bass fishing.
+sports: The Detroit Tigers hold spring training in Lakeland, where the minor league Lakeland Flying Tigers also play. ; The Tampa Bay area has the Buccaneers, Lightning and Rays in the NFL, NHL and MLB. ; Orlando has the Orlando Magic in the NBA and Orlando City SC in MLS.
+cost: Housing and miscellaneous costs in Bartow are below the US average, while groceries and utilities are slightly above it.
+climate: Summers are hot and humid with frequent afternoon thunderstorms, and winters are milder and drier. Typical highs are about 73°F in January and about 92°F in July.
+vets: The VA has a clinic in Lakeland, and its main Tampa-area location is in Tampa. ; MacDill Air Force Base is in Tampa.
+around: Lakeland is roughly half an hour away, and Winter Haven and Lake Wales are a little closer. ; Tampa is about 39 miles west, roughly an hour's drive. ; Orlando is about 51 miles northeast, roughly an hour and a half by car.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Bartow,_Florida ; https://en.wikipedia.org/wiki/Lakeland,_Florida ; https://en.wikipedia.org/wiki/Winter_Haven,_Florida ; https://en.wikipedia.org/wiki/Lake_Wales,_Florida ; https://en.wikipedia.org/wiki/Tampa,_Florida ; https://en.wikipedia.org/wiki/Orlando,_Florida ; https://en.wikipedia.org/wiki/Circle_B_Bar_Reserve ; https://en.wikipedia.org/wiki/Peace_River_(Florida) ; https://www.va.gov/tampa-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/florida/bartow
+
+## DE|Georgetown
+intro: Georgetown is the Sussex County seat in southern Delaware, inland from the Atlantic beaches, with about 7,000 residents. Its historic center, The Circle, holds the town hall and the historic county courthouse.
+family: Return Day, held every two years two days after Election Day, is a half-day parade and festival in Georgetown. ; Trap Pond State Park's nature center offers hayrides, guided nature walks and pontoon boat tours. ; Cape Henlopen State Park has a nature center with marine aquariums and swimming beaches with lifeguards in summer.
+outdoors: Trap Pond State Park, near Laurel, covers nearly 4,000 acres and is known for its bald cypress trees and canoeing and kayaking. ; Cape Henlopen State Park, next to Lewes, has ocean beaches, a fishing pier, dunes and marked trails. ; Redden State Forest, just north of Georgetown, covers over 12,000 acres with hiking, horseback riding and nature watching.
+sports: Georgetown Speedway draws race fans during its season. ; Dover Motor Speedway hosts a NASCAR race weekend each year. ; The Delmarva Shorebirds play minor league baseball in Salisbury, Maryland.
+cost: Housing and miscellaneous costs are below the US average, while groceries and utilities are slightly above it.
+climate: Summers are warm, with typical July highs near 88°F, and winters are cool, with typical January highs near 45°F.
+vets: The VA has a clinic in Georgetown. ; The main VA medical center is in Wilmington, with another clinic in Dover.
+around: Rehoboth Beach, on the Atlantic Ocean, has a mile-long boardwalk and is roughly half an hour away. ; Lewes sits beside Cape Henlopen State Park and is roughly half an hour away. ; Dover, the state capital and home of Dover Air Force Base, is roughly an hour away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Georgetown,_Delaware ; https://en.wikipedia.org/wiki/Trap_Pond_State_Park ; https://en.wikipedia.org/wiki/Cape_Henlopen_State_Park ; https://en.wikipedia.org/wiki/Rehoboth_Beach,_Delaware ; https://en.wikipedia.org/wiki/Lewes,_Delaware ; https://en.wikipedia.org/wiki/Delmarva_Shorebirds ; https://en.wikipedia.org/wiki/Redden_State_Forest ; https://en.wikipedia.org/wiki/Dover,_Delaware ; https://www.va.gov/wilmington-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/delaware/georgetown
+
+## DE|Newark
+intro: Newark is a city of about 31,000 people in New Castle County and is home to the University of Delaware. It is part of the Philadelphia metropolitan area.
+family: The city has 36 parks, with roughly 700 acres of parkland and open space and 21 miles of trails. ; Winterthur, north of Wilmington, holds a large collection of American decorative arts and has gardens with a narrated tram ride. ; Longwood Gardens in Kennett Square, Pennsylvania, covers more than 1,100 acres of gardens, woodlands and meadows and is open year-round.
+outdoors: White Clay Creek State Park covers more than 3,500 acres, with 40 miles of trails for hiking and mountain biking. ; Lums Pond State Park surrounds Delaware's largest freshwater pond, with boating, fishing and camping. ; The Fair Hill Natural Resources Management Area covers 5,613 acres just across the Maryland line.
+sports: The University of Delaware Fightin' Blue Hens compete in NCAA Division I with 22 varsity teams. ; Baltimore is home to the Orioles in Major League Baseball and the Ravens in the NFL. ; Philadelphia, roughly an hour away, has five professional sports teams.
+cost: Grocery, utility and miscellaneous costs in Newark are above the US average, while housing costs are about the same as it.
+climate: Summers are warm and humid with frequent afternoon storms, and winters are moderate to cold with occasional snow. Typical daytime highs are about 43°F in January and 89°F in July.
+vets: The main VA medical center for the area is in Wilmington. ; A VA clinic is in Dover.
+around: Wilmington is roughly half an hour away by car, and Philadelphia roughly an hour. ; Newark's rail station is on the Northeast Corridor, and Interstate 95 runs through the city. ; Rehoboth Beach, an Atlantic coast town with a mile-long boardwalk, is roughly two hours away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Newark,_Delaware ; https://en.wikipedia.org/wiki/Wilmington,_Delaware ; https://en.wikipedia.org/wiki/Philadelphia ; https://en.wikipedia.org/wiki/Baltimore ; https://en.wikipedia.org/wiki/Rehoboth_Beach,_Delaware ; https://en.wikipedia.org/wiki/Delaware_Fightin%27_Blue_Hens ; https://en.wikipedia.org/wiki/White_Clay_Creek_State_Park ; https://en.wikipedia.org/wiki/Lums_Pond_State_Park ; https://en.wikipedia.org/wiki/Fair_Hill,_Maryland ; https://en.wikipedia.org/wiki/Longwood_Gardens ; https://en.wikipedia.org/wiki/Winterthur_Museum,_Garden_and_Library ; https://www.va.gov/wilmington-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/delaware/newark
+
+## DE|Wilmington
+intro: Wilmington is a city of about 71,000 people and the county seat of New Castle County. It sits where the Christina and Delaware rivers meet.
+family: The Delaware Art Museum has studio art classes, a children's learning area and a 9-acre sculpture park. ; The Brandywine Zoo, created in 1905, sits inside Brandywine Park. ; Brandywine Park has playgrounds, athletic fields, a rose garden and a cherry blossom garden.
+outdoors: Brandywine Park, the first city park Wilmington established, has walking trails with views of the creek. ; Brandywine Creek State Park, three miles north of the city, has eighteen miles of trails and bass fishing in the creek. ; The park's nature center offers guided nature walks, birding programs and hayrides.
+food: Little Italy hosts an annual Italian festival in the summer. ; The city also has an annual Greek cultural festival.
+sports: The Wilmington Blue Rocks play minor league baseball in the city. ; Philadelphia is home to the Phillies, Eagles, 76ers and Flyers, and the Philadelphia Union of Major League Soccer.
+cost: Housing costs are below the national average, while groceries, utilities and miscellaneous costs are above it. Delaware has no sales tax.
+climate: Wilmington has hot, humid summers and cool to cold winters, with precipitation spread evenly through the year. Typical daily highs are about 41°F in January and about 87°F in July.
+vets: The main VA medical center is in Wilmington. ; VA clinics are in Dover and Georgetown.
+around: Philadelphia is about 33 miles away. ; Newark, about 8 miles away and home to the University of Delaware, is roughly 25 minutes by car. ; Rehoboth Beach, with a mile-long boardwalk on the Atlantic, is about two hours away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Wilmington,_Delaware ; https://en.wikipedia.org/wiki/Brandywine_Park ; https://en.wikipedia.org/wiki/Delaware_Art_Museum ; https://en.wikipedia.org/wiki/Brandywine_Creek_State_Park ; https://en.wikipedia.org/wiki/Wilmington_Blue_Rocks ; https://en.wikipedia.org/wiki/Sports_in_Philadelphia ; https://en.wikipedia.org/wiki/Newark,_Delaware ; https://en.wikipedia.org/wiki/Rehoboth_Beach,_Delaware ; https://www.va.gov/wilmington-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/delaware/wilmington
+
+## CO|Lakewood
+intro: Lakewood is a city of about 156,000 people in Jefferson County, immediately west of Denver and just east of the Front Range of the Rocky Mountains.
+family: Heritage Lakewood Belmar Park has a museum, festival grounds and several historic buildings near Kountze Lake. ; Dinosaur Ridge, near Morrison, has dinosaur tracks along a closed paved road, plus an exhibit hall and guided tours. ; The Colorado Railroad Museum and the Mines Museum of Earth Science are in Golden, roughly 15 minutes away.
+outdoors: Bear Creek Lake, a reservoir fed by Bear Creek and Turkey Creek, lies in the city's southwest. ; Green Mountain, a 6,854-foot mesa in the west-central part of the city, is home to William Fredrick Hayden Park. ; Red Rocks Park has large red sandstone formations and the Red Rocks Amphitheatre, in use since 1941.
+sports: Denver's pro teams include the Broncos, Nuggets, Avalanche and Rockies in the NFL, NBA, NHL and MLB. ; The Colorado Rapids play Major League Soccer in nearby Commerce City. ; Colorado Christian University in Lakewood and the Colorado School of Mines in Golden field college sports teams.
+cost: Housing costs are well above the national average, miscellaneous costs are above it, and grocery and utility costs are close to it.
+climate: Lakewood has a dry climate with four seasons. Typical daytime highs are about 45°F in January and about 86°F in July, and snowfall averages about 58 inches a year.
+vets: The main VA location for eastern Colorado is in Aurora. ; VA clinics are in Golden and Englewood.
+around: Denver, roughly 15 minutes away, has major museums including the Denver Art Museum and the Denver Museum of Nature and Science. ; Boulder, a college town with the Flatirons rock formations on its west side, is roughly 45 minutes away. ; Colorado Springs, about 62 miles to the south-southeast, is roughly an hour and a half by car.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Lakewood,_Colorado ; https://en.wikipedia.org/wiki/Denver ; https://en.wikipedia.org/wiki/Golden,_Colorado ; https://en.wikipedia.org/wiki/Boulder,_Colorado ; https://en.wikipedia.org/wiki/Colorado_Springs,_Colorado ; https://en.wikipedia.org/wiki/Red_Rocks_Park_and_Amphitheatre ; https://en.wikipedia.org/wiki/Dinosaur_Ridge ; https://en.wikipedia.org/wiki/Sports_in_Denver ; https://www.va.gov/eastern-colorado-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/colorado/lakewood
