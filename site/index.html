@@ -61,6 +61,11 @@ button.share{font:600 15px var(--body);color:var(--band-ink);background:var(--ba
 .tabs button{font:600 15px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:11px 18px;min-height:44px;cursor:pointer}
 .tabs button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 #people{margin-top:10px}
+#people{display:block}
+#people .orgrow{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+#people .orgrow+.orgrow{margin-top:8px}
+#people button{flex:0 1 calc(50% - 4px);min-width:0}
+#people button small{display:block;font-weight:500;font-size:12px;opacity:.75}
 #cardbox{margin-top:12px;text-align:center}
 #cardbox .who{font:700 22px/1.1 var(--display);color:var(--ink)}
 #cardbox .role{color:var(--muted);font-size:14px;margin-top:2px}
@@ -124,7 +129,7 @@ footer a{color:inherit}
 </main>
 
 <script>
-const DATA = {"updated": "2026-11-15", "portal": "https://careers-airmethods.icims.com", "boards": [{"key": "maintenance", "label": "Maintenance", "blurb": "Mechanic, AMT, avionics and quality roles", "url": "jobs/maintenance.html", "count": 37, "states": 19, "new": 0}, {"key": "pilots", "label": "Pilots", "blurb": "Helicopter and fixed wing pilot roles", "url": "jobs/pilots.html", "count": 118, "states": 28, "new": 0}, {"key": "nurses", "label": "Flight nurses", "blurb": "Flight nurse roles", "url": "jobs/nurses.html", "count": 69, "states": 17, "new": 0}, {"key": "paramedics", "label": "Flight paramedics", "blurb": "Flight paramedic roles", "url": "jobs/paramedics.html", "count": 56, "states": 17, "new": 0}], "maps": [{"key": "maintenance", "label": "Maintenance"}, {"key": "pilots", "label": "Pilots"}, {"key": "nurses", "label": "Flight nurses"}, {"key": "paramedics", "label": "Flight paramedics"}], "contacts": [{"label": "Maintenance", "people": [{"name": "Dave Miller", "qr": "dave-miller.png", "link": "https://s1.blinq.me/ryXkTCwnGUlw?l=Rehobeth,%20Alabama,%20United%20States", "focus": "Part 145 maintenance. Northeast and Southeast regions."}, {"name": "Dave Burgess", "qr": ""}, {"name": "Brian Jones", "qr": ""}]}, {"label": "Pilots", "people": []}, {"label": "Clinicians", "note": "Flight nurses and flight paramedics", "people": []}]};
+const DATA = {"updated": "2026-11-15", "portal": "https://careers-airmethods.icims.com", "boards": [{"key": "maintenance", "label": "Maintenance", "blurb": "Mechanic, AMT, avionics and quality roles", "url": "jobs/maintenance.html", "count": 37, "states": 19, "new": 0}, {"key": "pilots", "label": "Pilots", "blurb": "Helicopter and fixed wing pilot roles", "url": "jobs/pilots.html", "count": 118, "states": 28, "new": 0}, {"key": "nurses", "label": "Flight nurses", "blurb": "Flight nurse roles", "url": "jobs/nurses.html", "count": 69, "states": 17, "new": 0}, {"key": "paramedics", "label": "Flight paramedics", "blurb": "Flight paramedic roles", "url": "jobs/paramedics.html", "count": 56, "states": 17, "new": 0}], "maps": [{"key": "maintenance", "label": "Maintenance"}, {"key": "pilots", "label": "Pilots"}, {"key": "nurses", "label": "Flight nurses"}, {"key": "paramedics", "label": "Flight paramedics"}], "contacts": [{"label": "Maintenance", "people": [{"name": "Dave Burgess", "qr": "", "lead": true, "title": "Supervisor"}, {"name": "Dave Miller", "qr": "dave-miller.png", "link": "https://s1.blinq.me/ryXkTCwnGUlw?l=Rehobeth,%20Alabama,%20United%20States", "focus": "Part 145 maintenance. Northeast and Southeast regions."}, {"name": "Brian Jones", "qr": ""}]}, {"label": "Pilots", "people": []}, {"label": "Clinicians", "note": "Flight nurses and flight paramedics", "people": []}]};
 const $ = id => document.getElementById(id);
 const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
 const fmt = iso => new Date(iso + "T12:00:00").toLocaleDateString("en-US", {weekday:"long", month:"short", day:"numeric"});
@@ -152,11 +157,13 @@ DATA.maps.forEach(m => { const ml = el("a", "", m.label + " map"); ml.href = "ma
     DATA.contacts.forEach(x => { const b = el("button", "", x.label); b.type = "button"; b.setAttribute("aria-pressed", x === g); b.onclick = () => { g = x === g ? null : x; who = null; draw(); }; teams.appendChild(b); });
     if (!g) return;
     if (!g.people.length) return soon(g.label + " recruiters are not added yet." + (g.note ? " This team covers " + g.note.toLowerCase() + "." : ""));
-    g.people.forEach(p => { const b = el("button", "", p.name); b.type = "button"; b.setAttribute("aria-pressed", p === who); b.onclick = () => { who = p === who ? null : p; draw(); }; people.appendChild(b); });
+    const rowTop = el("div", "orgrow"), rowRest = el("div", "orgrow");
+    g.people.forEach(p => { const b = el("button", "", p.name); if (p.title) b.appendChild(el("small", "", p.title)); b.type = "button"; b.setAttribute("aria-pressed", p === who); b.onclick = () => { who = p === who ? null : p; draw(); }; (p.lead ? rowTop : rowRest).appendChild(b); });
+    if (rowTop.children.length) people.appendChild(rowTop); people.appendChild(rowRest);
     if (!who) return;
     if (!who.qr) return soon(who.name + "'s business card is not added yet.");
     box.hidden = false; box.className = "box";
-    box.appendChild(el("div", "who", who.name)); box.appendChild(el("div", "role", g.label + " recruiter, Air Methods")); if (who.focus) box.appendChild(el("div", "focus", "Focus: " + who.focus));
+    box.appendChild(el("div", "who", who.name)); box.appendChild(el("div", "role", g.label + (who.title ? " recruiting " + who.title.toLowerCase() : " recruiter") + ", Air Methods")); if (who.focus) box.appendChild(el("div", "focus", "Focus: " + who.focus));
     const im = el("img"); im.src = "contacts/" + who.qr; im.alt = "QR code for " + who.name + "'s business card"; im.width = 280; im.height = 280; box.appendChild(im);
     if (who.link) { const a = el("a", "", "Open the business card"); a.href = who.link; a.target = "_blank"; a.rel = "noopener"; box.appendChild(a); }
     box.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest"});
