@@ -1,0 +1,87 @@
+# More city guides (same format as cities-1.txt). One guide per city, shared by every map.
+
+## AZ|Show Low
+intro: Show Low is a city of about 12,000 people in Navajo County, on the Mogollon Rim in east central Arizona.
+family: Northland Pioneer College has its White Mountain Campus in Show Low. ; A city-run bus links Show Low with Pinetop-Lakeside, Taylor, Snowflake and Holbrook.
+outdoors: The city is surrounded by extensive forests and is a popular recreation area. ; The Apache-Sitgreaves National Forests cover about 2.76 million acres along the Mogollon Rim and the White Mountains. ; Petrified Forest National Park is 28 miles east of Holbrook, which is roughly an hour from Show Low.
+cost: BestPlaces index figures put housing and utilities in Show Low above the US average, with groceries below it.
+climate: Winters are cold, with typical daily highs around 46°F in January, and summers are warm, with highs around 85°F in July. Rain peaks in summer with the monsoon.
+vets: The VA has a clinic in Show Low, part of the Phoenix VA system. ; The system's main medical center is in Phoenix.
+around: Pinetop-Lakeside is the neighboring town, roughly 20 minutes away by car. ; Holbrook is roughly an hour away and Payson roughly two hours. ; Phoenix is roughly three and a half hours away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Show_Low,_Arizona ; https://en.wikipedia.org/wiki/Apache-Sitgreaves_National_Forests ; https://en.wikipedia.org/wiki/Holbrook,_Arizona ; https://en.wikipedia.org/wiki/Pinetop-Lakeside,_Arizona ; https://en.wikipedia.org/wiki/Payson,_Arizona ; https://www.va.gov/phoenix-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arizona/show_low
+
+## AZ|Yuma
+intro: Yuma is a city of about 96,000 people on the Colorado River in the southwest corner of Arizona. It is the county seat of Yuma County.
+family: Yuma Territorial Prison, which operated from 1876 to 1909, is now a historic park and museum. ; Colorado River State Historic Park, on the site of a former army supply depot, has exhibits on the river and its steamboat era.
+outdoors: The Colorado River runs along the north and west sides of town. ; The Kofa mountain range and wildlife refuge are nearby, along with Martinez and Mittry lakes. ; The Algodones Dunes, a few miles west of Yuma, are a large dune field where off-road riding is allowed in parts.
+food: Yuma County supplies a large share of the nation's leafy vegetables from November to March, and the city is known as the Winter Lettuce Capital of the World. ; The area grows more than 175 types of crops.
+sports: The Yuma Jaycees Silver Spur Rodeo is held every February and opens with a parade.
+cost: BestPlaces index figures put housing in Yuma well below the US average, with groceries slightly below and utilities slightly above.
+climate: Yuma has a hot desert climate with mild, dry winters and extremely hot summers. Typical highs are about 70°F in January and about 108°F in July.
+vets: The VA has a clinic in Yuma, and the main VA medical center for southern Arizona is in Tucson. ; Yuma is home to Marine Corps Air Station Yuma, and the Army's Yuma Proving Ground is in the area.
+around: Yuma International Airport is the city's airport, and Interstate 8 runs west to San Diego. ; El Centro, California, is roughly an hour away by car. ; San Diego and Phoenix are each roughly three hours away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Yuma,_Arizona ; https://en.wikipedia.org/wiki/Yuma_Territorial_Prison ; https://en.wikipedia.org/wiki/Yuma_Quartermaster_Depot_State_Historic_Park ; https://en.wikipedia.org/wiki/Algodones_Dunes ; https://www.va.gov/southern-arizona-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arizona/yuma
+
+## AZ|Rio Rico
+intro: Rio Rico is a community of more than 20,000 people in Santa Cruz County, just north of Nogales in southern Arizona.
+family: Tumacácori National Historical Park protects the ruins of three Spanish mission communities and a 1937 museum building. ; Tubac, an artists' colony on the Santa Cruz River, is roughly 25 minutes away. ; Reid Park, Tucson's largest park, includes the Reid Park Zoo.
+outdoors: Rio Rico sits where Sonoita Creek meets the Santa Cruz River. ; Patagonia Lake State Park is a few miles from the town of Patagonia, which is roughly 45 minutes away.
+food: Tucson was the first American city named a UNESCO City of Gastronomy, in 2015. ; The Sonoita-Elgin wine country is about 20 miles east of Nogales.
+cost: BestPlaces index figures put housing and groceries in Rio Rico below the US average, with utilities slightly above.
+climate: In neighboring Nogales, typical daily highs run from about 66°F in January to about 97°F in June. The summer monsoon generally runs through July and August and brings much of the year's rain.
+vets: The Tucson VA Medical Center is the main VA location for southern Arizona. ; VA clinics are also listed in Green Valley and Sierra Vista.
+around: Nogales, the county seat, is roughly 20 minutes away by car. ; Tucson, the largest city in southern Arizona, is a little over an hour away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Rio_Rico,_Arizona ; https://en.wikipedia.org/wiki/Nogales,_Arizona ; https://en.wikipedia.org/wiki/Tubac,_Arizona ; https://en.wikipedia.org/wiki/Tucson,_Arizona ; https://en.wikipedia.org/wiki/Patagonia,_Arizona ; https://en.wikipedia.org/wiki/Tumacacori_National_Historical_Park ; https://www.va.gov/southern-arizona-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arizona/rio_rico
+
+## AZ|Williams
+intro: Williams is a small city of about 3,200 people in Coconino County, known as the Gateway to the Grand Canyon. It sits on Historic Route 66 and Interstate 40, about 42 miles west of Flagstaff.
+family: The historic downtown covers six blocks, and Williams was the last town on Route 66 to be bypassed by Interstate 40. ; Buckskinner Park has basketball and volleyball courts and a regularly stocked fishing lake. ; Cataract Lake County Park has a stocked lake, barbecue areas and a playground.
+outdoors: Bill Williams Mountain rises to 9,256 feet just south of town. ; The Kaibab National Forest, about 1.6 million acres, is headquartered in Williams. ; Grand Canyon Village on the South Rim, the park's main visitor area, is roughly an hour to an hour and a half away.
+sports: The Northern Arizona University Lumberjacks compete in NCAA Division I, mostly in the Big Sky Conference, in Flagstaff. ; The Arizona Snowbowl ski area is near Flagstaff.
+cost: BestPlaces index figures put housing in Williams above the US average, with groceries and utilities slightly below it.
+climate: Williams has a cooler, wetter climate than most of Arizona. Typical daily highs are around 47°F in January and 84°F in July, and August is the wettest month.
+vets: The VA has a clinic in Flagstaff. ; The main VA medical center for northern Arizona is in Prescott.
+around: Flagstaff is roughly 40 minutes east on Interstate 40. ; Sedona, known for its sandstone formations and hiking trails, is roughly an hour and a quarter away. ; Kingman is roughly two hours west.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Williams,_Arizona ; https://en.wikipedia.org/wiki/Flagstaff,_Arizona ; https://en.wikipedia.org/wiki/Grand_Canyon_Village,_Arizona ; https://en.wikipedia.org/wiki/Sedona,_Arizona ; https://en.wikipedia.org/wiki/Northern_Arizona_University ; https://en.wikipedia.org/wiki/Kaibab_National_Forest ; https://www.va.gov/northern-arizona-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arizona/williams
+
+## AZ|Quartzsite
+intro: Quartzsite is a town of about 2,400 people in La Paz County, right on Interstate 10. Winter visitors in RVs are a big part of local life, and major gem and mineral shows are held there, mostly in January and February.
+family: The Quartzsite Museum is housed in Tyson's Well Stage Station, built beginning in 1866. ; The gem and mineral shows fill the town each January and February. ; London Bridge in Lake Havasu City is roughly an hour and a half to two hours away.
+outdoors: The Dome Rock Mountains overlook the town on the west. ; The Arizona Peace Trail, an off-highway route, passes through Quartzsite. ; Kofa National Wildlife Refuge, southeast of town, offers desert wildlife viewing, rock climbing and remote camping.
+sports: The Yuma Jaycees Silver Spur Rodeo is held every February in Yuma.
+cost: BestPlaces index figures put housing in Quartzsite far below the US average, with groceries below average and utilities slightly above.
+climate: Quartzsite has a hot desert climate, with mild to warm winters from November to March and very hot summers. Typical daily highs run about 67°F in January and about 109°F in July.
+vets: The VA lists a clinic in Yuma. ; The main VA medical center for southern Arizona is in Tucson.
+around: Blythe, California, on the Colorado River, is roughly half an hour away by car. ; Parker, the county seat, is roughly 45 minutes away. ; Yuma is roughly an hour and a half to two hours away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Quartzsite,_Arizona ; https://en.wikipedia.org/wiki/Blythe,_California ; https://en.wikipedia.org/wiki/Parker,_Arizona ; https://en.wikipedia.org/wiki/Yuma,_Arizona ; https://en.wikipedia.org/wiki/Lake_Havasu_City,_Arizona ; https://en.wikipedia.org/wiki/Kofa_National_Wildlife_Refuge ; https://www.va.gov/southern-arizona-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arizona/quartzsite
+
+## AZ|Willcox
+intro: Willcox is a city of about 3,200 people in Cochise County, in the Sulphur Springs Valley of southeastern Arizona. Agriculture, wine production and tourism are its main industries, and Interstate 10 runs just north of town.
+family: Rex Allen Days, held since 1951 on the first weekend in October, includes a parade, rodeos and a car show. ; Willcox West Fest, usually in April, features a rodeo and a chuck wagon cook-off. ; A Christmas light parade and craft fair is held in December.
+outdoors: Chiricahua National Monument, about 36 miles southeast, has hoodoos, balancing rocks and about 17 miles of trails. ; Sandhill cranes winter in the area around the Willcox Playa, a dry lakebed five miles south of town. ; Fort Bowie National Historic Site preserves a 19th-century Army outpost, reached by a 1.5-mile foot trail.
+food: Willcox is the largest wine grape growing region in Arizona. ; Wine country festivals in spring and fall, usually the third weekends of May and October, include live music and arts and crafts.
+sports: The University of Arizona Wildcats, in Tucson, compete in the Big 12 Conference.
+cost: BestPlaces index figures put housing in Willcox far below the US average, with groceries below average and utilities above.
+climate: Willcox has a semi-arid climate, and summer monsoon rains bring it more rainfall than Tucson or Phoenix. Typical daily highs are about 61°F in January and about 96°F in July.
+vets: VA clinics are in Safford, roughly an hour away, and Sierra Vista. ; The Tucson VA Medical Center is the main VA location for the region. ; Fort Huachuca, a U.S. Army post, is at Sierra Vista.
+around: Benson, about 35 miles west on Interstate 10, is the gateway to Kartchner Caverns State Park. ; Tucson, with its international airport and the University of Arizona, is about 80 miles west on Interstate 10.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Willcox,_Arizona ; https://en.wikipedia.org/wiki/Chiricahua_National_Monument ; https://en.wikipedia.org/wiki/Fort_Bowie_National_Historic_Site ; https://en.wikipedia.org/wiki/Benson,_Arizona ; https://en.wikipedia.org/wiki/Tucson,_Arizona ; https://en.wikipedia.org/wiki/Sierra_Vista,_Arizona ; https://en.wikipedia.org/wiki/University_of_Arizona ; https://www.va.gov/southern-arizona-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arizona/willcox
+
+## AZ|Tucson
+intro: Tucson is a city of about 540,000 people in southern Arizona. It is the county seat of Pima County and the home of the University of Arizona.
+family: Reid Park, the city's largest park, includes the Reid Park Zoo. ; The Arizona-Sonora Desert Museum, west of town, blends a zoo, an aquarium and a botanical garden on 98 acres. ; The Pima Air and Space Museum has close to 400 aircraft on 80 acres of grounds.
+outdoors: Saguaro National Park has two districts, about 10 miles west and east of Tucson, with 165 miles of trails. ; The Catalina Highway climbs Mount Lemmon from east Tucson, where the summit can be 20 to 30 degrees cooler than the valley. ; Rillito River Park has a multi-use path for biking and walking.
+food: Tucson was named the first American UNESCO City of Gastronomy in 2015. ; Mission Garden, west of downtown at the foot of Sentinel Peak, grows heritage crops and heirloom trees.
+sports: The University of Arizona Wildcats compete in NCAA Division I in the Big 12 Conference. ; Wildcats baseball has won four national championships, and men's basketball won the national title in 1997.
+cost: BestPlaces index figures put housing and groceries in Tucson a little below the US average, with utilities close to average.
+climate: Summers are very hot and winters are mild. At nearby Saguaro National Park, typical daily highs are around 101°F in June and July and in the mid to upper 60s from December through February.
+vets: The Tucson VA Medical Center is the main VA location for southern Arizona. ; VA clinics are also in Green Valley, Casa Grande and Sierra Vista.
+around: Phoenix is about 116 miles away by interstate, roughly two hours by car. ; Nogales, on the Mexican border, is roughly an hour and a quarter away. ; Sierra Vista is roughly an hour and a half away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Tucson,_Arizona ; https://en.wikipedia.org/wiki/Saguaro_National_Park ; https://en.wikipedia.org/wiki/Mount_Lemmon ; https://en.wikipedia.org/wiki/Arizona-Sonora_Desert_Museum ; https://en.wikipedia.org/wiki/Pima_Air_%26_Space_Museum ; https://en.wikipedia.org/wiki/Arizona_Wildcats ; https://en.wikipedia.org/wiki/Nogales,_Arizona ; https://en.wikipedia.org/wiki/Sierra_Vista,_Arizona ; https://www.va.gov/southern-arizona-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arizona/tucson
