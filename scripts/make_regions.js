@@ -13,7 +13,7 @@ const R = {
   "Blue Hawaiian": ["Hawaii"],
 };
 // state: [axis (0 lon, 1 lat), value, region below the value, region at or above it]
-const SPLIT = {"Arizona": [1, 33.0, "South Central", "PacWest"], "North Carolina": [0, -80.0, "Southeast", "Northeast"], "Florida": [0, -84.0, "South Central", "Southeast"]};
+const SPLIT = {"Arizona": [1, 34.2, "South Central", "PacWest"], "North Carolina": [0, -79.2, "Southeast", "Northeast"], "Florida": [0, -84.0, "South Central", "Southeast"]};
 function clip(ring, ax, v, keepLow) {   // Sutherland-Hodgman against one straight line
   const inside = p => keepLow ? p[ax] < v : p[ax] >= v, out = [];
   for (let i = 0; i < ring.length - 1; i++) {
