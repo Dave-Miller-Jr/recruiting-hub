@@ -340,3 +340,84 @@ vets: A VA clinic is in Bowling Green. ; A VA medical center is in Nashville.
 around: Bowling Green, about 32 miles west, is home to the National Corvette Museum. ; Mammoth Cave National Park is about 21 miles northwest, roughly a 35-minute drive. ; Nashville, Tennessee, home of the Grand Ole Opry, is roughly an hour and a half to two hours away.
 checked: November 2026
 src: https://en.wikipedia.org/wiki/Glasgow,_Kentucky ; https://en.wikipedia.org/wiki/Bowling_Green,_Kentucky ; https://en.wikipedia.org/wiki/Mammoth_Cave_National_Park ; https://en.wikipedia.org/wiki/Nashville,_Tennessee ; https://en.wikipedia.org/wiki/Barren_River_Lake ; https://www.va.gov/tennessee-valley-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/kentucky/glasgow
+
+## KY|Somerset
+intro: Somerset is the county seat of Pulaski County, Kentucky, with roughly 12,000 residents. The city sits near Lake Cumberland and several state and federal recreation areas.
+family: Somernites Cruise is a monthly classic car show held from April through October. ; The city holds the annual Master Musicians Festival. ; Somerset Community College and a regional campus of Campbellsville University are both in the city.
+outdoors: Lake Cumberland, a man-made lake about 101 miles long, lies near the city. ; General Burnside Island State Park sits in Lake Cumberland just south of Somerset and offers camping, golf and lake access. ; Cumberland Falls sometimes forms a moonbow on clear nights around a full moon.
+cost: Housing and miscellaneous costs are well below the national average, and grocery and utility costs are somewhat below it.
+climate: Summers are hot and humid and winters are generally mild to cool, with snow usually falling between December and February. Typical highs are about 45 °F in January and about 87 °F in July.
+vets: A VA clinic is in Somerset. ; The Lexington VA Health Care System's main campuses are in Lexington.
+around: London is 32 miles east on the Hal Rogers Parkway. ; Danville, roughly an hour away, has Constitution Square, a park with restored frontier buildings, and Centre College. ; Lexington, roughly an hour and a half away, has the Kentucky Horse Park and the University of Kentucky.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Somerset,_Kentucky ; https://en.wikipedia.org/wiki/London,_Kentucky ; https://en.wikipedia.org/wiki/Danville,_Kentucky ; https://en.wikipedia.org/wiki/Lexington,_Kentucky ; https://en.wikipedia.org/wiki/General_Burnside_Island_State_Park ; https://en.wikipedia.org/wiki/Cumberland_Falls ; https://www.va.gov/lexington-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/kentucky/somerset
+
+## NE|Kearney
+intro: Kearney is the county seat of Buffalo County in central Nebraska, near the Platte River, with a population of about 34,000. It is home to the University of Nebraska at Kearney.
+family: The Great Platte River Road Archway Monument spans Interstate 80 and tells the story of the Platte River Valley and its trails. ; The Museum of Nebraska Art is the official art museum of the state. ; The G.W. Frank Museum of History and Culture is a historic mansion on the university campus.
+outdoors: The central Platte River valley is an important stopover for migrating sandhill cranes and whooping cranes. ; The Platte River is a broad, shallow, braided stream with a sandy bottom and many islands. ; Fort Kearny State Historical Park preserves part of an 1848 army post on the Oregon Trail and is open in the summer months.
+sports: The University of Nebraska at Kearney Lopers compete in sports that include football, basketball and volleyball. ; The Tri-City Storm hockey team is based in Kearney.
+climate: Winters are cold and summers are hot. Typical highs are about 36 °F in January and about 87 °F in July.
+vets: The VA has a location in Grand Island. ; The main VA medical center for the system is in Omaha.
+around: Grand Island, under an hour away, is home to the Nebraska State Fair and the Stuhr Museum. ; Hastings, about an hour away, has the Hastings Museum of Natural and Cultural History. ; Lexington, roughly 40 minutes west, has the Heartland Museum of Military Vehicles.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Kearney,_Nebraska ; https://en.wikipedia.org/wiki/University_of_Nebraska_at_Kearney ; https://en.wikipedia.org/wiki/Great_Platte_River_Road_Archway_Monument ; https://en.wikipedia.org/wiki/Museum_of_Nebraska_Art ; https://en.wikipedia.org/wiki/Platte_River ; https://en.wikipedia.org/wiki/Fort_Kearny_State_Historical_Park ; https://en.wikipedia.org/wiki/Grand_Island,_Nebraska ; https://en.wikipedia.org/wiki/Hastings,_Nebraska ; https://en.wikipedia.org/wiki/Lexington,_Nebraska ; https://www.va.gov/nebraska-western-iowa-health-care/locations/
+
+## NE|North Platte
+intro: North Platte is the county seat of Lincoln County in west-central Nebraska, where the North and South Platte Rivers meet to form the Platte River. It has about 23,000 residents.
+family: The Golden Spike Tower and Visitor Center overlooks the Bailey Yard rail yard and is open year-round. ; Buffalo Bill Ranch State Historical Park is a living history park where visitors can tour the house and outbuildings. ; Nebraskaland Days is held every June and includes parades, art shows, rodeos and concerts.
+outdoors: Lake McConaughy, a reservoir about 9 miles north of Ogallala, is used for fishing, boating, water sports and camping. ; The North and South Platte Rivers meet at North Platte.
+sports: The North Platte 80s baseball team plays in the city. ; The Tri-City Storm hockey team plays in Kearney.
+cost: Housing costs are well below the national average, and utility and grocery costs are a little below it. Miscellaneous costs are above it.
+climate: Winters are cold and summers are hot, with the most rain in May and June. Typical highs are about 41 °F in January and about 90 °F in July.
+vets: A VA clinic is in North Platte. ; The system's main location is the VA medical center in Omaha.
+around: Gothenburg, roughly 40 minutes east, has the Sod House Museum. ; Ogallala, roughly an hour west, is the gateway to Lake McConaughy. ; Kearney, about an hour and a half east, has the University of Nebraska at Kearney and the Great Platte River Road Archway Monument.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/North_Platte,_Nebraska ; https://en.wikipedia.org/wiki/Buffalo_Bill_Ranch_State_Historical_Park ; https://en.wikipedia.org/wiki/Lake_McConaughy ; https://en.wikipedia.org/wiki/Bailey_Yard ; https://en.wikipedia.org/wiki/Ogallala,_Nebraska ; https://en.wikipedia.org/wiki/Kearney,_Nebraska ; https://en.wikipedia.org/wiki/Gothenburg,_Nebraska ; https://www.va.gov/nebraska-western-iowa-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/nebraska/north_platte
+
+## NE|Crete
+intro: Crete is a city of about 7,000 people in Saline County, southeast Nebraska. It is home to Doane University.
+family: Doane University, a private university, has its main campus in Crete. ; Omaha has the Henry Doorly Zoo and Aquarium and the Durham Museum. ; Nearby Seward has held a July 4 celebration almost every year since 1868.
+outdoors: Branched Oak State Recreation Area, northwest of Lincoln, has two swimming beaches, campsites and trails for hikers and horseback riders. ; Homestead National Historical Park, five miles west of Beatrice, has about 2.7 miles of hiking trails through prairie and woodland. ; The Big Blue River runs through Beatrice.
+sports: The Doane Tigers are the university's athletic teams in Crete. ; The Nebraska Cornhuskers play in Lincoln. ; The annual College World Series is held in Omaha.
+cost: Housing costs are well below the U.S. average. Utility and grocery costs are a little lower than average, and miscellaneous costs are close to average.
+climate: Winters are cold and summers are hot. Typical highs are about 34 °F in January and about 87 °F in July.
+vets: A VA clinic is in Lincoln. ; The VA medical center is in Omaha.
+around: Lincoln, the state capital, is roughly half an hour to 40 minutes away. ; Beatrice, under an hour away, has the Gage County Museum in a 1906 railroad depot. ; Omaha is roughly an hour and a quarter to an hour and a half away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Crete,_Nebraska ; https://en.wikipedia.org/wiki/Doane_University ; https://en.wikipedia.org/wiki/Lincoln,_Nebraska ; https://en.wikipedia.org/wiki/Beatrice,_Nebraska ; https://en.wikipedia.org/wiki/Seward,_Nebraska ; https://en.wikipedia.org/wiki/Omaha,_Nebraska ; https://en.wikipedia.org/wiki/Homestead_National_Historical_Park ; https://en.wikipedia.org/wiki/Nebraska_Cornhuskers ; https://en.wikipedia.org/wiki/Branched_Oak_Lake ; https://www.va.gov/nebraska-western-iowa-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/nebraska/crete
+
+## NE|Norfolk
+intro: Norfolk is a city of about 25,000 people in Madison County in northeast Nebraska. The Elkhorn River runs through the southern part of the city.
+family: The Sioux City Public Museum, about 76 miles away in Sioux City, has Native American, pioneer and natural history exhibits. ; Pawnee Plunge is an outdoor water park in Columbus. ; The Platte County Fair is held each year in Columbus.
+outdoors: The Elkhorn River passes through southern Norfolk on its way to the Platte River. ; The Cowboy Trail runs 195 miles from Valentine to Norfolk and is open to biking, walking and horseback riding. ; Fremont Lakes State Recreation Area, roughly an hour and a half away, has 20 lakes for boating, fishing and swimming.
+sports: The Northeast Community College Hawks are based at the college's main campus in Norfolk. ; The Sioux City Explorers play baseball in Sioux City.
+cost: Housing and utility costs are below the national average, and grocery costs are slightly below it. Miscellaneous costs are above it.
+climate: Norfolk has cold winters and warm summers. Typical highs are around 33 °F in January and around 86 °F in July.
+vets: A VA clinic is in Norfolk. ; The system's main medical center is in Omaha.
+around: Wayne, about 31 miles northeast, is home to Wayne State College. ; Columbus, about 45 miles south on U.S. Route 81, has the Andrew Jackson Higgins National Memorial in Pawnee Park. ; Yankton, South Dakota, about 58 miles north on U.S. Route 81, is near Lewis and Clark Lake.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Norfolk,_Nebraska ; https://en.wikipedia.org/wiki/Columbus,_Nebraska ; https://en.wikipedia.org/wiki/Wayne,_Nebraska ; https://en.wikipedia.org/wiki/Sioux_City,_Iowa ; https://en.wikipedia.org/wiki/Fremont,_Nebraska ; https://en.wikipedia.org/wiki/Yankton,_South_Dakota ; https://en.wikipedia.org/wiki/Northeast_Community_College ; https://en.wikipedia.org/wiki/Cowboy_Trail ; https://en.wikipedia.org/wiki/Elkhorn_River ; https://www.va.gov/nebraska-western-iowa-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/nebraska/norfolk
+
+## MO|Joplin
+intro: Joplin is a city of about 52,000 people in Jasper and Newton counties, on the edge of the Ozarks in southwest Missouri. Route 66 runs through the city.
+family: The Joplin History and Mineral Museum in Schifferdecker Park covers minerals, mining heritage and local history. ; The city park system has about 15 miles of walking and biking trails and three swimming pools. ; Bentonville, Arkansas, has the Crystal Bridges Museum of American Art.
+outdoors: Wildcat Glades has about 4 miles of trails through chert glades. ; Grand Falls is a waterfall on Shoal Creek at the southern end of the city.
+sports: Missouri Southern State University's teams are the Lions, with seven men's and seven women's sports.
+cost: Housing costs are well below the national average, miscellaneous costs are below it and grocery costs are slightly below it. Utility costs are slightly above the national average.
+climate: Winters are cool and summers are hot and humid, and April through June is the wettest time of year, with a severe weather season. Typical highs are near 45 °F in January and near 90 °F in July.
+vets: A VA clinic is in Joplin. ; The system's VA medical center is in Fayetteville, Arkansas.
+around: Carthage, about twelve miles away, is home to Precious Moments Park and Chapel. ; Neosho, about 15 miles south, is home to the Neosho National Fish Hatchery. ; Springfield, roughly an hour to an hour and a half away, has the Wonders of Wildlife Museum and Aquarium.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Joplin,_Missouri ; https://en.wikipedia.org/wiki/Joplin_History_and_Mineral_Museum ; https://en.wikipedia.org/wiki/Wildcat_Glades_Conservation_and_Audubon_Center ; https://en.wikipedia.org/wiki/Springfield,_Missouri ; https://en.wikipedia.org/wiki/Carthage,_Missouri ; https://en.wikipedia.org/wiki/Neosho,_Missouri ; https://en.wikipedia.org/wiki/Bentonville,_Arkansas ; https://en.wikipedia.org/wiki/Missouri_Southern_State_University ; https://www.va.gov/fayetteville-arkansas-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/missouri/joplin
+
+## KY|Melber
+intro: Melber is a small unincorporated community of roughly 800 people on the Graves and McCracken county line in western Kentucky, a short drive from Paducah.
+family: The National Quilt Museum is in downtown Paducah. ; Paducah's downtown floodwall holds the Wall to Wall murals. ; Murray's city parks include a community swimming complex, a three-mile nature trail and a year-round community theater.
+outdoors: Land Between the Lakes National Recreation Area, about 15 miles beyond Murray, offers hiking, boating, fishing, camping and birdwatching. ; The Elk and Bison Prairie there is open to driving tours. ; Paducah sits where the Tennessee and Ohio rivers meet.
+sports: Murray State University's athletic teams are the Racers.
+climate: Melber has no weather table of its own. Nearby Paducah has four distinct seasons, with a winter mix of rain, sleet and snow, and typical highs of about 45 °F in January and about 90 °F in July.
+vets: A VA health clinic is in Paducah. ; A VA health clinic is in Mayfield.
+around: Paducah, the McCracken County seat, is about 20 minutes away. ; Mayfield, the Graves County seat, is roughly 25 minutes away. ; Murray, home of Murray State University, is roughly 45 minutes to an hour away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Melber,_Kentucky ; https://en.wikipedia.org/wiki/Paducah,_Kentucky ; https://en.wikipedia.org/wiki/Mayfield,_Kentucky ; https://en.wikipedia.org/wiki/Murray,_Kentucky ; https://en.wikipedia.org/wiki/Murray_State_University ; https://en.wikipedia.org/wiki/Land_Between_the_Lakes_National_Recreation_Area ; https://www.va.gov/marion-health-care/locations/
