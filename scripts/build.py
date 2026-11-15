@@ -67,6 +67,44 @@ def highlights(desc):
     if p: out.append(p.group(0))
     return out
 
+AIRCRAFT = [  # (pattern as postings write it, label shown). Only aircraft a posting names are ever shown.
+    (r"\b(?:Bell[- ]?|B[- ]?)407\w*", "Bell 407"), (r"\b(?:Bell[- ]?|B[- ]?)429\w*", "Bell 429"), (r"\b(?:Bell[- ]?|B[- ]?)206\w*", "Bell 206"),
+    (r"\bEC[- ]?130\w*", "EC130"), (r"\bH[- ]?130\w*", "H130"), (r"\bEC[- ]?135\w*", "EC135"), (r"\bH[- ]?135\w*", "H135"),
+    (r"\bEC[- ]?145\w*", "EC145"), (r"\bH[- ]?145\w*", "H145"), (r"AS[- ]?350\w*|\bA[- ]?Star\b", "AS350"), (r"\bH[- ]?125\w*", "H125"),
+    (r"\bBK[- ]?117\w*", "BK117"), (r"\bPC[- ]?12\w*", "PC-12"), (r"\bBE[- ]?200\w*|\bKing Air\b", "King Air"),
+    (r"\bAW[- ]?(1\d\d)\w*", "AW\\1"), (r"\bS[- ]?76\w*", "S-76"), (r"\bLear(?:jet)?[- ]?\d+\w*", "Learjet"),
+]
+def aircraft(text):
+    """Aircraft types named in a posting's title or summary, in the order written."""
+    hits = []
+    for pat, label in AIRCRAFT:
+        for m in re.finditer(pat, text, re.I):
+            hits.append((m.start(), m.expand(label) if "\\" in label else label))
+    out = []
+    for _, a in sorted(hits):
+        if a not in out: out.append(a)
+    return out
+
+def flight_rules(text):
+    """'IFR' / 'VFR' as a pilot posting states them (both if it names both)."""
+    return [r for r in ("IFR", "VFR") if re.search(r"\b%s\b" % r, text)]
+
+def wings(title):
+    k = k_pilot(title)
+    return [w for key, w in (("helicopter", "Rotor wing"), ("fixed", "Fixed wing")) if key in k]
+
+def load_places():
+    g = json.load(open(os.path.join(DATA, "us-places.json")))
+    g.update({k: v for k, v in json.load(open(os.path.join(DATA, "place-overrides.json"))).items() if not k.startswith("_")})
+    return g
+
+def locate(g, st, city):
+    """[lat, lon] of the city center, or None. Never guessed: unknown places are listed under the map instead."""
+    c = city.lower().strip()
+    for k in (c, re.sub(r"^st\.? ", "saint ", c), re.sub(r"^ft\.? ", "fort ", c), re.sub(r"^mt\.? ", "mount ", c)):
+        if st + "|" + k in g: return g[st + "|" + k]
+    return None
+
 def tidy_hl(h):
     h = re.sub(r"\.00\b", "", h).rstrip("! ").replace("Annnual", "Annual")
     if re.fullmatch(r"temp(orary)? position", h, re.I): return "Temporary position"
@@ -95,7 +133,9 @@ def build(board, raw, today):
         st, city = place(j["loc"], j["title"])
         hl = j["hl"] if "hl" in j else highlights(j.get("desc", ""))
         jobs[str(j["id"])] = dict(id=str(j["id"]), title=j["title"].strip(), kinds=k, st=st, city=city,
-                                  type=j.get("type", ""), hl=[tidy_hl(h) for h in hl])
+                                  type=j.get("type", ""), hl=[tidy_hl(h) for h in hl],
+                                  ac=aircraft(j["title"] + " " + j.get("desc", "")),
+                                  fr=flight_rules(j["title"] + " " + j.get("desc", "")) if board["key"] == "pilots" else [])
 
     # Safety: never publish a broken scrape as "everything closed".
     if not jobs: sys.exit("ABORT: no %s jobs found in raw.json. Scrape is probably broken; nothing written." % board["key"])
@@ -123,7 +163,7 @@ def build(board, raw, today):
 
     new_state = dict(lastRun=today, total=raw.get("total", 0), baseline=(state or {}).get("baseline", today),
                      jobs=jobs, removed=removed)
-    nav = [dict(label="Home", url="../", here=False)] + [dict(label=b["nav"], url=b["out"], here=b is board) for b in BOARDS]
+    nav = [dict(label="Home", url="../", here=False)] + [dict(label=b["nav"], url=b["out"], here=b is board) for b in BOARDS] + [dict(label="Map", url="../map.html?b=" + board["key"], here=False)]
     data = dict(updated=today, baseline=new_state["baseline"], portal=PORTAL, states=STATES, filters=board["filters"],
                 nav=nav,
                 jobs=sorted(jobs.values(), key=lambda j: (j["st"], j["city"], j["title"], -int(j["id"]))),
@@ -154,11 +194,41 @@ def main():
         open(os.path.join(SITE, "jobs", b["out"]), "w", encoding="utf-8").write(page)
         json.dump(st, open(sp, "w"), indent=1)
         js = st["jobs"].values()
-        cards.append(dict(label=b["nav"], blurb=b["blurb"], url="jobs/" + b["out"], count=len(js),
+        cards.append(dict(key=b["key"], label=b["nav"], blurb=b["blurb"], url="jobs/" + b["out"], count=len(js),
                           states=len({j["st"] for j in js if j["st"] != "ZZ"}), new=sum(1 for j in js if j["new"])))
         print("== %s -> jobs/%s: %d openings (portal total %s), %s" % (b["key"], b["out"], len(st["jobs"]), raw.get("total"), today))
         print("NEW today (%d):" % len(add)); [print("  + " + line(j)) for j in add]
         print("REMOVED today (%d):" % len(rem)); [print("  - " + line(j)) for j in rem]
+    # Map page: every base with openings, per board, plus the aircraft any posting names for that city.
+    g = load_places()
+    city_ac, city_fr, city_wing = {}, {}, {}
+    def note(d, key, vals):
+        for v in vals:
+            if v not in d.setdefault(key, []): d[key].append(v)
+    for j in raw["jobs"]:
+        st, city = place(j["loc"], j["title"])
+        if st == "ZZ" or city in ("Home-based", "See posting for location"): continue
+        txt = j["title"] + " " + j.get("desc", "")
+        note(city_ac, (st, city), aircraft(txt))
+        if k_pilot(j["title"]):   # flight rules and rotor / fixed wing come only from pilot postings
+            note(city_fr, (st, city), flight_rules(txt)); note(city_wing, (st, city), wings(j["title"]))
+    mboards = []
+    for b, (page, sp, st_, add, rem) in results:
+        on, off = {}, {}
+        for j in sorted(st_["jobs"].values(), key=lambda j: (j["st"], j["city"], j["title"], -int(j["id"]))):
+            ll = None if j["st"] == "ZZ" or j["city"] in ("Home-based", "See posting for location") else locate(g, j["st"], j["city"])
+            slim = dict(id=j["id"], title=j["title"], hl=j["hl"], new=j["new"], ac=j.get("ac", []), fr=j.get("fr", []))
+            if ll: on.setdefault((j["st"], j["city"]), dict(st=j["st"], city=j["city"], ll=ll, ac=city_ac.get((j["st"], j["city"]), []),
+                                                             fr=city_fr.get((j["st"], j["city"]), []), wing=city_wing.get((j["st"], j["city"]), []), jobs=[]))["jobs"].append(slim)
+            else:
+                off.setdefault((j["st"], j["city"]), dict(st=j["st"], city=j["city"], jobs=[]))["jobs"].append(slim)
+                if j["st"] != "ZZ" and j["city"] not in ("Home-based", "See posting for location"): print("NOT ON MAP (no coordinates): %s, %s" % (j["city"], j["st"]))
+        mboards.append(dict(key=b["key"], label=b["nav"], places=list(on.values()), off=list(off.values())))
+    mp = open(os.path.join(TPL, "map.html"), encoding="utf-8").read()
+    assert "/*__DATA__*/" in mp
+    blob = json.dumps(dict(updated=today, portal=PORTAL, states=STATES, boards=mboards), ensure_ascii=False).replace("</", "<\\/")
+    open(os.path.join(SITE, "map.html"), "w", encoding="utf-8").write(mp.replace("/*__DATA__*/", blob))
+
     hub = open(os.path.join(TPL, "hub.html"), encoding="utf-8").read()
     assert "/*__DATA__*/" in hub
     blob = json.dumps(dict(updated=today, portal=PORTAL, boards=cards)).replace("</", "<\\/")

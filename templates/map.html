@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#10233f">
+<title>Air Methods Openings Map</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Recruiting">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+<style>
+/* Layout: masthead, board buttons, aircraft filter, map, then the selected base's openings (side by side on desktop). */
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --ink:#10233f; --muted:#56657a; --line:#d9dfe8;
+  --accent:#c21f32; --accent-ink:#ffffff; --band:#10233f; --band-ink:#ffffff; --band-muted:#b9c5d6;
+  --new:#0b7a53; --new-bg:#e2f4ec; --money:#7a4b00; --money-bg:#fdf0d3; --chip:#e8ecf2;
+  --land:#ffffff; --border:#9aa8bc; --dot:#10233f; --dot-ink:#ffffff; --air:#0f4c8a; --air-bg:#dfeaf8;
+  --display:"Barlow Semi Condensed","Arial Narrow",Arial,sans-serif;
+  --body:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0b1524; --surface:#142238; --ink:#eef2f8; --muted:#a3b0c4; --line:#27374f;
+  --accent:#ff6b78; --accent-ink:#1a0508; --band:#07101d; --band-muted:#9fb0c8;
+  --new:#6fdcae; --new-bg:#0f3a2b; --money:#f6cf7c; --money-bg:#3d2e0c; --chip:#1e2f48;
+  --land:#142238; --border:#5d7090; --dot:#dbe6f5; --dot-ink:#0b1524; --air:#a9cdf6; --air-bg:#17365a; color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.45;-webkit-text-size-adjust:100%}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.mast{background:var(--band);color:var(--band-ink)}
+.mast .wrap{padding-block:calc(18px + env(safe-area-inset-top,0px)) 14px}
+.eyebrow{font:600 12px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;color:var(--band-muted)}
+.nav{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.nav a,.nav span{font:600 13px/1 var(--body);padding:8px 11px;border-radius:999px;border:1px solid var(--band-muted);color:var(--band-ink);text-decoration:none}
+.nav span{background:var(--band-ink);color:var(--band);border-color:var(--band-ink)}
+h1{font:700 28px/1.05 var(--display);margin:12px 0 2px}
+.tag{color:var(--band-muted);font-size:14px;margin:0}
+button{font:inherit;color:inherit;cursor:pointer}
+.row{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;margin-inline:-4px;padding:2px 4px}
+.row::-webkit-scrollbar{display:none}
+.f{flex:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:9px 14px;font-size:14px;font-weight:500;min-height:40px;white-space:nowrap}
+.f[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.f i{font-style:normal;opacity:.65;margin-left:5px;font-variant-numeric:tabular-nums}
+.f.sm{padding:6px 11px;min-height:34px;font-size:13px}
+.lab{font:600 11px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:10px 0 4px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+main.wrap{padding-block:12px 40px}
+.grid{display:grid;gap:14px;grid-template-columns:minmax(0,1fr);margin-top:10px}
+.mapbox{position:relative;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--land)}
+#map{height:clamp(250px,74vw,460px);background:var(--land);font-family:var(--body)}
+.views{position:absolute;right:8px;top:8px;z-index:500;display:flex;gap:6px}
+.views button{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:6px 9px;font-size:12.5px;font-weight:600;min-height:32px}
+.dot{background:var(--dot);color:var(--dot-ink);border:2px solid var(--land);border-radius:999px;display:grid;place-items:center;font:700 13px/1 var(--display);font-variant-numeric:tabular-nums;box-shadow:0 1px 3px rgba(0,0,0,.35)}
+.dot.sel{background:var(--accent);color:var(--accent-ink);transform:scale(1.25)}
+.leaflet-container a{color:inherit}
+.leaflet-bar a{background:var(--surface);color:var(--ink);border-color:var(--line)}
+.leaflet-container:focus-visible{outline-offset:-3px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;scroll-margin-top:12px}
+.panel .hd{padding:14px 16px 12px;border-bottom:1px solid var(--line)}
+.panel h2{font:700 24px/1.1 var(--display);margin:0}
+.panel .cnt{color:var(--muted);font-size:13px;margin-top:2px}
+.facts{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.fact{border-radius:8px;padding:6px 10px;font:700 15px/1.2 var(--display);letter-spacing:.02em;background:var(--air-bg);color:var(--air)}
+.fact.alt{background:var(--chip);color:var(--ink)}
+.src{font-size:12px;color:var(--muted);margin-top:8px}
+.hint{padding:18px 16px;color:var(--muted)}
+a.job{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:center;padding:12px 16px;color:inherit;text-decoration:none;min-height:56px}
+a.job+a.job{border-top:1px dashed var(--line)}
+a.job:active{background:var(--chip)}
+.t{font-weight:600;font-size:16px;line-height:1.3}
+.meta{grid-column:1;display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:13px;color:var(--muted)}
+.go{grid-row:1 / span 2;grid-column:2;color:var(--accent);font:600 14px var(--body);white-space:nowrap}
+.pill{border-radius:6px;padding:3px 7px;font-size:12.5px;font-weight:600;line-height:1.25}
+.pill.new{background:var(--new-bg);color:var(--new)}
+.pill.money{background:var(--money-bg);color:var(--money)}
+.pill.plain{background:var(--chip);color:var(--ink)}
+.pill.air{background:var(--air-bg);color:var(--air)}
+details.off{background:var(--surface);border:1px solid var(--line);border-radius:14px;margin-top:14px}
+details.off summary{padding:14px 16px;font-weight:600;cursor:pointer;min-height:48px}
+details.off .grp{font:600 12px/1 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--muted);padding:12px 16px 2px;border-top:1px solid var(--line)}
+footer{color:var(--muted);font-size:13px;text-align:center;margin-top:22px}
+footer a{color:inherit}
+@media (min-width:900px){
+  .grid{grid-template-columns:minmax(0,1.5fr) minmax(320px,1fr);align-items:start}
+  #map{height:min(70vh,620px)} h1{font-size:34px}
+  .panel{max-height:min(70vh,620px);overflow-y:auto}
+}
+</style>
+</head>
+<body>
+<header class="mast"><div class="wrap">
+  <div class="eyebrow">Air Methods careers</div>
+  <nav class="nav" id="nav" aria-label="Other pages"></nav>
+  <h1>Openings map</h1>
+  <p class="tag" id="tag"></p>
+</div></header>
+
+<main class="wrap">
+  <div class="row" id="boards" role="group" aria-label="Choose a map"></div>
+  <div id="acWrap" hidden><div class="lab">Aircraft named in postings</div><div class="row" id="acs" role="group" aria-label="Filter by aircraft"></div></div>
+  <div id="frWrap" hidden><div class="lab">Base type</div><div class="row" id="frs" role="group" aria-label="Filter by base type"></div></div>
+  <div class="grid">
+    <div class="mapbox"><div id="map" aria-label="Map of bases with openings"></div><div class="views" id="views"></div></div>
+    <section class="panel" id="panel" aria-live="polite"></section>
+  </div>
+  <details class="off" id="off" hidden><summary id="offSum"></summary><div id="offIn"></div></details>
+  <footer>Dots are placed at the city of each posting, not the exact base address. Aircraft, VFR or IFR, and rotor or fixed wing are shown only where a posting for that city states them. Listings are read from the Air Methods careers site once a day. This is a quick reference kept by the recruiting team, not the official careers site. The posting on <a id="portal" target="_blank" rel="noopener">careers-airmethods.icims.com</a> is always the official version.</footer>
+</main>
+
+<script src="vendor/leaflet/leaflet.js"></script>
+<script>
+const DATA = /*__DATA__*/;
+const $ = id => document.getElementById(id);
+const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+const fmt = iso => new Date(iso + "T12:00:00").toLocaleDateString("en-US", {month:"short", day:"numeric"});
+const url = id => DATA.portal + "/jobs/" + id + "/job";
+const plural = (n, w) => n + " " + w + (n === 1 ? "" : "s");
+const q = new URLSearchParams(location.search);
+let board = DATA.boards.find(b => b.key === q.get("b")) || DATA.boards[0];
+let ac = "all", fr = "all", sel = null;
+
+const VIEWS = {"Lower 48": [[24.5, -124.8], [49.4, -66.9]], "Alaska": [[54, -170], [71.5, -130]], "Hawaii": [[18.8, -160.5], [22.4, -154.6]]};
+const map = L.map("map", {zoomSnap: 0.25, zoomDelta: 0.5, minZoom: 2, maxZoom: 11, attributionControl: false, maxBounds: [[5, -190], [75, -50]]});
+map.fitBounds(VIEWS["Lower 48"]);
+const css = n => getComputedStyle(document.documentElement).getPropertyValue(n).trim();
+let outline = null;
+fetch("vendor/us-states.json").then(r => r.json()).then(g => {
+  outline = L.geoJSON(g, {interactive: false, style: {color: css("--border"), weight: 1, opacity: 1}}).addTo(map); outline.bringToBack();
+}).catch(() => {});
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => outline && outline.setStyle({color: css("--border")}));
+const layer = L.layerGroup().addTo(map);
+
+function jobRow(j) {
+  const a = el("a", "job"); a.href = url(j.id); a.target = "_blank"; a.rel = "noopener";
+  a.appendChild(el("div", "t", j.title)); a.appendChild(el("div", "go", "View ›"));
+  const m = el("div", "meta");
+  if (j.new) m.appendChild(el("span", "pill new", "New"));
+  (j.ac || []).concat(j.fr || []).forEach(x => m.appendChild(el("span", "pill air", x)));
+  j.hl.forEach(h => m.appendChild(el("span", "pill " + (/\$/.test(h) ? "money" : "plain"), h)));
+  m.appendChild(el("span", "", "Req " + j.id));
+  a.appendChild(m); return a;
+}
+const shown = () => board.places.filter(p => (ac === "all" || p.ac.includes(ac)) && (fr === "all" || p.fr.includes(fr) || p.wing.includes(fr)));
+
+function chips(box, wrap, values, cur, set) {
+  box.textContent = ""; wrap.hidden = !values.length; if (!values.length) return;
+  [["all", "All"]].concat(values.map(v => [v, v])).forEach(([k, label]) => {
+    const b = el("button", "f sm", label); b.type = "button"; b.setAttribute("aria-pressed", String(k === cur));
+    if (k !== "all") b.appendChild(el("i", "", board.places.filter(p => p.ac.includes(k) || p.fr.includes(k) || p.wing.includes(k)).length));
+    b.onclick = () => { set(k); sel = null; draw(); }; box.appendChild(b);
+  });
+}
+
+function panel() {
+  const pn = $("panel"); pn.textContent = "";
+  const p = sel;
+  if (!p) { pn.appendChild(el("div", "hint", shown().length ? "Tap a base on the map to see its openings. The number on each dot is how many roles are open there." : "No bases match these filters. Tap All to see every base.")); return; }
+  const hd = el("div", "hd");
+  hd.appendChild(el("h2", "", p.city + ", " + p.st));
+  hd.appendChild(el("div", "cnt", plural(p.jobs.length, "opening") + " on the " + board.label.toLowerCase() + " map"));
+  if (p.ac.length || p.fr.length || p.wing.length) {
+    const f = el("div", "facts");
+    p.ac.forEach(x => f.appendChild(el("span", "fact", x)));
+    p.wing.concat(p.fr).forEach(x => f.appendChild(el("span", "fact alt", x)));
+    hd.appendChild(f);
+    hd.appendChild(el("div", "src", "As named in current postings for " + p.city + "."));
+  } else hd.appendChild(el("div", "src", "No current posting for " + p.city + " names the aircraft."));
+  pn.appendChild(hd);
+  p.jobs.forEach(j => pn.appendChild(jobRow(j)));
+}
+
+function draw() {
+  const bb = $("boards"); bb.textContent = "";
+  DATA.boards.forEach(b => {
+    const n = b.places.reduce((s, p) => s + p.jobs.length, 0) + b.off.reduce((s, p) => s + p.jobs.length, 0);
+    const x = el("button", "f", b.label); x.type = "button"; x.setAttribute("aria-pressed", String(b === board)); x.appendChild(el("i", "", n));
+    x.onclick = () => { board = b; ac = fr = "all"; sel = null; history.replaceState(null, "", "?b=" + b.key); draw(); };
+    bb.appendChild(x);
+  });
+  const count = k => board.places.filter(p => p[k].length).length;
+  const uniq = k => [...new Set(board.places.flatMap(p => p[k]))];
+  const byN = k => uniq(k).sort((a, b) => board.places.filter(p => p[k].includes(b)).length - board.places.filter(p => p[k].includes(a)).length);
+  chips($("acs"), $("acWrap"), byN("ac"), ac, v => ac = v);
+  chips($("frs"), $("frWrap"), uniq("wing").concat(["VFR", "IFR"].filter(r => uniq("fr").includes(r))), fr, v => fr = v);
+  $("tag").textContent = plural(board.places.length, "base") + " with openings on the " + board.label.toLowerCase() + " map. Updated " + fmt(DATA.updated) + ".";
+
+  layer.clearLayers();
+  const ps = shown();
+  ps.slice().sort((a, b) => b.ll[0] - a.ll[0]).forEach(p => {
+    const n = p.jobs.length, small = innerWidth < 600 && map.getZoom() < 5, s = (n > 9 ? 30 : n > 1 ? 26 : 22) - (small ? 5 : 0);
+    const mk = L.marker(p.ll, {icon: L.divIcon({className: "", iconSize: [s, s], html: '<div class="dot' + (p === sel ? " sel" : "") + '" style="width:' + s + 'px;height:' + s + 'px;font-size:' + (small ? 11 : 13) + 'px">' + n + "</div>"}),
+      title: p.city + ", " + p.st + ": " + plural(n, "opening"), alt: p.city + ", " + p.st, keyboard: true, zIndexOffset: p === sel ? 1000 : 0});
+    mk.on("click", () => { sel = p; draw(); if (innerWidth < 900) $("panel").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest"}); });
+    mk.addTo(layer);
+  });
+  const vw = $("views"); vw.textContent = "";
+  const has = name => board.places.some(p => name === "Alaska" ? p.st === "AK" : p.st === "HI");
+  ["Lower 48", "Alaska", "Hawaii"].filter(n => n === "Lower 48" || has(n)).forEach(n => { const b = el("button", "", n); b.type = "button"; b.onclick = () => map.fitBounds(VIEWS[n]); vw.appendChild(b); });
+  panel();
+
+  const off = $("off"), box = $("offIn"); box.textContent = ""; off.hidden = !board.off.length;
+  const no = board.off.reduce((s, p) => s + p.jobs.length, 0);
+  $("offSum").textContent = plural(no, "opening") + " not shown on the map (regional, float and home-based roles)";
+  board.off.forEach(p => {
+    box.appendChild(el("div", "grp", p.st === "ZZ" ? "Regional and float roles" : p.city + ", " + (DATA.states[p.st] || p.st)));
+    p.jobs.forEach(j => box.appendChild(jobRow(j)));
+  });
+}
+
+const nav = $("nav");
+[["Home", "./"], ...DATA.boards.map(b => [b.label, "jobs/" + b.key + ".html"])].forEach(([l, u]) => { const a = el("a", "", l); a.href = u; nav.appendChild(a); });
+nav.appendChild(el("span", "", "Map"));
+$("portal").href = DATA.portal + "/jobs/search";
+draw();
+let zs = map.getZoom() < 5; map.on("zoomend", () => { const z = map.getZoom() < 5; if (z !== zs) { zs = z; draw(); } });
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+</script>
+</body>
+</html>

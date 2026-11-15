@@ -16,6 +16,13 @@
    "hl": [
     "$15,000 Sign On Bonus"
    ],
+   "ac": [
+    "PC-12",
+    "King Air"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -29,6 +36,10 @@
    "city": "Greenwood Village",
    "type": "Regular Full-Time",
    "hl": [],
+   "ac": [],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -44,6 +55,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$15,000 Sign-on Bonus"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -61,6 +78,12 @@
    "hl": [
     "$15,000 Sign-on Bonus"
    ],
+   "ac": [
+    "EC145"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -76,6 +99,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$15,000 Sign-on Bonus"
+   ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -93,6 +122,12 @@
    "hl": [
     "$20,000 Location Stipend"
    ],
+   "ac": [
+    "EC145"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -109,6 +144,12 @@
    "hl": [
     "$15,000 Sign-on Bonus"
    ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -122,6 +163,10 @@
    "city": "Greenwood Village",
    "type": "Regular Full-Time",
    "hl": [],
+   "ac": [],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -138,6 +183,12 @@
    "hl": [
     "$25,000 Location Stipend"
    ],
+   "ac": [
+    "EC145"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -152,6 +203,13 @@
    "type": "Regular Full-Time",
    "hl": [
     "$15,000 Sign On Bonus"
+   ],
+   "ac": [
+    "H145",
+    "EC145"
+   ],
+   "fr": [
+    "IFR"
    ],
    "firstSeen": null,
    "new": false
@@ -169,6 +227,12 @@
    "hl": [
     "$15,000 Sign on Bonus"
    ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -184,6 +248,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$15,000 Sign-on Bonus"
+   ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
    ],
    "firstSeen": null,
    "new": false
@@ -201,6 +271,12 @@
    "hl": [
     "$15,000 Sign On Bonus"
    ],
+   "ac": [
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -216,6 +292,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$40,000 Annual Stipend"
+   ],
+   "ac": [
+    "Bell 429"
+   ],
+   "fr": [
+    "IFR"
    ],
    "firstSeen": null,
    "new": false
@@ -233,6 +315,13 @@
    "hl": [
     "$15,000 Sign On Bonus"
    ],
+   "ac": [
+    "PC-12",
+    "King Air"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -249,6 +338,12 @@
    "hl": [
     "$15,000 Annual Stipend"
    ],
+   "ac": [
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -263,6 +358,8 @@
    "city": "Home-based",
    "type": "Regular Full-Time",
    "hl": [],
+   "ac": [],
+   "fr": [],
    "firstSeen": null,
    "new": false
   },
@@ -279,6 +376,12 @@
    "hl": [
     "$15,000 Sign On Bonus"
    ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -292,6 +395,10 @@
    "city": "Greenwood Village",
    "type": "Regular Full-Time",
    "hl": [],
+   "ac": [
+    "Bell 429"
+   ],
+   "fr": [],
    "firstSeen": null,
    "new": false
   },
@@ -307,6 +414,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$15,000 Stipend"
+   ],
+   "ac": [
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -324,6 +437,12 @@
    "hl": [
     "$30,000 Stipend"
    ],
+   "ac": [
+    "PC-12"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -339,6 +458,13 @@
    "type": "Regular Full-Time",
    "hl": [
     "$20,000 Annual Stipend"
+   ],
+   "ac": [
+    "BK117",
+    "EC135"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -356,6 +482,12 @@
    "hl": [
     "$50,000 Stipend"
    ],
+   "ac": [
+    "PC-12"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -371,6 +503,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$15,000 Sign On Bonus"
+   ],
+   "ac": [
+    "King Air"
+   ],
+   "fr": [
+    "IFR"
    ],
    "firstSeen": null,
    "new": false
@@ -388,6 +526,12 @@
    "hl": [
     "$25,000 Stipend"
    ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -403,6 +547,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$15,000 Sign-On Bonus"
+   ],
+   "ac": [
+    "PC-12"
+   ],
+   "fr": [
+    "IFR"
    ],
    "firstSeen": null,
    "new": false
@@ -420,6 +570,12 @@
    "hl": [
     "$15,000 Sign On Bonus"
    ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -435,6 +591,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$25,000 Location Stipend"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -452,6 +614,12 @@
    "hl": [
     "$10,000 Annual Stipend"
    ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -467,6 +635,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$60,000 Stipend"
+   ],
+   "ac": [
+    "PC-12"
+   ],
+   "fr": [
+    "IFR"
    ],
    "firstSeen": null,
    "new": false
@@ -484,6 +658,8 @@
    "hl": [
     "$10,000 Sign On Bonus"
    ],
+   "ac": [],
+   "fr": [],
    "firstSeen": null,
    "new": false
   },
@@ -499,6 +675,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$25,000 Stipend"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -516,6 +698,12 @@
    "hl": [
     "$15,000 Sign-on Bonus"
    ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -531,6 +719,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$25,000 Stipend"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -548,6 +742,12 @@
    "hl": [
     "$15,000 Sign-On Bonus"
    ],
+   "ac": [
+    "PC-12"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -564,6 +764,12 @@
    "hl": [
     "$15,000 Sign On Bonus"
    ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -579,6 +785,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$15,000 Sign-On Bonus"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -597,6 +809,12 @@
     "Temporary position",
     "$15,000 Sign On Bonus"
    ],
+   "ac": [
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -612,6 +830,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$25,000 Stipend"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -629,6 +853,13 @@
    "hl": [
     "$15,000 Sign On Bonus"
    ],
+   "ac": [
+    "EC135",
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -644,6 +875,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$30,000 Stipend"
+   ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
    ],
    "firstSeen": null,
    "new": false
@@ -661,6 +898,12 @@
    "hl": [
     "$40,000 Stipend"
    ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -676,6 +919,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$20,000 Location Stipend"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -693,6 +942,12 @@
    "hl": [
     "$15,000 Sign On Bonus"
    ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -707,6 +962,8 @@
    "city": "Greenwood Village",
    "type": "Regular Full-Time",
    "hl": [],
+   "ac": [],
+   "fr": [],
    "firstSeen": null,
    "new": false
   },
@@ -722,6 +979,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$40,000 Stipend"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -739,6 +1002,12 @@
    "hl": [
     "$25,000 Stipend"
    ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -754,6 +1023,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$12,000 Stipend"
+   ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
    ],
    "firstSeen": null,
    "new": false
@@ -771,6 +1046,12 @@
    "hl": [
     "$25,000 Stipend"
    ],
+   "ac": [
+    "EC145"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -786,6 +1067,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$30,000 Location Stipend"
+   ],
+   "ac": [
+    "EC145"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -803,6 +1090,12 @@
    "hl": [
     "$7,500 Stipend"
    ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -818,6 +1111,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$20,000 Location Stipend"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -835,6 +1134,13 @@
    "hl": [
     "$15,000 Annual Stipend"
    ],
+   "ac": [
+    "BK117",
+    "EC145"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -850,6 +1156,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$15,000 Sign On Bonus"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "IFR"
    ],
    "firstSeen": null,
    "new": false
@@ -867,6 +1179,13 @@
    "hl": [
     "$15,000 Sign On Bonus"
    ],
+   "ac": [
+    "EC135",
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -882,6 +1201,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$20,000 Location Stipend"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -899,6 +1224,12 @@
    "hl": [
     "$10,000 Stipend"
    ],
+   "ac": [
+    "H145"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -914,6 +1245,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$40,000 Stipend"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -931,6 +1268,12 @@
    "hl": [
     "$15,000 Stipend"
    ],
+   "ac": [
+    "EC145"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -946,6 +1289,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$40,000 Stipend"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -963,6 +1312,12 @@
    "hl": [
     "$15,000 Stipend"
    ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -978,6 +1333,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$20,000 Location Stipend"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -995,6 +1356,12 @@
    "hl": [
     "$15,000 Location Stipend"
    ],
+   "ac": [
+    "EC145"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1010,6 +1377,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$15,000 Sign-on Bonus"
+   ],
+   "ac": [
+    "EC145"
+   ],
+   "fr": [
+    "IFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1027,6 +1400,12 @@
    "hl": [
     "$20,000 Stipend"
    ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1042,6 +1421,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$15,000 Sign On Bonus"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1059,6 +1444,12 @@
    "hl": [
     "$10,000 Annual Stipend"
    ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1072,6 +1463,12 @@
    "city": "Greenwood Village",
    "type": "Temporary Full-Time",
    "hl": [],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1088,6 +1485,11 @@
    "hl": [
     "$40,000 Annual Stipend"
    ],
+   "ac": [
+    "Bell 407",
+    "EC130"
+   ],
+   "fr": [],
    "firstSeen": null,
    "new": false
   },
@@ -1103,6 +1505,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$50,000 Location Stipend"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1120,6 +1528,12 @@
    "hl": [
     "$15,000 Stipend"
    ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1134,6 +1548,8 @@
    "city": "Home-based",
    "type": "Regular Full-Time",
    "hl": [],
+   "ac": [],
+   "fr": [],
    "firstSeen": null,
    "new": false
   },
@@ -1149,6 +1565,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$20,000 Stipend"
+   ],
+   "ac": [
+    "EC145"
+   ],
+   "fr": [
+    "IFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1166,6 +1588,12 @@
    "hl": [
     "$50,000 Annual Stipend"
    ],
+   "ac": [
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1181,6 +1609,12 @@
    "type": "Temporary Full-Time",
    "hl": [
     "$15,000 Sign-on Bonus"
+   ],
+   "ac": [
+    "PC-12"
+   ],
+   "fr": [
+    "IFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1198,6 +1632,12 @@
    "hl": [
     "$30,000 Stipend"
    ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1213,6 +1653,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$10,000 Stipend"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1230,6 +1676,12 @@
    "hl": [
     "$10,000 Stipend"
    ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1245,6 +1697,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$25,000 Stipend"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1262,6 +1720,12 @@
    "hl": [
     "$10,000 Location Stipend"
    ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1277,6 +1741,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$10,000 Stipend"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1294,6 +1764,13 @@
    "hl": [
     "$10,000 Stipend"
    ],
+   "ac": [
+    "EC145",
+    "H145"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1309,6 +1786,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$5,000 Stipend"
+   ],
+   "ac": [
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1326,6 +1809,12 @@
    "hl": [
     "$15,000 Stipend"
    ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1341,6 +1830,12 @@
    "type": "Temporary Full-Time",
    "hl": [
     "$15,000 Sign-on Bonus"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1358,6 +1853,12 @@
    "hl": [
     "$15,000 Sign-on Bonus"
    ],
+   "ac": [
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1373,6 +1874,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$20,000 Stipend"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1390,6 +1897,10 @@
    "hl": [
     "$20,000 Stipend"
    ],
+   "ac": [],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1405,6 +1916,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$40,000 Stipend"
+   ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1422,6 +1939,12 @@
    "hl": [
     "$15,000 Sign on Bonus"
    ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1437,6 +1960,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$30,000 Stipend"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1454,6 +1983,12 @@
    "hl": [
     "$30,000 Annual Stipend"
    ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1469,6 +2004,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$10,000 Stipend"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1486,6 +2027,12 @@
    "hl": [
     "$25,000 Stipend"
    ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1501,6 +2048,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$12,500 Location Stipend"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1518,6 +2071,12 @@
    "hl": [
     "$40,000 Stipend"
    ],
+   "ac": [
+    "Bell 429"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1533,6 +2092,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$25,000 Stipend"
+   ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1550,6 +2115,12 @@
    "hl": [
     "$15,000 Annual Stipend"
    ],
+   "ac": [
+    "Bell 429"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1565,6 +2136,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$10,000 Location Stipend"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1582,6 +2159,13 @@
    "hl": [
     "$20,000 Stipend"
    ],
+   "ac": [
+    "AS350",
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1597,6 +2181,13 @@
    "type": "Regular Full-Time",
    "hl": [
     "$30,000 Stipend"
+   ],
+   "ac": [
+    "BK117",
+    "EC135"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1614,6 +2205,12 @@
    "hl": [
     "$15,000 Annual Stipend"
    ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1630,6 +2227,12 @@
    "hl": [
     "$15,000 Sign-on Bonus"
    ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1645,6 +2248,14 @@
    "type": "Regular Full-Time",
    "hl": [
     "$30,000 Stipend"
+   ],
+   "ac": [
+    "Bell 407",
+    "EC130",
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1663,6 +2274,12 @@
     "Temporary position",
     "$15,000 Sign-on Bonus"
    ],
+   "ac": [
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1678,6 +2295,13 @@
    "type": "Regular Full-Time",
    "hl": [
     "$40,000 Stipend"
+   ],
+   "ac": [
+    "EC130",
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1695,6 +2319,12 @@
    "hl": [
     "$40,000 Sign On Bonus"
    ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1710,6 +2340,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$12,500 Location Stipend"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1727,6 +2363,12 @@
    "hl": [
     "$50,000 Annual Stipend"
    ],
+   "ac": [
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1742,6 +2384,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$25,000 Location Stipend"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1759,6 +2407,12 @@
    "hl": [
     "$20,000 Stipend"
    ],
+   "ac": [
+    "H135"
+   ],
+   "fr": [
+    "IFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1774,6 +2428,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$50,000 Annual Stipend"
+   ],
+   "ac": [
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1791,6 +2451,12 @@
    "hl": [
     "$25,000 Stipend"
    ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1806,6 +2472,13 @@
    "type": "Regular Full-Time",
    "hl": [
     "$40,000 Annual Stipend"
+   ],
+   "ac": [
+    "EC135",
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1823,6 +2496,12 @@
    "hl": [
     "$25,000 Stipend"
    ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
    "firstSeen": null,
    "new": false
   },
@@ -1838,6 +2517,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$20,000 Annual Stipend"
+   ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1855,6 +2540,8 @@
    "hl": [
     "$40,000 Sign On Bonus"
    ],
+   "ac": [],
+   "fr": [],
    "firstSeen": null,
    "new": false
   },
@@ -1870,6 +2557,12 @@
    "type": "Regular Full-Time",
    "hl": [
     "$40,000 Location Stipend"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
    ],
    "firstSeen": null,
    "new": false

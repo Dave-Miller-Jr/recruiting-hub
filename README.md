@@ -10,6 +10,10 @@ Unofficial quick reference; the careers portal is always the official version.
   `data/state-*.json`, and writes the pages. It stops without writing anything if the read looks incomplete.
 - `.github/workflows/refresh.yml` runs both every morning before 6 AM Central, saves the state, and publishes.
   It can also be run by hand from the Actions tab.
+- `site/map.html` (generated) is the openings map: one dot per city with openings, per board. City centers come from
+  `data/us-places.json` (ZIP code centers) plus `data/place-overrides.json`; a city with no match is listed under the map, never guessed.
+  Aircraft, VFR/IFR and rotor/fixed wing are shown only where a posting for that city states them (patterns in `scripts/build.py`).
+  The map uses Leaflet and state outlines stored in `site/vendor/`, with no outside map service.
 - `templates/` holds the page designs. To add a tool to the hub, add a page under `site/` and a card in `templates/hub.html`.
 
 Rules: only what the portal lists. Never invent jobs, pay or bonuses. Only public job data belongs here.

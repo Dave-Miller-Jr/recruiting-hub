@@ -1,0 +1,7 @@
+{
+ "_note": "City centers for places the ZIP-based lookup (us-places.json) does not list under the portal's spelling. Key is ST|city in lower case, value is [latitude, longitude].",
+ "CA|big bear": [34.261, -116.845],
+ "CO|greenwood village": [39.617, -104.951],
+ "CO|lakewood": [39.705, -105.081],
+ "IL|cahokia": [38.571, -90.190]
+}

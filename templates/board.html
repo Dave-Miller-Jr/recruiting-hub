@@ -175,6 +175,7 @@ function render() {
         const m = el("div", "meta");
         if (j.new) m.appendChild(el("span", "pill new", "New"));
         j.hl.forEach(hh => m.appendChild(el("span", "pill " + (/\$/.test(hh) ? "money" : "plain"), hh)));
+        (j.ac || []).concat(j.fr || []).forEach(a => m.appendChild(el("span", "pill plain", a)));
         const bits = [part(j.title), j.type && !/^regular full/i.test(j.type) && !j.hl.some(x => /temp/i.test(x)) && !j.title.toLowerCase().includes(j.type.split(" ")[0].toLowerCase()) ? j.type : "", "Req " + j.id].filter(Boolean);
         m.appendChild(el("span", "", bits.join(" · ")));
         a.appendChild(m);

@@ -48,6 +48,9 @@ a.card:active{background:var(--chip)}
 .card .n span{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .card .meta{grid-column:1;display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--muted);margin-top:4px}
 .pill{border-radius:6px;padding:3px 7px;font-size:12.5px;font-weight:600;background:var(--new-bg);color:var(--new)}
+.maplinks{display:flex;gap:8px;flex-wrap:wrap}
+.maplinks a{font:600 15px var(--body);color:var(--band-ink);background:var(--band);border-radius:999px;padding:12px 18px;min-height:44px;text-decoration:none;display:inline-flex;align-items:center}
+@media (prefers-color-scheme: dark){.maplinks a{background:var(--chip)}}
 .box{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px}
 .box.soon{border-style:dashed;color:var(--muted)}
 .box p{margin:0 0 8px}.box p:last-child{margin:0}
@@ -73,6 +76,12 @@ footer a{color:inherit}
     <div class="cards" id="cards"></div>
   </section>
 
+  <section aria-labelledby="h-map">
+    <h2 id="h-map">Openings map</h2>
+    <p class="sub">Every base with an opening on a map of the United States. Tap a base to see its roles and the aircraft named in its postings.</p>
+    <div class="maplinks" id="maplinks"></div>
+  </section>
+
   <section aria-labelledby="h-tools">
     <h2 id="h-tools">More tools</h2>
     <div class="box soon">More recruiting tools will show up here as they are built.</div>
@@ -91,7 +100,7 @@ footer a{color:inherit}
 </main>
 
 <script>
-const DATA = {"updated": "2026-11-14", "portal": "https://careers-airmethods.icims.com", "boards": [{"label": "Maintenance", "blurb": "Mechanic, AMT, avionics and quality roles", "url": "jobs/maintenance.html", "count": 37, "states": 19, "new": 0}, {"label": "Pilots", "blurb": "Helicopter and fixed wing pilot roles", "url": "jobs/pilots.html", "count": 118, "states": 28, "new": 0}, {"label": "Nurses and paramedics", "blurb": "Flight nurse and flight paramedic roles", "url": "jobs/clinical.html", "count": 124, "states": 19, "new": 0}]};
+const DATA = {"updated": "2026-11-14", "portal": "https://careers-airmethods.icims.com", "boards": [{"key": "maintenance", "label": "Maintenance", "blurb": "Mechanic, AMT, avionics and quality roles", "url": "jobs/maintenance.html", "count": 37, "states": 19, "new": 0}, {"key": "pilots", "label": "Pilots", "blurb": "Helicopter and fixed wing pilot roles", "url": "jobs/pilots.html", "count": 118, "states": 28, "new": 0}, {"key": "clinical", "label": "Nurses and paramedics", "blurb": "Flight nurse and flight paramedic roles", "url": "jobs/clinical.html", "count": 124, "states": 19, "new": 0}]};
 const $ = id => document.getElementById(id);
 const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
 const fmt = iso => new Date(iso + "T12:00:00").toLocaleDateString("en-US", {weekday:"long", month:"short", day:"numeric"});
@@ -107,6 +116,7 @@ DATA.boards.forEach(b => {
   m.appendChild(el("span", "", b.states + " states"));
   a.appendChild(m);
   $("cards").appendChild(a);
+  const ml = el("a", "", b.label + " map"); ml.href = "map.html?b=" + b.key; $("maplinks").appendChild(ml);
 });
 if (navigator.share) { const s = $("share"); s.hidden = false; s.onclick = () => navigator.share({title: document.title, url: location.href}).catch(() => {}); }
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
