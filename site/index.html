@@ -64,6 +64,7 @@ button.share{font:600 15px var(--body);color:var(--band-ink);background:var(--ba
 #cardbox{margin-top:12px;text-align:center}
 #cardbox .who{font:700 22px/1.1 var(--display);color:var(--ink)}
 #cardbox .role{color:var(--muted);font-size:14px;margin-top:2px}
+#cardbox .focus{color:var(--ink);font-size:15px;font-weight:600;margin-top:6px}
 #cardbox img{display:block;width:min(100%,280px);height:auto;margin:12px auto;background:#fff;border-radius:12px;border:1px solid var(--line)}
 #cardbox a{color:inherit;font-weight:600}
 :focus-visible{outline:3px solid var(--accent);outline-offset:2px}
@@ -85,21 +86,16 @@ footer a{color:inherit}
     <div class="cards" id="cards"></div>
   </section>
 
-  <section aria-labelledby="h-near">
-    <h2 id="h-near">Closest opening</h2>
-    <p class="sub">Pick a role and type a ZIP code to see the nearest base hiring for it, with the next closest after that.</p>
-    <div class="maplinks"><a href="closest.html">Find the closest opening</a></div>
-  </section>
-
   <section aria-labelledby="h-map">
     <h2 id="h-map">Openings map</h2>
     <p class="sub">Every base with an opening on a map of the United States. Tap a base to see its roles and the aircraft named in its postings.</p>
     <div class="maplinks" id="maplinks"></div>
   </section>
 
-  <section aria-labelledby="h-tools">
-    <h2 id="h-tools">More tools</h2>
-    <div class="box soon">More recruiting tools will show up here as they are built.</div>
+  <section aria-labelledby="h-near">
+    <h2 id="h-near">Closest opening</h2>
+    <p class="sub">Pick a role and type a ZIP code to see the nearest base hiring for it, with the next closest after that.</p>
+    <div class="maplinks"><a href="closest.html">Find the closest opening</a></div>
   </section>
 
   <section aria-labelledby="h-contact">
@@ -108,6 +104,11 @@ footer a{color:inherit}
     <div class="tabs" id="teams" role="group" aria-label="Recruiting team"></div>
     <div class="tabs" id="people" role="group" aria-label="Recruiter"></div>
     <div class="box" id="cardbox" hidden aria-live="polite"></div>
+  </section>
+
+  <section aria-labelledby="h-tools">
+    <h2 id="h-tools">More tools</h2>
+    <div class="box soon">More recruiting tools will show up here as they are built.</div>
   </section>
 
   <section aria-labelledby="h-install">
@@ -123,7 +124,7 @@ footer a{color:inherit}
 </main>
 
 <script>
-const DATA = {"updated": "2026-11-15", "portal": "https://careers-airmethods.icims.com", "boards": [{"key": "maintenance", "label": "Maintenance", "blurb": "Mechanic, AMT, avionics and quality roles", "url": "jobs/maintenance.html", "count": 37, "states": 19, "new": 0}, {"key": "pilots", "label": "Pilots", "blurb": "Helicopter and fixed wing pilot roles", "url": "jobs/pilots.html", "count": 118, "states": 28, "new": 0}, {"key": "nurses", "label": "Flight nurses", "blurb": "Flight nurse roles", "url": "jobs/nurses.html", "count": 69, "states": 17, "new": 0}, {"key": "paramedics", "label": "Flight paramedics", "blurb": "Flight paramedic roles", "url": "jobs/paramedics.html", "count": 56, "states": 17, "new": 0}], "maps": [{"key": "maintenance", "label": "Maintenance"}, {"key": "pilots", "label": "Pilots"}, {"key": "nurses", "label": "Flight nurses"}, {"key": "paramedics", "label": "Flight paramedics"}], "contacts": [{"label": "Maintenance", "people": [{"name": "Dave Miller", "qr": "dave-miller.png", "link": "https://s1.blinq.me/ryXkTCwnGUlw?l=Rehobeth,%20Alabama,%20United%20States"}, {"name": "Dave Burgess", "qr": ""}, {"name": "Brian Jones", "qr": ""}]}, {"label": "Pilots", "people": []}, {"label": "Clinicians", "note": "Flight nurses and flight paramedics", "people": []}]};
+const DATA = {"updated": "2026-11-15", "portal": "https://careers-airmethods.icims.com", "boards": [{"key": "maintenance", "label": "Maintenance", "blurb": "Mechanic, AMT, avionics and quality roles", "url": "jobs/maintenance.html", "count": 37, "states": 19, "new": 0}, {"key": "pilots", "label": "Pilots", "blurb": "Helicopter and fixed wing pilot roles", "url": "jobs/pilots.html", "count": 118, "states": 28, "new": 0}, {"key": "nurses", "label": "Flight nurses", "blurb": "Flight nurse roles", "url": "jobs/nurses.html", "count": 69, "states": 17, "new": 0}, {"key": "paramedics", "label": "Flight paramedics", "blurb": "Flight paramedic roles", "url": "jobs/paramedics.html", "count": 56, "states": 17, "new": 0}], "maps": [{"key": "maintenance", "label": "Maintenance"}, {"key": "pilots", "label": "Pilots"}, {"key": "nurses", "label": "Flight nurses"}, {"key": "paramedics", "label": "Flight paramedics"}], "contacts": [{"label": "Maintenance", "people": [{"name": "Dave Miller", "qr": "dave-miller.png", "link": "https://s1.blinq.me/ryXkTCwnGUlw?l=Rehobeth,%20Alabama,%20United%20States", "focus": "Part 145 maintenance. Northeast and Southeast regions."}, {"name": "Dave Burgess", "qr": ""}, {"name": "Brian Jones", "qr": ""}]}, {"label": "Pilots", "people": []}, {"label": "Clinicians", "note": "Flight nurses and flight paramedics", "people": []}]};
 const $ = id => document.getElementById(id);
 const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
 const fmt = iso => new Date(iso + "T12:00:00").toLocaleDateString("en-US", {weekday:"long", month:"short", day:"numeric"});
@@ -155,7 +156,7 @@ DATA.maps.forEach(m => { const ml = el("a", "", m.label + " map"); ml.href = "ma
     if (!who) return;
     if (!who.qr) return soon(who.name + "'s business card is not added yet.");
     box.hidden = false; box.className = "box";
-    box.appendChild(el("div", "who", who.name)); box.appendChild(el("div", "role", g.label + " recruiter, Air Methods"));
+    box.appendChild(el("div", "who", who.name)); box.appendChild(el("div", "role", g.label + " recruiter, Air Methods")); if (who.focus) box.appendChild(el("div", "focus", "Focus: " + who.focus));
     const im = el("img"); im.src = "contacts/" + who.qr; im.alt = "QR code for " + who.name + "'s business card"; im.width = 280; im.height = 280; box.appendChild(im);
     if (who.link) { const a = el("a", "", "Open the business card"); a.href = who.link; a.target = "_blank"; a.rel = "noopener"; box.appendChild(a); }
     box.scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest"});

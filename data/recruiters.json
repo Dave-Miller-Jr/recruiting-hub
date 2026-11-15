@@ -1,5 +1,5 @@
 {
- "_note": "Recruiter business cards shown at the bottom of the hub. qr is a file in site/contacts/; leave qr empty to show 'Not added yet'. An empty people list shows 'Not added yet' for the whole group.",
+ "_note": "Recruiter business cards shown at the bottom of the hub. qr is a file in site/contacts/; leave qr empty to show 'Not added yet'. An empty people list shows 'Not added yet' for the whole group. focus is an optional line shown under the name saying what that recruiter covers.",
  "groups": [
   {
    "label": "Maintenance",
@@ -7,7 +7,8 @@
     {
      "name": "Dave Miller",
      "qr": "dave-miller.png",
-     "link": "https://s1.blinq.me/ryXkTCwnGUlw?l=Rehobeth,%20Alabama,%20United%20States"
+     "link": "https://s1.blinq.me/ryXkTCwnGUlw?l=Rehobeth,%20Alabama,%20United%20States",
+     "focus": "Part 145 maintenance. Northeast and Southeast regions."
     },
     {
      "name": "Dave Burgess",
