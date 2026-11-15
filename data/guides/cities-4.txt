@@ -84,3 +84,88 @@ vets: The main VA medical center is in Decatur. ; VA clinics are in Marietta, Co
 around: Marietta, about 21 miles northwest, has a historic town square and an art museum. ; Athens, about 70 miles northeast, is home to the University of Georgia and the Georgia Museum of Art. ; Macon, about 85 miles southeast, has Ocmulgee Mounds National Historical Park.
 checked: November 2026
 src: https://en.wikipedia.org/wiki/Atlanta ; https://en.wikipedia.org/wiki/Stone_Mountain ; https://en.wikipedia.org/wiki/Marietta,_Georgia ; https://en.wikipedia.org/wiki/Athens,_Georgia ; https://en.wikipedia.org/wiki/Macon,_Georgia ; https://en.wikipedia.org/wiki/Chattahoochee_River_National_Recreation_Area ; https://en.wikipedia.org/wiki/Sports_in_Atlanta ; https://en.wikipedia.org/wiki/Zoo_Atlanta ; https://www.va.gov/atlanta-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/georgia/atlanta
+
+## GA|Hinesville
+intro: Hinesville is a city of about 35,000 people and the county seat of Liberty County. It lies on the south side of Fort Stewart, about 39 miles from Savannah.
+family: Georgia Southern University has a Liberty campus in Hinesville. ; Richmond Hill hosts community events at its main park, including a Fourth of July festival with fireworks. ; Mill Creek Regional Park in Statesboro has athletic fields and a water park.
+outdoors: Fort McAllister State Park covers 1,725 acres on the Ogeechee River near Richmond Hill, with a salt marsh and an earthwork fort. ; Tybee Island is a barrier island with a sandy beach, about 18 miles east of Savannah. ; The Tybee Island Light Station, first built in 1736, is a historic lighthouse on the island.
+sports: The Georgia Southern Eagles are the teams of Georgia Southern University in Statesboro, roughly an hour and a half away.
+cost: Housing costs are well below the national average, and grocery and miscellaneous costs are somewhat below it. Utilities run slightly above the national average.
+climate: Summers are hot and winters are mild. At Fort Stewart next door, typical highs are near 92°F in July and near 63°F in January.
+vets: The VA has a clinic in Hinesville. ; Other VA clinics are in Savannah and Brunswick. ; Fort Stewart, an Army post, borders the city.
+around: Savannah, about 39 miles northeast and roughly 55 minutes away, has a historic district with 22 parklike squares. ; Richmond Hill, roughly 35 minutes away, lies along Interstate 95. ; Brunswick, about 55 miles south, sits beside the barrier islands of Jekyll and St. Simons.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Hinesville,_Georgia ; https://en.wikipedia.org/wiki/Fort_Stewart ; https://en.wikipedia.org/wiki/Savannah,_Georgia ; https://en.wikipedia.org/wiki/Tybee_Island,_Georgia ; https://en.wikipedia.org/wiki/Richmond_Hill,_Georgia ; https://en.wikipedia.org/wiki/Brunswick,_Georgia ; https://en.wikipedia.org/wiki/Statesboro,_Georgia ; https://en.wikipedia.org/wiki/Fort_McAllister_State_Park ; https://www.va.gov/charleston-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/georgia/hinesville
+
+## IA|Fort Dodge
+intro: Fort Dodge is the county seat of Webster County in north central Iowa, along the Des Moines River, with about 25,000 residents.
+family: The Fort Museum and Frontier Village on the southwest edge of town recreates a 19th-century military outpost and village. ; Oleson Park has woods, hiking trails and a restored band shell. ; The Blanden Memorial Art Museum, opened in 1932, offers art classes for children and adults.
+outdoors: Dolliver Memorial State Park, 10 miles south of Fort Dodge, has high bluffs on the Des Moines River, a campground and a boat ramp. ; John F. Kennedy Park has a large campground, a lake with a swimming beach and hiking trails. ; The 300-acre Gypsum City Off-Highway Vehicle Park was built on former gypsum mines.
+sports: The Iowa Central Tritons, of Iowa Central Community College in Fort Dodge, compete in sports including football, wrestling and track and field. ; The Iowa State Cyclones play in Ames.
+cost: Fort Dodge is below the US average for groceries, utilities and miscellaneous costs, and well below it for housing.
+climate: Fort Dodge has cold winters and hot, humid summers. Typical daily highs run from about 26°F in January to about 83°F in July.
+vets: The VA has a clinic in Fort Dodge. ; The main VA location for central Iowa is in Des Moines.
+around: Webster City, roughly half an hour away, has a 5.7-mile recreational trail along the Boone River. ; Ames, home to Iowa State University, is about an hour to an hour and a half away. ; Des Moines, the state capital, is about an hour and a half to two hours away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Fort_Dodge,_Iowa ; https://en.wikipedia.org/wiki/Ames,_Iowa ; https://en.wikipedia.org/wiki/Des_Moines,_Iowa ; https://en.wikipedia.org/wiki/Webster_City,_Iowa ; https://en.wikipedia.org/wiki/Dolliver_Memorial_State_Park ; https://en.wikipedia.org/wiki/Iowa_Central_Community_College ; https://www.va.gov/central-iowa-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/iowa/fort_dodge
+
+## IA|Davenport
+intro: Davenport is the county seat of Scott County in eastern Iowa, on the Mississippi River, and one of the Quad Cities. It has roughly 100,000 residents.
+family: The Figge Art Museum, on the north bank of the Mississippi River, holds more than 4,000 works from the 16th century to the present. ; The Putnam Museum and Science Center combines regional history and natural science with an interactive science center. ; Annual festivals in Davenport include the Mississippi Valley Fair and the Bix Beiderbecke Memorial Jazz Festival.
+outdoors: Davenport has more than 50 parks and over 20 miles of recreational paths for biking and walking. ; Vander Veer Botanical Park is a 33-acre botanical garden with a conservatory, a rose garden and a fountain.
+sports: The Quad Cities River Bandits play minor league baseball in Davenport. ; The University of Iowa Hawkeyes play in Iowa City.
+cost: Housing costs in Davenport are well below the national average. Grocery and utility costs are somewhat below it, and miscellaneous costs are somewhat above it.
+climate: Summers are warm to hot and humid, with typical July highs around 84°F. Winters are cold and often windy, with January highs around 30°F and snow likely from November through February.
+vets: The VA has a clinic in Davenport. ; The VA medical center is in Iowa City.
+around: Moline, Illinois, another of the Quad Cities, is roughly 20 minutes away by car. ; Iowa City, home of the University of Iowa, is about 60 miles west, a little over an hour by car. ; Cedar Rapids is roughly an hour and a half away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Davenport,_Iowa ; https://en.wikipedia.org/wiki/Figge_Art_Museum ; https://en.wikipedia.org/wiki/Putnam_Museum ; https://en.wikipedia.org/wiki/Vander_Veer_Botanical_Park ; https://en.wikipedia.org/wiki/Quad_City_River_Bandits ; https://en.wikipedia.org/wiki/Iowa_City,_Iowa ; https://en.wikipedia.org/wiki/Moline,_Illinois ; https://en.wikipedia.org/wiki/Cedar_Rapids,_Iowa ; https://www.va.gov/iowa-city-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/iowa/davenport
+
+## IA|Clinton
+intro: Clinton is the county seat of Clinton County in eastern Iowa, on the Mississippi River, with about 24,000 residents.
+family: Riverview Park has a large municipal swimming pool, a skate park, a playground and public boat ramps. ; The Clinton Area Showboat Theatre is a summer professional theatre in a former towboat docked on the levee. ; The Sawmill Museum teaches about the lumber industry and the history of Clinton.
+outdoors: Eagle Point Park covers 164 acres on bluffs above the Mississippi River, with about 3 miles of hiking trails and a restored prairie. ; The Upper Mississippi River National Wildlife and Fish Refuge passes through Clinton along the river. ; The Mississippi River Trail passes through Clinton, and the city has many walking and biking trails.
+sports: The Clinton LumberKings are a summer collegiate baseball team that plays home games on the riverfront.
+cost: Housing costs are far below the US average, while groceries are slightly below it and utilities and miscellaneous costs are close to it.
+climate: Winters are cold and snowy, with typical January highs near 29°F. Summers are warm, with typical July highs near 84°F.
+vets: The VA has clinics in Davenport, Dubuque and Cedar Rapids. ; The VA medical center is in Iowa City.
+around: Davenport, under an hour away, has the Figge Art Museum and the annual Bix Beiderbecke Memorial Jazz Festival. ; Dubuque, about an hour to an hour and a half away, has the Fenelon Place Elevator and the National Mississippi River Museum and Aquarium. ; Maquoketa, under an hour away, is near Maquoketa Caves State Park.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Clinton,_Iowa ; https://en.wikipedia.org/wiki/Davenport,_Iowa ; https://en.wikipedia.org/wiki/Dubuque,_Iowa ; https://en.wikipedia.org/wiki/Maquoketa,_Iowa ; https://en.wikipedia.org/wiki/Clinton_LumberKings ; https://en.wikipedia.org/wiki/Clinton_Area_Showboat_Theatre ; https://www.va.gov/iowa-city-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/iowa/clinton
+
+## GA|Newnan
+intro: Newnan is the county seat of Coweta County, about 40 miles southwest of Atlanta, with about 43,000 residents. Its motto is "City of Homes."
+family: The Coweta County African American Heritage Museum and Research Center focuses on African-American history and local family records. ; Callaway Gardens near Pine Mountain, about an hour's drive away, has a butterfly center and a birds of prey show. ; The Little White House in Warm Springs, President Franklin D. Roosevelt's retreat, is a state historic site open to visitors.
+outdoors: Chattahoochee Bend State Park in Coweta County covers 2,910 acres along the Chattahoochee River, with about 12 miles of hiking trails. ; F.D. Roosevelt State Park near Pine Mountain covers 9,049 acres and includes the 23-mile Pine Mountain Trail. ; The Carrollton Greenbelt is an 18-mile paved loop for walking and bicycling around Carrollton.
+sports: Atlanta is home to the Braves, Falcons, Hawks, Dream and Atlanta United FC. ; College teams include the Georgia Tech Yellow Jackets and Georgia State Panthers in Atlanta and the West Georgia Wolves in Carrollton. ; The annual Peachtree Road Race, a 10 km race, is held in Atlanta.
+cost: Grocery and housing costs are below the US average, while utilities and miscellaneous costs are slightly above it.
+climate: Newnan has a moderate climate, with typical January highs around 52°F and typical July highs around 89°F. Rain is spread across the year, and snow is rare.
+vets: The VA has a clinic in Newnan. ; The main VA medical center is in Decatur, and another clinic is in Carrollton.
+around: Downtown Atlanta is about 40 miles northeast on Interstate 85, roughly an hour's drive. ; Carrollton, about 22 miles northwest, is home to the University of West Georgia. ; Peachtree City has over 100 miles of golf cart paths.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Newnan,_Georgia ; https://en.wikipedia.org/wiki/Chattahoochee_Bend_State_Park ; https://en.wikipedia.org/wiki/Callaway_Gardens ; https://en.wikipedia.org/wiki/F._D._Roosevelt_State_Park ; https://en.wikipedia.org/wiki/Little_White_House ; https://en.wikipedia.org/wiki/Atlanta ; https://en.wikipedia.org/wiki/Peachtree_City,_Georgia ; https://en.wikipedia.org/wiki/Carrollton,_Georgia ; https://en.wikipedia.org/wiki/Sports_in_Atlanta ; https://www.va.gov/atlanta-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/georgia/newnan
+
+## GA|Kennesaw
+intro: Kennesaw is a suburban city of about 33,000 people in Cobb County, northwest of Atlanta, and is home to Kennesaw State University.
+family: The Southern Museum of Civil War and Locomotive History houses The General, the locomotive from the 1862 Great Locomotive Chase. ; The annual Big Shanty Festival, held every April, begins with a parade through downtown.
+outdoors: Kennesaw Mountain National Battlefield Park is a Civil War battlefield with 17.3 miles of interpretive hiking trails. ; Lake Allatoona is a reservoir with marinas, public boat ramps and campgrounds, and Red Top Mountain State Park sits on its shores.
+sports: The Kennesaw State Owls compete in 17 varsity sports. ; The Atlanta area is home to the Braves, Hawks, Falcons, Dream and Atlanta United FC.
+cost: Housing is the category furthest above the US average, with utilities and miscellaneous costs also above it. Grocery costs are slightly below the US average.
+climate: Kennesaw has hot, humid summers and mild winters. Typical daily highs are about 52°F in January and about 89°F in July.
+vets: The VA has clinics in Marietta. ; The main VA medical center is in Decatur.
+around: Marietta, the Cobb County seat, is 7 miles southeast, roughly 15 minutes by car, and has a historic downtown square. ; Downtown Atlanta is 27 miles southeast on Interstate 75. ; Acworth, 6 miles northwest, sits on Lake Acworth and Lake Allatoona.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Kennesaw,_Georgia ; https://en.wikipedia.org/wiki/Kennesaw_Mountain_National_Battlefield_Park ; https://en.wikipedia.org/wiki/Southern_Museum_of_Civil_War_and_Locomotive_History ; https://en.wikipedia.org/wiki/Kennesaw_State_University ; https://en.wikipedia.org/wiki/Lake_Allatoona ; https://en.wikipedia.org/wiki/Marietta,_Georgia ; https://en.wikipedia.org/wiki/Acworth,_Georgia ; https://en.wikipedia.org/wiki/Sports_in_Atlanta ; https://www.va.gov/atlanta-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/georgia/kennesaw
+
+## IA|Des Moines
+intro: Des Moines is the capital of Iowa and the county seat of Polk County, with about 214,000 residents.
+family: Blank Park Zoo is a 49-acre zoo on the south side of Des Moines. ; The Science Center of Iowa includes a dome theater. ; The Greater Des Moines Botanical Garden is a large botanical garden and greenhouse on the east side of the river.
+outdoors: Saylorville Lake is a reservoir on the Des Moines River a few miles upstream from the city. ; Boating, swimming, camping and fishing are popular at the lake, and Jester Park and Big Creek State Park are around it. ; Ada Hayden Heritage Park in Ames has a lake, wetlands and trails.
+food: The Iowa State Fair, held every August, is known for its food on a stick. ; The World Food Prize Foundation is based in Des Moines.
+sports: The Iowa Cubs play minor league baseball in Des Moines. ; The Iowa State Cyclones play football in Ames.
+cost: Housing costs in Des Moines are well below the national average, and grocery and utility costs are a little below it. Miscellaneous costs are above the national average.
+climate: Des Moines has warm to hot, humid summers and cold, dry winters. Typical daytime highs are about 31°F in January and about 86°F in July.
+vets: The main VA location for central Iowa is in Des Moines. ; VA clinics are also in Carroll, Fort Dodge, Knoxville and Mason City.
+around: Ames, about 30 miles north and under an hour away, is home to Iowa State University. ; Ankeny, a suburb in Polk County, is about 20 minutes north.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Des_Moines,_Iowa ; https://en.wikipedia.org/wiki/Ames,_Iowa ; https://en.wikipedia.org/wiki/Ankeny,_Iowa ; https://en.wikipedia.org/wiki/Iowa_State_Fair ; https://en.wikipedia.org/wiki/Blank_Park_Zoo ; https://en.wikipedia.org/wiki/Iowa_Cubs ; https://en.wikipedia.org/wiki/Saylorville_Lake ; https://www.va.gov/central-iowa-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/iowa/des_moines
