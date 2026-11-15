@@ -830,3 +830,77 @@ vets: The VA system's main location is in El Paso, with another clinic in Las Cr
 around: Las Cruces, New Mexico, home to New Mexico State University, is roughly 45 minutes away. ; Alamogordo, New Mexico, near White Sands National Park, is roughly an hour and a quarter to an hour and a half away. ; Van Horn is about 117 miles east on Interstate 10.
 checked: November 2026
 src: https://en.wikipedia.org/wiki/El_Paso,_Texas ; https://en.wikipedia.org/wiki/Las_Cruces,_New_Mexico ; https://en.wikipedia.org/wiki/Alamogordo,_New_Mexico ; https://en.wikipedia.org/wiki/Van_Horn,_Texas ; https://en.wikipedia.org/wiki/Hueco_Tanks_State_Park_and_Historic_Site ; https://en.wikipedia.org/wiki/Chamizal_National_Memorial ; https://en.wikipedia.org/wiki/El_Paso_Chihuahuas ; https://en.wikipedia.org/wiki/El_Paso_Locomotive_FC ; https://en.wikipedia.org/wiki/UTEP_Miners ; https://www.va.gov/el-paso-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/texas/el_paso
+
+## WV|Beaver
+intro: Beaver is a community of about 1,100 people in Raleigh County, West Virginia. It is near Beckley, the county seat.
+family: Little Beaver State Park, near Beckley, has a picnic area, a playground and hiking trails. ; The Youth Museum of Southern West Virginia in Beckley includes a planetarium and a homestead exhibit. ; The Beckley Exhibition Coal Mine offers tours that cover coal mining history in Appalachia.
+outdoors: New River Gorge National Park and Preserve has more than 50 miles of hiking trails, from easy walks to harder hikes. ; Bluestone Lake, near Hinton, offers boating and fishing, and Bluestone State Park covers part of it. ; Bridge Day, held each October, is an annual event when the New River Gorge Bridge closes to traffic.
+food: Lewisburg holds the Taste of Our Towns food festival in October and a Chocolate Festival each April.
+sports: The WVU Tech teams in Beckley are the Golden Bears. ; Their sports include baseball, basketball, soccer, softball, swimming and volleyball.
+cost: In nearby Beckley, housing costs are far below the U.S. average, and grocery and utility costs are below it.
+climate: In nearby Beckley, summers are warm and humid and winters are generally cold and snowy. Typical highs there are about 40 °F in January and about 81 °F in July.
+vets: The VA medical center for the area is in Beckley. ; VA clinics are also listed in Princeton and Ronceverte.
+around: Beckley is roughly ten minutes away. ; Fayetteville, beside New River Gorge National Park and Preserve, is roughly 35 minutes away, and Hinton is roughly half an hour away. ; Lewisburg, the Greenbrier County seat, is roughly 50 minutes away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Beaver,_West_Virginia ; https://en.wikipedia.org/wiki/Beckley,_West_Virginia ; https://en.wikipedia.org/wiki/Fayetteville,_West_Virginia ; https://en.wikipedia.org/wiki/Hinton,_West_Virginia ; https://en.wikipedia.org/wiki/Lewisburg,_West_Virginia ; https://en.wikipedia.org/wiki/New_River_Gorge_National_Park_and_Preserve ; https://en.wikipedia.org/wiki/Little_Beaver_State_Park ; https://en.wikipedia.org/wiki/West_Virginia_University_Institute_of_Technology ; https://en.wikipedia.org/wiki/Bluestone_Lake ; https://www.va.gov/beckley-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/west_virginia/beckley
+
+## WY|Casper
+intro: Casper is the county seat of Natrona County in east central Wyoming, on the North Platte River. The city has roughly 59,000 residents.
+family: Fort Caspar Museum and Historic Site marks the fort the city is named for. ; The National Historic Trails Interpretive Center is a federally run museum in Casper. ; The Tate Geological Museum is at Casper College.
+outdoors: Casper Mountain rises about 3,000 feet above the city and has trails for hiking, mountain biking and horseback riding. ; The mountain has downhill skiing, cross-country skiing and snowshoeing in winter. ; The North Platte River flows through the Alcova and Gray Reef reservoirs before reaching Casper.
+sports: The College National Finals Rodeo is held in Casper. ; Casper Cannibal RFC is an amateur rugby team based in the city.
+cost: Housing costs are clearly below the U.S. average, and utility and miscellaneous costs are slightly below it. Grocery costs are about even with the U.S. average.
+climate: The climate is semi-arid, with cold, dry winters, mostly dry summers, mild springs and crisp autumns. Typical highs are about 35 °F in January and about 89 °F in July.
+vets: There is a VA clinic in Casper. ; The VA system's main location is in Sheridan.
+around: Glenrock, roughly 25 minutes away, sits near the Laramie Mountains and Medicine Bow National Forest. ; Douglas, roughly 45 to 50 minutes away, hosts the Wyoming State Fair each August. ; Independence Rock State Historic Site, about 60 miles southwest, is a National Historic Landmark on the emigrant trails.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Casper,_Wyoming ; https://en.wikipedia.org/wiki/Casper_Mountain ; https://en.wikipedia.org/wiki/North_Platte_River ; https://en.wikipedia.org/wiki/Independence_Rock ; https://en.wikipedia.org/wiki/Glenrock,_Wyoming ; https://en.wikipedia.org/wiki/Douglas,_Wyoming ; https://www.va.gov/sheridan-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/wyoming/casper
+
+## WI|Green Bay
+intro: Green Bay is a city of about 107,000 people and the county seat of Brown County, Wisconsin. It sits at the mouth of the Fox River on Green Bay, an arm of Lake Michigan.
+family: Bay Beach Amusement Park is a city-owned park that is open in the warmer months. ; Bay Beach Wildlife Sanctuary is next to the amusement park. ; The Neville Public Museum in downtown Green Bay covers history, science and art.
+outdoors: The Fox River State Recreational Trail starts in downtown Green Bay and runs south through De Pere, about 26 miles in total. ; The Cofrin Memorial Arboretum surrounds the UW-Green Bay campus and has more than six miles of trails open to the public.
+sports: The Green Bay Packers play their home games at Lambeau Field. ; UW-Green Bay's teams are the Phoenix.
+cost: Housing costs are well below the U.S. average, and utility and grocery costs are somewhat below it. Miscellaneous costs are above the U.S. average.
+climate: Green Bay has four distinct seasons, with warm, humid summers and cold, snowy winters. Typical highs are about 26 °F in January and about 81 °F in July.
+vets: There is a VA clinic in Green Bay. ; There is also a VA clinic in Appleton.
+around: De Pere, on the Fox River, is roughly 10 minutes away. ; Appleton is 30 miles southwest, roughly 35 minutes away. ; Sturgeon Bay, the county seat of Door County, is about 38 miles away, roughly 45 to 50 minutes.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Green_Bay,_Wisconsin ; https://en.wikipedia.org/wiki/De_Pere,_Wisconsin ; https://en.wikipedia.org/wiki/Appleton,_Wisconsin ; https://en.wikipedia.org/wiki/Sturgeon_Bay,_Wisconsin ; https://en.wikipedia.org/wiki/Bay_Beach_Amusement_Park ; https://en.wikipedia.org/wiki/Neville_Public_Museum_of_Brown_County ; https://en.wikipedia.org/wiki/Green_Bay_Packers ; https://en.wikipedia.org/wiki/Fox_River_State_Recreational_Trail ; https://en.wikipedia.org/wiki/University_of_Wisconsin%E2%80%93Green_Bay ; https://www.va.gov/milwaukee-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/wisconsin/green_bay
+
+## VA|Martinsville
+intro: Martinsville is an independent city in Southside Virginia, near the North Carolina line, with a population of about 13,500. It is the county seat of Henry County.
+family: The Virginia Museum of Natural History is affiliated with the Smithsonian Institution. ; Piedmont Arts is a non-profit art museum in Martinsville. ; The Henry County Fair is held each September.
+outdoors: Fairy Stone State Park in Patrick County is named for the cross-shaped stones found nearby. ; Philpott Lake extends into Franklin, Henry and Patrick counties and is used for recreation. ; The Smith River has year-round trout habitat from Philpott Lake through Martinsville.
+sports: Martinsville Speedway, just outside the city near Ridgeway, hosts NASCAR races each year. ; The Martinsville Mustangs play summer baseball in Martinsville.
+cost: Housing costs are well below the U.S. average and grocery costs are below it. Utility and miscellaneous costs are close to the U.S. average.
+climate: Summers are hot, winters are cool, and spring and fall are mild. Typical highs are about 48 °F in January and about 88 °F in July.
+vets: The nearest VA clinic listed is in Danville. ; The VA system's main location is in Salem.
+around: Danville is about 30 miles away. ; Greensboro, North Carolina, is about 48 miles south. ; Roanoke is about 51 miles north.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Martinsville,_Virginia ; https://en.wikipedia.org/wiki/Danville,_Virginia ; https://en.wikipedia.org/wiki/Greensboro,_North_Carolina ; https://en.wikipedia.org/wiki/Roanoke,_Virginia ; https://en.wikipedia.org/wiki/Fairy_Stone_State_Park ; https://en.wikipedia.org/wiki/Philpott_Lake ; https://en.wikipedia.org/wiki/Smith_River_(Virginia) ; https://www.va.gov/salem-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/virginia/martinsville
+
+## WA|Bremerton
+intro: Bremerton is a city of about 43,500 people in Kitsap County, on the Kitsap Peninsula across Puget Sound from Seattle. It is home to Puget Sound Naval Shipyard.
+family: The destroyer USS Turner Joy is open for public tours at the end of the waterfront boardwalk. ; Harborside Fountain Park on the waterfront has fountains and wading pools. ; The Armed Forces Day Parade is held downtown each May.
+outdoors: Illahee State Park, on Port Orchard Bay, has picnicking, camping, hiking and boating. ; South Kitsap Regional Park in Port Orchard has sports fields, hiking trails, a playground and a skate park. ; Fish Park in Poulsbo is centered on the Dogfish Creek estuary at the north end of Liberty Bay.
+food: The Blackberry Festival is held each Labor Day weekend on the waterfront boardwalk.
+cost: Housing and miscellaneous costs are well above the U.S. average, grocery costs are close to it, and utility costs are below it.
+climate: Summers are warm and dry and winters are wet and mild, with about 3 inches of snow a year. Typical highs are about 47 °F in January and about 77 °F in July.
+vets: The nearest VA clinic listed is in Silverdale, and the VA system's main locations are in Tacoma and Seattle. ; Puget Sound Naval Shipyard and part of Naval Base Kitsap are in Bremerton.
+around: Port Orchard, the county seat across Sinclair Inlet, is roughly 10 minutes away, and Silverdale is roughly 15 to 20 minutes away. ; Gig Harbor is roughly 25 minutes away, and Tacoma is roughly 35 minutes away. ; Car and passenger ferries run from Bremerton to Seattle.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Bremerton,_Washington ; https://en.wikipedia.org/wiki/Silverdale,_Washington ; https://en.wikipedia.org/wiki/Port_Orchard,_Washington ; https://en.wikipedia.org/wiki/Poulsbo,_Washington ; https://en.wikipedia.org/wiki/Gig_Harbor,_Washington ; https://en.wikipedia.org/wiki/Tacoma,_Washington ; https://en.wikipedia.org/wiki/Illahee_State_Park ; https://www.va.gov/puget-sound-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/washington/bremerton
+
+## WA|Yakima
+intro: Yakima is the county seat of Yakima County, in the Yakima Valley of central Washington, with about 97,000 residents. Apples, wine and hops are major products of the surrounding valley.
+family: The Yakima Valley Museum covers the region's natural and cultural history. ; Historic trolleys run in summer along about five miles of track between Yakima and Selah. ; The Central Washington State Fair takes place each year in late September.
+outdoors: The Yakima Greenway links parks, paved trails and nature reserves along the Yakima and Naches rivers, covering about 20 miles. ; Small lakes on the northern edge of the city are used by anglers and swimmers in summer. ; The Yakima Area Arboretum is a botanical garden with native and adapted plants.
+food: The valley is a major growing region for hops and also produces apples and wine. ; The Fresh Hop Ale Festival takes place each October in downtown Yakima.
+sports: The Yakima Valley Pippins play summer baseball in Yakima.
+cost: Utility costs are noticeably below the U.S. average, while grocery and housing costs are close to it. Miscellaneous costs are slightly above the U.S. average.
+climate: Summers are hot, winters are chilly, and the area is dry, with about 8 inches of precipitation a year. Typical highs are about 40 °F in January and about 90 °F in July.
+vets: The nearest VA clinic listed is in Union Gap, and the VA system's main campus is in Walla Walla. ; The Yakima Training Center, a U.S. Army training center, is nearby.
+around: Selah, just north of Yakima, is roughly 10 minutes away. ; Ellensburg, in the Kittitas Valley, is roughly 40 minutes away. ; Richland, in the Tri-Cities area, is roughly an hour and a quarter away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Yakima,_Washington ; https://en.wikipedia.org/wiki/Selah,_Washington ; https://en.wikipedia.org/wiki/Ellensburg,_Washington ; https://en.wikipedia.org/wiki/Richland,_Washington ; https://en.wikipedia.org/wiki/Yakima_Valley_Pippins ; https://www.va.gov/walla-walla-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/washington/yakima

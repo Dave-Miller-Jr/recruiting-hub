@@ -1,7 +1,1 @@
 PA|North East
-VA|Martinsville
-WA|Bremerton
-WA|Yakima
-WI|Green Bay
-WV|Beaver
-WY|Casper
