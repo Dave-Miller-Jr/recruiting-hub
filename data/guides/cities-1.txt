@@ -34,3 +34,86 @@ vets: The VA lists a clinic in Monroeville, about 45 minutes away. ; The main VA
 around: Interstate 65 runs northeast to Montgomery and southwest to Mobile. ; Montgomery is about an hour and 40 minutes away by car and Mobile a little under two hours. ; Pensacola, Florida, is about two hours away.
 checked: November 2026
 src: https://en.wikipedia.org/wiki/Evergreen,_Alabama ; https://en.wikipedia.org/wiki/Conecuh_County,_Alabama ; https://en.wikipedia.org/wiki/Conecuh_National_Forest ; https://en.wikipedia.org/wiki/Monroeville,_Alabama ; https://en.wikipedia.org/wiki/USS_Alabama_(BB-60) ; https://en.wikipedia.org/wiki/Montgomery_Biscuits ; https://en.wikipedia.org/wiki/Pensacola_Blue_Wahoos ; https://www.va.gov/central-alabama-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/alabama/evergreen
+
+## AZ|Goodyear
+intro: Goodyear is a suburb west of Phoenix in Maricopa County, with about 118,000 residents. It began as cotton farmland bought by the Goodyear Tire and Rubber Company.
+family: The city hall complex includes a public library and a two-acre park. ; The White Tank Library and Nature Center offers nature programs for children, families and adults. ; Franklin Pierce University has had a campus in Goodyear since 2008.
+outdoors: Estrella Mountain Regional Park covers almost 20,000 acres of mostly desert, with more than 30 miles of trails. ; White Tank Mountain Regional Park covers nearly 29,300 acres of desert and mountain, with almost 26 miles of hiking trails. ; The Gila River passes through the city.
+sports: Goodyear Ballpark hosts spring training for the Cleveland Guardians and Cincinnati Reds. ; Phoenix Raceway in neighboring Avondale hosts two NASCAR race weekends a year.
+cost: BestPlaces index figures put housing in Goodyear well above the US average, with groceries, utilities and other everyday costs close to average.
+climate: Goodyear has a hot desert climate with more than 300 sunny days a year. Winters are mild, with typical highs around 65°F in January, and summers are very hot, with July highs averaging about 105°F.
+vets: The Phoenix VA medical center is in Phoenix, about half an hour away. ; The VA also lists clinics in Surprise and in southwest Phoenix. ; Luke Air Force Base is in the Glendale area, about half an hour away.
+around: Phoenix is about half an hour away by car. ; Glendale is also about half an hour away. ; Tucson is about two and a half hours away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Goodyear,_Arizona ; https://en.wikipedia.org/wiki/White_Tank_Mountain_Regional_Park ; https://en.wikipedia.org/wiki/Phoenix_Raceway ; https://en.wikipedia.org/wiki/Luke_Air_Force_Base ; https://www.va.gov/phoenix-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arizona/goodyear
+
+## AZ|Parker
+intro: Parker is a town of about 3,400 people on the Colorado River and the county seat of La Paz County. It is also the headquarters of the Colorado River Indian Tribes.
+family: The Colorado River Indian Tribes museum in Parker displays historical and contemporary artwork, especially ceramics, made by tribal citizens. ; The Old Parker Jail, built in 1914, stands in a city park and is on the National Register of Historic Places. ; Lake Havasu City, about 45 minutes away, is home to London Bridge.
+outdoors: Buckskin Mountain State Park, near Parker, has Colorado River shoreline, camping and water recreation. ; Parker Dam on the Colorado River creates Lake Havasu. ; Blythe, California, a little over an hour away, has parks and boat ramps onto the Colorado River.
+cost: BestPlaces index figures put groceries and housing in Parker a little below the US average, with utilities slightly above.
+climate: Parker has an arid climate with very little rain, warm winters and extremely hot summers. Typical daily highs run from about 69°F in January to about 108°F in July.
+vets: The VA lists a clinic in Lake Havasu City, about 45 minutes away. ; Another VA clinic is in Kingman, about two hours away.
+around: Lake Havasu City is about 45 minutes away by car. ; Quartzsite, about 40 minutes away, hosts major gem and mineral shows, mostly in January and February. ; Phoenix is about three hours away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Parker,_Arizona ; https://en.wikipedia.org/wiki/Parker_Dam ; https://en.wikipedia.org/wiki/Buckskin_Mountain_State_Park ; https://en.wikipedia.org/wiki/Colorado_River_Indian_Tribes ; https://en.wikipedia.org/wiki/Lake_Havasu_City,_Arizona ; https://en.wikipedia.org/wiki/Quartzsite,_Arizona ; https://en.wikipedia.org/wiki/Blythe,_California ; https://www.va.gov/northern-arizona-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arizona/parker
+
+## AZ|Prescott
+intro: Prescott is a city of about 46,000 people and the county seat of Yavapai County, known for its historic downtown and Whiskey Row. It was once the capital of the Arizona Territory and is home to several colleges, including Embry-Riddle Aeronautical University's Prescott campus.
+family: The Sharlot Hall Museum houses much of Prescott's territorial history. ; The Heritage Park Zoo is in Prescott. ; The courthouse plaza, a lawn under large old elm trees, hosts cultural events and performances on many summer nights.
+outdoors: The Granite Dells, just north of the city center, are granite boulder formations with hiking trails that connect to the Peavine Trail. ; Lynx Lake, set among tall ponderosa pines, offers boating, camping, fishing, hiking and mountain biking. ; Goldwater Lake is a popular park with picnic facilities.
+sports: Frontier Days, which bills itself as the World's Oldest Rodeo, has run every year since 1888 in the days leading up to July 4. ; Four golf courses lie within the city limits, and two of them are city courses.
+cost: BestPlaces index figures put housing in Prescott far above the US average, with groceries and utilities close to average.
+climate: Typical daily highs are about 53°F in January and about 90°F in July. A summer monsoon season brings rain and thunderstorms, and winter snowfall is typically light.
+vets: The Northern Arizona VA Health Care System has its main medical center in Prescott. ; VA outpatient clinics are also in Cottonwood, Flagstaff and other northern Arizona communities.
+around: Prescott Regional Airport, about 7 miles north of the courthouse, has commercial service. ; State Route 89A connects Prescott with Cottonwood and Sedona. ; State Route 69 leads east to neighboring Prescott Valley.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Prescott,_Arizona ; https://www.va.gov/northern-arizona-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arizona/prescott
+
+## AZ|Florence
+intro: Florence is a town of about 27,000 people and the county seat of Pinal County. It sits on the south bank of the Gila River in the Sonoran Desert, between Phoenix and Tucson.
+family: The historic downtown is a National Historic District with over 25 buildings on the National Register of Historic Places. ; McFarland State Historic Park holds the first Pinal County Courthouse, built in 1876. ; Casa Grande Ruins National Monument in nearby Coolidge preserves Hohokam structures from about 1150 to 1450.
+outdoors: Picacho Peak State Park, between Casa Grande and Tucson, is known for spring wildflowers and steep trails with cables and catwalks. ; The Superstition Mountains, east of the Phoenix area, have many hiking trails and include Lost Dutchman State Park. ; Boyce Thompson Arboretum, near Superior, has more than 2,600 species of arid land plants and a 1.5-mile loop trail.
+sports: The Florence Jr. Parada is described as the oldest junior rodeo in the United States. ; The Phoenix Suns play in the NBA and the Arizona Diamondbacks in Major League Baseball, both in Phoenix. ; Central Arizona College, near Coolidge, fields junior college teams in NJCAA Division I.
+cost: BestPlaces index figures put housing in Florence about even with the US average, with groceries a little lower and utilities slightly higher.
+climate: Florence has a hot desert climate with mild winters and hot summers. Typical daily highs are about 66°F in January and about 102°F in July, and much of the summer rain comes with the monsoon from July through September.
+vets: The VA lists clinics in Casa Grande. ; The Tucson VA Medical Center is the main VA location for southern Arizona.
+around: Phoenix and Tucson are each roughly an hour to an hour and a half away by car. ; Casa Grande and Mesa are each about an hour away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Florence,_Arizona ; https://en.wikipedia.org/wiki/Casa_Grande_Ruins ; https://en.wikipedia.org/wiki/Picacho_Peak_State_Park ; https://en.wikipedia.org/wiki/Superstition_Mountains ; https://en.wikipedia.org/wiki/Boyce_Thompson_Arboretum ; https://en.wikipedia.org/wiki/Central_Arizona_College ; https://en.wikipedia.org/wiki/Phoenix_Suns ; https://en.wikipedia.org/wiki/Arizona_Diamondbacks ; https://www.va.gov/southern-arizona-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arizona/florence
+
+## AZ|Payson
+intro: Payson is a mountain town of about 16,000 people in northern Gila County, at about 5,000 feet of elevation. It sits within the Tonto National Forest below the Mogollon Rim.
+family: Green Valley Park and Rumsey Park are the town's main parks, and there is a small skate park. ; Green Valley Park has a replica of the cabin of author Zane Grey, who wrote about the area. ; The August Doin's Rodeo has been held every year since 1884 and is called the world's oldest continuous rodeo.
+outdoors: The town is surrounded by the Tonto National Forest. ; Tonto Natural Bridge State Park, just northwest of Payson, holds what is described as the largest known natural bridge in the world. ; Cold water lakes on top of the Mogollon Rim, north of Payson, are stocked with fish.
+sports: The Phoenix Suns play in the NBA and the Arizona Diamondbacks in Major League Baseball, both in Phoenix.
+cost: BestPlaces index figures put housing and utilities in Payson somewhat above the US average, with groceries slightly below.
+climate: Winters are mild with cold nights, with typical daily highs of about 56°F in January. Summer highs reach about 93°F in July, and monsoon thunderstorms from July through September bring a large share of the year's rain.
+vets: The VA has a clinic in Payson, part of the Phoenix VA system. ; The same system has clinics in Show Low and Globe, and its main medical center is in Phoenix.
+around: State Route 87, the Beeline Highway, leads to the Phoenix area, roughly an hour and a half to two hours away by car. ; State Route 260 leads east to Show Low, roughly two hours away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Payson,_Arizona ; https://en.wikipedia.org/wiki/Phoenix_Suns ; https://en.wikipedia.org/wiki/Arizona_Diamondbacks ; https://www.va.gov/phoenix-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arizona/payson
+
+## AZ|Phoenix
+intro: Phoenix is the capital of Arizona and its largest city, with about 1.6 million residents. It sits in the Salt River Valley in the Sonoran Desert.
+family: The Phoenix Zoo in the Papago Park area has a children's trail with a petting zoo. ; ZooLights, a December lighting show at the zoo, has run every year since 1991. ; The Heard Museum, founded in 1929, is dedicated to American Indian art.
+outdoors: South Mountain Park and Preserve has 58 miles of trails for hiking, cycling and horseback riding. ; Camelback Mountain, North Mountain and Piestewa Peak rise within the heart of the valley. ; The Desert Botanical Garden in Papago Park has more than 50,000 plants.
+sports: The Arizona Diamondbacks, Phoenix Suns, Arizona Cardinals and Phoenix Mercury play in MLB, the NBA, the NFL and the WNBA. ; The Phoenix area hosts the 15 major league teams of the Cactus League for spring training.
+cost: BestPlaces index figures put housing in Phoenix well above the US average, with groceries slightly below average and utilities close to it.
+climate: Summers are long and extremely hot and winters are short and mild, with typical daily highs from about 68°F in January to about 107°F in July. Rain is scarce, and a summer monsoon season brings humidity and heavy, localized storms.
+vets: The Phoenix VA medical center is in the city, with VA clinics in Mesa, Scottsdale, Gilbert, Surprise and other valley cities. ; An Arizona Air National Guard air refueling wing is based at Phoenix Sky Harbor.
+around: Phoenix Sky Harbor International Airport, Arizona's largest and busiest, is about 3 miles east of downtown. ; Tucson is roughly two hours away by car. ; Flagstaff is roughly two and a half hours away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Phoenix,_Arizona ; https://en.wikipedia.org/wiki/Sports_in_Phoenix ; https://en.wikipedia.org/wiki/South_Mountain_Park_and_Preserve ; https://en.wikipedia.org/wiki/Phoenix_Zoo ; https://en.wikipedia.org/wiki/Desert_Botanical_Garden ; https://en.wikipedia.org/wiki/Heard_Museum ; https://en.wikipedia.org/wiki/Climate_of_Phoenix ; https://en.wikipedia.org/wiki/Phoenix_Sky_Harbor_International_Airport ; https://www.va.gov/phoenix-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arizona/phoenix
+
+## AZ|Fort Mohave
+intro: Fort Mohave is a community of about 16,000 people in western Mohave County, along the Colorado River just south of Bullhead City.
+family: The Colorado River Museum in Bullhead City has replicas of area landmarks, Native American artifacts and historical displays. ; Fort Mohave has a Mohave County Library branch. ; Rotary Park in Bullhead City covers 300 acres of riverfront with beaches, a fishing jetty and boat launch ramps.
+outdoors: Lake Mohave, a Colorado River reservoir near Bullhead City, is popular for swimming, kayaking, fishing, boating and water skiing. ; Havasu National Wildlife Refuge protects 30 river miles of the lower Colorado River between Needles, California, and Lake Havasu City.
+sports: Bullhead City hosts a youth soccer tournament at Rotary Park every February. ; Bullhead City also sponsors senior softball tournaments each spring and fall.
+cost: BestPlaces index figures put housing in Fort Mohave below the US average, with groceries and utilities a little below it.
+climate: The area has a desert climate with mild winters and very hot summers. In neighboring Bullhead City, typical highs are about 65°F in January and about 111°F in July.
+vets: The VA lists clinics in Kingman and in Lake Havasu City.
+around: Needles, California, is about half an hour away by car. ; Lake Havasu City, home to London Bridge, is roughly an hour and 20 minutes away. ; Las Vegas and its international airport are a little over two hours away.
+checked: November 2026
+src: https://en.wikipedia.org/wiki/Fort_Mohave,_Arizona ; https://en.wikipedia.org/wiki/Bullhead_City,_Arizona ; https://en.wikipedia.org/wiki/Lake_Mohave ; https://en.wikipedia.org/wiki/Havasu_National_Wildlife_Refuge ; https://en.wikipedia.org/wiki/Lake_Havasu_City,_Arizona ; https://www.va.gov/northern-arizona-health-care/locations/ ; https://www.bestplaces.net/cost_of_living/city/arizona/fort_mohave

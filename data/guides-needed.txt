@@ -1,10 +1,3 @@
-AZ|Florence
-AZ|Fort Mohave
-AZ|Goodyear
-AZ|Parker
-AZ|Payson
-AZ|Phoenix
-AZ|Prescott
 AZ|Quartzsite
 AZ|Rio Rico
 AZ|Show Low
