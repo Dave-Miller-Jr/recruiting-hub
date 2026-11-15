@@ -28,7 +28,6 @@ CA|Thermal
 CA|Twentynine Palms
 CA|Victorville
 CA|Visalia
-CO|Frisco
 CO|Greenwood Village
 CO|Holyoke
 CO|Lakewood
@@ -42,25 +41,20 @@ FL|Old Town
 FL|Panacea
 FL|Pensacola
 FL|Stuart
-FL|Venice
 GA|Atlanta
 GA|Griffin
 GA|Hinesville
 GA|Kennesaw
 GA|Newnan
-IA|Audubon
 IA|Clinton
 IA|Davenport
 IA|Des Moines
 IA|Fort Dodge
 IA|Sioux City
-ID|Driggs
 ID|Idaho Falls
-IL|Cahokia
 IL|Effingham
 IL|Granite City
 IL|Highland
-IL|McHenry
 IL|Murphysboro
 IL|Olney
 IL|Sparta
@@ -68,7 +62,6 @@ IL|Springfield
 IL|Urbana
 IN|Elkhart
 KS|Liberal
-KS|Wichita
 KY|Bedford
 KY|Glasgow
 KY|Jamestown
