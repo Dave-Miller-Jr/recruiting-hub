@@ -64,11 +64,9 @@ IN|Elkhart
 KS|Liberal
 KY|Bedford
 KY|Glasgow
-KY|Jamestown
 KY|Melber
 KY|Somerset
 MO|Joplin
-MO|St Louis
 NE|Crete
 NE|Kearney
 NE|Norfolk
@@ -79,7 +77,6 @@ NM|Alamogordo
 NM|Artesia
 NM|Carlsbad
 NM|Deming
-NM|Farmington
 NM|Las Cruces
 NM|Roswell
 NM|Silver City
@@ -93,7 +90,6 @@ NY|Potsdam
 NY|Sidney
 NY|Wallkill
 NY|Westernville
-OH|Hamilton
 OK|Stillwater
 PA|Hazleton
 PA|Lansdale
@@ -101,12 +97,10 @@ PA|Media
 PA|North East
 PA|Sayre
 PA|Somerset
-PA|West Mifflin
 SC|Camden
 SC|Orangeburg
 SD|Hot Springs
 SD|Rapid City
-TN|Nashville
 TX|El Paso
 TX|Lockhart
 TX|Snyder
@@ -118,7 +112,6 @@ WA|Bremerton
 WA|Yakima
 WI|Green Bay
 WV|Beaver
-WV|Martinsburg
 WV|Moundsville
 WY|Casper
 WY|Evanston
