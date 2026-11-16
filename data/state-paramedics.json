@@ -1,6 +1,6 @@
 {
- "lastRun": "2026-11-15",
- "total": 322,
+ "lastRun": "2026-11-16",
+ "total": 321,
  "baseline": "2026-11-14",
  "jobs": {
   "11755": {
@@ -129,23 +129,6 @@
    "firstSeen": null,
    "new": false
   },
-  "11035": {
-   "id": "11035",
-   "title": "Flight Paramedic",
-   "kinds": [
-    "paramedic"
-   ],
-   "st": "NE",
-   "city": "North Platte",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$10,000 Sign on Bonus & $8,000 Annual Location Stipend"
-   ],
-   "ac": [],
-   "fr": [],
-   "firstSeen": null,
-   "new": false
-  },
   "10954": {
    "id": "10954",
    "title": "Flight Paramedic",
@@ -261,21 +244,6 @@
    ],
    "st": "AZ",
    "city": "Prescott",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": null,
-   "new": false
-  },
-  "10653": {
-   "id": "10653",
-   "title": "Flight Paramedic",
-   "kinds": [
-    "paramedic"
-   ],
-   "st": "IL",
-   "city": "Effingham",
    "type": "Regular Full-Time",
    "hl": [],
    "ac": [],
@@ -882,5 +850,40 @@
    "new": false
   }
  },
- "removed": []
+ "removed": [
+  {
+   "id": "11035",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NE",
+   "city": "North Platte",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign on Bonus & $8,000 Annual Location Stipend"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-16"
+  },
+  {
+   "id": "10653",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "IL",
+   "city": "Effingham",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-16"
+  }
+ ]
 }
