@@ -65,6 +65,29 @@
    "firstSeen": null,
    "new": false
   },
+  "11687": {
+   "id": "11687",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IA",
+   "city": "Des Moines",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Stipend"
+   ],
+   "ac": [
+    "Bell 429",
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": "2026-11-16",
+   "new": true
+  },
   "11686": {
    "id": "11686",
    "title": "Helicopter Pilot",
@@ -130,6 +153,26 @@
    ],
    "firstSeen": null,
    "new": false
+  },
+  "11550": {
+   "id": "11550",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NV",
+   "city": "Mesquite",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "ac": [],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": "2026-11-16",
+   "new": true
   },
   "11480": {
    "id": "11480",
@@ -362,28 +405,6 @@
    "fr": [],
    "firstSeen": null,
    "new": false
-  },
-  "11265": {
-   "id": "11265",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "FL",
-   "city": "Bartow",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$15,000 Sign On Bonus"
-   ],
-   "ac": [
-    "EC135"
-   ],
-   "fr": [
-    "VFR"
-   ],
-   "firstSeen": "2026-11-16",
-   "new": true
   },
   "11231": {
    "id": "11231",
@@ -2570,19 +2591,21 @@
  },
  "removed": [
   {
-   "id": "11550",
+   "id": "11265",
    "title": "Helicopter Pilot",
    "kinds": [
     "pilot",
     "helicopter"
    ],
-   "st": "NV",
-   "city": "Mesquite",
+   "st": "FL",
+   "city": "Bartow",
    "type": "Regular Full-Time",
    "hl": [
     "$15,000 Sign On Bonus"
    ],
-   "ac": [],
+   "ac": [
+    "EC135"
+   ],
    "fr": [
     "VFR"
    ],
