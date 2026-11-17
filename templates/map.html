@@ -127,8 +127,7 @@ footer a{color:inherit}
 
 <main class="wrap">
   <div class="row" id="boards" role="group" aria-label="Choose a map"></div>
-  <div class="row" id="basesRow"></div>
-  <div id="bacWrap" hidden><div class="lab">All bases by aircraft assigned</div><div class="row" id="bacs" role="group" aria-label="Filter all bases by aircraft"></div></div>
+  <div id="bacWrap" hidden><div class="lab">Aircraft assigned</div><div class="row" id="bacs" role="group" aria-label="Filter all bases by aircraft"></div></div>
   <div id="acWrap" hidden><div class="lab">Aircraft named in postings</div><div class="row" id="acs" role="group" aria-label="Filter by aircraft"></div></div>
   <div id="frWrap" hidden><div class="lab">Base type</div><div class="row" id="frs" role="group" aria-label="Filter by base type"></div></div>
   <div class="grid">
@@ -137,7 +136,7 @@ footer a{color:inherit}
     <section class="panel" id="panel" aria-live="polite"></section>
   </div>
   <details class="off" id="off" hidden><summary id="offSum"></summary><div id="offIn"></div></details>
-  <footer>The all bases view shows Air Methods base locations from the company base list (November 2026), placed by ZIP code. Aircraft are the types assigned to that base on the list. Background map &copy; OpenStreetMap contributors. Dots are placed at the city of each posting, not the exact base address. Aircraft, VFR or IFR, and rotor or fixed wing are shown only where a posting for that city states them. City guides are general overviews checked against public sources; drive times are routing estimates and vary with traffic and weather; things change, so confirm details before you rely on them. Listings are read from the Air Methods careers site once a day. This is a quick reference kept by the recruiting team, not the official careers site. The posting on <a id="portal" target="_blank" rel="noopener">careers-airmethods.icims.com</a> is always the official version.</footer>
+  <footer>The All bases map shows Air Methods base locations from the company base list (November 2026), placed by ZIP code. Aircraft are the types assigned to that base on the list. Background map &copy; OpenStreetMap contributors. Dots are placed at the city of each posting, not the exact base address. Aircraft, VFR or IFR, and rotor or fixed wing are shown only where a posting for that city states them. City guides are general overviews checked against public sources; drive times are routing estimates and vary with traffic and weather; things change, so confirm details before you rely on them. Listings are read from the Air Methods careers site once a day. This is a quick reference kept by the recruiting team, not the official careers site. The posting on <a id="portal" target="_blank" rel="noopener">careers-airmethods.icims.com</a> is always the official version.</footer>
 </main>
 
 <script src="vendor/leaflet/leaflet.js"></script>
@@ -149,8 +148,10 @@ const fmt = iso => new Date(iso + "T12:00:00").toLocaleDateString("en-US", {mont
 const url = id => DATA.portal + "/jobs/" + id + "/job";
 const plural = (n, w) => n + " " + w + (n === 1 ? "" : "s");
 const q = new URLSearchParams(location.search);
-let board = DATA.boards.find(b => b.key === (q.get("b") === "clinical" ? "nurses" : q.get("b"))) || DATA.boards[0];
-let showBases = false;
+const BASES = {key: "bases", label: "All bases", places: [], off: []};
+const BOARDS = DATA.bases && DATA.bases.length ? DATA.boards.concat([BASES]) : DATA.boards;
+let board = BOARDS.find(b => b.key === (q.get("b") === "clinical" ? "nurses" : q.get("b"))) || BOARDS[0];
+let showBases = board === BASES;
 let bac = "all";
 const fam = a => /^(EC|H)135/.test(a) ? "EC135 / H135" : a.replace(/^(EC130|AS350|A109|BK117)\b.*/, "$1");
 const baseHas = (b, k) => k === "all" || b.wing.includes(k) || b.ac.some(a => fam(a) === k);
@@ -247,12 +248,10 @@ function panel() {
       if (b.wing.length || b.ac.length) { const f = el("div", "facts"); b.wing.forEach(x => f.appendChild(el("span", "fact alt", x))); b.ac.forEach(x => f.appendChild(el("span", "fact", x))); d.appendChild(f); }
       pn.appendChild(d);
     });
-    const city = p.place.split(",")[0].toLowerCase(), here = board.places.find(x => x.st === p.st && x.city.toLowerCase() === city);
-    if (here) { const gd = guide(here); if (gd) pn.appendChild(gd); here.jobs.forEach(j => pn.appendChild(jobRow(j))); }
-    else pn.appendChild(el("div", "hint", "No " + board.label.toLowerCase() + " openings posted here right now."));
     pn.appendChild(el("div", "hint", "From the company base list, November 2026. Bases can open, close or move."));
     return;
   }
+  if (!p && showBases) { pn.appendChild(el("div", "hint", "Tap a ring on the map to see the base and its aircraft. Use the aircraft buttons above to narrow the map.")); return; }
   if (!p) { pn.appendChild(el("div", "hint", shown().length ? "Tap a base on the map to see its openings. The number on each dot is how many roles are open there." : "No bases match these filters. Tap All to see every base.")); return; }
   const hd = el("div", "hd");
   hd.appendChild(el("h2", "", p.city + ", " + p.st));
@@ -271,10 +270,11 @@ function panel() {
 
 function draw() {
   const bb = $("boards"); bb.textContent = "";
-  DATA.boards.forEach(b => {
-    const n = b.places.reduce((s, p) => s + p.jobs.length, 0) + b.off.reduce((s, p) => s + p.jobs.length, 0);
+  showBases = board === BASES;
+  BOARDS.forEach(b => {
+    const n = b === BASES ? DATA.nbases : b.places.reduce((s, p) => s + p.jobs.length, 0) + b.off.reduce((s, p) => s + p.jobs.length, 0);
     const x = el("button", "f", b.label); x.type = "button"; x.setAttribute("aria-pressed", String(b === board)); x.appendChild(el("i", "", n));
-    x.onclick = () => { board = b; ac = fr = "all"; sel = null; history.replaceState(null, "", "?b=" + b.key); draw(); };
+    x.onclick = () => { board = b; ac = fr = bac = "all"; sel = null; history.replaceState(null, "", "?b=" + b.key); draw(); };
     bb.appendChild(x);
   });
   const count = k => board.places.filter(p => p[k].length).length;
@@ -282,15 +282,9 @@ function draw() {
   const byN = k => uniq(k).sort((a, b) => board.places.filter(p => p[k].includes(b)).length - board.places.filter(p => p[k].includes(a)).length);
   chips($("acs"), $("acWrap"), byN("ac"), ac, v => ac = v);
   chips($("frs"), $("frWrap"), uniq("wing").concat(["VFR", "IFR"].filter(r => uniq("fr").includes(r))), fr, v => fr = v);
-  $("tag").textContent = plural(board.places.length, "base") + " with openings on the " + board.label.toLowerCase() + " map. Updated " + fmt(DATA.updated) + ".";
+  $("tag").textContent = showBases ? DATA.nbases + " Air Methods base locations, with or without openings. From the company base list, November 2026." : plural(board.places.length, "base") + " with openings on the " + board.label.toLowerCase() + " map. Updated " + fmt(DATA.updated) + ".";
 
   layer.clearLayers();
-  const br = $("basesRow"); br.textContent = "";
-  if (DATA.bases && DATA.bases.length) {
-    const x = el("button", "f", showBases ? "Hide all bases" : "Show all bases"); x.type = "button"; x.setAttribute("aria-pressed", String(showBases)); x.appendChild(el("i", "", DATA.nbases));
-    x.onclick = () => { showBases = !showBases; if (!showBases && sel && sel.base) sel = null; draw(); }; br.appendChild(x);
-    if (showBases) br.appendChild(el("span", "src", "Rings are Air Methods bases, hiring or not. Numbered dots are cities with openings."));
-  }
   const bw = $("bacWrap"), bx = $("bacs"); bw.hidden = !showBases; bx.textContent = "";
   if (showBases) {
     const all = DATA.bases.flatMap(s => s.bases), n = k => all.filter(b => baseHas(b, k)).length;
@@ -316,7 +310,7 @@ function draw() {
     mk.addTo(layer);
   });
   const vw = $("views"); vw.textContent = "";
-  const has = name => board.places.some(p => name === "Alaska" ? p.st === "AK" : p.st === "HI");
+  const has = name => (showBases ? DATA.bases : board.places).some(p => name === "Alaska" ? p.st === "AK" : p.st === "HI");
   ["Lower 48", "Alaska", "Hawaii"].filter(n => n === "Lower 48" || has(n)).forEach(n => { const b = el("button", "", n); b.type = "button"; b.onclick = () => map.fitBounds(VIEWS[n]); vw.appendChild(b); });
   panel();
 

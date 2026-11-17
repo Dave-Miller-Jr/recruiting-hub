@@ -147,6 +147,7 @@ DATA.boards.forEach(b => {
   $("cards").appendChild(a);
 });
 DATA.maps.forEach(m => { const ml = el("a", "", m.label + " map"); ml.href = "map.html?b=" + m.key; $("maplinks").appendChild(ml); });
+{ const ml = el("a", "", "All bases map"); ml.href = "map.html?b=bases"; $("maplinks").appendChild(ml); }
 // Recruiter business cards: team, then name, then that person's QR code.
 (() => {
   const teams = $("teams"), people = $("people"), box = $("cardbox");
