@@ -1,6 +1,6 @@
 {
- "lastRun": "2026-11-16",
- "total": 322,
+ "lastRun": "2026-11-17",
+ "total": 329,
  "baseline": "2026-11-14",
  "jobs": {
   "11754": {
@@ -556,28 +556,6 @@
    "firstSeen": null,
    "new": false
   },
-  "11031": {
-   "id": "11031",
-   "title": "Fixed Wing Pilot",
-   "kinds": [
-    "pilot",
-    "fixed"
-   ],
-   "st": "NM",
-   "city": "Carlsbad",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$15,000 Sign-On Bonus"
-   ],
-   "ac": [
-    "PC-12"
-   ],
-   "fr": [
-    "IFR"
-   ],
-   "firstSeen": null,
-   "new": false
-  },
   "10960": {
    "id": "10960",
    "title": "Regional Relief Helicopter Pilot",
@@ -1053,6 +1031,28 @@
    ],
    "firstSeen": null,
    "new": false
+  },
+  "10494": {
+   "id": "10494",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "PA",
+   "city": "Gettysburg",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Location Stipend"
+   ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": "2026-11-17",
+   "new": true
   },
   "10474": {
    "id": "10474",
@@ -2504,6 +2504,28 @@
    "firstSeen": null,
    "new": false
   },
+  "6139": {
+   "id": "6139",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "PA",
+   "city": "Sayre",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Annual Stipend"
+   ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": "2026-11-17",
+   "new": true
+  },
   "6067": {
    "id": "6067",
    "title": "Helicopter Pilot",
@@ -2612,6 +2634,29 @@
    "firstSeen": "2026-11-16",
    "new": true,
    "removedOn": "2026-11-16"
+  },
+  {
+   "id": "11031",
+   "title": "Fixed Wing Pilot",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "NM",
+   "city": "Carlsbad",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-On Bonus"
+   ],
+   "ac": [
+    "PC-12"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-17"
   }
  ]
 }
