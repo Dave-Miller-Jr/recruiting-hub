@@ -1,6 +1,6 @@
 {
  "lastRun": "2026-11-16",
- "total": 321,
+ "total": 322,
  "baseline": "2026-11-14",
  "jobs": {
   "11755": {
@@ -129,6 +129,23 @@
    "firstSeen": null,
    "new": false
   },
+  "11035": {
+   "id": "11035",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NE",
+   "city": "North Platte",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign on Bonus & $8,000 Annual Location Stipend"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-16",
+   "new": true
+  },
   "10954": {
    "id": "10954",
    "title": "Flight Paramedic",
@@ -250,6 +267,21 @@
    "fr": [],
    "firstSeen": null,
    "new": false
+  },
+  "10653": {
+   "id": "10653",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "IL",
+   "city": "Effingham",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-16",
+   "new": true
   },
   "10651": {
    "id": "10651",
@@ -764,9 +796,7 @@
    "st": "NM",
    "city": "Carlsbad",
    "type": "Regular Full-Time",
-   "hl": [
-    "$13,700 Annual Stipend and $10K Sign on"
-   ],
+   "hl": [],
    "ac": [],
    "fr": [],
    "firstSeen": null,
@@ -781,9 +811,7 @@
    "st": "NM",
    "city": "Carlsbad",
    "type": "Regular Full-Time",
-   "hl": [
-    "$13,700 Annual Stipend and $10K Sign on"
-   ],
+   "hl": [],
    "ac": [],
    "fr": [],
    "firstSeen": null,
@@ -798,9 +826,7 @@
    "st": "NM",
    "city": "Roswell",
    "type": "Regular Full-Time",
-   "hl": [
-    "$13,700 Annual Stipend and $10K Sign on"
-   ],
+   "hl": [],
    "ac": [],
    "fr": [],
    "firstSeen": null,
@@ -856,40 +882,5 @@
    "new": false
   }
  },
- "removed": [
-  {
-   "id": "11035",
-   "title": "Flight Paramedic",
-   "kinds": [
-    "paramedic"
-   ],
-   "st": "NE",
-   "city": "North Platte",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$10,000 Sign on Bonus & $8,000 Annual Location Stipend"
-   ],
-   "ac": [],
-   "fr": [],
-   "firstSeen": null,
-   "new": false,
-   "removedOn": "2026-11-16"
-  },
-  {
-   "id": "10653",
-   "title": "Flight Paramedic",
-   "kinds": [
-    "paramedic"
-   ],
-   "st": "IL",
-   "city": "Effingham",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": null,
-   "new": false,
-   "removedOn": "2026-11-16"
-  }
- ]
+ "removed": []
 }

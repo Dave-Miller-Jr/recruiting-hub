@@ -128,6 +128,7 @@ footer a{color:inherit}
 <main class="wrap">
   <div class="row" id="boards" role="group" aria-label="Choose a map"></div>
   <div class="row" id="basesRow"></div>
+  <div id="bacWrap" hidden><div class="lab">All bases by aircraft assigned</div><div class="row" id="bacs" role="group" aria-label="Filter all bases by aircraft"></div></div>
   <div id="acWrap" hidden><div class="lab">Aircraft named in postings</div><div class="row" id="acs" role="group" aria-label="Filter by aircraft"></div></div>
   <div id="frWrap" hidden><div class="lab">Base type</div><div class="row" id="frs" role="group" aria-label="Filter by base type"></div></div>
   <div class="grid">
@@ -150,6 +151,9 @@ const plural = (n, w) => n + " " + w + (n === 1 ? "" : "s");
 const q = new URLSearchParams(location.search);
 let board = DATA.boards.find(b => b.key === (q.get("b") === "clinical" ? "nurses" : q.get("b"))) || DATA.boards[0];
 let showBases = false;
+let bac = "all";
+const fam = a => /^(EC|H)135/.test(a) ? "EC135 / H135" : a.replace(/^(EC130|AS350|A109|BK117)\b.*/, "$1");
+const baseHas = (b, k) => k === "all" || b.wing.includes(k) || b.ac.some(a => fam(a) === k);
 let ac = "all", fr = "all", sel = null, GUIDES = {}, gOpen = false, gTab = null;
 const TOPICS = [["family", "Family"], ["outdoors", "Outdoors"], ["food", "Food and nightlife"], ["sports", "Sports and game day"], ["cost", "Cost of living and housing"], ["climate", "Climate and seasons"], ["vets", "Veteran friendly"], ["around", "Getting around"]];
 fetch("guides.json").then(r => r.json()).then(g => { GUIDES = g; if (sel) panel(); }).catch(() => {});
@@ -236,9 +240,9 @@ function panel() {
   if (p && p.base) {
     const hd = el("div", "hd");
     hd.appendChild(el("h2", "", p.place));
-    hd.appendChild(el("div", "cnt", plural(p.bases.length, "Air Methods location") + " here"));
+    hd.appendChild(el("div", "cnt", plural(p.bases.filter(b => baseHas(b, bac)).length, "Air Methods location") + " here" + (bac === "all" ? "" : " with " + bac)));
     pn.appendChild(hd);
-    p.bases.forEach(b => {
+    p.bases.filter(b => baseHas(b, bac)).forEach(b => {
       const d = el("div", "hd"); d.appendChild(el("div", "bname", b.name + (b.mx ? " (maintenance facility)" : "")));
       if (b.wing.length || b.ac.length) { const f = el("div", "facts"); b.wing.forEach(x => f.appendChild(el("span", "fact alt", x))); b.ac.forEach(x => f.appendChild(el("span", "fact", x))); d.appendChild(f); }
       pn.appendChild(d);
@@ -287,7 +291,17 @@ function draw() {
     x.onclick = () => { showBases = !showBases; if (!showBases && sel && sel.base) sel = null; draw(); }; br.appendChild(x);
     if (showBases) br.appendChild(el("span", "src", "Rings are Air Methods bases, hiring or not. Numbered dots are cities with openings."));
   }
-  if (showBases) DATA.bases.forEach(b => {
+  const bw = $("bacWrap"), bx = $("bacs"); bw.hidden = !showBases; bx.textContent = "";
+  if (showBases) {
+    const all = DATA.bases.flatMap(s => s.bases), n = k => all.filter(b => baseHas(b, k)).length;
+    const fams = [...new Set(all.flatMap(b => b.ac.map(fam)))].sort((x, y) => n(y) - n(x));
+    ["all"].concat(fams, ["Rotor wing", "Fixed wing"]).forEach(k => {
+      const c = el("button", "f sm", k === "all" ? "All" : k); c.type = "button"; c.setAttribute("aria-pressed", String(k === bac));
+      c.appendChild(el("i", "", n(k)));
+      c.onclick = () => { bac = k; if (sel && sel.base) sel = null; draw(); }; bx.appendChild(c);
+    });
+  }
+  if (showBases) DATA.bases.filter(s => s.bases.some(b => baseHas(b, bac))).forEach(b => {
     const mk = L.marker(b.ll, {icon: L.divIcon({className: "", iconSize: [12, 12], html: '<div class="basedot' + (sel && sel.base && sel.ll === b.ll ? " sel" : "") + '"></div>'}),
       title: b.place + ": " + plural(b.bases.length, "Air Methods location"), alt: b.place, keyboard: true, zIndexOffset: -500});
     mk.on("click", () => { sel = Object.assign({base: true}, b); gOpen = false; draw(); if (innerWidth < 900) $("panel").scrollIntoView({behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "nearest"}); });

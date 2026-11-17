@@ -1,6 +1,6 @@
 {
  "lastRun": "2026-11-16",
- "total": 321,
+ "total": 322,
  "baseline": "2026-11-14",
  "jobs": {
   "11754": {
@@ -130,26 +130,6 @@
    ],
    "firstSeen": null,
    "new": false
-  },
-  "11550": {
-   "id": "11550",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "NV",
-   "city": "Mesquite",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$15,000 Sign On Bonus"
-   ],
-   "ac": [],
-   "fr": [
-    "VFR"
-   ],
-   "firstSeen": "2026-11-16",
-   "new": true
   },
   "11480": {
    "id": "11480",
@@ -382,6 +362,28 @@
    "fr": [],
    "firstSeen": null,
    "new": false
+  },
+  "11265": {
+   "id": "11265",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "FL",
+   "city": "Bartow",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": "2026-11-16",
+   "new": true
   },
   "11231": {
    "id": "11231",
@@ -2568,26 +2570,24 @@
  },
  "removed": [
   {
-   "id": "11265",
+   "id": "11550",
    "title": "Helicopter Pilot",
    "kinds": [
     "pilot",
     "helicopter"
    ],
-   "st": "FL",
-   "city": "Bartow",
+   "st": "NV",
+   "city": "Mesquite",
    "type": "Regular Full-Time",
    "hl": [
     "$15,000 Sign On Bonus"
    ],
-   "ac": [
-    "EC135"
-   ],
+   "ac": [],
    "fr": [
     "VFR"
    ],
-   "firstSeen": null,
-   "new": false,
+   "firstSeen": "2026-11-16",
+   "new": true,
    "removedOn": "2026-11-16"
   }
  ]

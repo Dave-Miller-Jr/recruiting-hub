@@ -1,6 +1,6 @@
 {
  "lastRun": "2026-11-16",
- "total": 321,
+ "total": 322,
  "baseline": "2026-11-14",
  "jobs": {
   "11854": {
@@ -705,7 +705,7 @@
    "city": "Carlsbad",
    "type": "Regular Full-Time",
    "hl": [
-    "$20K Annual Stipend and $10K Sign on"
+    "$20K Annual Stipend"
    ],
    "ac": [],
    "fr": [],
@@ -1064,9 +1064,7 @@
    "st": "NM",
    "city": "Roswell",
    "type": "Regular Full-Time",
-   "hl": [
-    "$20K Annual Stipend and $10K Sign on"
-   ],
+   "hl": [],
    "ac": [],
    "fr": [],
    "firstSeen": null,
