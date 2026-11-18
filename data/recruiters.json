@@ -6,9 +6,10 @@
    "people": [
     {
      "name": "Dave Burgess",
-     "qr": "",
+     "qr": "dave-burgess.png",
      "lead": true,
-     "title": "Supervisor"
+     "title": "Supervisor",
+     "link": "https://dot.cards/user/d2KrNWatjXj/c/b?utm_source=qr"
     },
     {
      "name": "Dave Miller",
