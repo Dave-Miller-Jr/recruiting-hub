@@ -1,5 +1,1 @@
-GA|Blairsville
-GA|Oxford
-NV|Mesquite
-PA|Gettysburg
 PA|North East

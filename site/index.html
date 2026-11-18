@@ -75,6 +75,13 @@ button.share{font:600 15px var(--body);color:var(--band-ink);background:var(--ba
 :focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 footer{color:var(--muted);font-size:13px;text-align:center}
 footer a{color:inherit}
+.hemsnote{font-size:15px;margin-bottom:12px}
+.hemsnote ul{margin:6px 0 0;padding-left:20px}
+.hemsnote li{margin:4px 0}
+.hemsmap{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.hemsmap iframe{display:block;width:100%;height:min(72vh,640px);min-height:420px;border:0}
+.hemscred{margin:10px 0 0}
+.hemscred a{color:inherit}
 </style>
 </head>
 <body>
@@ -111,12 +118,6 @@ footer a{color:inherit}
     <div class="box" id="cardbox" hidden aria-live="polite"></div>
   </section>
 
-  <section aria-labelledby="h-hems">
-    <h2 id="h-hems">HEMS base map</h2>
-    <p class="sub">Every helicopter air medical base in the country, all operators, colored by operator with the aircraft at each base. An outside map by Adan Moreno.</p>
-    <div class="maplinks"><a href="hems.html">Open the HEMS base map</a></div>
-  </section>
-
   <section aria-labelledby="h-tools">
     <h2 id="h-tools">More tools</h2>
     <div class="box soon">More recruiting tools will show up here as they are built.</div>
@@ -131,11 +132,26 @@ footer a{color:inherit}
     </div>
   </section>
 
+  <section aria-labelledby="h-hems">
+    <h2 id="h-hems">HEMS base map</h2>
+    <p class="sub">Every helicopter air medical base in the country, all operators, with the aircraft at each base.</p>
+    <div class="box hemsnote">
+      <b>How to read it</b>
+      <ul>
+        <li>Bases are grouped and colored by the Part 135 certificate holder, which is the operator.</li>
+        <li>Tap the legend button in the map's title bar to see which color is which operator, and uncheck operators to show only the ones you want.</li>
+        <li>Tap any marker for the base name and aircraft.</li>
+      </ul>
+    </div>
+    <div class="hemsmap"><iframe title="H.E.M.S Base Map, created by Adan Moreno" loading="lazy" allowfullscreen referrerpolicy="no-referrer" src="https://www.google.com/maps/d/embed?mid=1D3dWAFRPyPDtiwsximvQ4YMGDeEgzIw"></iframe></div>
+    <p class="sub hemscred">H.E.M.S Base Map, created and maintained by Adan Moreno on Google My Maps. An outside reference, not an Air Methods record. <a href="https://www.google.com/maps/d/viewer?mid=1D3dWAFRPyPDtiwsximvQ4YMGDeEgzIw" target="_blank" rel="noopener noreferrer">Open it full screen</a>.</p>
+  </section>
+
   <footer>Listings are read from the Air Methods careers site once a day. This is a quick reference kept by the recruiting team, not the official careers site. The posting on <a id="portal" target="_blank" rel="noopener">careers-airmethods.icims.com</a> is always the official version.</footer>
 </main>
 
 <script>
-const DATA = {"updated": "2026-11-18", "portal": "https://careers-airmethods.icims.com", "boards": [{"key": "maintenance", "label": "Maintenance", "blurb": "Mechanic, AMT, avionics and quality roles", "url": "jobs/maintenance.html", "count": 37, "states": 19, "new": 0}, {"key": "pilots", "label": "Pilots", "blurb": "Helicopter and fixed wing pilot roles", "url": "jobs/pilots.html", "count": 117, "states": 27, "new": 8}, {"key": "nurses", "label": "Flight nurses", "blurb": "Flight nurse roles", "url": "jobs/nurses.html", "count": 73, "states": 16, "new": 5}, {"key": "paramedics", "label": "Flight paramedics", "blurb": "Flight paramedic roles", "url": "jobs/paramedics.html", "count": 54, "states": 17, "new": 1}], "maps": [{"key": "maintenance", "label": "Maintenance"}, {"key": "pilots", "label": "Pilots"}, {"key": "nurses", "label": "Flight nurses"}, {"key": "paramedics", "label": "Flight paramedics"}], "contacts": [{"label": "Maintenance", "people": [{"name": "Dave Burgess", "qr": "", "lead": true, "title": "Supervisor"}, {"name": "Dave Miller", "qr": "dave-miller.png", "link": "https://s1.blinq.me/ryXkTCwnGUlw?l=Rehobeth,%20Alabama,%20United%20States", "focus": "Part 145 maintenance. Northeast and Southeast regions."}, {"name": "Brian Jones", "qr": ""}]}, {"label": "Pilots", "people": []}, {"label": "Clinicians", "note": "Flight nurses and flight paramedics", "people": []}]};
+const DATA = {"updated": "2026-11-18", "portal": "https://careers-airmethods.icims.com", "boards": [{"key": "maintenance", "label": "Maintenance", "blurb": "Mechanic, AMT, avionics and quality roles", "url": "jobs/maintenance.html", "count": 37, "states": 19, "new": 0}, {"key": "pilots", "label": "Pilots", "blurb": "Helicopter and fixed wing pilot roles", "url": "jobs/pilots.html", "count": 118, "states": 28, "new": 9}, {"key": "nurses", "label": "Flight nurses", "blurb": "Flight nurse roles", "url": "jobs/nurses.html", "count": 69, "states": 17, "new": 1}, {"key": "paramedics", "label": "Flight paramedics", "blurb": "Flight paramedic roles", "url": "jobs/paramedics.html", "count": 56, "states": 17, "new": 3}], "maps": [{"key": "maintenance", "label": "Maintenance"}, {"key": "pilots", "label": "Pilots"}, {"key": "nurses", "label": "Flight nurses"}, {"key": "paramedics", "label": "Flight paramedics"}], "contacts": [{"label": "Maintenance", "people": [{"name": "Dave Burgess", "qr": "", "lead": true, "title": "Supervisor"}, {"name": "Dave Miller", "qr": "dave-miller.png", "link": "https://s1.blinq.me/ryXkTCwnGUlw?l=Rehobeth,%20Alabama,%20United%20States", "focus": "Part 145 maintenance. Northeast and Southeast regions."}, {"name": "Brian Jones", "qr": ""}]}, {"label": "Pilots", "people": []}, {"label": "Clinicians", "note": "Flight nurses and flight paramedics", "people": []}]};
 const $ = id => document.getElementById(id);
 const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
 const fmt = iso => new Date(iso + "T12:00:00").toLocaleDateString("en-US", {weekday:"long", month:"short", day:"numeric"});
