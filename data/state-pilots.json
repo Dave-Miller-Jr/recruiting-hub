@@ -1,8 +1,30 @@
 {
  "lastRun": "2026-11-18",
- "total": 329,
+ "total": 325,
  "baseline": "2026-11-14",
  "jobs": {
+  "12312": {
+   "id": "12312",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NE",
+   "city": "North Platte",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Stipend"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": "2026-11-18",
+   "new": true
+  },
   "12015": {
    "id": "12015",
    "title": "Helicopter Pilot",
@@ -541,28 +563,6 @@
    "firstSeen": null,
    "new": false
   },
-  "11051": {
-   "id": "11051",
-   "title": "Fixed Wing Pilot",
-   "kinds": [
-    "pilot",
-    "fixed"
-   ],
-   "st": "WA",
-   "city": "Yakima",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$50,000 Stipend"
-   ],
-   "ac": [
-    "PC-12"
-   ],
-   "fr": [
-    "IFR"
-   ],
-   "firstSeen": null,
-   "new": false
-  },
   "11032": {
    "id": "11032",
    "title": "Helicopter Pilot",
@@ -816,29 +816,6 @@
    ],
    "ac": [
     "EC130"
-   ],
-   "fr": [
-    "VFR"
-   ],
-   "firstSeen": null,
-   "new": false
-  },
-  "10661": {
-   "id": "10661",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "ID",
-   "city": "Idaho Falls",
-   "type": "Temporary Full-Time",
-   "hl": [
-    "Temporary position",
-    "$15,000 Sign On Bonus"
-   ],
-   "ac": [
-    "AS350"
    ],
    "fr": [
     "VFR"
@@ -1232,28 +1209,6 @@
    "ac": [
     "EC135",
     "Bell 407"
-   ],
-   "fr": [
-    "VFR"
-   ],
-   "firstSeen": null,
-   "new": false
-  },
-  "10227": {
-   "id": "10227",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "GA",
-   "city": "Griffin",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$20,000 Location Stipend"
-   ],
-   "ac": [
-    "EC130"
    ],
    "fr": [
     "VFR"
@@ -1905,28 +1860,6 @@
    ],
    "ac": [
     "AS350"
-   ],
-   "fr": [
-    "VFR"
-   ],
-   "firstSeen": null,
-   "new": false
-  },
-  "9476": {
-   "id": "9476",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "NE",
-   "city": "North Platte",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$20,000 Stipend"
-   ],
-   "ac": [
-    "Bell 407"
    ],
    "fr": [
     "VFR"
@@ -2727,6 +2660,99 @@
    "firstSeen": null,
    "new": false,
    "removedOn": "2026-11-17"
+  },
+  {
+   "id": "11051",
+   "title": "Fixed Wing Pilot",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "WA",
+   "city": "Yakima",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$50,000 Stipend"
+   ],
+   "ac": [
+    "PC-12"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-18"
+  },
+  {
+   "id": "10661",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "ID",
+   "city": "Idaho Falls",
+   "type": "Temporary Full-Time",
+   "hl": [
+    "Temporary position",
+    "$15,000 Sign On Bonus"
+   ],
+   "ac": [
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-18"
+  },
+  {
+   "id": "10227",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "GA",
+   "city": "Griffin",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Location Stipend"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-18"
+  },
+  {
+   "id": "9476",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NE",
+   "city": "North Platte",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Stipend"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-18"
   }
  ]
 }
