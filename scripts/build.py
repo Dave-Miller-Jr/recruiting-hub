@@ -284,6 +284,7 @@ def main():
     blob = json.dumps(dict(updated=today, portal=PORTAL, roles=roles), ensure_ascii=False).replace("</", "<\\/")
     open(os.path.join(SITE, "closest.html"), "w", encoding="utf-8").write(cl.replace("/*__DATA__*/", blob))
 
+    open(os.path.join(SITE, "hems.html"), "w", encoding="utf-8").write(open(os.path.join(TPL, "hems.html"), encoding="utf-8").read())
     hub = open(os.path.join(TPL, "hub.html"), encoding="utf-8").read()
     assert "/*__DATA__*/" in hub
     contacts = json.load(open(os.path.join(DATA, "recruiters.json"), encoding="utf-8"))["groups"]
