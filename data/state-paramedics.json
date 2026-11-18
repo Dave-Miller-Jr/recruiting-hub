@@ -1,8 +1,23 @@
 {
  "lastRun": "2026-11-18",
- "total": 325,
+ "total": 326,
  "baseline": "2026-11-14",
  "jobs": {
+  "12313": {
+   "id": "12313",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AL",
+   "city": "Evergreen",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-18",
+   "new": true
+  },
   "11755": {
    "id": "11755",
    "title": "Flight Paramedic",
@@ -246,23 +261,6 @@
    "city": "Prescott",
    "type": "Regular Full-Time",
    "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": null,
-   "new": false
-  },
-  "10651": {
-   "id": "10651",
-   "title": "Flight Paramedic",
-   "kinds": [
-    "paramedic"
-   ],
-   "st": "SD",
-   "city": "Hot Springs",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$8,000 Annual Location Stipend"
-   ],
    "ac": [],
    "fr": [],
    "firstSeen": null,
@@ -890,6 +888,24 @@
    "firstSeen": "2026-11-16",
    "new": true,
    "removedOn": "2026-11-16"
+  },
+  {
+   "id": "10651",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "SD",
+   "city": "Hot Springs",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$8,000 Annual Location Stipend"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-18"
   }
  ]
 }

@@ -1,8 +1,38 @@
 {
  "lastRun": "2026-11-18",
- "total": 325,
+ "total": 326,
  "baseline": "2026-11-14",
  "jobs": {
+  "12279": {
+   "id": "12279",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "NE",
+   "city": "Norfolk",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-18",
+   "new": true
+  },
+  "12213": {
+   "id": "12213",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Tucson",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-18",
+   "new": true
+  },
   "12081": {
    "id": "12081",
    "title": "Flight Nurse",
@@ -246,23 +276,6 @@
    "city": "Florence",
    "type": "Regular Full-Time",
    "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": null,
-   "new": false
-  },
-  "11046": {
-   "id": "11046",
-   "title": "Flight Nurse",
-   "kinds": [
-    "nurse"
-   ],
-   "st": "SD",
-   "city": "Rapid City",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$8,000 Annual Location Stipend"
-   ],
    "ac": [],
    "fr": [],
    "firstSeen": null,
@@ -1150,5 +1163,24 @@
    "new": false
   }
  },
- "removed": []
+ "removed": [
+  {
+   "id": "11046",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "SD",
+   "city": "Rapid City",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$8,000 Annual Location Stipend"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-18"
+  }
+ ]
 }
