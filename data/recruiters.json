@@ -30,7 +30,13 @@
   {
    "label": "Clinicians",
    "note": "Flight nurses and flight paramedics",
-   "people": []
+   "people": [
+    {
+     "name": "Danny Ponce",
+     "qr": "danny-ponce.png",
+     "link": "https://dot.cards/danny_ponce"
+    }
+   ]
   }
  ]
 }
