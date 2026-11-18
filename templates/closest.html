@@ -93,20 +93,21 @@ button.go{font:700 17px var(--body);color:#fff;background:#c21f32;border:0;borde
 <body>
 <header class="mast"><div class="wrap">
   <div class="eyebrow">Air Methods recruiting</div>
-  <h1>Closest opening</h1>
-  <p class="tag">Pick a role, type a ZIP code, and see the nearest base that is hiring for it today.</p>
+  <h1>Closest base</h1>
+  <p class="tag">Pick a role, enter a city and state, and see the nearest base that is hiring for it today.</p>
   <nav class="nav" id="nav" aria-label="Site"></nav>
 </div></header>
 
 <main class="wrap">
   <form class="find" id="find" novalidate>
     <div><label for="role">Role</label><select id="role"></select></div>
-    <div><label for="zip">ZIP code</label><input id="zip" inputmode="numeric" autocomplete="postal-code" pattern="[0-9]{5}" maxlength="5" placeholder="5 digits"></div>
-    <button class="go" type="submit">Find closest</button>
+    <div><label for="st">State</label><select id="st"><option value="">Pick a state</option></select></div>
+    <div><label for="city">City</label><input id="city" type="text" autocomplete="off" autocapitalize="words" spellcheck="false" list="cities" placeholder="City name"><datalist id="cities"></datalist></div>
+    <button class="go" type="submit">Find closest base</button>
   </form>
   <p class="msg" id="msg" role="status" aria-live="polite"></p>
   <div class="res" id="res"></div>
-  <footer>Distances are straight-line miles from the middle of the ZIP code to the base city, so driving distance will be longer. Openings are read from the Air Methods careers site once a day, last on <span id="upd"></span>. This is a quick reference kept by the recruiting team; the posting on <a id="portal" target="_blank" rel="noopener">careers-airmethods.icims.com</a> is always the official version.</footer>
+  <footer>Distances are straight-line miles from the middle of the city you enter to the base city, so driving distance will be longer. Openings are read from the Air Methods careers site once a day, last on <span id="upd"></span>. This is a quick reference kept by the recruiting team; the posting on <a id="portal" target="_blank" rel="noopener">careers-airmethods.icims.com</a> is always the official version.</footer>
 </main>
 
 <script>
@@ -120,12 +121,14 @@ $("portal").href = DATA.portal + "/jobs/search";
 DATA.roles.forEach(r => { const o = el("option", "", r.label); o.value = r.key; $("role").appendChild(o); });
 let saved = {}; try { saved = JSON.parse(localStorage.getItem("closest") || "{}"); } catch (e) {}
 const q = new URLSearchParams(location.search);
-const role0 = q.get("role") || saved.role, zip0 = q.get("zip") || saved.zip;
+const STATES = "AL Alabama,AK Alaska,AZ Arizona,AR Arkansas,CA California,CO Colorado,CT Connecticut,DE Delaware,DC District of Columbia,FL Florida,GA Georgia,HI Hawaii,ID Idaho,IL Illinois,IN Indiana,IA Iowa,KS Kansas,KY Kentucky,LA Louisiana,ME Maine,MD Maryland,MA Massachusetts,MI Michigan,MN Minnesota,MS Mississippi,MO Missouri,MT Montana,NE Nebraska,NV Nevada,NH New Hampshire,NJ New Jersey,NM New Mexico,NY New York,NC North Carolina,ND North Dakota,OH Ohio,OK Oklahoma,OR Oregon,PA Pennsylvania,RI Rhode Island,SC South Carolina,SD South Dakota,TN Tennessee,TX Texas,UT Utah,VT Vermont,VA Virginia,WA Washington,WV West Virginia,WI Wisconsin,WY Wyoming".split(",").map(x => [x.slice(0, 2), x.slice(3)]);
+STATES.forEach(([k, n]) => { const o = el("option", "", n); o.value = k; $("st").appendChild(o); });
+const role0 = q.get("role") || saved.role, st0 = (q.get("st") || saved.st || "").toUpperCase(), city0 = q.get("city") || saved.city;
 if (role0 && DATA.roles.some(r => r.key === role0)) $("role").value = role0;
-if (zip0 && /^\d{5}$/.test(zip0)) $("zip").value = zip0;
+if (STATES.some(x => x[0] === st0)) { $("st").value = st0; if (city0) $("city").value = city0; }
 
 const cache = {};
-const zips = d => cache[d] || (cache[d] = fetch("zips/" + d + ".json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).catch(e => { delete cache[d]; throw e; }));
+const places = d => cache[d] || (cache[d] = fetch("places/" + d + ".json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).catch(e => { delete cache[d]; throw e; }));
 function miles(a, b) {
   const R = 3958.8, t = x => x * Math.PI / 180, dLat = t(b[0] - a[0]), dLon = t(b[1] - a[1]);
   const h = Math.sin(dLat / 2) ** 2 + Math.cos(t(a[0])) * Math.cos(t(b[0])) * Math.sin(dLon / 2) ** 2;
@@ -150,20 +153,38 @@ function card(p, i) {
   c.appendChild(ul);
   return c;
 }
+const title = c => c.replace(/(^|[\s\-.'(])([a-z])/g, (m, a, b) => a + b.toUpperCase());
+const norm = c => c.toLowerCase().replace(/[.,]/g, "").replace(/\s+/g, " ").trim();
+function lookup(list, raw) {
+  const c = norm(raw);
+  for (const k of [c, c.replace(/['’]/g, " "), c.replace(/['’]/g, ""), c.replace(/^st /, "saint "), c.replace(/^saint /, "st "), c.replace(/^ft /, "fort "), c.replace(/^mt /, "mount "), c.replace(/ (city|town|township|village)$/, "")]) if (list[k]) return [k, list[k]];
+  return null;
+}
+async function fillCities() {
+  const st = $("st").value; $("cities").textContent = "";
+  if (!st) return;
+  try { const list = await places(st); if ($("st").value !== st) return; Object.keys(list).sort().forEach(k => { const o = document.createElement("option"); o.value = title(k); $("cities").appendChild(o); }); } catch (e) {}
+}
 let run = 0;
 async function find() {
-  const me = ++run, zip = $("zip").value.trim(), role = DATA.roles.find(r => r.key === $("role").value);
+  const me = ++run, st = $("st").value, raw = $("city").value.trim(), role = DATA.roles.find(r => r.key === $("role").value);
   $("res").textContent = "";
-  if (!/^\d{5}$/.test(zip)) return say("Type a 5 digit ZIP code.", true);
-  say("Looking up " + zip + "...");
-  let z;
-  try { z = (await zips(zip[0]))[zip]; } catch (e) { if (me === run) say("Could not load the ZIP code list. Check your connection and try again.", true); return; }
+  if (!st) return say("Pick a state.", true);
+  if (!raw) return say("Type a city name.", true);
+  say("Looking up " + raw + ", " + st + "...");
+  let list;
+  try { list = await places(st); } catch (e) { if (me === run) say("Could not load the city list. Check your connection and try again.", true); return; }
   if (me !== run) return;
-  if (!z) return say("ZIP code " + zip + " was not found. Check the number and try again.", true);
-  try { localStorage.setItem("closest", JSON.stringify({role: role.key, zip})); } catch (e) {}
+  const hit = lookup(list, raw);
+  if (!hit) {
+    const c = norm(raw), near = Object.keys(list).filter(k => k.startsWith(c.slice(0, 3))).sort().slice(0, 6).map(title);
+    return say(raw + ", " + st + " was not found. Check the spelling" + (near.length ? ", or try: " + near.join(", ") + "." : "."), true);
+  }
+  const z = hit[1], where = title(hit[0]) + ", " + st;
+  try { localStorage.setItem("closest", JSON.stringify({role: role.key, st, city: title(hit[0])})); } catch (e) {}
   if (!role.places.length) return say("There are no " + role.noun + " openings tied to a base today.");
   const near = role.places.map(p => Object.assign({}, p, {d: miles(z, p.ll)})).sort((a, b) => a.d - b.d).slice(0, SHOW);
-  say("Closest " + role.noun + " openings to " + zip + " (" + z[2] + "), out of " + role.places.length + " bases hiring today.");
+  say("Closest " + role.noun + " openings to " + where + ", out of " + role.places.length + " bases hiring today.");
   near.forEach((p, i) => {
     if (i === 1) $("res").appendChild(el("h2", "", "Next closest"));
     $("res").appendChild(card(p, i));
@@ -171,8 +192,10 @@ async function find() {
   if (role.off) { const a = el("a", "", role.off + " more " + (role.off === 1 ? "opening is" : "openings are") + " regional or home-based. See the full list."); a.href = role.board; const p = el("p", "msg"); p.appendChild(a); $("res").appendChild(p); }
 }
 $("find").addEventListener("submit", e => { e.preventDefault(); find(); });
-$("role").addEventListener("change", () => { if (/^\d{5}$/.test($("zip").value.trim())) find(); });
-if (/^\d{5}$/.test($("zip").value)) find();
+$("role").addEventListener("change", () => { if ($("st").value && $("city").value.trim()) find(); });
+$("st").addEventListener("change", fillCities);
+fillCities();
+if ($("st").value && $("city").value.trim()) find();
 if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
 </script>
 </body>

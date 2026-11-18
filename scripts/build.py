@@ -266,7 +266,7 @@ def main():
     blob = json.dumps(dict(updated=today, portal=PORTAL, states=STATES, boards=mboards, bases=bases, nbases=nbases), ensure_ascii=False).replace("</", "<\\/")
     open(os.path.join(SITE, "map.html"), "w", encoding="utf-8").write(mp.replace("/*__DATA__*/", blob))
 
-    # Closest-opening lookup: bases per role, so a ZIP code can be matched to the nearest base hiring for that role.
+    # Closest-opening lookup: bases per role, so a city and state can be matched to the nearest base hiring for that role.
     byb = {b["key"]: (st_["jobs"], b["out"]) for b, (page, sp, st_, add, rem) in results}
     roles = []
     for key, label, noun, bkey, kind in (("mechanic", "Mechanic / AMT and Quality", "mechanic and quality", "maintenance", None), ("pilot", "Pilot", "pilot", "pilots", None),
@@ -279,6 +279,14 @@ def main():
             if not ll: off += 1; continue
             on.setdefault((j["st"], j["city"]), dict(st=j["st"], city=j["city"], ll=ll, jobs=[]))["jobs"].append(dict(id=j["id"], title=j["title"], hl=j["hl"], new=j["new"]))
         roles.append(dict(key=key, label=label, noun=noun, places=list(on.values()), off=off, board="jobs/" + out_))
+    # City lists for the closest-base lookup: one small file per state, {"city name": [lat, lon]}.
+    os.makedirs(os.path.join(SITE, "places"), exist_ok=True)
+    bystate = {}
+    for k, v in g.items():
+        st_, _, c_ = k.partition("|")
+        if len(st_) == 2 and c_ and st_ not in ("AA", "AE", "AP"): bystate.setdefault(st_, {})[c_] = v
+    for st_, d_ in bystate.items():
+        json.dump(dict(sorted(d_.items())), open(os.path.join(SITE, "places", st_ + ".json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     cl = open(os.path.join(TPL, "closest.html"), encoding="utf-8").read()
     assert "/*__DATA__*/" in cl
     blob = json.dumps(dict(updated=today, portal=PORTAL, roles=roles), ensure_ascii=False).replace("</", "<\\/")

@@ -18,7 +18,7 @@ Unofficial quick reference; the careers portal is always the official version.
 
 Rules: only what the portal lists. Never invent jobs, pay or bonuses. Only public job data belongs here.
 
-## Closest opening lookup
+## Closest base lookup
 site/closest.html (from templates/closest.html) is rebuilt by build.py on every run with the bases hiring per role
-(mechanic and quality, pilot, flight nurse, flight paramedic). ZIP code centers live in site/zips/<first digit>.json
-(static, from the free `zipcodes` npm package; no outside service is called). Distances are straight-line miles.
+(mechanic and quality, pilot, flight nurse, flight paramedic). The visitor picks a state and types a city; city centers live in site/places/<ST>.json
+(written by build.py from data/us-places.json; no outside service is called). Distances are straight-line miles.
