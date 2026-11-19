@@ -1,83 +1,8 @@
 {
  "lastRun": "2026-11-19",
- "total": 326,
+ "total": 322,
  "baseline": "2026-11-14",
  "jobs": {
-  "12279": {
-   "id": "12279",
-   "title": "Flight Nurse",
-   "kinds": [
-    "nurse"
-   ],
-   "st": "NE",
-   "city": "Norfolk",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": "2026-11-19",
-   "new": true
-  },
-  "12213": {
-   "id": "12213",
-   "title": "Flight Nurse",
-   "kinds": [
-    "nurse"
-   ],
-   "st": "AZ",
-   "city": "Tucson",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": "2026-11-19",
-   "new": true
-  },
-  "12081": {
-   "id": "12081",
-   "title": "Flight Nurse",
-   "kinds": [
-    "nurse"
-   ],
-   "st": "FL",
-   "city": "Pensacola",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": "2026-11-19",
-   "new": true
-  },
-  "11950": {
-   "id": "11950",
-   "title": "Per Diem Flight Nurse",
-   "kinds": [
-    "nurse"
-   ],
-   "st": "GA",
-   "city": "Oxford",
-   "type": "Per Diem",
-   "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": "2026-11-19",
-   "new": true
-  },
-  "11949": {
-   "id": "11949",
-   "title": "Flight Nurse",
-   "kinds": [
-    "nurse"
-   ],
-   "st": "GA",
-   "city": "Blairsville",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": "2026-11-19",
-   "new": true
-  },
   "11854": {
    "id": "11854",
    "title": "Flight Nurse",
@@ -126,6 +51,23 @@
    "fr": [],
    "firstSeen": null,
    "new": false
+  },
+  "11788": {
+   "id": "11788",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "CA",
+   "city": "Bakersfield",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$5,000 Annual Location Stipend"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-19",
+   "new": true
   },
   "11752": {
    "id": "11752",
@@ -263,6 +205,23 @@
    "fr": [],
    "firstSeen": null,
    "new": false
+  },
+  "11046": {
+   "id": "11046",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "SD",
+   "city": "Rapid City",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$8,000 Annual Location Stipend"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-19",
+   "new": true
   },
   "11037": {
    "id": "11037",
@@ -746,7 +705,7 @@
    "city": "Carlsbad",
    "type": "Regular Full-Time",
    "hl": [
-    "$20K Annual Stipend and $10K Sign on"
+    "$20K Annual Stipend"
    ],
    "ac": [],
    "fr": [],
@@ -1105,9 +1064,7 @@
    "st": "NM",
    "city": "Roswell",
    "type": "Regular Full-Time",
-   "hl": [
-    "$20K Annual Stipend and $10K Sign on"
-   ],
+   "hl": [],
    "ac": [],
    "fr": [],
    "firstSeen": null,
@@ -1148,17 +1105,15 @@
  },
  "removed": [
   {
-   "id": "11788",
+   "id": "12279",
    "title": "Flight Nurse",
    "kinds": [
     "nurse"
    ],
-   "st": "CA",
-   "city": "Bakersfield",
+   "st": "NE",
+   "city": "Norfolk",
    "type": "Regular Full-Time",
-   "hl": [
-    "$5,000 Annual Location Stipend"
-   ],
+   "hl": [],
    "ac": [],
    "fr": [],
    "firstSeen": "2026-11-19",
@@ -1166,17 +1121,63 @@
    "removedOn": "2026-11-19"
   },
   {
-   "id": "11046",
+   "id": "12213",
    "title": "Flight Nurse",
    "kinds": [
     "nurse"
    ],
-   "st": "SD",
-   "city": "Rapid City",
+   "st": "AZ",
+   "city": "Tucson",
    "type": "Regular Full-Time",
-   "hl": [
-    "$8,000 Annual Location Stipend"
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-19",
+   "new": true,
+   "removedOn": "2026-11-19"
+  },
+  {
+   "id": "12081",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
    ],
+   "st": "FL",
+   "city": "Pensacola",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-19",
+   "new": true,
+   "removedOn": "2026-11-19"
+  },
+  {
+   "id": "11950",
+   "title": "Per Diem Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "GA",
+   "city": "Oxford",
+   "type": "Per Diem",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-19",
+   "new": true,
+   "removedOn": "2026-11-19"
+  },
+  {
+   "id": "11949",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "GA",
+   "city": "Blairsville",
+   "type": "Regular Full-Time",
+   "hl": [],
    "ac": [],
    "fr": [],
    "firstSeen": "2026-11-19",

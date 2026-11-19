@@ -1,75 +1,8 @@
 {
  "lastRun": "2026-11-19",
- "total": 326,
+ "total": 322,
  "baseline": "2026-11-14",
  "jobs": {
-  "12312": {
-   "id": "12312",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "NE",
-   "city": "North Platte",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$20,000 Stipend"
-   ],
-   "ac": [
-    "Bell 407"
-   ],
-   "fr": [
-    "VFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true
-  },
-  "12015": {
-   "id": "12015",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "CA",
-   "city": "San Bernardino",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$40,000 Sign On Bonus"
-   ],
-   "ac": [
-    "EC145",
-    "EC135"
-   ],
-   "fr": [
-    "IFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true
-  },
-  "11850": {
-   "id": "11850",
-   "title": "Pilot Fixed Wing",
-   "kinds": [
-    "pilot",
-    "fixed"
-   ],
-   "st": "NM",
-   "city": "Carlsbad",
-   "type": "Temporary Full-Time",
-   "hl": [
-    "$15,000 Sign-On Bonus"
-   ],
-   "ac": [
-    "PC-12"
-   ],
-   "fr": [
-    "IFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true
-  },
   "11754": {
    "id": "11754",
    "title": "Pilot FW Pool",
@@ -131,29 +64,6 @@
    ],
    "firstSeen": null,
    "new": false
-  },
-  "11687": {
-   "id": "11687",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "IA",
-   "city": "Des Moines",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$40,000 Stipend"
-   ],
-   "ac": [
-    "Bell 429",
-    "EC135"
-   ],
-   "fr": [
-    "IFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true
   },
   "11686": {
    "id": "11686",
@@ -220,26 +130,6 @@
    ],
    "firstSeen": null,
    "new": false
-  },
-  "11550": {
-   "id": "11550",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "NV",
-   "city": "Mesquite",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$15,000 Sign On Bonus"
-   ],
-   "ac": [],
-   "fr": [
-    "VFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true
   },
   "11480": {
    "id": "11480",
@@ -323,28 +213,6 @@
    ],
    "firstSeen": null,
    "new": false
-  },
-  "11473": {
-   "id": "11473",
-   "title": "Pilot Rotor Wing",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "AZ",
-   "city": "Payson",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$15,000 Sign-On Bonus"
-   ],
-   "ac": [
-    "AS350"
-   ],
-   "fr": [
-    "VFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true
   },
   "11352": {
    "id": "11352",
@@ -479,6 +347,44 @@
    "firstSeen": null,
    "new": false
   },
+  "11269": {
+   "id": "11269",
+   "title": "Maintenance Support Pilot Regional RW",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CA",
+   "city": "Home-based",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-19",
+   "new": true
+  },
+  "11265": {
+   "id": "11265",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "FL",
+   "city": "Bartow",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true
+  },
   "11231": {
    "id": "11231",
    "title": "Check Airman",
@@ -563,6 +469,50 @@
    "firstSeen": null,
    "new": false
   },
+  "11051": {
+   "id": "11051",
+   "title": "Fixed Wing Pilot",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "WA",
+   "city": "Yakima",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$50,000 Stipend"
+   ],
+   "ac": [
+    "PC-12"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true
+  },
+  "11033": {
+   "id": "11033",
+   "title": "Fixed Wing Pilot",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "CO",
+   "city": "Englewood",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "ac": [
+    "King Air"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true
+  },
   "11032": {
    "id": "11032",
    "title": "Helicopter Pilot",
@@ -584,6 +534,28 @@
    ],
    "firstSeen": null,
    "new": false
+  },
+  "11031": {
+   "id": "11031",
+   "title": "Fixed Wing Pilot",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "NM",
+   "city": "Carlsbad",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-On Bonus"
+   ],
+   "ac": [
+    "PC-12"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true
   },
   "10960": {
    "id": "10960",
@@ -779,6 +751,28 @@
    "firstSeen": null,
    "new": false
   },
+  "10684": {
+   "id": "10684",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "TX",
+   "city": "El Paso",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true
+  },
   "10670": {
    "id": "10670",
    "title": "Helicopter Pilot",
@@ -800,6 +794,29 @@
    ],
    "firstSeen": null,
    "new": false
+  },
+  "10661": {
+   "id": "10661",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "ID",
+   "city": "Idaho Falls",
+   "type": "Temporary Full-Time",
+   "hl": [
+    "Temporary position",
+    "$15,000 Sign On Bonus"
+   ],
+   "ac": [
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true
   },
   "10635": {
    "id": "10635",
@@ -1016,28 +1033,6 @@
    "firstSeen": null,
    "new": false
   },
-  "10494": {
-   "id": "10494",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "PA",
-   "city": "Gettysburg",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$20,000 Location Stipend"
-   ],
-   "ac": [
-    "EC135"
-   ],
-   "fr": [
-    "IFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true
-  },
   "10474": {
    "id": "10474",
    "title": "Helicopter Pilot",
@@ -1193,6 +1188,28 @@
    ],
    "firstSeen": null,
    "new": false
+  },
+  "10227": {
+   "id": "10227",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "GA",
+   "city": "Griffin",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Location Stipend"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true
   },
   "10218": {
    "id": "10218",
@@ -1845,6 +1862,28 @@
    "firstSeen": null,
    "new": false
   },
+  "9476": {
+   "id": "9476",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NE",
+   "city": "North Platte",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Stipend"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true
+  },
   "9267": {
    "id": "9267",
    "title": "Regional Relief Helicopter Pilot",
@@ -2444,28 +2483,6 @@
    "firstSeen": null,
    "new": false
   },
-  "6139": {
-   "id": "6139",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "PA",
-   "city": "Sayre",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$20,000 Annual Stipend"
-   ],
-   "ac": [
-    "EC135"
-   ],
-   "fr": [
-    "IFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true
-  },
   "6067": {
    "id": "6067",
    "title": "Helicopter Pilot",
@@ -2487,6 +2504,28 @@
    ],
    "firstSeen": null,
    "new": false
+  },
+  "5861": {
+   "id": "5861",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "PA",
+   "city": "Sayre",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Annual Stipend"
+   ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true
   },
   "5153": {
    "id": "5153",
@@ -2531,186 +2570,7 @@
  },
  "removed": [
   {
-   "id": "11269",
-   "title": "Maintenance Support Pilot Regional RW",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "CA",
-   "city": "Home-based",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": "2026-11-19",
-   "new": true,
-   "removedOn": "2026-11-19"
-  },
-  {
-   "id": "11265",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "FL",
-   "city": "Bartow",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$15,000 Sign On Bonus"
-   ],
-   "ac": [
-    "EC135"
-   ],
-   "fr": [
-    "VFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true,
-   "removedOn": "2026-11-19"
-  },
-  {
-   "id": "11051",
-   "title": "Fixed Wing Pilot",
-   "kinds": [
-    "pilot",
-    "fixed"
-   ],
-   "st": "WA",
-   "city": "Yakima",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$50,000 Stipend"
-   ],
-   "ac": [
-    "PC-12"
-   ],
-   "fr": [
-    "IFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true,
-   "removedOn": "2026-11-19"
-  },
-  {
-   "id": "11033",
-   "title": "Fixed Wing Pilot",
-   "kinds": [
-    "pilot",
-    "fixed"
-   ],
-   "st": "CO",
-   "city": "Englewood",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$15,000 Sign On Bonus"
-   ],
-   "ac": [
-    "King Air"
-   ],
-   "fr": [
-    "IFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true,
-   "removedOn": "2026-11-19"
-  },
-  {
-   "id": "11031",
-   "title": "Fixed Wing Pilot",
-   "kinds": [
-    "pilot",
-    "fixed"
-   ],
-   "st": "NM",
-   "city": "Carlsbad",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$15,000 Sign-On Bonus"
-   ],
-   "ac": [
-    "PC-12"
-   ],
-   "fr": [
-    "IFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true,
-   "removedOn": "2026-11-19"
-  },
-  {
-   "id": "10684",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "TX",
-   "city": "El Paso",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$15,000 Sign On Bonus"
-   ],
-   "ac": [
-    "EC130"
-   ],
-   "fr": [
-    "VFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true,
-   "removedOn": "2026-11-19"
-  },
-  {
-   "id": "10661",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "ID",
-   "city": "Idaho Falls",
-   "type": "Temporary Full-Time",
-   "hl": [
-    "Temporary position",
-    "$15,000 Sign On Bonus"
-   ],
-   "ac": [
-    "AS350"
-   ],
-   "fr": [
-    "VFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true,
-   "removedOn": "2026-11-19"
-  },
-  {
-   "id": "10227",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "GA",
-   "city": "Griffin",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$20,000 Location Stipend"
-   ],
-   "ac": [
-    "EC130"
-   ],
-   "fr": [
-    "VFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true,
-   "removedOn": "2026-11-19"
-  },
-  {
-   "id": "9476",
+   "id": "12312",
    "title": "Helicopter Pilot",
    "kinds": [
     "pilot",
@@ -2733,7 +2593,145 @@
    "removedOn": "2026-11-19"
   },
   {
-   "id": "5861",
+   "id": "12015",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CA",
+   "city": "San Bernardino",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Sign On Bonus"
+   ],
+   "ac": [
+    "EC145",
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true,
+   "removedOn": "2026-11-19"
+  },
+  {
+   "id": "11850",
+   "title": "Pilot Fixed Wing",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "NM",
+   "city": "Carlsbad",
+   "type": "Temporary Full-Time",
+   "hl": [
+    "$15,000 Sign-On Bonus"
+   ],
+   "ac": [
+    "PC-12"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true,
+   "removedOn": "2026-11-19"
+  },
+  {
+   "id": "11687",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IA",
+   "city": "Des Moines",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$40,000 Stipend"
+   ],
+   "ac": [
+    "Bell 429",
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true,
+   "removedOn": "2026-11-19"
+  },
+  {
+   "id": "11550",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NV",
+   "city": "Mesquite",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "ac": [],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true,
+   "removedOn": "2026-11-19"
+  },
+  {
+   "id": "11473",
+   "title": "Pilot Rotor Wing",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AZ",
+   "city": "Payson",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-On Bonus"
+   ],
+   "ac": [
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true,
+   "removedOn": "2026-11-19"
+  },
+  {
+   "id": "10494",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "PA",
+   "city": "Gettysburg",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Location Stipend"
+   ],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true,
+   "removedOn": "2026-11-19"
+  },
+  {
+   "id": "6139",
    "title": "Helicopter Pilot",
    "kinds": [
     "pilot",
