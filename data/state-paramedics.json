@@ -608,21 +608,6 @@
    "firstSeen": null,
    "new": false
   },
-  "9678": {
-   "id": "9678",
-   "title": "Flight Paramedic",
-   "kinds": [
-    "paramedic"
-   ],
-   "st": "AZ",
-   "city": "Tucson",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": null,
-   "new": false
-  },
   "9624": {
    "id": "9624",
    "title": "Flight Paramedic",
@@ -918,6 +903,22 @@
    "hl": [
     "$20,000 Sign On Bonus"
    ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-19"
+  },
+  {
+   "id": "9678",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Tucson",
+   "type": "Regular Full-Time",
+   "hl": [],
    "ac": [],
    "fr": [],
    "firstSeen": null,
