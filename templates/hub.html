@@ -65,6 +65,7 @@ button.share{font:600 15px var(--body);color:var(--band-ink);background:var(--ba
 #people .orgrow{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
 #people .orgrow+.orgrow{margin-top:8px}
 #people button{flex:0 1 calc(50% - 4px);min-width:0}
+#people .key{margin:10px 0 0;font-size:12px;color:var(--muted)}
 #people button small{display:block;font-weight:500;font-size:12px;opacity:.75}
 #cardbox{margin-top:12px;text-align:center}
 #cardbox .who{font:700 22px/1.1 var(--display);color:var(--ink)}
@@ -181,8 +182,9 @@ DATA.maps.forEach(m => { const ml = el("a", "", m.label + " map"); ml.href = "ma
     if (!g) return;
     if (!g.people.length) return soon(g.label + " recruiters are not added yet." + (g.note ? " This team covers " + g.note.toLowerCase() + "." : ""));
     const rowTop = el("div", "orgrow"), rowRest = el("div", "orgrow");
-    g.people.forEach(p => { const b = el("button", "", p.name); if (p.title) b.appendChild(el("small", "", p.title)); b.type = "button"; b.setAttribute("aria-pressed", p === who); b.onclick = () => { who = p === who ? null : p; draw(); }; (p.lead ? rowTop : rowRest).appendChild(b); });
+    g.people.forEach(p => { const b = el("button", "", p.name); if (p.title) b.appendChild(el("small", "", p.title)); if (p.short) b.appendChild(el("small", "", "Focus: " + p.short)); b.type = "button"; b.setAttribute("aria-pressed", p === who); b.onclick = () => { who = p === who ? null : p; draw(); }; (p.lead ? rowTop : rowRest).appendChild(b); });
     if (rowTop.children.length) people.appendChild(rowTop); people.appendChild(rowRest);
+    if (g.people.some(p => p.short)) people.appendChild(el("p", "key", "PW PacWest, NC North Central, SC South Central, MW Midwest, SE Southeast, NE Northeast, UR United Rotorcraft."));
     if (!who) return;
     if (!who.qr) return soon(who.name + "'s business card is not added yet.");
     box.hidden = false; box.className = "box";

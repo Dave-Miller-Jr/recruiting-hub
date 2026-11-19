@@ -1,5 +1,5 @@
 {
- "_note": "Recruiter business cards shown at the bottom of the hub. qr is a file in site/contacts/; leave qr empty to show 'Not added yet'. An empty people list shows 'Not added yet' for the whole group. focus is an optional line shown under the name saying what that recruiter covers. lead true puts that person centered on the top row (supervisor); title is a small label under the name.",
+ "_note": "Recruiter business cards shown at the bottom of the hub. qr is a file in site/contacts/; leave qr empty to show 'Not added yet'. An empty people list shows 'Not added yet' for the whole group. focus is an optional line shown under the name saying what that recruiter covers. lead true puts that person centered on the top row (supervisor); title is a small label under the name. short is the abbreviated focus shown under the name on the button (PW, NC, SC, MW, SE, NE regions; UR United Rotorcraft).",
  "groups": [
   {
    "label": "Maintenance",
@@ -15,7 +15,8 @@
      "name": "Dave Miller",
      "qr": "dave-miller.png",
      "link": "https://s1.blinq.me/ryXkTCwnGUlw?l=Rehobeth,%20Alabama,%20United%20States",
-     "focus": "Part 145 maintenance. Northeast and Southeast regions."
+     "focus": "Northeast and Southeast regions. United Rotorcraft Part 145.",
+     "short": "NE, SE, UR Part 145"
     },
     {
      "name": "Brian Jones",
@@ -35,13 +36,15 @@
      "name": "Danny Ponce",
      "qr": "danny-ponce.png",
      "link": "https://dot.cards/danny_ponce",
-     "focus": "South Central region. Traveling positions."
+     "focus": "South Central region. Traveling positions.",
+     "short": "SC, Travel"
     },
     {
      "name": "Tyler Boles",
      "qr": "tyler-boles.png",
      "link": "https://dot.cards/user/UgxMQQY5Eoc/c/b?utm_source=qr",
-     "focus": "PacWest and North Central regions. Traveling positions."
+     "focus": "PacWest and North Central regions. Traveling positions.",
+     "short": "PW, NC, Travel"
     }
    ]
   }
