@@ -1,6 +1,6 @@
 {
  "lastRun": "2026-11-19",
- "total": 326,
+ "total": 320,
  "baseline": "2026-11-14",
  "jobs": {
   "12313": {
@@ -174,21 +174,6 @@
    "firstSeen": null,
    "new": false
   },
-  "10936": {
-   "id": "10936",
-   "title": "Flight Paramedic",
-   "kinds": [
-    "paramedic"
-   ],
-   "st": "IL",
-   "city": "Springfield",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": null,
-   "new": false
-  },
   "10903": {
    "id": "10903",
    "title": "Flight Paramedic I",
@@ -336,23 +321,6 @@
    "city": "Prescott",
    "type": "Regular Full-Time",
    "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": null,
-   "new": false
-  },
-  "10564": {
-   "id": "10564",
-   "title": "Travel Flight Paramedic",
-   "kinds": [
-    "paramedic"
-   ],
-   "st": "NM",
-   "city": "Las Cruces",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$20,000 Sign On Bonus"
-   ],
    "ac": [],
    "fr": [],
    "firstSeen": null,
@@ -920,6 +888,40 @@
    "fr": [],
    "firstSeen": "2026-11-19",
    "new": true,
+   "removedOn": "2026-11-19"
+  },
+  {
+   "id": "10936",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "IL",
+   "city": "Springfield",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-19"
+  },
+  {
+   "id": "10564",
+   "title": "Travel Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NM",
+   "city": "Las Cruces",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Sign On Bonus"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": null,
+   "new": false,
    "removedOn": "2026-11-19"
   }
  ]

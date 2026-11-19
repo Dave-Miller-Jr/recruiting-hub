@@ -1,6 +1,6 @@
 {
  "lastRun": "2026-11-19",
- "total": 326,
+ "total": 320,
  "baseline": "2026-11-14",
  "jobs": {
   "11720": {
@@ -349,7 +349,7 @@
    "kinds": [
     "mechanic"
    ],
-   "st": "MT",
+   "st": "WY",
    "city": "Home-based",
    "type": "Regular Full-Time",
    "hl": [],

@@ -1,6 +1,6 @@
 {
  "lastRun": "2026-11-19",
- "total": 326,
+ "total": 320,
  "baseline": "2026-11-14",
  "jobs": {
   "12312": {
@@ -41,28 +41,6 @@
    "ac": [
     "EC145",
     "EC135"
-   ],
-   "fr": [
-    "IFR"
-   ],
-   "firstSeen": "2026-11-19",
-   "new": true
-  },
-  "11850": {
-   "id": "11850",
-   "title": "Pilot Fixed Wing",
-   "kinds": [
-    "pilot",
-    "fixed"
-   ],
-   "st": "NM",
-   "city": "Carlsbad",
-   "type": "Temporary Full-Time",
-   "hl": [
-    "$15,000 Sign-On Bonus"
-   ],
-   "ac": [
-    "PC-12"
    ],
    "fr": [
     "IFR"
@@ -476,23 +454,6 @@
    "fr": [
     "VFR"
    ],
-   "firstSeen": null,
-   "new": false
-  },
-  "11231": {
-   "id": "11231",
-   "title": "Check Airman",
-   "kinds": [
-    "pilot"
-   ],
-   "st": "CO",
-   "city": "Greenwood Village",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [
-    "Bell 429"
-   ],
-   "fr": [],
    "firstSeen": null,
    "new": false
   },
@@ -2753,6 +2714,47 @@
    ],
    "firstSeen": "2026-11-19",
    "new": true,
+   "removedOn": "2026-11-19"
+  },
+  {
+   "id": "11850",
+   "title": "Pilot Fixed Wing",
+   "kinds": [
+    "pilot",
+    "fixed"
+   ],
+   "st": "NM",
+   "city": "Carlsbad",
+   "type": "Temporary Full-Time",
+   "hl": [
+    "$15,000 Sign-On Bonus"
+   ],
+   "ac": [
+    "PC-12"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": "2026-11-19",
+   "new": true,
+   "removedOn": "2026-11-19"
+  },
+  {
+   "id": "11231",
+   "title": "Check Airman",
+   "kinds": [
+    "pilot"
+   ],
+   "st": "CO",
+   "city": "Greenwood Village",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [
+    "Bell 429"
+   ],
+   "fr": [],
+   "firstSeen": null,
+   "new": false,
    "removedOn": "2026-11-19"
   }
  ]
