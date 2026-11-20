@@ -1,38 +1,8 @@
 {
  "lastRun": "2026-11-19",
- "total": 320,
+ "total": 322,
  "baseline": "2026-11-14",
  "jobs": {
-  "12313": {
-   "id": "12313",
-   "title": "Flight Paramedic",
-   "kinds": [
-    "paramedic"
-   ],
-   "st": "AL",
-   "city": "Evergreen",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": "2026-11-19",
-   "new": true
-  },
-  "11786": {
-   "id": "11786",
-   "title": "Flight Paramedic",
-   "kinds": [
-    "paramedic"
-   ],
-   "st": "KY",
-   "city": "Elizabethtown",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": "2026-11-19",
-   "new": true
-  },
   "11755": {
    "id": "11755",
    "title": "Flight Paramedic",
@@ -159,6 +129,23 @@
    "firstSeen": null,
    "new": false
   },
+  "11035": {
+   "id": "11035",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NE",
+   "city": "North Platte",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign on Bonus & $8,000 Annual Location Stipend"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-19",
+   "new": true
+  },
   "10954": {
    "id": "10954",
    "title": "Flight Paramedic",
@@ -173,6 +160,21 @@
    "fr": [],
    "firstSeen": null,
    "new": false
+  },
+  "10936": {
+   "id": "10936",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "IL",
+   "city": "Springfield",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-19",
+   "new": true
   },
   "10903": {
    "id": "10903",
@@ -266,6 +268,38 @@
    "firstSeen": null,
    "new": false
   },
+  "10653": {
+   "id": "10653",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "IL",
+   "city": "Effingham",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-19",
+   "new": true
+  },
+  "10651": {
+   "id": "10651",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "SD",
+   "city": "Hot Springs",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$8,000 Annual Location Stipend"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-19",
+   "new": true
+  },
   "10601": {
    "id": "10601",
    "title": "Flight Paramedic",
@@ -325,6 +359,23 @@
    "fr": [],
    "firstSeen": null,
    "new": false
+  },
+  "10564": {
+   "id": "10564",
+   "title": "Travel Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NM",
+   "city": "Las Cruces",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Sign On Bonus"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-19",
+   "new": true
   },
   "10522": {
    "id": "10522",
@@ -608,6 +659,21 @@
    "firstSeen": null,
    "new": false
   },
+  "9678": {
+   "id": "9678",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Tucson",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-19",
+   "new": true
+  },
   "9624": {
    "id": "9624",
    "title": "Flight Paramedic",
@@ -730,9 +796,7 @@
    "st": "NM",
    "city": "Carlsbad",
    "type": "Regular Full-Time",
-   "hl": [
-    "$13,700 Annual Stipend and $10K Sign on"
-   ],
+   "hl": [],
    "ac": [],
    "fr": [],
    "firstSeen": null,
@@ -747,9 +811,7 @@
    "st": "NM",
    "city": "Carlsbad",
    "type": "Regular Full-Time",
-   "hl": [
-    "$13,700 Annual Stipend and $10K Sign on"
-   ],
+   "hl": [],
    "ac": [],
    "fr": [],
    "firstSeen": null,
@@ -764,9 +826,7 @@
    "st": "NM",
    "city": "Roswell",
    "type": "Regular Full-Time",
-   "hl": [
-    "$13,700 Annual Stipend and $10K Sign on"
-   ],
+   "hl": [],
    "ac": [],
    "fr": [],
    "firstSeen": null,
@@ -824,31 +884,13 @@
  },
  "removed": [
   {
-   "id": "11035",
+   "id": "12313",
    "title": "Flight Paramedic",
    "kinds": [
     "paramedic"
    ],
-   "st": "NE",
-   "city": "North Platte",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$10,000 Sign on Bonus & $8,000 Annual Location Stipend"
-   ],
-   "ac": [],
-   "fr": [],
-   "firstSeen": "2026-11-19",
-   "new": true,
-   "removedOn": "2026-11-19"
-  },
-  {
-   "id": "10653",
-   "title": "Flight Paramedic",
-   "kinds": [
-    "paramedic"
-   ],
-   "st": "IL",
-   "city": "Effingham",
+   "st": "AL",
+   "city": "Evergreen",
    "type": "Regular Full-Time",
    "hl": [],
    "ac": [],
@@ -858,71 +900,19 @@
    "removedOn": "2026-11-19"
   },
   {
-   "id": "10651",
+   "id": "11786",
    "title": "Flight Paramedic",
    "kinds": [
     "paramedic"
    ],
-   "st": "SD",
-   "city": "Hot Springs",
+   "st": "KY",
+   "city": "Elizabethtown",
    "type": "Regular Full-Time",
-   "hl": [
-    "$8,000 Annual Location Stipend"
-   ],
+   "hl": [],
    "ac": [],
    "fr": [],
    "firstSeen": "2026-11-19",
    "new": true,
-   "removedOn": "2026-11-19"
-  },
-  {
-   "id": "10936",
-   "title": "Flight Paramedic",
-   "kinds": [
-    "paramedic"
-   ],
-   "st": "IL",
-   "city": "Springfield",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": null,
-   "new": false,
-   "removedOn": "2026-11-19"
-  },
-  {
-   "id": "10564",
-   "title": "Travel Flight Paramedic",
-   "kinds": [
-    "paramedic"
-   ],
-   "st": "NM",
-   "city": "Las Cruces",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$20,000 Sign On Bonus"
-   ],
-   "ac": [],
-   "fr": [],
-   "firstSeen": null,
-   "new": false,
-   "removedOn": "2026-11-19"
-  },
-  {
-   "id": "9678",
-   "title": "Flight Paramedic",
-   "kinds": [
-    "paramedic"
-   ],
-   "st": "AZ",
-   "city": "Tucson",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [],
-   "fr": [],
-   "firstSeen": null,
-   "new": false,
    "removedOn": "2026-11-19"
   }
  ]
