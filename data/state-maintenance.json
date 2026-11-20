@@ -1,6 +1,6 @@
 {
  "lastRun": "2026-11-20",
- "total": 320,
+ "total": 319,
  "baseline": "2026-11-14",
  "jobs": {
   "11720": {
@@ -344,23 +344,6 @@
    "firstSeen": null,
    "new": false
   },
-  "10473": {
-   "id": "10473",
-   "title": "Aviation Maintenance Technician 135",
-   "kinds": [
-    "mechanic"
-   ],
-   "st": "AZ",
-   "city": "Bullhead City",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [
-    "Bell 407"
-   ],
-   "fr": [],
-   "firstSeen": null,
-   "new": false
-  },
   "10469": {
    "id": "10469",
    "title": "Aviation Maintenance Technician 135",
@@ -443,25 +426,6 @@
    ],
    "ac": [
     "EC145"
-   ],
-   "fr": [],
-   "firstSeen": null,
-   "new": false
-  },
-  "10424": {
-   "id": "10424",
-   "title": "Aviation Maintenance Technician 135",
-   "kinds": [
-    "mechanic"
-   ],
-   "st": "MO",
-   "city": "St Louis",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$15,000 Sign on Bonus"
-   ],
-   "ac": [
-    "Bell 407"
    ],
    "fr": [],
    "firstSeen": null,
@@ -626,6 +590,44 @@
    "firstSeen": null,
    "new": false,
    "removedOn": "2026-11-19"
+  },
+  {
+   "id": "10473",
+   "title": "Aviation Maintenance Technician 135",
+   "kinds": [
+    "mechanic"
+   ],
+   "st": "AZ",
+   "city": "Bullhead City",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-20"
+  },
+  {
+   "id": "10424",
+   "title": "Aviation Maintenance Technician 135",
+   "kinds": [
+    "mechanic"
+   ],
+   "st": "MO",
+   "city": "St Louis",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign on Bonus"
+   ],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-20"
   }
  ]
 }

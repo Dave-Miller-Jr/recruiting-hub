@@ -1,6 +1,6 @@
 {
  "lastRun": "2026-11-20",
- "total": 320,
+ "total": 319,
  "baseline": "2026-11-14",
  "jobs": {
   "12312": {
@@ -364,28 +364,6 @@
    ],
    "fr": [
     "IFR"
-   ],
-   "firstSeen": null,
-   "new": false
-  },
-  "11347": {
-   "id": "11347",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "CO",
-   "city": "Lakewood",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$15,000 Sign On Bonus"
-   ],
-   "ac": [
-    "AS350"
-   ],
-   "fr": [
-    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -2756,6 +2734,29 @@
    "firstSeen": "2026-11-19",
    "new": true,
    "removedOn": "2026-11-19"
+  },
+  {
+   "id": "11347",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CO",
+   "city": "Lakewood",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "ac": [
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-20"
   }
  ]
 }

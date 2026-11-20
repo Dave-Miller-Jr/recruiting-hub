@@ -1,8 +1,38 @@
 {
  "lastRun": "2026-11-20",
- "total": 320,
+ "total": 319,
  "baseline": "2026-11-14",
  "jobs": {
+  "12477": {
+   "id": "12477",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "SC",
+   "city": "Camden",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-20",
+   "new": true
+  },
+  "12411": {
+   "id": "12411",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "KY",
+   "city": "Jamestown",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-20",
+   "new": true
+  },
   "12378": {
    "id": "12378",
    "title": "Per Diem Flight Paramedic",
@@ -419,6 +449,21 @@
    "fr": [],
    "firstSeen": null,
    "new": false
+  },
+  "10376": {
+   "id": "10376",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "NY",
+   "city": "Ticonderoga",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-20",
+   "new": true
   },
   "10366": {
    "id": "10366",

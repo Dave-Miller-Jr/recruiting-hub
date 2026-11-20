@@ -3,5 +3,6 @@ GA|Blairsville
 GA|Oxford
 KY|Elizabethtown
 NV|Mesquite
+NY|Ticonderoga
 PA|Gettysburg
 PA|North East
