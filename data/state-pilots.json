@@ -1,6 +1,6 @@
 {
- "lastRun": "2026-11-20",
- "total": 319,
+ "lastRun": "2026-11-21",
+ "total": 318,
  "baseline": "2026-11-14",
  "jobs": {
   "12312": {
@@ -23,6 +23,25 @@
     "VFR"
    ],
    "firstSeen": "2026-11-19",
+   "new": true
+  },
+  "12180": {
+   "id": "12180",
+   "title": "Check Airman",
+   "kinds": [
+    "pilot"
+   ],
+   "st": "CO",
+   "city": "Greenwood Village",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": "2026-11-21",
    "new": true
   },
   "12015": {
@@ -714,28 +733,6 @@
    ],
    "fr": [
     "IFR"
-   ],
-   "firstSeen": null,
-   "new": false
-  },
-  "10670": {
-   "id": "10670",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "NV",
-   "city": "Pahrump",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$15,000 Sign-On Bonus"
-   ],
-   "ac": [
-    "EC130"
-   ],
-   "fr": [
-    "VFR"
    ],
    "firstSeen": null,
    "new": false
@@ -1784,26 +1781,6 @@
    "firstSeen": null,
    "new": false
   },
-  "9267": {
-   "id": "9267",
-   "title": "Regional Relief Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "IA",
-   "city": "Home-based",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$20,000 Stipend"
-   ],
-   "ac": [],
-   "fr": [
-    "VFR"
-   ],
-   "firstSeen": null,
-   "new": false
-  },
   "9264": {
    "id": "9264",
    "title": "Helicopter Pilot",
@@ -2757,6 +2734,50 @@
    "firstSeen": null,
    "new": false,
    "removedOn": "2026-11-20"
+  },
+  {
+   "id": "10670",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NV",
+   "city": "Pahrump",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-On Bonus"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-21"
+  },
+  {
+   "id": "9267",
+   "title": "Regional Relief Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "IA",
+   "city": "Home-based",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$20,000 Stipend"
+   ],
+   "ac": [],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-21"
   }
  ]
 }
