@@ -1,8 +1,25 @@
 {
  "lastRun": "2026-11-23",
- "total": 318,
+ "total": 320,
  "baseline": "2026-11-14",
  "jobs": {
+  "12610": {
+   "id": "12610",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Yuma",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$6,000 Annual Location Stipend and up to $30,000 Sign on Bonus"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-23",
+   "new": true
+  },
   "12477": {
    "id": "12477",
    "title": "Flight Paramedic",

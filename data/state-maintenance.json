@@ -1,8 +1,40 @@
 {
  "lastRun": "2026-11-23",
- "total": 318,
+ "total": 320,
  "baseline": "2026-11-14",
  "jobs": {
+  "12642": {
+   "id": "12642",
+   "title": "Aviation Maintenance Technician 135",
+   "kinds": [
+    "mechanic"
+   ],
+   "st": "TN",
+   "city": "Sevierville",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [
+    "EC135"
+   ],
+   "fr": [],
+   "firstSeen": "2026-11-23",
+   "new": true
+  },
+  "12609": {
+   "id": "12609",
+   "title": "Aviation Maintenance Technician 135",
+   "kinds": [
+    "mechanic"
+   ],
+   "st": "AZ",
+   "city": "Yuma",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-23",
+   "new": true
+  },
   "11720": {
    "id": "11720",
    "title": "Part 145 Quality Control Inspector",
