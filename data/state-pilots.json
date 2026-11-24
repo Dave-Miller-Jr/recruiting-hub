@@ -1,6 +1,6 @@
 {
- "lastRun": "2026-11-23",
- "total": 320,
+ "lastRun": "2026-11-24",
+ "total": 321,
  "baseline": "2026-11-14",
  "jobs": {
   "12643": {
@@ -45,6 +45,28 @@
     "VFR"
    ],
    "firstSeen": "2026-11-23",
+   "new": true
+  },
+  "12513": {
+   "id": "12513",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "CO",
+   "city": "Frisco",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign On Bonus"
+   ],
+   "ac": [
+    "AS350"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": "2026-11-24",
    "new": true
   },
   "12510": {
@@ -111,7 +133,7 @@
     "VFR"
    ],
    "firstSeen": "2026-11-19",
-   "new": true
+   "new": false
   },
   "12180": {
    "id": "12180",
@@ -153,7 +175,7 @@
     "IFR"
    ],
    "firstSeen": "2026-11-19",
-   "new": true
+   "new": false
   },
   "11754": {
    "id": "11754",
@@ -238,7 +260,7 @@
     "IFR"
    ],
    "firstSeen": "2026-11-19",
-   "new": true
+   "new": false
   },
   "11686": {
    "id": "11686",
@@ -324,7 +346,7 @@
     "VFR"
    ],
    "firstSeen": "2026-11-19",
-   "new": true
+   "new": false
   },
   "11480": {
    "id": "11480",
@@ -429,7 +451,7 @@
     "VFR"
    ],
    "firstSeen": "2026-11-19",
-   "new": true
+   "new": false
   },
   "11352": {
    "id": "11352",
@@ -1038,7 +1060,7 @@
     "IFR"
    ],
    "firstSeen": "2026-11-19",
-   "new": true
+   "new": false
   },
   "10474": {
    "id": "10474",
@@ -2424,7 +2446,7 @@
     "IFR"
    ],
    "firstSeen": "2026-11-19",
-   "new": true
+   "new": false
   },
   "6067": {
    "id": "6067",
