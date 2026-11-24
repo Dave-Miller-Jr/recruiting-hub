@@ -1,5 +1,5 @@
 // Fresh data first; the saved copy is only used when the phone is offline.
-const CACHE = "hub-9eb06e4205";
+const CACHE = "hub-e3c440c648";
 self.addEventListener("install", e => self.skipWaiting());
 self.addEventListener("activate", e => e.waitUntil(
   caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())));

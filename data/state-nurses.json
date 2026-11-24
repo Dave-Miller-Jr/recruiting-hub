@@ -1,11 +1,11 @@
 {
  "lastRun": "2026-11-24",
- "total": 321,
+ "total": 326,
  "baseline": "2026-11-14",
  "jobs": {
   "12611": {
    "id": "12611",
-   "title": "Flight Nurse I",
+   "title": "Flight Nurse",
    "kinds": [
     "nurse"
    ],
@@ -18,6 +18,40 @@
    "ac": [],
    "fr": [],
    "firstSeen": "2026-11-23",
+   "new": true
+  },
+  "12550": {
+   "id": "12550",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Fort Mohave",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$6,000 Annual Location Stipend and $8,000 Sign on Bonus"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-24",
+   "new": true
+  },
+  "12549": {
+   "id": "12549",
+   "title": "Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "AZ",
+   "city": "Fort Mohave",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$6,000 Annual Location Stipend and $8,000 Sign on Bonus"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-24",
    "new": true
   },
   "12346": {

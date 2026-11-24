@@ -1,6 +1,6 @@
 {
  "lastRun": "2026-11-24",
- "total": 321,
+ "total": 326,
  "baseline": "2026-11-14",
  "jobs": {
   "12643": {
@@ -217,28 +217,6 @@
    "firstSeen": null,
    "new": false
   },
-  "11690": {
-   "id": "11690",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "FL",
-   "city": "Stuart",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$15,000 Sign-on Bonus"
-   ],
-   "ac": [
-    "EC130"
-   ],
-   "fr": [
-    "VFR"
-   ],
-   "firstSeen": null,
-   "new": false
-  },
   "11687": {
    "id": "11687",
    "title": "Helicopter Pilot",
@@ -260,28 +238,6 @@
     "IFR"
    ],
    "firstSeen": "2026-11-19",
-   "new": false
-  },
-  "11686": {
-   "id": "11686",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "GA",
-   "city": "Kennesaw",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$15,000 Sign-on Bonus"
-   ],
-   "ac": [
-    "EC145"
-   ],
-   "fr": [
-    "IFR"
-   ],
-   "firstSeen": null,
    "new": false
   },
   "11619": {
@@ -1255,28 +1211,6 @@
    ],
    "ac": [
     "Bell 407"
-   ],
-   "fr": [
-    "VFR"
-   ],
-   "firstSeen": null,
-   "new": false
-  },
-  "10159": {
-   "id": "10159",
-   "title": "Helicopter Pilot",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "NJ",
-   "city": "Woodbine",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$15,000 Stipend"
-   ],
-   "ac": [
-    "EC145"
    ],
    "fr": [
     "VFR"
@@ -2890,6 +2824,75 @@
    "firstSeen": null,
    "new": false,
    "removedOn": "2026-11-23"
+  },
+  {
+   "id": "11690",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "FL",
+   "city": "Stuart",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-on Bonus"
+   ],
+   "ac": [
+    "EC130"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-24"
+  },
+  {
+   "id": "11686",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "GA",
+   "city": "Kennesaw",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Sign-on Bonus"
+   ],
+   "ac": [
+    "EC145"
+   ],
+   "fr": [
+    "IFR"
+   ],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-24"
+  },
+  {
+   "id": "10159",
+   "title": "Helicopter Pilot",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "NJ",
+   "city": "Woodbine",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$15,000 Stipend"
+   ],
+   "ac": [
+    "EC145"
+   ],
+   "fr": [
+    "VFR"
+   ],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-24"
   }
  ]
 }

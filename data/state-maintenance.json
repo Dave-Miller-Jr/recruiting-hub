@@ -1,8 +1,42 @@
 {
  "lastRun": "2026-11-24",
- "total": 321,
+ "total": 326,
  "baseline": "2026-11-14",
  "jobs": {
+  "12844": {
+   "id": "12844",
+   "title": "Aviation Maintenance Technician 135",
+   "kinds": [
+    "mechanic"
+   ],
+   "st": "MO",
+   "city": "Sullivan",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [],
+   "firstSeen": "2026-11-24",
+   "new": true
+  },
+  "12807": {
+   "id": "12807",
+   "title": "Aviation Maintenance Technician 135",
+   "kinds": [
+    "mechanic"
+   ],
+   "st": "SD",
+   "city": "Hot Springs",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [
+    "Bell 407"
+   ],
+   "fr": [],
+   "firstSeen": "2026-11-24",
+   "new": true
+  },
   "12642": {
    "id": "12642",
    "title": "Aviation Maintenance Technician 135",
@@ -247,6 +281,24 @@
    "fr": [],
    "firstSeen": null,
    "new": false
+  },
+  "10533": {
+   "id": "10533",
+   "title": "Aviation Maintenance Technician 135 Apprentice",
+   "kinds": [
+    "mechanic"
+   ],
+   "st": "KY",
+   "city": "Louisville",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [
+    "EC130",
+    "EC145"
+   ],
+   "fr": [],
+   "firstSeen": "2026-11-24",
+   "new": true
   },
   "10525": {
    "id": "10525",

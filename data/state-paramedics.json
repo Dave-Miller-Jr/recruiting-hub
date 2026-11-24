@@ -1,6 +1,6 @@
 {
  "lastRun": "2026-11-24",
- "total": 321,
+ "total": 326,
  "baseline": "2026-11-14",
  "jobs": {
   "12610": {
@@ -18,6 +18,40 @@
    "ac": [],
    "fr": [],
    "firstSeen": "2026-11-23",
+   "new": true
+  },
+  "12548": {
+   "id": "12548",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Fort Mohave",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$6,000 Annual Location Stipend and $8,000 Sign on Bonus"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-24",
+   "new": true
+  },
+  "12547": {
+   "id": "12547",
+   "title": "Flight Paramedic",
+   "kinds": [
+    "paramedic"
+   ],
+   "st": "AZ",
+   "city": "Fort Mohave",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$6,000 Annual Location Stipend and $8,000 Sign on Bonus"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-24",
    "new": true
   },
   "12477": {
