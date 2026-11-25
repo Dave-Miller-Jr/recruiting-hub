@@ -2,7 +2,6 @@ FL|Marianna
 GA|Blairsville
 GA|Oxford
 KY|Elizabethtown
-KY|Louisville
 MO|Sullivan
 NV|Mesquite
 NY|Ticonderoga

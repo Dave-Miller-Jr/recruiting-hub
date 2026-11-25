@@ -1,6 +1,6 @@
 {
  "lastRun": "2026-11-25",
- "total": 327,
+ "total": 326,
  "baseline": "2026-11-14",
  "jobs": {
   "12643": {
@@ -672,24 +672,6 @@
    "fr": [
     "IFR"
    ],
-   "firstSeen": null,
-   "new": false
-  },
-  "10753": {
-   "id": "10753",
-   "title": "Helicopter Pilot - Maintenance Support",
-   "kinds": [
-    "pilot",
-    "helicopter"
-   ],
-   "st": "AZ",
-   "city": "Mesa",
-   "type": "Regular Full-Time",
-   "hl": [
-    "$10,000 Sign On Bonus"
-   ],
-   "ac": [],
-   "fr": [],
    "firstSeen": null,
    "new": false
   },
@@ -2893,6 +2875,25 @@
    "firstSeen": null,
    "new": false,
    "removedOn": "2026-11-24"
+  },
+  {
+   "id": "10753",
+   "title": "Helicopter Pilot - Maintenance Support",
+   "kinds": [
+    "pilot",
+    "helicopter"
+   ],
+   "st": "AZ",
+   "city": "Mesa",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$10,000 Sign On Bonus"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-25"
   }
  ]
 }

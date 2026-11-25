@@ -1,6 +1,6 @@
 {
  "lastRun": "2026-11-25",
- "total": 327,
+ "total": 326,
  "baseline": "2026-11-14",
  "jobs": {
   "12844": {
@@ -264,24 +264,6 @@
    "fr": [],
    "firstSeen": null,
    "new": false
-  },
-  "10533": {
-   "id": "10533",
-   "title": "Aviation Maintenance Technician 135 Apprentice",
-   "kinds": [
-    "mechanic"
-   ],
-   "st": "KY",
-   "city": "Louisville",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [
-    "EC130",
-    "EC145"
-   ],
-   "fr": [],
-   "firstSeen": "2026-11-24",
-   "new": true
   },
   "10525": {
    "id": "10525",
@@ -728,6 +710,25 @@
    "firstSeen": null,
    "new": false,
    "removedOn": "2026-11-24"
+  },
+  {
+   "id": "10533",
+   "title": "Aviation Maintenance Technician 135 Apprentice",
+   "kinds": [
+    "mechanic"
+   ],
+   "st": "KY",
+   "city": "Louisville",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [
+    "EC130",
+    "EC145"
+   ],
+   "fr": [],
+   "firstSeen": "2026-11-24",
+   "new": true,
+   "removedOn": "2026-11-25"
   }
  ]
 }

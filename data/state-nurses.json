@@ -1,6 +1,6 @@
 {
  "lastRun": "2026-11-25",
- "total": 327,
+ "total": 326,
  "baseline": "2026-11-14",
  "jobs": {
   "12611": {
@@ -52,6 +52,23 @@
    "ac": [],
    "fr": [],
    "firstSeen": "2026-11-24",
+   "new": true
+  },
+  "12516": {
+   "id": "12516",
+   "title": "Travel Flight Nurse",
+   "kinds": [
+    "nurse"
+   ],
+   "st": "WY",
+   "city": "Casper",
+   "type": "Regular Full-Time",
+   "hl": [
+    "$30,000 Sign On Bonus"
+   ],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-25",
    "new": true
   },
   "12346": {
