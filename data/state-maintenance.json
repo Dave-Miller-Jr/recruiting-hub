@@ -1,6 +1,6 @@
 {
- "lastRun": "2026-11-24",
- "total": 326,
+ "lastRun": "2026-11-25",
+ "total": 327,
  "baseline": "2026-11-14",
  "jobs": {
   "12844": {
@@ -583,6 +583,21 @@
    "fr": [],
    "firstSeen": null,
    "new": false
+  },
+  "9917": {
+   "id": "9917",
+   "title": "Structures Aviation Maintenance Technician 145",
+   "kinds": [
+    "mechanic"
+   ],
+   "st": "AZ",
+   "city": "Mesa",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [],
+   "fr": [],
+   "firstSeen": "2026-11-25",
+   "new": true
   },
   "9912": {
    "id": "9912",
