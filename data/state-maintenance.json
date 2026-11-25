@@ -1,6 +1,6 @@
 {
  "lastRun": "2026-11-24",
- "total": 327,
+ "total": 326,
  "baseline": "2026-11-14",
  "jobs": {
   "12844": {
@@ -95,23 +95,6 @@
    "type": "Regular Full-Time",
    "hl": [],
    "ac": [],
-   "fr": [],
-   "firstSeen": null,
-   "new": false
-  },
-  "11196": {
-   "id": "11196",
-   "title": "Aviation Maintenance Technician 135",
-   "kinds": [
-    "mechanic"
-   ],
-   "st": "KS",
-   "city": "Wichita",
-   "type": "Regular Full-Time",
-   "hl": [],
-   "ac": [
-    "PC-12"
-   ],
    "fr": [],
    "firstSeen": null,
    "new": false
@@ -712,6 +695,24 @@
    "firstSeen": null,
    "new": false,
    "removedOn": "2026-11-20"
+  },
+  {
+   "id": "11196",
+   "title": "Aviation Maintenance Technician 135",
+   "kinds": [
+    "mechanic"
+   ],
+   "st": "KS",
+   "city": "Wichita",
+   "type": "Regular Full-Time",
+   "hl": [],
+   "ac": [
+    "PC-12"
+   ],
+   "fr": [],
+   "firstSeen": null,
+   "new": false,
+   "removedOn": "2026-11-24"
   }
  ]
 }
