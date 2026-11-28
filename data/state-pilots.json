@@ -1,5 +1,5 @@
 {
- "lastRun": "2026-11-27",
+ "lastRun": "2026-11-28",
  "total": 327,
  "baseline": "2026-11-14",
  "jobs": {
@@ -23,7 +23,7 @@
     "IFR"
    ],
    "firstSeen": "2026-11-23",
-   "new": true
+   "new": false
   },
   "12612": {
    "id": "12612",
@@ -45,7 +45,7 @@
     "VFR"
    ],
    "firstSeen": "2026-11-23",
-   "new": true
+   "new": false
   },
   "12513": {
    "id": "12513",
@@ -89,7 +89,7 @@
     "IFR"
    ],
    "firstSeen": "2026-11-23",
-   "new": true
+   "new": false
   },
   "12444": {
    "id": "12444",
@@ -111,7 +111,7 @@
     "IFR"
    ],
    "firstSeen": "2026-11-23",
-   "new": true
+   "new": false
   },
   "12312": {
    "id": "12312",
